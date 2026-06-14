@@ -1,0 +1,21 @@
+# _config.yml — Unio Analytics Jekyll Configuration
+
+title: Unio Analytics
+description: Cyber Risk Advisory for BC organizations. AI-enabled threat research briefs.
+url: "https://unio-analytics.com"
+baseurl: ""
+
+author:
+  name: Jason Ahn
+  email: jason@unio-analytics.com
+
+# Build settings
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+
+# Exclude from build
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules

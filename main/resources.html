@@ -1,0 +1,49 @@
+---
+layout: default
+title: Resources
+description: Intelligence briefs and analysis from Unio Analytics on AI-enabled criminal threats.
+---
+
+<section class="page-hero">
+  <div class="page-hero__inner">
+    <p class="label">Resources</p>
+    <h1>Intelligence briefs for AI-enabled criminal methodology.</h1>
+    <p class="page-hero__sub">
+      Short analysis pieces designed to keep BC organizations informed
+      about the latest fraud and threat trends driven by AI tools.
+    </p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container--text">
+    <div class="section-header" style="margin-bottom: 2rem;">
+      <p class="label">Brief archive</p>
+      <h2>Latest intelligence briefs</h2>
+    </div>
+
+    <div class="briefs-grid container" style="margin-top: 0;">
+      {% for post in site.posts %}
+      <a href="{{ post.url }}" class="brief-card">
+        <div class="brief-card__meta">
+          <span class="brief-card__tag">{{ post.category | default: "Intelligence Brief" }}</span>
+          <span class="brief-card__date">{{ post.date | date: "%B %d, %Y" }}</span>
+        </div>
+        <h3>{{ post.title }}</h3>
+        <p>{{ post.excerpt | strip_html | truncate: 140 }}</p>
+      </a>
+      {% endfor %}
+
+      {% if site.posts.size == 0 %}
+      <div class="brief-card">
+        <div class="brief-card__meta">
+          <span class="brief-card__tag">Intelligence Brief</span>
+          <span class="brief-card__date">Sample</span>
+        </div>
+        <h3>Voice Cloning Fraud Targeting BC Credit Unions</h3>
+        <p>How AI voice synthesis has crossed a quality threshold that undermines the primary BEC defense most small financial institutions rely on.</p>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</section>

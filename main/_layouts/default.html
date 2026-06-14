@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <title>{% if page.title %}{{ page.title }} — {% endif %}Unio Analytics</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,300;0,400;0,600;1,300&family=IBM+Plex+Sans:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <header class="site-header">
+    <nav class="nav-inner">
+      <a href="/" class="nav-logo">
+        Unio<span class="logo-accent">Analytics</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="/about">About</a></li>
+        <li><a href="/services">Services</a></li>
+        <li><a href="/resources">Resources</a></li>
+        <li><a href="/contact" class="nav-cta">Get in Touch</a></li>
+      </ul>
+      <!-- Mobile menu toggle — wire up with JS -->
+      <button class="nav-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- PAGE CONTENT -->
+  <main>
+    {{ content }}
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-left">
+        <span class="nav-logo">Unio<span class="logo-accent">Analytics</span></span>
+        <p class="footer-tagline">Cyber Risk Advisory — Vancouver, BC</p>
+      </div>
+      <div class="footer-right">
+        <ul class="footer-links">
+          <li><a href="/about">About</a></li>
+          <li><a href="/services">Services</a></li>
+          <li><a href="/resources">Resources</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-rule">
+      <p class="footer-legal">
+        &copy; {{ 'now' | date: "%Y" }} Unio Analytics. All rights reserved.
+        Vancouver, British Columbia, Canada.
+      </p>
+    </div>
+  </footer>
+
+  <script src="/assets/js/nav.js"></script>
+
+</body>
+</html>
