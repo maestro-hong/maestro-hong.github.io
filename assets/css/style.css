@@ -46,7 +46,7 @@
   --space-32:    8rem;
 
   /* Layout */
-  --max-width:   1350px;
+  --max-width:   1600px;
   --col-text:    720px;
 
   /* Typography */
@@ -168,28 +168,32 @@ p:last-child { margin-bottom: 0; }
   justify-content: space-between;
   max-width: var(--max-width);
   margin: 0 auto;
-  padding: var(--space-4) var(--space-6);
-  min-height: 72px;
+  padding: var(--space-4) var(--space-10);
+  min-height: 76px;
 }
 
 .nav-logo {
   font-family: var(--font-sans);
-  font-size: 1.25rem;
+  font-size: 1.35rem;
   font-weight: 700;
   color: var(--accent);
-  letter-spacing: -0.1em;
+  letter-spacing: -0.12em;
   text-transform: uppercase;
 }
 
 .nav-links {
   display: flex;
   align-items: center;
-  gap: var(--space-5);
+  gap: var(--space-7);
 }
 
 .nav-links li {
   display: flex;
   align-items: center;
+}
+
+.nav-links li + li {
+  margin-left: var(--space-6);
 }
 
 .logo-accent {
