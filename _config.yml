@@ -1,5 +1,7 @@
 # _config.yml — Unio Analytics Jekyll Configuration
 
+theme: null
+
 title: Unio Analytics
 description: Cyber Risk Advisory for BC organizations. AI-enabled threat research briefs.
 url: "https://unio-analytics.com"
