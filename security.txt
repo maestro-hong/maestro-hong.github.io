@@ -1,3 +1,0 @@
-Contact: security@unio-analytics.com
-Encryption: https://unio-analytics.com/pgp-key.txt
-Acknowledgements: https://unio-analytics.com/security.txt

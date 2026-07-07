@@ -1,16 +1,18 @@
 ---
 layout: default
-title: Resources
-description: Intelligence briefs and analysis from Unio Analytics on AI-enabled criminal threats.
+title: Briefs
+description: Written analysis from Unio Analytics on fraud, AI-enabled crime, and the data problems behind disputes and claims.
 ---
 
 <section class="page-hero">
   <div class="page-hero__inner">
-    <p class="label">Resources</p>
-    <h1>Intelligence briefs for AI-enabled criminal methodology.</h1>
+    <p class="label">Briefs</p>
+    <h1>Analysis on fraud, AI-enabled crime, and messy data.</h1>
     <p class="page-hero__sub">
-      Short analysis pieces designed to keep BC organizations informed
-      about the latest fraud and threat trends driven by AI tools.
+      Occasional written pieces on how fraud schemes actually work, how
+      AI is changing who can run them, and what document-heavy matters
+      reveal about record-keeping. Analysis only — no client work is
+      ever discussed.
     </p>
   </div>
 </section>
@@ -18,15 +20,15 @@ description: Intelligence briefs and analysis from Unio Analytics on AI-enabled 
 <section class="section">
   <div class="container--text">
     <div class="section-header" style="margin-bottom: 2rem;">
-      <p class="label">Brief archive</p>
-      <h2>Latest intelligence briefs</h2>
+      <p class="label">Archive</p>
+      <h2>All briefs</h2>
     </div>
 
     <div class="briefs-grid container" style="margin-top: 0;">
       {% for post in site.posts %}
       <a href="{{ post.url }}" class="brief-card">
         <div class="brief-card__meta">
-          <span class="brief-card__tag">{{ post.category | default: "Intelligence Brief" }}</span>
+          <span class="brief-card__tag">{{ post.category | default: "Brief" }}</span>
           <span class="brief-card__date">{{ post.date | date: "%B %d, %Y" }}</span>
         </div>
         <h3>{{ post.title }}</h3>
@@ -34,16 +36,7 @@ description: Intelligence briefs and analysis from Unio Analytics on AI-enabled 
       </a>
       {% endfor %}
 
-      {% if site.posts.size == 0 %}
-      <div class="brief-card">
-        <div class="brief-card__meta">
-          <span class="brief-card__tag">Intelligence Brief</span>
-          <span class="brief-card__date">Sample</span>
-        </div>
-        <h3>Voice Cloning Fraud Targeting BC Credit Unions</h3>
-        <p>How AI voice synthesis has crossed a quality threshold that undermines the primary BEC defense most small financial institutions rely on.</p>
-      </div>
-      {% endif %}
+      
     </div>
   </div>
 </section>

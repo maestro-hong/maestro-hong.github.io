@@ -3,7 +3,7 @@
 theme: null
 
 title: Unio Analytics
-description: Cyber Risk Advisory for BC organizations. AI-enabled threat research briefs.
+description: Litigation and claims data support in Vancouver, BC. Reconciliations, chronologies, and exhibit-ready analysis of client-provided records, under the direction of counsel, forensic accountants, and claims professionals.
 url: "https://unio-analytics.com"
 baseurl: ""
 
@@ -14,7 +14,9 @@ author:
 # Build settings
 markdown: kramdown
 permalink: /:year/:month/:day/:title/
-
+plugins:
+  - jekyll-sitemap
+  
 # Exclude from build
 exclude:
   - README.md
