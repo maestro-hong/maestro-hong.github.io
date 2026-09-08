@@ -144,30 +144,3 @@ description: Litigation and claims data support in Vancouver, BC. Reconciliation
 
   </div>
 </section>
-
-<!-- LATEST BRIEFS PREVIEW -->
-<section class="section">
-  <div class="section-header">
-    <div class="section-header__text">
-      <p class="label">Analysis</p>
-      <h2>Briefs</h2>
-      <p>Written analysis on fraud, records, and the data
-         problems behind disputes and claims.</p>
-    </div>
-    <a href="/resources" class="btn btn--ghost">All Briefs →</a>
-  </div>
-
-  <div class="briefs-grid container" style="margin-top: 0;">
-    {% for post in site.posts limit:3 %}
-    <a href="{{ post.url }}" class="brief-card">
-      <div class="brief-card__meta">
-        <span class="brief-card__tag">{{ post.category | default: "Brief" }}</span>
-        <span class="brief-card__date">{{ post.date | date: "%B %d, %Y" }}</span>
-      </div>
-      <h3>{{ post.title }}</h3>
-      <p>{{ post.excerpt | strip_html | truncate: 140 }}</p>
-    </a>
-    {% endfor %}
-
-  </div>
-</section>
