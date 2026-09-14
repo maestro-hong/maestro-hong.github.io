@@ -1,0 +1,40 @@
+- key: A
+  name: Impersonation
+  slug: impersonation
+  full: Impersonation and social engineering
+  blurb: Voice cloning, synthetic video calls, and AI-assisted business email compromise.
+- key: B
+  name: Documents
+  slug: documents
+  full: Identity and document fraud
+  blurb: Synthetic identities, forged financial and employment records, biometric spoofing.
+- key: C
+  name: Persuasion
+  slug: persuasion
+  full: Relationship and persuasion scams
+  blurb: Scripted romance approaches, pig butchering, fabricated recruitment.
+- key: D
+  name: Exploitation
+  slug: exploitation
+  full: Sexual exploitation and image-based abuse
+  blurb: Covered at the policy, enforcement, and statistical level only.
+- key: E
+  name: Investment
+  slug: investment
+  full: Investment and financial platform fraud
+  blurb: Fabricated trading platforms and AI-scaled investment operations.
+- key: F
+  name: Infrastructure
+  slug: infrastructure
+  full: Cyberattack infrastructure
+  blurb: Generated phishing kits, malware, and automated reconnaissance.
+- key: G
+  name: Integrity
+  slug: integrity
+  full: Information integrity crimes
+  blurb: Political and corporate synthetic media, fabricated endorsements.
+- key: H
+  name: Advisory
+  slug: advisory
+  full: AI as advisor or facilitator
+  blurb: Cases where a system supplied capability or reinforcement rather than an artifact.

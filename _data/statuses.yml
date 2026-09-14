@@ -1,0 +1,14 @@
+- key: reported
+  name: Reported only
+- key: investigating
+  name: Investigation opened
+- key: charged
+  name: Charges laid
+- key: sanctions
+  name: Sanctions or seizure
+- key: platform
+  name: Platform action
+- key: litigation
+  name: Civil litigation
+- key: convicted
+  name: Convicted

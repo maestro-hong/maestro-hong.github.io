@@ -1,0 +1,123 @@
+---
+layout: default
+title: Methodology
+permalink: /methodology/
+description: How Unio Analytics builds entries — source tiering, enforcement status definitions, what is excluded, and how corrections are handled.
+---
+
+<section class="page-hero">
+  <div class="page-hero__inner">
+    <p class="label">Methodology</p>
+    <h1>How entries are built</h1>
+    <p class="page-hero__sub">
+      This page exists so the record can be checked rather than trusted.
+      If something here is unclear or wrong, it should be corrected before
+      anything is cited.
+    </p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container--text post-body">
+
+    <h2>What gets logged</h2>
+    <p>
+      An entry records a publicly reported case in which artificial
+      intelligence played a material role in committing, attempting, or
+      enabling a crime. Everything is drawn from open sources. Nothing on
+      this site comes from non-public material of any kind.
+    </p>
+
+    <h2>Source tiers</h2>
+    <p>Every source on every entry carries a tier. The tier describes where the information originated, not whether it is true.</p>
+
+    <table class="def-table">
+      <tr>
+        <td><span class="src src--p">P</span></td>
+        <td><strong>Primary</strong><br>Court filings, indictments, judgments, agency press releases, regulator notices, official statistical publications.</td>
+      </tr>
+      <tr>
+        <td><span class="src src--s">S</span></td>
+        <td><strong>Secondary</strong><br>Established news organisations reporting on a primary record or their own reporting.</td>
+      </tr>
+      <tr>
+        <td><span class="src src--t">T</span></td>
+        <td><strong>Tertiary</strong><br>Vendor blogs, trade press, aggregators, industry reports. Frequently the only available source, and treated accordingly.</td>
+      </tr>
+    </table>
+
+    <p>
+      An entry resting only on tertiary sources is not excluded, but it is
+      filterable, so anyone can see how much of the record depends on
+      material with a commercial interest in the subject.
+    </p>
+
+    <h2>Enforcement status</h2>
+    <p>
+      Most records of this kind stop at the incident. This one records what
+      followed, using whatever the sources show at the time of writing.
+      Status is updated when a case moves; the entry shows when it was last
+      revisited.
+    </p>
+
+    <ul>
+      <li><strong>Reported only</strong> — no enforcement action publicly recorded.</li>
+      <li><strong>Investigation opened</strong> — an agency has confirmed it is investigating.</li>
+      <li><strong>Charges laid</strong> — charges or an indictment filed against a named or unnamed person.</li>
+      <li><strong>Sanctions or seizure</strong> — designations, asset seizure, domain or infrastructure takedown.</li>
+      <li><strong>Platform action</strong> — account, model, or service-level enforcement by a provider.</li>
+      <li><strong>Civil litigation</strong> — private or state civil proceedings underway.</li>
+      <li><strong>Convicted</strong> — conviction entered, whether or not sentencing is complete.</li>
+    </ul>
+
+    <p>
+      Most entries will remain at “reported only” permanently. That is a
+      finding, not a gap in the record.
+    </p>
+
+    <h2>Figures and statistics</h2>
+    <p>
+      Loss totals, growth rates, and prevalence figures circulating in this
+      field frequently originate with companies selling detection products,
+      and often lack a stated population, observation window, or method.
+      Where an entry repeats such a figure, it states where the figure came
+      from and what it actually measures. Where that cannot be established,
+      the figure is marked unverified and not used.
+    </p>
+
+    <h2>Naming</h2>
+    <p>
+      No individual is named here unless a court document, indictment, or
+      official agency release named them first. This record does not perform
+      attribution and does not identify anyone not already publicly
+      identified.
+    </p>
+
+    <h2>What is excluded</h2>
+    <ul>
+      <li>Anything drawn from non-public sources.</li>
+      <li>Any matter connected to the operator's public-sector employment, and any British Columbia criminal matter.</li>
+      <li>Operational detail, methods, or instructions that would assist in committing an offence.</li>
+      <li>Incident-level narrative in category D, which is covered only at the policy, enforcement, and statistical level.</li>
+    </ul>
+
+    <h2>Corrections</h2>
+    <p>
+      Errors are corrected in place and the change is noted on the entry.
+      Entries are not silently deleted. To report an error, email
+      <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>.
+    </p>
+
+    <div class="callout" style="margin: 2rem 0;">
+      <p class="callout__label">Independence</p>
+      <p>
+        Unio Analytics accepts no funding, sponsorship, or advertising from
+        vendors of detection, identity, or security products, and no payment
+        from any party with an interest in how an incident is characterised.
+        The value of an audited record depends entirely on this, and it is
+        not negotiable.
+      </p>
+    </div>
+
+  </div>
+</section>

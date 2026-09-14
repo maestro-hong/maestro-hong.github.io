@@ -1,9 +1,9 @@
-# _config.yml — Unio Analytics Jekyll Configuration
+# _config.yml — Unio Analytics
 
 theme: null
 
 title: Unio Analytics
-description: Litigation and claims data support in Vancouver, BC. Reconciliations, chronologies, and exhibit-ready analysis of client-provided records, under the direction of counsel, forensic accountants, and claims professionals.
+description: A sourced record of AI-enabled crime, and what happened next.
 url: "https://unio-analytics.com"
 baseurl: ""
 
@@ -11,13 +11,23 @@ author:
   name: Jason Ahn
   email: jason@unio-analytics.com
 
-# Build settings
 markdown: kramdown
-permalink: /:year/:month/:day/:title/
 plugins:
   - jekyll-sitemap
-  
-# Exclude from build
+  - jekyll-feed
+
+collections:
+  entries:
+    output: true
+    permalink: /entry/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: "entries"
+    values:
+      layout: "entry"
+
 exclude:
   - README.md
   - Gemfile

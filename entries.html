@@ -1,0 +1,63 @@
+---
+layout: default
+title: Entries
+permalink: /entries/
+description: Every entry in the Unio Analytics record, filterable by category, country, source tier, and enforcement status.
+---
+
+<section class="page-hero">
+  <div class="page-hero__inner">
+    <p class="label">The record</p>
+    <h1>Entries</h1>
+    <p class="page-hero__sub">
+      Newest first. Filters combine — anything left on “any” does not narrow
+      the results. Every filtered view has its own address and can be cited.
+    </p>
+  </div>
+</section>
+
+{% include category-nav.html %}
+
+<div class="filter-bar">
+  <div class="filter-bar__inner">
+    <span class="filter-bar__label">Filter</span>
+    <select id="f-tier" aria-label="Filter by source tier">
+      <option value="">Tier: any</option>
+      <option value="P">Has a primary source</option>
+      <option value="S">Has a secondary source</option>
+      <option value="T-only">Tertiary sources only</option>
+    </select>
+    <select id="f-country" aria-label="Filter by country"><option value="">Country: any</option></select>
+    <select id="f-status" aria-label="Filter by status"><option value="">Status: any</option></select>
+    <select id="f-outlet" aria-label="Filter by outlet"><option value="">Outlet: any</option></select>
+    <button id="f-clear" type="button" hidden>Clear</button>
+    <span class="filter-bar__count" id="f-count"></span>
+  </div>
+</div>
+
+{% assign all = site.entries | sort: "incident_date" | reverse %}
+
+<section class="feed">
+  <div class="container--text" id="feed-list">
+    {% if all.size == 0 %}
+      <p class="feed__empty">No entries published yet.</p>
+    {% else %}
+      {% for e in all %}
+        {% assign tiers = "" %}
+        {% for s in e.sources %}{% assign tiers = tiers | append: s.tier | append: " " %}{% endfor %}
+        {% assign outlets = "" %}
+        {% for s in e.sources %}{% assign outlets = outlets | append: s.outlet | append: "|" %}{% endfor %}
+        <div class="feed__item"
+             data-country="{{ e.country }}"
+             data-status="{{ e.status }}"
+             data-tiers="{{ tiers | strip }}"
+             data-outlets="{{ outlets }}">
+          {% include entry-card.html entry=e %}
+        </div>
+      {% endfor %}
+    {% endif %}
+  </div>
+  <p class="feed__empty" id="f-none" hidden>No entries match these filters.</p>
+</section>
+
+<script src="/assets/js/filter.js"></script>

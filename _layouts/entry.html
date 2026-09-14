@@ -1,0 +1,56 @@
+---
+layout: default
+---
+{% assign cat = site.data.categories | where: "key", page.category | first %}
+{% assign st = site.data.statuses | where: "key", page.status | first %}
+<section class="section">
+  <div class="container--text">
+
+    <p class="label"><a href="/entries">Entries</a> / <a href="/category/{{ cat.slug }}/">{{ cat.key }} · {{ cat.name }}</a></p>
+
+    <div class="entry__meta" style="margin-top: 1rem;">
+      <time class="entry__date" datetime="{{ page.incident_date | date: '%Y-%m-%d' }}">{{ page.incident_date | date: "%Y-%m-%d" }}</time>
+      <a class="tag tag--cat cat-{{ cat.key | downcase }}" href="/category/{{ cat.slug }}/">{{ cat.key }} · {{ cat.name }}</a>
+      <a class="tag tag--plain" href="/entries/?country={{ page.country | uri_escape }}">{{ page.country }}</a>
+      <a class="tag tag--plain" href="/entries/?status={{ page.status }}">{{ st.name }}</a>
+    </div>
+
+    <h1 class="entry__title-full">{{ page.title }}</h1>
+
+    <div class="entry__summary entry__summary--full">{{ page.summary }}</div>
+
+    {% if page.note %}
+    <div class="entry__note">
+      <span class="entry__note-label">{{ page.note_label | default: "Note" }} —</span>
+      <span>{{ page.note }}</span>
+    </div>
+    {% endif %}
+
+    <div class="post-body">
+      {{ content }}
+    </div>
+
+    <hr class="rule" style="margin: 2rem 0;">
+
+    <h2 class="sources-heading">Sources</h2>
+    <ol class="source-list">
+      {% for s in page.sources %}
+      <li>
+        <span class="src src--{{ s.tier | downcase }}">{{ s.tier }}</span>
+        <a href="{{ s.url }}" rel="noopener nofollow" target="_blank">{{ s.outlet }}{% if s.title %} — {{ s.title }}{% endif %}</a>
+        {% if s.retrieved %}<span class="src-retrieved">retrieved {{ s.retrieved | date: "%Y-%m-%d" }}</span>{% endif %}
+      </li>
+      {% endfor %}
+    </ol>
+
+    {% if page.query %}
+    <p class="entry__query"><span class="entry__note-label">Search used —</span> <code>{{ page.query }}</code></p>
+    {% endif %}
+
+    <p class="entry__updated-full">
+      Entry last updated {{ page.updated | default: page.incident_date | date: "%-d %B %Y" }}.
+      Tier definitions and status meanings are set out in the <a href="/methodology">methodology</a>.
+    </p>
+
+  </div>
+</section>

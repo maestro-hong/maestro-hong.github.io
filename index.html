@@ -1,146 +1,58 @@
 ---
 layout: default
 title: Home
-description: Litigation and claims data support in Vancouver, BC. Reconciliations, chronologies, and exhibit-ready analysis of client-provided records, under professional direction.
+description: A sourced record of how AI is used to commit crime, and what happened next. Independent research by Jason Ahn, Vancouver BC.
 ---
 
-<!-- HERO -->
-<section class="hero">
+<section class="hero hero--register">
   <div class="hero__inner">
-    <p class="hero__eyebrow">Litigation &amp; Claims Data Support — Vancouver, BC</p>
+    <p class="hero__eyebrow">Independent research — Vancouver, BC</p>
     <h1 class="hero__headline">
-      When a matter turns on messy records,<br>
-      <strong>the numbers have to hold.</strong>
+      A sourced record of AI-enabled crime,<br>
+      <strong>and what happened next.</strong>
     </h1>
     <p class="hero__sub">
-      Unio Analytics turns high-volume, inconsistent records — payroll exports,
-      transaction logs, incident files — into reconciled data, documented
-      chronologies, and exhibit-ready tables, under the direction of counsel,
-      forensic accountants, and claims professionals.
+      Most records of AI-enabled crime stop at the incident. This one tracks
+      what followed — whether anyone was charged, whether assets moved, whether
+      the case went anywhere at all. Every entry states what it rests on, and
+      figures that cannot be traced to a stated method are marked as unverified.
     </p>
     <div class="hero__actions">
-      <a href="/samples" class="btn btn--primary">See Work Samples</a>
-      <a href="/services" class="btn btn--ghost">View Services</a>
+      <a href="/entries" class="btn btn--primary">Browse entries</a>
+      <a href="/methodology" class="btn btn--ghost">How entries are built</a>
     </div>
   </div>
 </section>
 
-<!-- THREAT SIGNAL BAR — Replace numbers with real sourced data -->
-<section class="signal-bar">
-  <div class="signal-stat">
-      <div class="signal-stat__number">Traceable</div>
-      <div class="signal-stat__label">Every figure traces to a documented, formula-driven cell</div>
-      <div class="signal-stat__source">Methodology memos with every deliverable</div>
+{% assign recent = site.entries | sort: "incident_date" | reverse %}
+
+<section class="feed feed--home">
+  <div class="container--text">
+    <div class="feed__head">
+      <p class="label">Latest entries</p>
+      <a href="/entries" class="feed__all">All entries →</a>
     </div>
-
-    <div class="signal-stat">
-      <div class="signal-stat__number">Under direction</div>
-      <div class="signal-stat__label">All criteria and characterizations set by the retaining professional</div>
-      <div class="signal-stat__source">No findings, no opinions — data support only</div>
-    </div>
-
-    <div class="signal-stat">
-      <div class="signal-stat__number">Documented</div>
-      <div class="signal-stat__label">Data defects logged with detection and resolution rules</div>
-      <div class="signal-stat__source">Built to withstand a second reviewer</div>
-    </div>
-</section>
-
-<!-- SERVICES OVERVIEW -->
-<section class="services-overview">
-  <div class="section-header">
-    <div class="section-header__text">
-      <p class="label">What We Do</p>
-      <h2>Three ways to work<br>with Unio Analytics</h2>
-      <p>Written advisory products built for decision-makers,
-         not technical teams.</p>
-    </div>
-    <a href="/services" class="btn btn--ghost">All Services →</a>
-  </div>
-
-  <div class="services-grid">
-
-    <div class="service-card">
-      <p class="service-card__number">01</p>
-      <h3>Litigation Data Support</h3>
-      <p>Reconciliations, calculations under instructed rules, timelines,
-         and exhibit-ready tables for counsel and retained experts —
-         from wage records to transaction histories.</p>
-      <p class="service-card__price">Quoted per matter — hourly</p>
-    </div>
-
-    <div class="service-card">
-      <p class="service-card__number">02</p>
-      <h3>Claims &amp; Incident Data Support</h3>
-      <p>Claim chronologies, loss summaries, and incident-record
-         organization to assist forensic accountants, licensed
-         adjusters, and claims teams on document-heavy files.</p>
-      <p class="service-card__price">Quoted per matter — hourly</p>
-    </div>
-
-    <div class="service-card">
-      <p class="service-card__number">03</p>
-      <h3>Data Triage</h3>
-      <p>A fixed-scope first look: we assess what your document set
-         contains, what condition it is in, and what analysis it will
-         support — delivered as a short written scoping memo.</p>
-      <p class="service-card__price">$1,500 — fixed fee, one week</p>
-    </div>
-
+    {% if recent.size == 0 %}
+      <p class="feed__empty">No entries published yet.</p>
+    {% else %}
+      {% for e in recent limit: 5 %}{% include entry-card.html entry=e %}{% endfor %}
+    {% endif %}
   </div>
 </section>
 
-<!-- ABOUT STRIP -->
-<section class="about-strip">
-  <div class="about-strip__inner">
-
-    <div class="about-strip__text">
-      <p class="label">About</p>
-      <h2>Analysis built for scrutiny</h2>
-      <p>
-        Litigation and claims work has one standard: the analysis must hold
-        up when someone qualified tries to take it apart. Every engagement
-        is delivered with a documented methodology, itemized assumptions,
-        and a data-quality log — so the professional relying on it can
-        defend it.
-      </p>
-      <p>
-        Unio Analytics is operated by an analyst with a decade across
-        federal intelligence analysis, national police information
-        management, Big Four IT security audit, and public-sector
-        incident data analysis, with a criminology degree underneath.
-      </p>
-      <a href="/about" class="btn btn--ghost" style="margin-top: 1rem;">
-        Full Background →
+<section class="cat-index">
+  <div class="container--text">
+    <p class="label">Categories</p>
+    <div class="cat-index__grid">
+      {% for c in site.data.categories %}
+      {% assign n = site.entries | where: "category", c.key %}
+      <a class="cat-index__item" href="/category/{{ c.slug }}/">
+        <span class="cat-index__key">{{ c.key }}</span>
+        <span class="cat-index__name">{{ c.full }}</span>
+        <span class="cat-index__blurb">{{ c.blurb }}</span>
+        <span class="cat-index__count">{{ n.size }} {% if n.size == 1 %}entry{% else %}entries{% endif %}</span>
       </a>
+      {% endfor %}
     </div>
-
-    <div class="about-strip__credentials">
-      <div class="credential">
-        <span class="credential__org">01</span>
-        <div class="credential__detail">
-          <strong>Records to reconciled data</strong>
-          High-volume exports profiled, cleaned, and reconciled,
-          with every defect and resolution rule logged.
-        </div>
-      </div>
-      <div class="credential">
-        <span class="credential__org">02</span>
-        <div class="credential__detail">
-          <strong>Rules applied as instructed</strong>
-          Calculations follow the rules and criteria the retaining
-          professional specifies — mechanically and reproducibly.
-        </div>
-      </div>
-      <div class="credential">
-        <span class="credential__org">03</span>
-        <div class="credential__detail">
-          <strong>Exhibit-ready reporting</strong>
-          Methodology memos, chronologies, and tables formatted
-          for professional and court use.
-        </div>
-      </div>
-    </div>
-
   </div>
 </section>

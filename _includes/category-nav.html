@@ -1,0 +1,8 @@
+<nav class="cat-nav">
+  <div class="cat-nav__inner">
+    <a class="cat-nav__item{% if include.active == nil %} is-active{% endif %}" href="/entries">All</a>
+    {% for c in site.data.categories %}
+    <a class="cat-nav__item{% if include.active == c.slug %} is-active{% endif %}" href="/category/{{ c.slug }}/">{{ c.key }} · {{ c.name }}</a>
+    {% endfor %}
+  </div>
+</nav>
