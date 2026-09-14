@@ -1,17 +1,18 @@
 ---
 layout: default
-title: About
-permalink: /about/
-description: Unio Analytics is an independent research record of AI-enabled crime, written by Jason Ahn in Vancouver, British Columbia.
+title: Stats
+permalink: /stats/
+description: Coverage summary for the Unio Analytics record — entries by category, enforcement status, country, and source tier.
 ---
 
+{% assign all = site.entries %}
 <section class="page-hero">
   <div class="page-hero__inner">
-    <p class="label">About</p>
-    <h1>What this is</h1>
+    <p class="label">Coverage</p>
+    <h1>Stats</h1>
     <p class="page-hero__sub">
-      An independent record of how artificial intelligence is used to commit
-      crime, and what happens afterwards.
+      A summary of what the record currently holds. These are counts of
+      entries in this archive, not estimates of how often these crimes occur.
     </p>
   </div>
 </section>
@@ -19,62 +20,45 @@ description: Unio Analytics is an independent research record of AI-enabled crim
 <section class="section">
   <div class="container--text post-body">
 
-    <p>
-      Several organisations now catalogue AI-enabled crime. Almost all of
-      them stop at the incident, and almost all of them are maintained by
-      companies that sell detection products. The result is a growing list of
-      things that happened, with no record of whether anything followed, and
-      a set of loss figures nobody can trace to a method.
-    </p>
+    <p class="stat-total"><span class="data-point">{{ all.size }}</span> entries</p>
 
-    <p>
-      This record does two things differently. It tracks enforcement outcomes
-      alongside incidents, so the question of whether any of this is being
-      prosecuted can eventually be answered with counts rather than
-      adjectives. And it states the provenance of every figure it repeats,
-      marking as unverified anything that cannot be traced to a stated
-      population and observation window.
-    </p>
+    <h2>By category</h2>
+    <table class="def-table">
+      {% for c in site.data.categories %}
+      {% assign n = all | where: "category", c.key %}
+      <tr>
+        <td><a href="/category/{{ c.slug }}/">{{ c.key }} · {{ c.name }}</a></td>
+        <td class="def-table__num">{{ n.size }}</td>
+      </tr>
+      {% endfor %}
+    </table>
 
-    <p>
-      It also reads sources in Korean, which most English-language coverage
-      of this subject does not.
-    </p>
+    <h2>By enforcement status</h2>
+    <table class="def-table">
+      {% for s in site.data.statuses %}
+      {% assign n = all | where: "status", s.key %}
+      <tr>
+        <td><a href="/entries/?status={{ s.key }}">{{ s.name }}</a></td>
+        <td class="def-table__num">{{ n.size }}</td>
+      </tr>
+      {% endfor %}
+    </table>
 
-    <h2>Who writes it</h2>
+    <h2>By country</h2>
+    <table class="def-table">
+      {% assign by_country = all | group_by: "country" | sort: "name" %}
+      {% for g in by_country %}
+      <tr>
+        <td><a href="/entries/?country={{ g.name | uri_escape }}">{{ g.name }}</a></td>
+        <td class="def-table__num">{{ g.items.size }}</td>
+      </tr>
+      {% endfor %}
+    </table>
 
-    <p>
-      Jason Ahn, in Vancouver, British Columbia. A criminology degree from
-      Simon Fraser University, and a career spent turning large volumes of
-      imperfect records into something that holds up when someone qualified
-      checks — across Canadian federal intelligence analysis, national police
-      information management, IT security audit at a Big Four firm, and
-      public-sector incident data analysis.
-    </p>
-
-    <p>
-      That last habit is the whole method here. Audit work is tracing an
-      assertion back to the evidence for it, and most of the numbers in this
-      field have never had that done to them.
-    </p>
-
-    <div class="callout" style="margin: 2rem 0;">
-      <p class="callout__label">Scope and independence</p>
-      <p>
-        Everything published here is drawn from open sources. This record
-        takes no vendor funding, sponsorship, or advertising; performs no
-        attribution and names no one not already named by a court or an
-        agency; and excludes any matter connected to the author's employment,
-        along with British Columbia criminal matters. Full detail is on the
-        <a href="/methodology">methodology</a> page.
-      </p>
-    </div>
-
-    <h2>Contact</h2>
-    <p>
-      Corrections and correspondence:
-      <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>.
-      Corrections are made in place and noted on the entry.
+    <p class="stat-note">
+      Status definitions are on the <a href="/methodology">methodology</a> page.
+      A large share of entries sitting at “reported only” is expected, and is
+      itself the point of tracking outcomes.
     </p>
 
   </div>
