@@ -7,7 +7,7 @@ updated: 2026-09-14
 category: I
 country: United States
 status: convicted
-summary: "A North Carolina man obtained more than $8 million in streaming royalties between 2017 and 2024 by running roughly 10,000 bot accounts against music he owned on Spotify, Apple Music, Amazon Music and YouTube Music. From 2018 he bought that catalogue — hundreds of thousands of AI-generated tracks — from an AI music company executive under a monthly supply contract. He pleaded guilty to conspiracy to commit wire fraud in March 2026."
+summary: "Michael Smith, 54, of Cornelius, North Carolina, obtained more than $8 million in streaming royalties between 2017 and 2024 by running roughly 10,000 bot accounts against music he owned on Spotify, Apple Music, Amazon Music and YouTube Music. From 2018 he bought that catalogue — hundreds of thousands of AI-generated tracks — from an AI music company executive under a monthly supply contract. He pleaded guilty to conspiracy to commit wire fraud in March 2026."
 note_label: "Mechanism"
 note: "Platform detection looked for implausible play counts on individual tracks. Volume was the binding constraint on evading it, and a contracted supply of AI songs removed that constraint — the same revenue, spread thin enough per track to sit inside normal variation."
 query: 'site:justice.gov "artificial intelligence" streaming fraud royalties'
@@ -27,22 +27,34 @@ sources:
     title: "AI Music Maker Who Faked Streams Pleads Guilty on Fraud Count"
     url: "https://news.bloomberglaw.com/ip-law/ai-music-maker-who-faked-streams-pleads-guilty-on-fraud-count"
     retrieved: 2026-09-14
+  - tier: T
+    outlet: Help Net Security
+    title: "Fake AI songs streamed billions of times, netting fraudster $10 million"
+    url: "https://www.helpnetsecurity.com/2026/03/20/ai-music-streaming-fraud-guilty-plea/"
+    retrieved: 2026-09-14
 ---
 
 ## Correcting a widespread description
 
-Nearly all coverage of this case, including both Justice Department press
-releases, describes Smith as having created hundreds of thousands of songs
-with artificial intelligence. The indictment says something different: he
-bought them.
+Nearly all coverage of this case describes Smith as having created hundreds
+of thousands of songs with artificial intelligence. The indictment says
+something different: he bought them.
+
+The misdescription does not originate with the press. It is in the United
+States Attorney's own statement announcing the plea, which says Smith
+generated the songs using artificial intelligence — contradicting the
+charging document filed by the same office eighteen months earlier. Trade
+coverage then reproduced that framing while linking to the indictment in the
+same paragraph. The Help Net Security piece listed below is included as an
+example of that, not as a source for any fact in this entry.
 
 The supplier was the chief executive of an AI music company, charged in the
-indictment as a co-conspirator. Under a Master Services Agreement dated
+indictment as a coconspirator. Under a Master Services Agreement dated
 1 February 2019, that company undertook to deliver between one thousand and
 ten thousand songs a month, with full intellectual property rights passing
 to Smith. Smith paid the greater of two thousand dollars a month or fifteen
 per cent of the streaming revenue those songs earned. A music promoter,
-charged as a further co-conspirator, and the supplier each took ten per cent
+charged as a further coconspirator, and the supplier each took ten per cent
 of the proceeds.
 
 That distinction matters for anyone trying to understand how this category
