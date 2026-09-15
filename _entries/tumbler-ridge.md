@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 title: "One-line description of what happened, stated plainly"
 slug: short-url-slug
 incident_date: 2026-01-01
