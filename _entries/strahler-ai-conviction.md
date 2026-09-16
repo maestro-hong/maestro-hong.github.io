@@ -3,7 +3,7 @@ published: true
 title: "First conviction under the TAKE IT DOWN Act draws 180 months"
 slug: strahler-first-take-it-down-conviction
 incident_date: 2026-04-07
-updated: 2026-09-14
+updated: 2026-09-15
 category: D
 country: United States
 status: convicted
