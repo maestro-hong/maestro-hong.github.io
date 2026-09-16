@@ -931,6 +931,9 @@ p:last-child { margin-bottom: 0; }
   --cat-h: #6E4C3C; --cat-h-bg: #F1E9E4;
 }
 
+:root { --cat-j: #5B4C63; --cat-j-bg: #EDE9EF; }
+.cat-j { background: var(--cat-j-bg); color: var(--cat-j); }
+
 .nav-feed {
   font-family: var(--font-mono);
   font-size: var(--text-xs);

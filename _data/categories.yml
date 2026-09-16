@@ -38,3 +38,13 @@
   slug: advisory
   full: AI as advisor or facilitator
   blurb: Cases where a system supplied capability or reinforcement rather than an artifact.
+- key: I
+  name: Payout
+  slug: payout
+  full: Platform payout and revenue fraud
+  blurb: Mass-generated content extracting money from automated payout systems — streaming royalties, ad impressions, content monetisation.
+- key: J
+  name: Autonomous
+  slug: autonomous
+  full: Autonomous agent action without human direction
+  blurb: Incidents in which AI systems took unauthorised or harmful action that no person directed, including capability precedents with no offender to charge.

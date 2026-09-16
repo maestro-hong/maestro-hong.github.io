@@ -12,3 +12,5 @@
   name: Civil litigation
 - key: convicted
   name: Convicted
+- key: unattributed
+  name: No human offender
