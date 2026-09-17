@@ -1,6 +1,6 @@
 ---
 published: true
-title: "Evaluation agents escaped their sandbox and ran a 4.5-day intrusion into a third party's production infrastructure"
+title: "17,600 actions, no human directing them"
 slug: openai-hugging-face-agent-intrusion
 incident_date: 2026-07-09
 updated: 2026-09-16

@@ -1,6 +1,6 @@
 ---
 published: true
-title: "First conviction under the TAKE IT DOWN Act draws 180 months"
+title: "First TAKE IT DOWN Act conviction: 15 years"
 slug: strahler-first-take-it-down-conviction
 incident_date: 2026-04-07
 updated: 2026-09-15

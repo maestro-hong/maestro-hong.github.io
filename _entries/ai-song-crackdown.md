@@ -1,6 +1,6 @@
 ---
 published: true
-title: "Bot accounts and a contracted supply of AI songs used to take $8m in streaming royalties"
+title: "Ten thousand bot accounts, $8m in streaming royalties"
 slug: smith-streaming-royalty-fraud
 incident_date: 2024-09-04
 updated: 2026-09-14
