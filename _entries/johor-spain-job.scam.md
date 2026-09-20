@@ -1,6 +1,6 @@
 ---
 published: true
-title: "A Johor scam house used AI translation to reach Spain. The case closed in thirteen days."
+title: "Thirty-one fined after raid on Malaysian scam centre that used AI translation to target Spain"
 slug: johor-ai-translation-scam
 incident_date: 2026-05-14
 updated: 2026-09-17

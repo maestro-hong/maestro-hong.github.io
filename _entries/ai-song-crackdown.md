@@ -1,6 +1,6 @@
 ---
 published: true
-title: "Ten thousand bot accounts, $8m in streaming royalties"
+title: "Man pleads guilty to using AI-generated songs and bot accounts to take $8m in royalties"
 slug: smith-streaming-royalty-fraud
 incident_date: 2024-09-04
 updated: 2026-09-14

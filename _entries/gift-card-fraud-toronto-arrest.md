@@ -1,6 +1,6 @@
 ---
 published: true
-title: "$500,000 in gift-card fraud and an AI claim nobody checked"
+title: "Seven charged in $500,000 Toronto retail fraud police linked to AI-enabled tools"
 slug: toronto-smart-glasses-retail-fraud
 incident_date: 2026-04-17
 updated: 2026-09-16

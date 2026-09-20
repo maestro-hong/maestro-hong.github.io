@@ -1,6 +1,6 @@
 ---
 published: false
-title: "One-line description of what happened, stated plainly"
+title: "News-headline style: who did what. Subject, verb, what happened. No thesis, no two-clause argument."
 slug: short-url-slug
 incident_date: 2026-01-01
 updated: 2026-01-01

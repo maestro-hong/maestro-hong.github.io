@@ -1,6 +1,6 @@
 ---
 published: true
-title: "First TAKE IT DOWN Act conviction: 15 years"
+title: "Ohio man sentenced to 15 years in first conviction under the TAKE IT DOWN Act"
 slug: strahler-first-take-it-down-conviction
 incident_date: 2026-04-07
 updated: 2026-09-15

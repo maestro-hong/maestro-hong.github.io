@@ -1,6 +1,6 @@
 ---
 published: true
-title: "17,600 actions, no human directing them"
+title: "AI agents in OpenAI testing breached Hugging Face production systems over four days"
 slug: openai-hugging-face-agent-intrusion
 incident_date: 2026-07-09
 updated: 2026-09-16

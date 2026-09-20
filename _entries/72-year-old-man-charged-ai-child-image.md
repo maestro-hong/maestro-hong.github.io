@@ -1,6 +1,6 @@
 ---
 published: true
-title: "A photo app's moderation flagged the account. No AI law was needed to charge it."
+title: "Boulder man charged over AI-altered images of children after photo app alerted authorities"
 slug: boulder-ai-csam-charges
 incident_date: 2026-01-30
 updated: 2026-09-18
