@@ -211,7 +211,12 @@ img { display: block; max-width: 100%; }
 
 /* inner pages */
 
-.page { padding-top: 4rem; }
+.page {
+  padding-top: 4rem;
+  max-width: calc(var(--column) + (var(--pad) * 2));
+  margin-left: auto;
+  margin-right: auto;
+}
 .page__label { font-family: var(--font-mono); font-size: 0.6875rem; letter-spacing: 0.08em; color: var(--muted); }
 .page__title {
   font-family: var(--font-serif);
