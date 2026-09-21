@@ -1,58 +1,22 @@
 ---
 layout: default
 title: Home
-description: A sourced record of how AI is used to commit crime, and what happened next. Independent research by Jason Ahn, Vancouver BC.
+description: A record of criminal cases in which artificial intelligence played a material role, and what happened to each one afterwards.
 ---
 
-<section class="hero hero--register">
-  <div class="hero__inner">
-    <p class="hero__eyebrow">Independent research — Vancouver, BC</p>
-    <h1 class="hero__headline">
-      A sourced record of AI-enabled crime,<br>
-      <strong>and what happened next.</strong>
-    </h1>
-    <p class="hero__sub">
-      Most records of AI-enabled crime stop at the incident. This one tracks
-      what followed — whether anyone was charged, whether assets moved, whether
-      the case went anywhere at all. Every entry states what it rests on, and
-      figures that cannot be traced to a stated method are marked as unverified.
-    </p>
-    <div class="hero__actions">
-      <a href="/entries" class="btn btn--primary">Browse entries</a>
-      <a href="/methodology" class="btn btn--ghost">How entries are built</a>
-    </div>
-  </div>
-</section>
+<div class="wrap lede">
+  <p class="lede__main">A record of criminal cases in which artificial intelligence played a material role, and what happened to each one afterwards.</p>
+  <p class="lede__sub">Each entry states what it rests on. Figures that cannot be traced to a stated population and method are marked unverified.</p>
+</div>
 
-{% assign recent = site.entries | sort: "incident_date" | reverse %}
+{% include controls.html %}
 
-<section class="feed feed--home">
-  <div class="container--text">
-    <div class="feed__head">
-      <p class="label">Latest entries</p>
-      <a href="/entries" class="feed__all">All entries →</a>
-    </div>
-    {% if recent.size == 0 %}
-      <p class="feed__empty">No entries published yet.</p>
-    {% else %}
-      {% for e in recent limit: 5 %}{% include entry-card.html entry=e %}{% endfor %}
-    {% endif %}
-  </div>
+{% assign all = site.entries | sort: "incident_date" | reverse %}
+<section class="wrap rows" id="rows">
+  {% if all.size == 0 %}
+    <p class="empty">No entries published yet.</p>
+  {% else %}
+    {% for e in all %}{% include entry-row.html entry=e %}{% endfor %}
+  {% endif %}
 </section>
-
-<section class="cat-index">
-  <div class="container--text">
-    <p class="label">Categories</p>
-    <div class="cat-index__grid">
-      {% for c in site.data.categories %}
-      {% assign n = site.entries | where: "category", c.key %}
-      <a class="cat-index__item" href="/category/{{ c.slug }}/">
-        <span class="cat-index__key">{{ c.key }}</span>
-        <span class="cat-index__name">{{ c.full }}</span>
-        <span class="cat-index__blurb">{{ c.blurb }}</span>
-        <span class="cat-index__count">{{ n.size }} {% if n.size == 1 %}entry{% else %}entries{% endif %}</span>
-      </a>
-      {% endfor %}
-    </div>
-  </div>
-</section>
+<p class="wrap empty" id="no-match" hidden>Nothing matches.</p>

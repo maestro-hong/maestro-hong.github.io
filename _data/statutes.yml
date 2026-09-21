@@ -1,0 +1,96 @@
+- name: TAKE IT DOWN Act
+  jurisdiction: United States (federal)
+  enacted: 2025
+  ai_specific: true
+  scope: Non-consensual intimate imagery and digital forgeries of identifiable people.
+  convictions: "1"
+  detail: >
+    One conviction located. A guilty plea in April 2026 led to a 180-month
+    sentence in September 2026. The forgery count reached the adult victims; the
+    child-related conduct in the same case was charged under a statute from 2003.
+  entry: /entry/strahler-ai-conviction/
+
+- name: State AI election deepfake laws
+  jurisdiction: United States (44 states)
+  enacted: 2019–2026
+  ai_specific: true
+  scope: Synthetic media depicting candidates, typically within a window before an election.
+  convictions: "0"
+  detail: >
+    No criminal conviction located in any state. The most prominent prosecution,
+    over a 2024 robocall imitating President Biden, ended in acquittal; a separate
+    $6m FCC penalty was regulatory rather than criminal. Laws in California and
+    Hawaii have been struck down on First Amendment grounds and Montana's is under
+    challenge. Civil suits are pending in Michigan and Arizona.
+
+- name: Act on Special Cases Concerning the Punishment of Sexual Crimes
+  jurisdiction: South Korea
+  enacted: 1994, deepfake provisions amended 2020 and 2024
+  ai_specific: partial
+  scope: Production and distribution of sexually explicit synthetic media.
+  convictions: "high volume"
+  detail: >
+    The outlier. Recorded cases rose from 168 in 2023 to 550 in 2024 to roughly
+    1,300 in 2025. Between November 2024 and October 2025 deepfake offences were
+    the largest single category of cybersexual violence, with 1,438 arrests from
+    1,462 enforcement actions. No other jurisdiction in this list is prosecuting
+    at comparable volume.
+
+- name: AI Basic Act
+  jurisdiction: South Korea
+  enacted: 2026
+  ai_specific: true
+  scope: Governance, transparency and risk obligations on developers and deployers.
+  convictions: "n/a"
+  detail: >
+    Regulatory rather than criminal, in force since January 2026. No enforcement
+    action located. Included because it is frequently cited as evidence that a
+    jurisdiction is acting on AI crime, which it is not designed to do.
+
+- name: EU AI Act
+  jurisdiction: European Union
+  enacted: 2024
+  ai_specific: true
+  scope: Prohibited practices and risk tiers for AI systems.
+  convictions: "n/a"
+  detail: >
+    Regulatory, phased, and enforced against providers and deployers rather than
+    offenders. Criminal enforcement remains a member-state matter. No criminal
+    prosecution located under national implementing provisions.
+
+- name: 18 U.S.C. § 1343 (wire fraud)
+  jurisdiction: United States (federal)
+  enacted: 1952
+  ai_specific: false
+  scope: Schemes to defraud using interstate wire communications.
+  convictions: "in use"
+  detail: >
+    Predates the internet. Carried the largest AI-enabled fraud conviction located
+    to date: a guilty plea in March 2026 over hundreds of thousands of AI-generated
+    songs streamed by bot accounts, with $8,091,843.64 forfeited. No AI-specific
+    statute was needed or used.
+  entry: /entry/ai-song-crackdown/
+
+- name: 18 U.S.C. § 1466A
+  jurisdiction: United States (federal)
+  enacted: 2003
+  ai_specific: false
+  scope: Obscene visual representations of the sexual abuse of children.
+  convictions: "in use"
+  detail: >
+    Two decades older than generative AI and expressly carved out of the TAKE IT
+    DOWN Act's intimate-depiction offence. It, not the newer statute, reached the
+    child-related conduct in the first TAKE IT DOWN Act case.
+  entry: /entry/strahler-ai-conviction/
+
+- name: C.R.S. § 18-6-403 (Colorado)
+  jurisdiction: United States (Colorado)
+  enacted: pre-dates generative AI
+  ai_specific: false
+  scope: Sexual exploitation of a child, including production and possession.
+  convictions: "charged"
+  detail: >
+    Twenty-three counts brought in January 2026 over images said to have been
+    produced by altering photographs of real children with generative tools. No
+    federal counts and no AI-specific statute. No disposition located.
+  entry: /entry/72-year-old-man-charged-ai-child-image/

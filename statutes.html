@@ -1,0 +1,39 @@
+---
+layout: default
+title: Statutes
+permalink: /statutes/
+description: Which laws written for AI-enabled crime have produced a criminal conviction, and which convictions came under older statutes instead.
+---
+
+<div class="wrap page">
+  <p class="page__label">Statutes</p>
+  <h1 class="page__title">Which of these laws has ever been used?</h1>
+  <p class="page__sub">Legislatures have written a great deal of law for AI-enabled conduct. This page asks a narrower question about each one: has it produced a criminal conviction, and if not, what did.</p>
+
+  <div class="prose">
+    <p>So far the statutes written specifically for AI have produced almost nothing, and the convictions that exist came under general criminal law, some of it older than the internet. One jurisdiction is the exception and it is worth understanding why.</p>
+    <p>A conviction count of zero is not a claim that a law is useless. Most of these are recent, and prosecutors reach for what they know. It is a claim about what the public record currently shows, and it is stated here because nobody else appears to be counting.</p>
+  </div>
+
+  {% for s in site.data.statutes %}
+  <div class="statute">
+    <h2 class="statute__name">{{ s.name }}</h2>
+    <p class="statute__meta">
+      {{ s.jurisdiction }} &nbsp;·&nbsp; enacted {{ s.enacted }} &nbsp;·&nbsp;
+      {% if s.ai_specific == true %}written for AI{% elsif s.ai_specific == 'partial' %}partly written for AI{% else %}general criminal law{% endif %}
+      &nbsp;·&nbsp; convictions located: {{ s.convictions }}
+    </p>
+    <div class="statute__body">
+      <p>{{ s.scope }}</p>
+      <p>{{ s.detail }}</p>
+      {% if s.entry %}<p class="mono"><a href="{{ s.entry }}" style="text-decoration:underline;text-underline-offset:2px">See the entry</a></p>{% endif %}
+    </div>
+  </div>
+  {% endfor %}
+
+  <div class="prose" style="padding-top:3rem">
+    <h2>What the counts mean</h2>
+    <p>A number is the count of criminal convictions this record has located under that statute for AI-enabled conduct. <strong>In use</strong> marks a general statute that has carried such a conviction without being written for it. <strong>n/a</strong> marks a regulatory instrument with no criminal provisions to count. <strong>High volume</strong> marks a statute being applied at a scale where individual cases are not separately tracked here.</p>
+    <p>Absence of a located conviction is not proof that none exists. Court records are uneven across jurisdictions and most are not searchable in English. Where a conviction is found, this page will change and the entry it came from will be linked. Corrections to <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>.</p>
+  </div>
+</div>

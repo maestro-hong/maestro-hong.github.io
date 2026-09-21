@@ -1,0 +1,28 @@
+{% assign all = site.entries %}
+<div class="wrap controls">
+  <div class="controls__menus">
+
+    <details class="menu menu--cat">
+      <summary>Category</summary>
+      <div class="menu__list">
+        <a class="menu__item{% if include.active == nil %} is-on{% endif %}" href="/">All <b>{{ all.size }}</b></a>
+        {% for c in site.data.categories %}
+        {% assign n = all | where: "category", c.key %}
+        <a class="menu__item{% if include.active == c.slug %} is-on{% endif %}{% if n.size == 0 %} is-empty{% endif %}" href="/category/{{ c.slug }}/">{{ c.name }} <b>{{ n.size }}</b></a>
+        {% endfor %}
+      </div>
+    </details>
+
+    <details class="menu menu--sort">
+      <summary>Sort</summary>
+      <div class="menu__list">
+        <button class="menu__item is-on" data-sort="newest">Newest</button>
+        <button class="menu__item" data-sort="oldest">Oldest</button>
+        <button class="menu__item" data-sort="country">Country</button>
+        <button class="menu__item" data-sort="status">Status</button>
+      </div>
+    </details>
+
+  </div>
+  <span class="controls__count" id="count"></span>
+</div>
