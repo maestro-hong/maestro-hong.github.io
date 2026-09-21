@@ -113,7 +113,12 @@ img { display: block; max-width: 100%; }
 }
 .search-field input:focus { outline: none; border-bottom-color: var(--ink); }
 
-.lede { padding-top: 3.25rem; }
+.lede {
+  padding-top: 3.25rem;
+  max-width: calc(42rem + (var(--pad) * 2));
+  margin-left: auto;
+  margin-right: auto;
+}
 .lede__main {
   font-family: var(--font-serif);
   font-size: 1.25rem;
