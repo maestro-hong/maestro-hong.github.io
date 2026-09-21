@@ -3,22 +3,16 @@ layout: default
 ---
 {% assign cat = site.data.categories | where: "key", page.category_key | first %}
 {% assign items = site.entries | where: "category", page.category_key | sort: "incident_date" | reverse %}
-<section class="page-hero">
-  <div class="page-hero__inner">
-    <p class="label">Category {{ cat.key }}</p>
-    <h1>{{ cat.full }}</h1>
-    <p class="page-hero__sub">{{ cat.blurb }}</p>
-  </div>
-</section>
 
-{% include category-nav.html active=cat.slug %}
+<p class="wrap intro">{{ cat.blurb }}</p>
 
-<section class="feed">
-  <div class="container--text">
-    {% if items.size == 0 %}
-      <p class="feed__empty">No entries in this category yet.</p>
-    {% else %}
-      {% for e in items %}{% include entry-card.html entry=e %}{% endfor %}
-    {% endif %}
-  </div>
+{% include controls.html active=cat.slug %}
+
+<section class="wrap rows" id="rows">
+  {% if items.size == 0 %}
+    <p class="empty">No entries in this category yet.</p>
+  {% else %}
+    {% for e in items %}{% include entry-row.html entry=e %}{% endfor %}
+  {% endif %}
 </section>
+<p class="wrap empty" id="no-match" hidden>Nothing matches.</p>
