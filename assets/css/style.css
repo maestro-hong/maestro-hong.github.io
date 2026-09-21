@@ -11,9 +11,9 @@
   --font-sans:  'IBM Plex Sans', system-ui, sans-serif;
   --font-mono:  'IBM Plex Mono', ui-monospace, monospace;
 
-  --page:   62rem;
-  --column: 34rem;
-  --pad:    2.5rem;
+  --page:   100%;
+  --column: 44rem;
+  --pad:    4rem;
 }
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -119,14 +119,14 @@ img { display: block; max-width: 100%; }
   font-size: 1.25rem;
   line-height: 1.6;
   color: var(--ink);
-  max-width: 32rem;
+  max-width: 42rem;
 }
 .lede__sub {
   font-size: 0.875rem;
   line-height: 1.8;
   color: var(--body);
   margin-top: 1.25rem;
-  max-width: 32rem;
+  max-width: 42rem;
 }
 
 
