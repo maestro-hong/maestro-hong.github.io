@@ -2,64 +2,46 @@
 layout: default
 title: Stats
 permalink: /stats/
-description: Coverage summary for the Unio Analytics record — entries by category, enforcement status, country, and source tier.
+description: Coverage summary for the Unio Analytics record — entries by category, enforcement status and country.
 ---
 
 {% assign all = site.entries %}
-<section class="page-hero">
-  <div class="page-hero__inner">
-    <p class="label">Coverage</p>
-    <h1>Stats</h1>
-    <p class="page-hero__sub">
-      A summary of what the record currently holds. These are counts of
-      entries in this archive, not estimates of how often these crimes occur.
-    </p>
-  </div>
-</section>
+<div class="wrap page">
+  <p class="page__label">Coverage</p>
+  <h1 class="page__title">What the record holds</h1>
+  <p class="page__sub">Counts of entries in this archive, not estimates of how often these crimes occur.</p>
 
-<section class="section">
-  <div class="container--text post-body">
-
-    <p class="stat-total"><span class="data-point">{{ all.size }}</span> entries</p>
-
+  <div class="prose">
     <h2>By category</h2>
-    <table class="def-table">
-      {% for c in site.data.categories %}
-      {% assign n = all | where: "category", c.key %}
-      <tr>
-        <td><a href="/category/{{ c.slug }}/">{{ c.key }} · {{ c.name }}</a></td>
-        <td class="def-table__num">{{ n.size }}</td>
-      </tr>
-      {% endfor %}
-    </table>
-
-    <h2>By enforcement status</h2>
-    <table class="def-table">
-      {% for s in site.data.statuses %}
-      {% assign n = all | where: "status", s.key %}
-      <tr>
-        <td><a href="/entries/?status={{ s.key }}">{{ s.name }}</a></td>
-        <td class="def-table__num">{{ n.size }}</td>
-      </tr>
-      {% endfor %}
-    </table>
-
-    <h2>By country</h2>
-    <table class="def-table">
-      {% assign by_country = all | group_by: "country" | sort: "name" %}
-      {% for g in by_country %}
-      <tr>
-        <td><a href="/entries/?country={{ g.name | uri_escape }}">{{ g.name }}</a></td>
-        <td class="def-table__num">{{ g.items.size }}</td>
-      </tr>
-      {% endfor %}
-    </table>
-
-    <p class="stat-note">
-      Status definitions are on the <a href="/methodology">methodology</a> page.
-      A large share of entries sitting at “reported only” is expected, and is
-      itself the point of tracking outcomes.
-    </p>
-
   </div>
-</section>
+  <table class="table">
+    {% for c in site.data.categories %}
+    {% assign n = all | where: "category", c.key %}
+    <tr><td><a href="/category/{{ c.slug }}/">{{ c.name }}</a></td><td>{{ n.size }}</td></tr>
+    {% endfor %}
+  </table>
+
+  <div class="prose">
+    <h2>By enforcement status</h2>
+  </div>
+  <table class="table">
+    {% for s in site.data.statuses %}
+    {% assign n = all | where: "status", s.key %}
+    <tr><td>{{ s.name }}</td><td>{{ n.size }}</td></tr>
+    {% endfor %}
+  </table>
+
+  <div class="prose">
+    <h2>By country</h2>
+  </div>
+  <table class="table">
+    {% assign by_country = all | group_by: "country" | sort: "name" %}
+    {% for g in by_country %}
+    <tr><td>{{ g.name }}</td><td>{{ g.items.size }}</td></tr>
+    {% endfor %}
+  </table>
+
+  <div class="prose">
+    <p>Status definitions are on the <a href="/methodology">methodology</a> page. A large share of entries sitting at reported only is expected, and is itself the point of tracking outcomes.</p>
+  </div>
+</div>

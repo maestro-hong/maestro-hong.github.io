@@ -4,7 +4,9 @@ layout: default
 {% assign cat = site.data.categories | where: "key", page.category_key | first %}
 {% assign items = site.entries | where: "category", page.category_key | sort: "incident_date" | reverse %}
 
-<p class="wrap intro">{{ cat.blurb }}</p>
+<div class="wrap lede">
+  <p class="lede__main">{{ cat.blurb }}</p>
+</div>
 
 {% include controls.html active=cat.slug %}
 
