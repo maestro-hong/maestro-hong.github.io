@@ -6,6 +6,7 @@ title: Unio Analytics
 description: A sourced record of AI-enabled crime, and what happened next.
 url: "https://unio-analytics.com"
 baseurl: ""
+lang: en
 
 author:
   name: Jason Ahn
@@ -14,19 +15,42 @@ author:
 markdown: kramdown
 plugins:
   - jekyll-sitemap
-  - jekyll-feed
+
+# Korean edition
+# Entry pages show the EN / KR switch as soon as a Korean twin exists.
+# The English front page, category pages and stats page show it only once
+# this many Korean entries are published, so nobody lands on a near-empty
+# Korean section.
+korean_list_minimum: 5
 
 collections:
   entries:
     output: true
     permalink: /entry/:name/
+  entries_ko:
+    output: true
+    permalink: /ko/entry/:name/
 
 defaults:
+  - scope:
+      path: ""
+    values:
+      lang: en
+  - scope:
+      path: "ko"
+    values:
+      lang: ko
   - scope:
       path: ""
       type: "entries"
     values:
       layout: "entry"
+  - scope:
+      path: ""
+      type: "entries_ko"
+    values:
+      layout: "entry"
+      lang: ko
 
 exclude:
   - README.md

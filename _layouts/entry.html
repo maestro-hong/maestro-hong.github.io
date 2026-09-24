@@ -1,26 +1,29 @@
 ---
 layout: default
 ---
+{% include i18n.html %}
 {% assign cat = site.data.categories | where: "key", page.category | first %}
 {% assign st = site.data.statuses | where: "key", page.status | first %}
+{% assign meth_url = "/methodology" %}
+{% if lang == "ko" %}{% assign ko_meth = site.pages | where: "url", "/ko/methodology/" | first %}{% if ko_meth %}{% assign meth_url = "/ko/methodology/" %}{% endif %}{% endif %}
 <article class="wrap page">
 
-  <p class="page__label"><a href="/">Entries</a> &nbsp;/&nbsp; <a href="/category/{{ cat.slug }}/">{{ cat.name }}</a></p>
+  <p class="page__label"><a href="{{ base }}/">{{ t.entries }}</a> &nbsp;/&nbsp; <a href="{{ base }}/category/{{ cat.slug }}/">{{ cat[nk] | default: cat.name }}</a></p>
 
   <h1 class="page__title">{{ page.title }}</h1>
 
   <div class="entry__meta" style="margin-top:1.25rem">
     <time datetime="{{ page.incident_date | date: '%Y-%m-%d' }}">{{ page.incident_date | date: "%Y.%m.%d" }}</time>
-    <a href="/category/{{ cat.slug }}/">{{ cat.name }}</a>
+    <a href="{{ base }}/category/{{ cat.slug }}/">{{ cat[nk] | default: cat.name }}</a>
     <span>{{ page.country }}</span>
-    <span>{{ st.name }}</span>
+    <span>{{ st[nk] | default: st.name }}</span>
   </div>
 
   <p class="entry__lede">{{ page.summary }}</p>
 
   {% if page.note %}
   <div class="note column">
-    <span class="note__label">{{ page.note_label | default: "Note" }}</span>
+    <span class="note__label">{{ page.note_label | default: t.note }}</span>
     {{ page.note }}
   </div>
   {% endif %}
@@ -30,7 +33,7 @@ layout: default
   </div>
 
   <div class="prose">
-    <h2>Sources</h2>
+    <h2>{{ t.sources }}</h2>
   </div>
   <ol class="source-list">
     {% for s in page.sources %}
@@ -38,17 +41,17 @@ layout: default
       <span class="src src--{{ s.tier | downcase }}">{{ s.tier }}</span>
       <span>
         <a href="{{ s.url }}" rel="noopener nofollow" target="_blank">{{ s.outlet }}{% if s.title %} — {{ s.title }}{% endif %}</a>
-        {% if s.retrieved %}<br><span class="src-retrieved">retrieved {{ s.retrieved | date: "%Y.%m.%d" }}</span>{% endif %}
+        {% if s.retrieved %}<br><span class="src-retrieved">{{ t.retrieved }} {{ s.retrieved | date: "%Y.%m.%d" }}</span>{% endif %}
       </span>
     </li>
     {% endfor %}
   </ol>
 
   <div class="prose">
-    {% if page.query %}<p class="mono">Search used: <code>{{ page.query }}</code></p>{% endif %}
+    {% if page.query %}<p class="mono">{{ t.search_used }} <code>{{ page.query }}</code></p>{% endif %}
     <p class="mono" style="margin-top:1.5rem">
-      Updated {{ page.updated | default: page.incident_date | date: "%Y.%m.%d" }}.
-      Tier and status definitions are in the <a href="/methodology">methodology</a>.
+      {{ t.updated }} {{ page.updated | default: page.incident_date | date: "%Y.%m.%d" }}.
+      {{ t.definitions_before }} <a href="{{ meth_url }}">{{ t.definitions_link }}</a>{{ t.definitions_after }}
     </p>
   </div>
 

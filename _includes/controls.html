@@ -1,25 +1,26 @@
-{% assign all = site.entries %}
+{% include i18n.html %}
+{% if lang == "ko" %}{% assign all = site.entries_ko %}{% else %}{% assign all = site.entries %}{% endif %}
 <div class="wrap controls">
   <div class="controls__menus">
 
     <details class="menu menu--cat">
-      <summary>Category</summary>
+      <summary>{{ t.category }}</summary>
       <div class="menu__list">
-        <a class="menu__item{% if include.active == nil %} is-on{% endif %}" href="/">All <b>{{ all.size }}</b></a>
+        <a class="menu__item{% if include.active == nil %} is-on{% endif %}" href="{{ base }}/">{{ t.all }} <b>{{ all.size }}</b></a>
         {% for c in site.data.categories %}
         {% assign n = all | where: "category", c.key %}
-        <a class="menu__item{% if include.active == c.slug %} is-on{% endif %}{% if n.size == 0 %} is-empty{% endif %}" href="/category/{{ c.slug }}/">{{ c.name }} <b>{{ n.size }}</b></a>
+        <a class="menu__item{% if include.active == c.slug %} is-on{% endif %}{% if n.size == 0 %} is-empty{% endif %}" href="{{ base }}/category/{{ c.slug }}/">{{ c[nk] | default: c.name }} <b>{{ n.size }}</b></a>
         {% endfor %}
       </div>
     </details>
 
     <details class="menu menu--sort">
-      <summary>Sort</summary>
+      <summary>{{ t.sort }}</summary>
       <div class="menu__list">
-        <button class="menu__item is-on" data-sort="newest">Newest</button>
-        <button class="menu__item" data-sort="oldest">Oldest</button>
-        <button class="menu__item" data-sort="country">Country</button>
-        <button class="menu__item" data-sort="status">Status</button>
+        <button class="menu__item is-on" data-sort="newest">{{ t.newest }}</button>
+        <button class="menu__item" data-sort="oldest">{{ t.oldest }}</button>
+        <button class="menu__item" data-sort="country">{{ t.country }}</button>
+        <button class="menu__item" data-sort="status">{{ t.status }}</button>
       </div>
     </details>
 

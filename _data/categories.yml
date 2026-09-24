@@ -3,48 +3,78 @@
   slug: impersonation
   full: Impersonation and social engineering
   blurb: Voice cloning, synthetic video calls, and AI-assisted business email compromise.
+  name_ko: 사칭
+  full_ko: 사칭과 사회공학
+  blurb_ko: 음성 복제, 합성 영상 통화, AI를 활용한 기업 이메일 사기.
 - key: B
   name: Documents
   slug: documents
   full: Identity and document fraud
   blurb: Synthetic identities, forged financial and employment records, biometric spoofing.
+  name_ko: 문서 위조
+  full_ko: 신원 및 문서 위조
+  blurb_ko: 합성 신원, 위조된 금융·재직 기록, 생체 인증 우회.
 - key: C
   name: Persuasion
   slug: persuasion
   full: Relationship and persuasion scams
   blurb: Scripted romance approaches, pig butchering, fabricated recruitment.
+  name_ko: 관계형 사기
+  full_ko: 관계 및 설득형 사기
+  blurb_ko: 각본에 따른 로맨스 접근, 돼지도살 사기, 허위 채용.
 - key: D
   name: Exploitation
   slug: exploitation
   full: Sexual exploitation and image-based abuse
   blurb: Covered at the policy, enforcement, and statistical level only.
+  name_ko: 성착취
+  full_ko: 성착취와 이미지 기반 성범죄
+  blurb_ko: 정책, 집행, 통계 차원에서만 다룹니다.
 - key: E
   name: Investment
   slug: investment
   full: Investment and financial platform fraud
   blurb: Fabricated trading platforms and AI-scaled investment operations.
+  name_ko: 투자 사기
+  full_ko: 투자 및 금융 플랫폼 사기
+  blurb_ko: 가짜 거래 플랫폼과 AI로 규모를 키운 투자 사기 조직.
 - key: F
   name: Infrastructure
   slug: infrastructure
   full: Cyberattack infrastructure
   blurb: Generated phishing kits, malware, and automated reconnaissance.
+  name_ko: 공격 인프라
+  full_ko: 사이버 공격 인프라
+  blurb_ko: AI로 만든 피싱 키트, 악성코드, 자동화된 정찰.
 - key: G
   name: Integrity
   slug: integrity
   full: Information integrity crimes
   blurb: Political and corporate synthetic media, fabricated endorsements.
+  name_ko: 정보 조작
+  full_ko: 정보 무결성 범죄
+  blurb_ko: 정치·기업 대상 합성 미디어, 조작된 추천과 보증.
 - key: H
   name: Advisory
   slug: advisory
   full: AI as advisor or facilitator
   blurb: Cases where a system supplied capability or reinforcement rather than an artifact.
+  name_ko: 조언·조력
+  full_ko: 조언자 또는 조력자로서의 AI
+  blurb_ko: 시스템이 결과물 대신 실행 능력이나 부추김을 제공한 사례.
 - key: I
   name: Payout
   slug: payout
   full: Platform payout and revenue fraud
   blurb: Mass-generated content extracting money from automated payout systems — streaming royalties, ad impressions, content monetisation.
+  name_ko: 수익 편취
+  full_ko: 플랫폼 지급금 및 수익 사기
+  blurb_ko: 대량 생성한 콘텐츠로 스트리밍 저작권료, 광고 노출, 콘텐츠 수익화 같은 자동 지급 체계에서 돈을 빼내는 행위.
 - key: J
   name: Autonomous
   slug: autonomous
   full: Autonomous agent action without human direction
   blurb: Incidents in which AI systems took unauthorised or harmful action that no person directed, including capability precedents with no offender to charge.
+  name_ko: 자율 행동
+  full_ko: 사람의 지시 없는 AI 에이전트의 자율 행동
+  blurb_ko: 누구도 지시하지 않았는데 AI 시스템이 무단으로 또는 해로운 행동을 한 사건. 기소할 가해자가 없는 능력 선례도 포함합니다.

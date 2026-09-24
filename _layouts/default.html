@@ -1,14 +1,82 @@
+{%- include i18n.html -%}
+{%- assign u = page.url -%}
+
+{%- comment -%}
+  Language twin: the same page in the other language.
+  English /entry/x/ pairs with Korean /ko/entry/x/ (same file name), and
+  likewise for the front page, categories, stats, about and methodology.
+{%- endcomment -%}
+{%- if lang == "ko" -%}
+  {%- assign twin_url = u | remove_first: "/ko" -%}
+  {%- assign twin_pool = site.entries -%}
+{%- else -%}
+  {%- assign twin_url = u | prepend: "/ko" -%}
+  {%- assign twin_pool = site.entries_ko -%}
+{%- endif -%}
+{%- assign twin = site.pages | where: "url", twin_url | first -%}
+{%- unless twin -%}{%- assign twin = twin_pool | where: "url", twin_url | first -%}{%- endunless -%}
+
+{%- comment -%}
+  List pages only pair once the Korean side has enough entries to be worth
+  landing on (korean_list_minimum in _config.yml).
+{%- endcomment -%}
+{%- assign list_page = false -%}
+{%- if page.layout == "category" or u == "/" or u == "/ko/" or u == "/stats/" or u == "/ko/stats/" -%}{%- assign list_page = true -%}{%- endif -%}
+{%- assign ko_min = site.korean_list_minimum | default: 5 -%}
+{%- assign ko_ready = true -%}
+{%- if site.entries_ko.size < ko_min -%}{%- assign ko_ready = false -%}{%- endif -%}
+{%- assign paired = false -%}
+{%- if twin -%}
+  {%- assign paired = true -%}
+  {%- if list_page -%}
+    {%- unless ko_ready -%}{%- assign paired = false -%}{%- endunless -%}
+    {%- if page.layout == "category" -%}
+      {%- assign ko_in_cat = site.entries_ko | where: "category", page.category_key -%}
+      {%- if ko_in_cat.size == 0 -%}{%- assign paired = false -%}{%- endif -%}
+    {%- endif -%}
+  {%- endif -%}
+{%- endif -%}
+{%- assign show_switch = paired -%}
+{%- if lang == "ko" and twin -%}{%- assign show_switch = true -%}{%- endif -%}
+
+{%- if lang == "ko" -%}
+  {%- assign home_url = "/ko/" -%}
+  {%- assign stats_url = "/ko/stats/" -%}
+  {%- assign feed_url = "/ko/feed.xml" -%}
+  {%- assign ko_meth = site.pages | where: "url", "/ko/methodology/" | first -%}
+  {%- if ko_meth -%}{%- assign meth_url = "/ko/methodology/" -%}{%- else -%}{%- assign meth_url = "/methodology" -%}{%- endif -%}
+  {%- assign ko_about = site.pages | where: "url", "/ko/about/" | first -%}
+  {%- if ko_about -%}{%- assign about_url = "/ko/about/" -%}{%- else -%}{%- assign about_url = "/about" -%}{%- endif -%}
+  {%- assign en_url = twin_url -%}
+  {%- assign ko_url = u -%}
+{%- else -%}
+  {%- assign home_url = "/" -%}
+  {%- assign meth_url = "/methodology" -%}
+  {%- assign stats_url = "/stats" -%}
+  {%- assign about_url = "/about" -%}
+  {%- assign feed_url = "/feed.xml" -%}
+  {%- assign en_url = u -%}
+  {%- assign ko_url = twin_url -%}
+{%- endif -%}
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ lang }}">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="{{ page.description | default: site.description }}">
-  <title>{% if page.title and page.title != 'Home' %}{{ page.title }} — {% endif %}Unio Analytics</title>
-  <link rel="alternate" type="application/atom+xml" title="Unio Analytics" href="/feed.xml">
+  <meta name="description" content="{% if lang == 'ko' %}{{ page.description | default: t.description }}{% else %}{{ page.description | default: site.description }}{% endif %}">
+  <title>{% if page.title and page.title != 'Home' and u != '/ko/' %}{{ page.title }} — {% endif %}Unio Analytics</title>
+  {%- if lang == "ko" and list_page and ko_ready == false %}
+  <meta name="robots" content="noindex">
+  {%- endif %}
+  <link rel="alternate" type="application/atom+xml" title="Unio Analytics" href="{{ feed_url }}">
+  {%- if paired %}
+  <link rel="alternate" hreflang="en" href="{{ site.url }}{{ en_url }}">
+  <link rel="alternate" hreflang="ko" href="{{ site.url }}{{ ko_url }}">
+  <link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ en_url }}">
+  {%- endif %}
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400{% if lang == 'ko' %}&family=IBM+Plex+Sans+KR:wght@400;500&family=Noto+Serif+KR:wght@400{% endif %}&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/css/style.css">
   <link rel="icon" href="/favicon.ico" sizes="32x32">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
@@ -16,30 +84,40 @@
 </head>
 <body>
 
-{% assign u = page.url %}
 {% assign on_entries = false %}
-{% if u == '/' or u contains '/entry/' or u contains '/category/' %}{% assign on_entries = true %}{% endif %}
+{% if u == home_url or u contains '/entry/' or u contains '/category/' %}{% assign on_entries = true %}{% endif %}
 
   <header class="head">
     <div class="wrap">
 
       <div class="head__top">
-        <a href="/" class="head__mark"><span>UNIO</span> <span>ANALYTICS</span></a>
-        <button class="head__toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav" aria-label="Menu">&#9776;</button>
+        <a href="{{ home_url }}" class="head__mark"><span>UNIO</span> <span>ANALYTICS</span></a>
+        {%- if show_switch %}
+        <nav class="lang-switch" aria-label="{{ t.language }}">
+          {%- if lang == "ko" %}
+          <a class="lang-switch__item" href="{{ twin_url }}" hreflang="en" lang="en" aria-label="English">EN</a>
+          <span class="lang-switch__item is-on" aria-current="true">KR</span>
+          {%- else %}
+          <span class="lang-switch__item is-on" aria-current="true">EN</span>
+          <a class="lang-switch__item" href="{{ twin_url }}" hreflang="ko" lang="ko" aria-label="한국어">KR</a>
+          {%- endif %}
+        </nav>
+        {%- endif %}
+        <button class="head__toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav" aria-label="{{ t.menu }}">&#9776;</button>
       </div>
 
       <nav class="nav" id="nav">
         <ul class="nav__links">
-          <li><a href="/"{% if on_entries %} class="is-on"{% endif %}>Entries</a></li>
-          <li><a href="/methodology"{% if u contains '/methodology' %} class="is-on"{% endif %}>Methodology</a></li>
-          <li><a href="/stats"{% if u contains '/stats' %} class="is-on"{% endif %}>Stats</a></li>
-          <li><a href="/about"{% if u contains '/about' %} class="is-on"{% endif %}>About</a></li>
+          <li><a href="{{ home_url }}"{% if on_entries %} class="is-on"{% endif %}>{{ t.entries }}</a></li>
+          <li><a href="{{ meth_url }}"{% if u contains '/methodology' %} class="is-on"{% endif %}>{{ t.methodology }}</a></li>
+          <li><a href="{{ stats_url }}"{% if u contains '/stats' %} class="is-on"{% endif %}>{{ t.stats }}</a></li>
+          <li><a href="{{ about_url }}"{% if u contains '/about' %} class="is-on"{% endif %}>{{ t.about }}</a></li>
         </ul>
-        <button class="nav__search" id="search-toggle" aria-expanded="false" aria-controls="search-field">Search</button>
+        <button class="nav__search" id="search-toggle" aria-expanded="false" aria-controls="search-field">{{ t.search }}</button>
       </nav>
 
       <div class="search-field" id="search-field" hidden>
-        <input type="search" id="search-input" placeholder="Filter entries" aria-label="Filter entries">
+        <input type="search" id="search-input" placeholder="{{ t.search_placeholder }}" aria-label="{{ t.search_placeholder }}">
       </div>
 
     </div>
@@ -52,17 +130,15 @@
   <footer class="foot">
     <div class="wrap">
       <div class="foot__links">
-        <a href="/">Entries</a>
-        <a href="/methodology">Methodology</a>
-        <a href="/stats">Stats</a>
-        <a href="/about">About</a>
-        <a href="/feed.xml">RSS</a>
+        <a href="{{ home_url }}">{{ t.entries }}</a>
+        <a href="{{ meth_url }}">{{ t.methodology }}</a>
+        <a href="{{ stats_url }}">{{ t.stats }}</a>
+        <a href="{{ about_url }}">{{ t.about }}</a>
+        <a href="{{ feed_url }}">RSS</a>
       </div>
       <p class="foot__legal">
-        &copy; {{ 'now' | date: "%Y" }} Unio Analytics. Vancouver, British Columbia.
-        An independent research record. No funding, sponsorship or advertising is
-        accepted from vendors of detection, identity or security products.
-        Everything published here is drawn from open sources.
+        &copy; {{ 'now' | date: "%Y" }} Unio Analytics. {{ t.place }}
+        {{ t.legal }}
       </p>
     </div>
   </footer>

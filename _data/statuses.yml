@@ -1,16 +1,24 @@
 - key: reported
   name: Reported only
+  name_ko: 보도만 됨
 - key: investigating
   name: Investigation opened
+  name_ko: 수사 개시
 - key: charged
   name: Charges laid
+  name_ko: 기소
 - key: sanctions
   name: Sanctions or seizure
+  name_ko: 제재·압수
 - key: platform
   name: Platform action
+  name_ko: 플랫폼 조치
 - key: litigation
   name: Civil litigation
+  name_ko: 민사소송
 - key: convicted
   name: Convicted
+  name_ko: 유죄 판결
 - key: unattributed
   name: No human offender
+  name_ko: 인간 가해자 없음

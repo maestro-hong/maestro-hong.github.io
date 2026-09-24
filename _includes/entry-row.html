@@ -1,16 +1,19 @@
+{% include i18n.html %}
 {% assign e = include.entry %}
 {% assign cat = site.data.categories | where: "key", e.category | first %}
 {% assign st = site.data.statuses | where: "key", e.status | first %}
+{% assign cat_name = cat[nk] | default: cat.name %}
+{% assign st_name = st[nk] | default: st.name %}
 <article class="row"
   data-date="{{ e.incident_date | date: '%Y%m%d' }}"
   data-country="{{ e.country }}"
-  data-status="{{ st.name }}"
-  data-text="{{ e.title | downcase }} {{ cat.name | downcase }} {{ e.country | downcase }}">
+  data-status="{{ st_name }}"
+  data-text="{{ e.title | downcase }} {{ cat_name | downcase }} {{ e.country | downcase }}">
   <a href="{{ e.url }}"><h2 class="row__title">{{ e.title }}</h2></a>
   <div class="row__meta">
     <time datetime="{{ e.incident_date | date: '%Y-%m-%d' }}">{{ e.incident_date | date: "%Y.%m.%d" }}</time>
-    <a href="/category/{{ cat.slug }}/">{{ cat.name }}</a>
+    <a href="{{ base }}/category/{{ cat.slug }}/">{{ cat_name }}</a>
     <span>{{ e.country }}</span>
-    <span>{{ st.name }}</span>
+    <span>{{ st_name }}</span>
   </div>
 </article>

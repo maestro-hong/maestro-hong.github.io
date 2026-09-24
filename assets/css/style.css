@@ -98,6 +98,29 @@ img { display: block; max-width: 100%; }
 .nav__search:hover { color: var(--ink); }
 .nav__links a.is-on { color: var(--ink); border-bottom-color: var(--ink); }
 
+/* language switch: fixed at the right edge, vertically centred */
+
+.lang-switch {
+  position: fixed;
+  top: 50%;
+  right: 1.5rem;
+  transform: translateY(-50%);
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  letter-spacing: 0.08em;
+  line-height: 1;
+}
+.lang-switch__item { color: var(--muted); transition: color 0.2s ease; }
+.lang-switch__item.is-on { color: var(--ink); }
+a.lang-switch__item:hover,
+a.lang-switch__item:focus-visible { color: var(--ink); }
+a.lang-switch__item:focus-visible { outline: 1px solid var(--ink); outline-offset: 4px; }
+
 .search-field { padding: 1.25rem 0 0; }
 .search-field input {
   font-family: var(--font-mono);
@@ -332,6 +355,16 @@ img { display: block; max-width: 100%; }
   .head__mark span { display: block; }
   .head__toggle { display: block; }
 
+  .lang-switch {
+    position: static;
+    transform: none;
+    flex-direction: row;
+    gap: 0;
+    margin: -0.25rem 0 0 auto;
+    font-size: 0.6875rem;
+  }
+  .lang-switch__item { padding: 0.5rem; }
+
   .nav { display: none; flex-direction: column; align-items: stretch; justify-content: flex-start; gap: 0; padding-top: 1.5rem; }
   .nav.is-open { display: flex; }
   .nav__links { flex-direction: column; gap: 0; }
@@ -354,3 +387,23 @@ img { display: block; max-width: 100%; }
   .page__title { font-size: 1.5rem; }
   .table td:last-child { padding-left: 1rem; }
 }
+
+/* Korean pages: Hangul falls back from IBM Plex to IBM Plex Sans KR and
+   Noto Serif KR, words are not split across lines, and the tracking used
+   for Latin labels is tightened. */
+
+html:lang(ko) {
+  --font-serif: 'IBM Plex Serif', 'Noto Serif KR', Georgia, serif;
+  --font-sans:  'IBM Plex Sans', 'IBM Plex Sans KR', system-ui, sans-serif;
+  --font-mono:  'IBM Plex Mono', 'IBM Plex Sans KR', ui-monospace, monospace;
+}
+html:lang(ko) body { word-break: keep-all; overflow-wrap: break-word; }
+html:lang(ko) .head__toggle { font-family: system-ui, sans-serif; }
+html:lang(ko) .lede__main { line-height: 1.4; }
+html:lang(ko) .page__title,
+html:lang(ko) .row__title { line-height: 1.5; }
+html:lang(ko) :is(.nav__links a, .nav__search, .menu > summary, .menu__item,
+  .controls__count, .row__meta, .entry__meta, .page__label, .note__label,
+  .foot__links, .mono, .empty, .src-retrieved) { letter-spacing: 0.02em; }
+html:lang(ko) :is(.nav__links a, .nav__search, .menu > summary, .menu__item,
+  .page__label, .note__label, .foot__links) { font-size: 0.75rem; }

@@ -1,20 +1,22 @@
 ---
 layout: default
 ---
+{% include i18n.html %}
 {% assign cat = site.data.categories | where: "key", page.category_key | first %}
-{% assign items = site.entries | where: "category", page.category_key | sort: "incident_date" | reverse %}
+{% if lang == "ko" %}{% assign pool = site.entries_ko %}{% else %}{% assign pool = site.entries %}{% endif %}
+{% assign items = pool | where: "category", page.category_key | sort: "incident_date" | reverse %}
 
 <div class="wrap lede">
-  <p class="lede__main">{{ cat.blurb }}</p>
+  <p class="lede__main">{{ cat[bk] | default: cat.blurb }}</p>
 </div>
 
 {% include controls.html active=cat.slug %}
 
 <section class="wrap rows" id="rows">
   {% if items.size == 0 %}
-    <p class="empty">No entries in this category yet.</p>
+    <p class="empty">{{ t.no_entries_category }}</p>
   {% else %}
     {% for e in items %}{% include entry-row.html entry=e %}{% endfor %}
   {% endif %}
 </section>
-<p class="wrap empty" id="no-match" hidden>Nothing matches.</p>
+<p class="wrap empty" id="no-match" hidden>{{ t.no_match }}</p>

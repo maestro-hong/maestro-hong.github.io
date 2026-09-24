@@ -1,0 +1,69 @@
+# Interface text for each language.
+# Entry text lives in the entry files; category and status names live in
+# categories.yml and statuses.yml (the *_ko fields).
+
+en:
+  entries: Entries
+  methodology: Methodology
+  stats: Stats
+  about: About
+  search: Search
+  search_placeholder: Filter entries
+  menu: Menu
+  language: Language
+  category: Category
+  sort: Sort
+  all: All
+  newest: Newest
+  oldest: Oldest
+  country: Country
+  status: Status
+  no_match: Nothing matches.
+  no_entries: No entries published yet.
+  no_entries_category: No entries in this category yet.
+  note: Note
+  sources: Sources
+  retrieved: retrieved
+  search_used: "Search used:"
+  updated: Updated
+  definitions_before: Tier and status definitions are in the
+  definitions_link: methodology
+  definitions_after: "."
+  place: Vancouver, British Columbia.
+  legal: >-
+    An independent research record. No funding, sponsorship or advertising is
+    accepted from vendors of detection, identity or security products.
+    Everything published here is drawn from open sources.
+
+ko:
+  entries: 사례
+  methodology: 방법론
+  stats: 통계
+  about: 소개
+  search: 검색
+  search_placeholder: 사례 검색
+  menu: 메뉴
+  language: 언어
+  category: 분류
+  sort: 정렬
+  all: 전체
+  newest: 최신순
+  oldest: 오래된순
+  country: 국가
+  status: 처리 상태
+  no_match: 일치하는 사례가 없습니다.
+  no_entries: 아직 게재된 사례가 없습니다.
+  no_entries_category: 이 분류에는 아직 사례가 없습니다.
+  note: 참고
+  sources: 출처
+  retrieved: 열람
+  search_used: "사용한 검색어:"
+  updated: 최종 갱신
+  definitions_before: 출처 등급과 처리 상태의 정의는
+  definitions_link: 방법론
+  definitions_after: 에 있습니다.
+  description: AI를 이용한 범죄와 그 이후를 출처와 함께 기록합니다.
+  place: 캐나다 브리티시컬럼비아주 밴쿠버.
+  legal: >-
+    독립 연구 기록입니다. 탐지·신원 확인·보안 제품 업체로부터 자금, 후원, 광고를
+    받지 않습니다. 이곳에 게재되는 모든 내용은 공개 자료에 근거합니다.

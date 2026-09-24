@@ -1,0 +1,50 @@
+---
+layout: default
+title: 통계
+permalink: /ko/stats/
+description: Unio Analytics 한국어 기록의 수록 현황. 분류별, 처리 상태별, 국가별 사례 수.
+---
+
+{% assign all = site.entries_ko %}
+{% assign meth_url = "/methodology" %}
+{% assign ko_meth = site.pages | where: "url", "/ko/methodology/" | first %}
+{% if ko_meth %}{% assign meth_url = "/ko/methodology/" %}{% endif %}
+<div class="wrap page">
+  <p class="page__label">수록 현황</p>
+  <h1 class="page__title">이 기록에 담긴 것</h1>
+  <p class="page__sub">이 기록에 수록된 사례의 수이며, 해당 범죄가 얼마나 자주 일어나는지에 대한 추정치가 아닙니다.</p>
+
+  <div class="prose">
+    <h2>분류별</h2>
+  </div>
+  <table class="table">
+    {% for c in site.data.categories %}
+    {% assign n = all | where: "category", c.key %}
+    <tr><td><a href="/ko/category/{{ c.slug }}/">{{ c.name_ko | default: c.name }}</a></td><td>{{ n.size }}</td></tr>
+    {% endfor %}
+  </table>
+
+  <div class="prose">
+    <h2>처리 상태별</h2>
+  </div>
+  <table class="table">
+    {% for s in site.data.statuses %}
+    {% assign n = all | where: "status", s.key %}
+    <tr><td>{{ s.name_ko | default: s.name }}</td><td>{{ n.size }}</td></tr>
+    {% endfor %}
+  </table>
+
+  <div class="prose">
+    <h2>국가별</h2>
+  </div>
+  <table class="table">
+    {% assign by_country = all | group_by: "country" | sort: "name" %}
+    {% for g in by_country %}
+    <tr><td>{{ g.name }}</td><td>{{ g.items.size }}</td></tr>
+    {% endfor %}
+  </table>
+
+  <div class="prose">
+    <p>처리 상태의 정의는 <a href="{{ meth_url }}">방법론</a> 페이지에 있습니다. 상당수 사례가 ‘보도만 됨’에 머무는 것은 예상된 일이며, 그 사실을 보여 주는 것이 바로 사후 처리를 추적하는 이유입니다.</p>
+  </div>
+</div>
