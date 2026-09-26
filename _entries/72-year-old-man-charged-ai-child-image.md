@@ -7,6 +7,9 @@ updated: 2026-09-18
 category: D
 country: United States
 status: charged
+ai_claim_basis: described
+detection_path: provider
+next_check: 2026-10-26
 summary: "Boulder County authorities charged a 72-year-old Colorado man in January 2026 with eleven counts of producing and eleven counts of possessing sexually exploitative material of children, after photographs of real children were altered using generative AI tools. The case reached police because the editing platform flagged the account and referred it to the National Center for Missing and Exploited Children. Every count was brought under a Colorado statute that says nothing about artificial intelligence. Eight months on, no disposition has been located."
 note_label: "Mechanism"
 note: "The criminal process here began downstream of a content moderation decision at a consumer photo app. Police did not detect this and no victim reported it. Detection capability sat with a private platform, and the referral chain ran to NCMEC before it reached any investigator."

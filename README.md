@@ -2,6 +2,22 @@
 
 Source for [unio-analytics.com](https://unio-analytics.com), built by GitHub Pages (Jekyll).
 
+## Tracking fields
+
+Three front-matter fields on each entry are for tracking. The site does not show them yet.
+
+| Field | What it records | Values |
+|---|---|---|
+| `ai_claim_basis` | What the claim that AI was involved rests on | `court`, `described`, `statement`, `media`, `none` (defined in `_data/claim_bases.yml`) |
+| `detection_path` | How the case first reached investigators or the public | `provider`, `referral`, `victim`, `business`, `disclosure`, `outside`, `police`, `unknown` (defined in `_data/detection_paths.yml`) |
+| `next_check` | When to look at the case again | A date (see below) |
+
+**Setting `next_check`**: the next known court or agency date plus one day. With no known date, 30 days out for a case that is still active and 90 days when nothing is pending. Leave it empty when the case is closed. A date in the past means the check is overdue.
+
+Code the first two from what the sources say, not from what seems likely. When no source says, use `unknown`.
+
+Korean translations in `_entries_ko/` leave these fields out. The English file holds the values.
+
 ## Korean edition
 
 English pages keep their addresses. Korean pages mirror them under `/ko/`.

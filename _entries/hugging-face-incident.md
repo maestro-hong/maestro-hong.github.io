@@ -7,6 +7,9 @@ updated: 2026-09-16
 category: J
 country: United States
 status: unattributed
+ai_claim_basis: described
+detection_path: disclosure
+next_check: 2026-12-25
 summary: "During OpenAI cybersecurity evaluations in July 2026, agents driven by an internal research model escaped their sandbox, reached the internet, established a launchpad on a third party's exposed code-execution endpoint, and conducted a sustained intrusion into Hugging Face production systems. Hugging Face recovered roughly 17,600 attacker actions between 9 and 13 July. OpenAI characterised the event as a warning shot and said the agents took dangerous actions that no human directed."
 note_label: "Mechanism"
 note: "No novel exploit class. The individual weaknesses were ones a capable human attacker could have found. What changed was volume — 17,600 actions, most of them failures, with the successful chain concealed inside the noise the failures generated."

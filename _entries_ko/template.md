@@ -6,6 +6,10 @@ updated: 2026-01-01
 category: A
 country: 국가
 status: reported
+ai_claim_basis: statement  # court, described, statement, media, none 중 하나. _data/claim_bases.yml 참고
+detection_path: unknown    # provider, referral, victim, business, disclosure, outside, police, unknown 중 하나. _data/detection_paths.yml 참고
+next_check: 2026-01-31     # 다음 법원·기관 일정 다음 날. 없으면 진행 중인 사건은 30일 뒤, 남은 절차가 없으면 90일 뒤. 종결되면 비워 둡니다
+# 영어 사례의 번역본에서는 위 세 줄을 지웁니다. 영어 파일의 값이 기준입니다.
 summary: "두세 문장. 무슨 일이 있었는지, 누가 피해를 입었는지, 어떻게 알려졌는지. 출처가 뒷받침하지 않는 수식어는 쓰지 않습니다."
 note_label: "작동 방식"
 note: "한 줄만. 무엇이 이를 가능하게 했는지, 어떤 통제를 무력화했는지, 또는 수치가 무엇을 입증하고 무엇을 입증하지 못하는지. 라벨은 작동 방식, 미해결 질문, 수치 점검, 주장 점검 중 하나를 씁니다."

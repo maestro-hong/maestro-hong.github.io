@@ -7,6 +7,9 @@ updated: 2026-09-16
 category: A
 country: Canada
 status: charged
+ai_claim_basis: statement
+detection_path: business
+next_check: 2026-10-26
 summary: "Toronto Police charged seven people in April 2026 over a retail scheme in which distraction techniques and recording devices were used to capture employee login credentials, which were then used to load funds onto gift cards at self-checkout terminals. Losses are estimated at $500,000 across 112 identified occurrences between September 2025 and February 2026. The police release described the equipment as AI-enabled tools. No source has since established what the AI did."
 note_label: "Claim check"
 note: "Every published account describes the same method: distract, record, reuse the credentials. That works with a camera and a lookout. The AI attribution rests on a marketing descriptor attached to consumer eyewear, and months of coverage have not tested it."

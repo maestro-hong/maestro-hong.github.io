@@ -7,6 +7,9 @@ updated: 2026-09-21
 category: E
 country: United States
 status: charged
+ai_claim_basis: none
+detection_path: outside
+next_check: 2026-10-26
 summary: "A ten-count indictment unsealed in Brooklyn on 17 April 2026 charges the founder and the former chief financial officer of iLearningEngines with running a continuing financial crimes enterprise. Prosecutors allege the two fabricated virtually all of the company's customers and more than ninety percent of its reported revenue, carrying a Bethesda software firm to a $1.5 billion Nasdaq valuation and $60 million in bank loans before it collapsed into liquidation."
 note_label: "Claim check"
 note: "No artificial intelligence was used to commit this offence. The AI claim was the product being sold to investors, not a tool used against them. The indictment alleges the customers were invented, not that the software was."

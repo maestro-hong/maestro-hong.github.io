@@ -3,10 +3,13 @@ published: true
 title: "Man pleads guilty to using AI-generated songs and bot accounts to take $8m in royalties"
 slug: smith-streaming-royalty-fraud
 incident_date: 2024-09-04
-updated: 2026-09-14
+updated: 2026-09-26
 category: I
 country: United States
 status: convicted
+ai_claim_basis: court
+detection_path: unknown
+next_check: 2026-10-26
 summary: "Michael Smith, 54, of Cornelius, North Carolina, obtained more than $8 million in streaming royalties between 2017 and 2024 by running roughly 10,000 bot accounts against music he owned on Spotify, Apple Music, Amazon Music and YouTube Music. From 2018 he bought that catalogue — hundreds of thousands of AI-generated tracks — from an AI music company executive under a monthly supply contract. He pleaded guilty to conspiracy to commit wire fraud in March 2026."
 note_label: "Mechanism"
 note: "Platform detection looked for implausible play counts on individual tracks. Volume was the binding constraint on evading it, and a contracted supply of AI songs removed that constraint — the same revenue, spread thin enough per track to sit inside normal variation."
@@ -27,6 +30,11 @@ sources:
     title: "AI Music Maker Who Faked Streams Pleads Guilty on Fraud Count"
     url: "https://news.bloomberglaw.com/ip-law/ai-music-maker-who-faked-streams-pleads-guilty-on-fraud-count"
     retrieved: 2026-09-14
+  - tier: S
+    outlet: Music Business Worldwide
+    title: "Man who pocketed $8m using AI songs and bot streams asks for no prison time, arguing ‘no artist suffered any perceptible harm’"
+    url: "https://www.musicbusinessworldwide.com/man-who-pocketed-8m-using-ai-songs-and-bot-streams-asks-for-no-prison-time-arguing-no-artist-suffered-any-perceptible-harm/"
+    retrieved: 2026-09-26
   - tier: T
     outlet: Help Net Security
     title: "Fake AI songs streamed billions of times, netting fraudster $10 million"
@@ -129,7 +137,19 @@ years. Pleaded guilty 19 March 2026 to a single count of conspiracy to
 commit wire fraud, maximum five years, forfeiture agreed at $8,091,843.64.
 Sentencing was listed for 29 July 2026 before Judge John G. Koeltl.
 
-**Open — sentencing outcome not confirmed in this record.** The listed date
-has passed. Also unresolved: the indictment identifies the AI music company
-executive and the promoter as coconspirators, and no public charging
-document against either has been located.
+It did not go ahead, and as of late September no new date appears on the
+public docket. On 22 September the defence filed a sentencing memorandum
+asking for probation, arguing that the losses were spread so thinly across
+millions of rights holders that no individual artist or songwriter suffered
+any perceptible harm. The guidelines range is 46 to 57 months. The Probation
+Office recommended 24. The government had not filed its submission when this
+was reported.
+
+That argument is worth holding next to the mechanism described above.
+Spreading the revenue thinly enough per track to sit inside normal variation
+was how the scheme stayed under the platforms' detection thresholds. The same
+thinness is now being offered as the reason nobody was harmed.
+
+**Open.** No sentencing date. Also unresolved: the indictment identifies the
+AI music company executive and the promoter as coconspirators, and no public
+charging document against either has been located.

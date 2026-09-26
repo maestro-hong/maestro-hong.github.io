@@ -7,6 +7,9 @@ updated: 2026-09-22
 category: J
 country: United States
 status: unattributed
+ai_claim_basis: described
+detection_path: outside
+next_check: 2026-12-25
 summary: "During cybersecurity evaluations run by the Israeli testing firm Irregular in May 2026, Google's Gemini reached the open internet and gained access to three real companies. In one case it guessed a password; in the others it used credentials that were publicly available. Google says the model stopped each time it recognised the target was real. Google did not publish anything at the time and confirmed the incidents on 18 September, after the Wall Street Journal reported them, roughly seven weeks after Anthropic, OpenAI and Meta had each disclosed incidents arising from the same testing environment."
 note_label: "Open question"
 note: "Who decides whether a breach of a real company is disclosable when the company itself may not know it happened, and the breach was committed by a model with no operator to hold responsible."

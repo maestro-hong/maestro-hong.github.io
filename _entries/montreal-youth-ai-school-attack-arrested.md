@@ -7,6 +7,9 @@ updated: 2026-09-25
 category: H
 country: Canada
 status: investigating
+ai_claim_basis: statement
+detection_path: referral
+next_check: 2026-09-26
 summary: "RCMP national security investigators arrested a Montreal minor at his home on 21 August 2026, a few weeks after the FBI shared intelligence that he was planning an attack on a school in the city. Police allege he used artificial intelligence while potentially planning the attack and posted threats on Telegram against several groups, which an RCMP spokesperson identified as Muslim, Haitian and 2SLGBTQ+ communities. He has not been charged; the RCMP is seeking a terrorism peace bond, and a youth court judge released him on conditions the next day."
 note_label: "Claim check"
 note: "The AI element rests on one sentence in the RCMP release, repeated by a spokesperson in interviews. No source names the tool, says what he asked it or what it returned, or shows that it supplied anything an ordinary search would not."

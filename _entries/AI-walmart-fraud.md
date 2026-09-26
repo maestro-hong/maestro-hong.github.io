@@ -7,6 +7,9 @@ updated: 2026-09-19
 category: A
 country: United States
 status: charged
+ai_claim_basis: statement
+detection_path: business
+next_check: 2026-10-26
 summary: "Chatham County police in Georgia arrested a 20-year-old on 7 September 2026 after he allegedly posed as a delivery driver at a Savannah Walmart using accounts said to have been generated with artificial intelligence. Store staff stopped him before any merchandise left the building. He was charged with criminal attempt to commit a misdemeanour and released on a $1,300 bond. Twelve days of coverage later, no source has identified the AI tool, how the accounts were made, or what was altered."
 note_label: "Claim check"
 note: "Police say the AI generated fake accounts. No source names the tool, explains the method, or states what was altered, and the department issued no press release, so every published description traces to interviews rather than to a document anyone can check."

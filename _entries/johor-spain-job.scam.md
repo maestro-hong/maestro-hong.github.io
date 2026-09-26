@@ -7,6 +7,9 @@ updated: 2026-09-17
 category: C
 country: Malaysia
 status: convicted
+ai_claim_basis: described
+detection_path: unknown
+next_check: 2026-12-25
 summary: "Johor police raided a rented bungalow in Gelang Patah near midnight on 14 May 2026 and arrested 35 Chinese nationals running fake job offers at victims in Spain. Police said the operation used AI to translate speech between Mandarin, English and Spanish in real time. Thirty-one of the accused pleaded guilty on 27 May and were fined RM3,500 each, less than one month of the wages they had been earning."
 note_label: "Mechanism"
 note: "The translation layer was not an efficiency gain. A Mandarin-speaking crew cannot work a Spanish-language victim pool at all without it. The AI did not make this scam better. It made a market reachable that had previously been closed."

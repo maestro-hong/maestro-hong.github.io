@@ -7,6 +7,9 @@ updated: 2026-09-15
 category: D
 country: United States
 status: convicted
+ai_claim_basis: court
+detection_path: victim
+next_check:   # closed: sentenced 8 September 2026
 summary: "James Strahler II, 37, of Columbus, Ohio, pleaded guilty on 7 April 2026 to cyberstalking, producing obscene visual representations of child sexual abuse, and publication of digital forgeries, and was sentenced on 8 September 2026 to 180 months in federal prison. The forgery count is the first conviction in the United States under the TAKE IT DOWN Act, enacted in May 2025. Investigators found more than 24 AI platforms and over 100 web-based models installed on his phone."
 note_label: "Mechanism"
 note: "The new Act reaches digital forgeries of identifiable adults but expressly carves out material already covered by the child-obscenity and child-pornography statutes. That division is why the case carries separate counts rather than one, and it marks the boundary of what the Act actually added."

@@ -1,0 +1,40 @@
+- key: provider
+  name: Platform or provider flag
+  name_ko: 플랫폼·서비스 제공자 신고
+  blurb: An online platform, AI provider or payment service flagged it.
+  blurb_ko: 온라인 플랫폼, AI 제공자 또는 결제 서비스가 적발해 알렸습니다.
+- key: referral
+  name: Agency referral
+  name_ko: 타 기관 통보
+  blurb: Another agency passed it on, including one outside the country.
+  blurb_ko: 해외 기관을 포함한 다른 기관이 정보를 넘겼습니다.
+- key: victim
+  name: Victim report
+  name_ko: 피해자 신고
+  blurb: A victim or complainant reported it.
+  blurb_ko: 피해자나 고소인이 신고했습니다.
+- key: business
+  name: Business detection
+  name_ko: 기업 자체 적발
+  blurb: The targeted business's own staff or security team detected it.
+  blurb_ko: 피해 기업의 직원이나 보안팀이 적발했습니다.
+- key: disclosure
+  name: Self-disclosure
+  name_ko: 자진 공개
+  blurb: The organisation responsible disclosed it.
+  blurb_ko: 책임 있는 조직이 스스로 공개했습니다.
+- key: outside
+  name: Outside research
+  name_ko: 외부 조사
+  blurb: Journalists, researchers or short sellers surfaced it.
+  blurb_ko: 언론인, 연구자 또는 공매도 투자자가 밝혀냈습니다.
+- key: police
+  name: Police initiative
+  name_ko: 경찰 자체 인지
+  blurb: Police found it through their own work.
+  blurb_ko: 경찰이 자체 수사로 찾아냈습니다.
+- key: unknown
+  name: Not stated
+  name_ko: 알 수 없음
+  blurb: No source says how it came to light.
+  blurb_ko: 어떻게 드러났는지 밝힌 출처가 없습니다.
