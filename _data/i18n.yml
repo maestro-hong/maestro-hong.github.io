@@ -29,6 +29,7 @@ en:
   definitions_before: Tier and status definitions are in the
   definitions_link: methodology
   definitions_after: "."
+  untranslated: Korean
   place: Vancouver, British Columbia.
   legal: >-
     An independent research record. No funding, sponsorship or advertising is
@@ -62,6 +63,7 @@ ko:
   definitions_before: 출처 등급과 처리 상태의 정의는
   definitions_link: 방법론
   definitions_after: 에 있습니다.
+  untranslated: 영문
   description: AI를 이용한 범죄와 그 이후를 출처와 함께 기록합니다.
   place: 캐나다 브리티시컬럼비아주 밴쿠버.
   legal: >-

@@ -17,27 +17,18 @@
 {%- unless twin -%}{%- assign twin = twin_pool | where: "url", twin_url | first -%}{%- endunless -%}
 
 {%- comment -%}
-  List pages only pair once the Korean side has enough entries to be worth
-  landing on (korean_list_minimum in _config.yml).
+  The switch shows on every page. It goes to the twin when there is one,
+  otherwise to the other language's front page.
 {%- endcomment -%}
-{%- assign list_page = false -%}
-{%- if page.layout == "category" or u == "/" or u == "/ko/" or u == "/stats/" or u == "/ko/stats/" -%}{%- assign list_page = true -%}{%- endif -%}
-{%- assign ko_min = site.korean_list_minimum | default: 5 -%}
-{%- assign ko_ready = true -%}
-{%- if site.entries_ko.size < ko_min -%}{%- assign ko_ready = false -%}{%- endif -%}
 {%- assign paired = false -%}
 {%- if twin -%}
   {%- assign paired = true -%}
-  {%- if list_page -%}
-    {%- unless ko_ready -%}{%- assign paired = false -%}{%- endunless -%}
-    {%- if page.layout == "category" -%}
-      {%- assign ko_in_cat = site.entries_ko | where: "category", page.category_key -%}
-      {%- if ko_in_cat.size == 0 -%}{%- assign paired = false -%}{%- endif -%}
-    {%- endif -%}
-  {%- endif -%}
+  {%- assign switch_url = twin_url -%}
+{%- elsif lang == "ko" -%}
+  {%- assign switch_url = "/" -%}
+{%- else -%}
+  {%- assign switch_url = "/ko/" -%}
 {%- endif -%}
-{%- assign show_switch = paired -%}
-{%- if lang == "ko" and twin -%}{%- assign show_switch = true -%}{%- endif -%}
 
 {%- if lang == "ko" -%}
   {%- assign home_url = "/ko/" -%}
@@ -65,9 +56,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="{% if lang == 'ko' %}{{ page.description | default: t.description }}{% else %}{{ page.description | default: site.description }}{% endif %}">
   <title>{% if page.title and page.title != 'Home' and u != '/ko/' %}{{ page.title }} — {% endif %}Unio Analytics</title>
-  {%- if lang == "ko" and list_page and ko_ready == false %}
-  <meta name="robots" content="noindex">
-  {%- endif %}
   <link rel="alternate" type="application/atom+xml" title="Unio Analytics" href="{{ feed_url }}">
   {%- if paired %}
   <link rel="alternate" hreflang="en" href="{{ site.url }}{{ en_url }}">
@@ -92,17 +80,15 @@
 
       <div class="head__top">
         <a href="{{ home_url }}" class="head__mark"><span>UNIO</span> <span>ANALYTICS</span></a>
-        {%- if show_switch %}
         <nav class="lang-switch" aria-label="{{ t.language }}">
           {%- if lang == "ko" %}
-          <a class="lang-switch__item" href="{{ twin_url }}" hreflang="en" lang="en" aria-label="English">EN</a>
+          <a class="lang-switch__item" href="{{ switch_url }}" hreflang="en" lang="en" aria-label="English">EN</a>
           <span class="lang-switch__item is-on" aria-current="true">KR</span>
           {%- else %}
           <span class="lang-switch__item is-on" aria-current="true">EN</span>
-          <a class="lang-switch__item" href="{{ twin_url }}" hreflang="ko" lang="ko" aria-label="한국어">KR</a>
+          <a class="lang-switch__item" href="{{ switch_url }}" hreflang="ko" lang="ko" aria-label="한국어">KR</a>
           {%- endif %}
         </nav>
-        {%- endif %}
         <button class="head__toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav" aria-label="{{ t.menu }}">&#9776;</button>
       </div>
 

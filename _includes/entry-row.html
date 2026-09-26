@@ -4,16 +4,20 @@
 {% assign st = site.data.statuses | where: "key", e.status | first %}
 {% assign cat_name = cat[nk] | default: cat.name %}
 {% assign st_name = st[nk] | default: st.name %}
+{% assign e_lang = e.lang | default: "en" %}
 <article class="row"
   data-date="{{ e.incident_date | date: '%Y%m%d' }}"
   data-country="{{ e.country }}"
   data-status="{{ st_name }}"
   data-text="{{ e.title | downcase }} {{ cat_name | downcase }} {{ e.country | downcase }}">
-  <a href="{{ e.url }}"><h2 class="row__title">{{ e.title }}</h2></a>
+  <a href="{{ e.url }}"><h2 class="row__title"{% if e_lang != lang %} lang="{{ e_lang }}"{% endif %}>{{ e.title }}</h2></a>
   <div class="row__meta">
     <time datetime="{{ e.incident_date | date: '%Y-%m-%d' }}">{{ e.incident_date | date: "%Y.%m.%d" }}</time>
     <a href="{{ base }}/category/{{ cat.slug }}/">{{ cat_name }}</a>
     <span>{{ e.country }}</span>
     <span>{{ st_name }}</span>
+    {%- if e_lang != lang %}
+    <span>{{ t.untranslated }}</span>
+    {%- endif %}
   </div>
 </article>

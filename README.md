@@ -20,10 +20,9 @@ English pages keep their addresses. Korean pages mirror them under `/ko/`.
 2. If it translates an English entry, give it exactly the same file name as the English file (for example `_entries/AI-walmart-fraud.md` → `_entries_ko/AI-walmart-fraud.md`). Addresses come from the file name, not the `slug` field.
 3. Set `published: true`.
 
-**The EN / KR switch** sits at the right edge of the screen (in the header on phones). It appears only on pages that have a twin in the other language:
+**The EN / KR switch** sits at the right edge of the screen (in the header on phones) on every page. It goes to the same page in the other language when one exists, and otherwise to the other language's front page.
 
-- entry pages: as soon as both language versions exist;
-- front page, category pages and stats: once `korean_list_minimum` Korean entries are published (set in `_config.yml`, default 5), and for a category page only when that Korean category has an entry.
+**Korean lists** (front page, categories, stats) show every entry: the Korean version where one exists, and the English entry, marked 영문, until it does.
 
 **Where Korean text lives**
 

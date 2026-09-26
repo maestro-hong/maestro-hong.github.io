@@ -13,7 +13,8 @@ description: 인공지능이 실질적인 역할을 한 범죄 사건과, 각 �
 
 {% include controls.html %}
 
-{% assign all = site.entries_ko | sort: "incident_date" | reverse %}
+{% include pool.html %}
+{% assign all = pool | sort: "incident_date" | reverse %}
 <section class="wrap rows" id="rows">
   {% if all.size == 0 %}
     <p class="empty">{{ t.no_entries }}</p>

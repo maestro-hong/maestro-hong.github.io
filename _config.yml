@@ -16,13 +16,6 @@ markdown: kramdown
 plugins:
   - jekyll-sitemap
 
-# Korean edition
-# Entry pages show the EN / KR switch as soon as a Korean twin exists.
-# The English front page, category pages and stats page show it only once
-# this many Korean entries are published, so nobody lands on a near-empty
-# Korean section.
-korean_list_minimum: 5
-
 collections:
   entries:
     output: true

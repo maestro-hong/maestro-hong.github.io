@@ -1,0 +1,16 @@
+{%- comment -%}
+  Sets `pool`: the entries a list page shows in the current language.
+  English lists show the English entries. Korean lists show each entry's
+  Korean version where one exists, and the English entry until it does.
+{%- endcomment -%}
+{%- include i18n.html -%}
+{%- if lang == "ko" -%}
+  {%- assign ko_urls = site.entries_ko | map: "url" -%}
+  {%- assign pool = site.entries_ko -%}
+  {%- for e in site.entries -%}
+    {%- assign ku = e.url | prepend: "/ko" -%}
+    {%- unless ko_urls contains ku -%}{%- assign pool = pool | push: e -%}{%- endunless -%}
+  {%- endfor -%}
+{%- else -%}
+  {%- assign pool = site.entries -%}
+{%- endif -%}

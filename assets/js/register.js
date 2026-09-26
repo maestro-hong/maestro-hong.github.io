@@ -41,7 +41,7 @@
       if (ok) { shown++; }
     });
     if (count) { count.textContent = shown; }
-    if (none) { none.hidden = shown !== 0; }
+    if (none) { none.hidden = !(rows.length && shown === 0); }
   }
 
   if (input) { input.addEventListener('input', apply); }

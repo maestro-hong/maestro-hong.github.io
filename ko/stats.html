@@ -5,7 +5,8 @@ permalink: /ko/stats/
 description: Unio Analytics 한국어 기록의 수록 현황. 분류별, 처리 상태별, 국가별 사례 수.
 ---
 
-{% assign all = site.entries_ko %}
+{% include pool.html %}
+{% assign all = pool %}
 {% assign meth_url = "/methodology" %}
 {% assign ko_meth = site.pages | where: "url", "/ko/methodology/" | first %}
 {% if ko_meth %}{% assign meth_url = "/ko/methodology/" %}{% endif %}

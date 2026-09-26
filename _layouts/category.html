@@ -1,9 +1,8 @@
 ---
 layout: default
 ---
-{% include i18n.html %}
+{% include pool.html %}
 {% assign cat = site.data.categories | where: "key", page.category_key | first %}
-{% if lang == "ko" %}{% assign pool = site.entries_ko %}{% else %}{% assign pool = site.entries %}{% endif %}
 {% assign items = pool | where: "category", page.category_key | sort: "incident_date" | reverse %}
 
 <div class="wrap lede">
