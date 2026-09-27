@@ -2,6 +2,10 @@
 
 Source for [unio-analytics.com](https://unio-analytics.com), built by GitHub Pages (Jekyll).
 
+## Monthly email signup
+
+The signup form above the footer links on every page comes from `_includes/subscribe.html` and posts to Buttondown. The Buttondown username is set once, as `buttondown` in `_config.yml`. Each signup is tagged `site-en` or `site-ko` by the language of the page, so the subscriber list shows English and Korean readers separately. Form text lives in `_data/i18n.yml` (the `subscribe_*` keys).
+
 ## Tracking fields
 
 Three front-matter fields on each entry are for tracking. The site does not show them yet.

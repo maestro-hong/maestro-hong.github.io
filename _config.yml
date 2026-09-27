@@ -12,6 +12,9 @@ author:
   name: Jason Ahn
   email: jason@unio-analytics.com
 
+# Buttondown newsletter username, used by the signup form in _includes/subscribe.html
+buttondown: unio-analytics
+
 markdown: kramdown
 plugins:
   - jekyll-sitemap
