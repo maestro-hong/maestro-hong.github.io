@@ -10,6 +10,8 @@ status: convicted
 ai_claim_basis: court
 detection_path: unknown
 next_check: 2026-10-26
+safeguard: platform-detection
+safeguard_outcome: bypassed
 summary: "Michael Smith, 54, of Cornelius, North Carolina, obtained more than $8 million in streaming royalties between 2017 and 2024 by running roughly 10,000 bot accounts against music he owned on Spotify, Apple Music, Amazon Music and YouTube Music. From 2018 he bought that catalogue — hundreds of thousands of AI-generated tracks — from an AI music company executive under a monthly supply contract. He pleaded guilty to conspiracy to commit wire fraud in March 2026."
 note_label: "Mechanism"
 note: "Platform detection looked for implausible play counts on individual tracks. Volume was the binding constraint on evading it, and a contracted supply of AI songs removed that constraint — the same revenue, spread thin enough per track to sit inside normal variation."

@@ -10,6 +10,8 @@ status: reported
 ai_claim_basis: statement  # court, described, statement, media or none. See _data/claim_bases.yml
 detection_path: unknown    # provider, referral, victim, business, disclosure, outside, police or unknown. See _data/detection_paths.yml
 next_check: 2026-01-31     # next known court or agency date plus one day; otherwise 30 days out if active, 90 if nothing is pending; empty when closed
+safeguard: unknown         # identity-check, voice-video-check, payment-control, platform-detection, staff-procedure, account-security, system-isolation, due-diligence, provider-safeguards or unknown. See _data/safeguards.yml
+safeguard_outcome: unknown # bypassed, caught or unknown. See _data/safeguard_outcomes.yml
 summary: "Two or three sentences. What happened, who it affected, how it came to light. No adjectives that the sources do not support."
 note_label: "Mechanism"
 note: "One line only. What made this possible, what control it defeated, or what the numbers do and do not establish. Use Mechanism, Open question, or Numbers check."

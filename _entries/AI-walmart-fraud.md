@@ -3,13 +3,15 @@ published: true
 title: "Man charged after allegedly using AI to pose as a Walmart delivery driver"
 slug: chatham-ai-delivery-fraud
 incident_date: 2026-09-07
-updated: 2026-09-19
+updated: 2026-09-27
 category: A
 country: United States
 status: charged
 ai_claim_basis: statement
 detection_path: business
 next_check: 2026-10-26
+safeguard: staff-procedure
+safeguard_outcome: caught
 summary: "Chatham County police in Georgia arrested a 20-year-old on 7 September 2026 after he allegedly posed as a delivery driver at a Savannah Walmart using accounts said to have been generated with artificial intelligence. Store staff stopped him before any merchandise left the building. He was charged with criminal attempt to commit a misdemeanour and released on a $1,300 bond. Twelve days of coverage later, no source has identified the AI tool, how the accounts were made, or what was altered."
 note_label: "Claim check"
 note: "Police say the AI generated fake accounts. No source names the tool, explains the method, or states what was altered, and the department issued no press release, so every published description traces to interviews rather than to a document anyone can check."
@@ -49,7 +51,7 @@ sources:
 
 ## What is alleged
 
-Dieon Cornelius Love, 20, presented himself as a delivery driver at the
+A 20-year-old man presented himself as a delivery driver at the
 Walmart on Ogeechee Road in Savannah and attempted to collect a Nintendo
 Switch and other electronics against an order police say was not genuine.
 Loss prevention staff identified the transaction as suspicious. When he did
@@ -87,7 +89,7 @@ There is a question in the coverage about what the AI is said to have
 produced, and it is worth stating carefully rather than dramatically.
 
 Three accounts attribute the AI to the creation of fake accounts. WTOC's
-first report says Love used artificial intelligence to create fraudulent
+first report says he used artificial intelligence to create fraudulent
 accounts. Hoodline says he used it to generate the fake accounts. WSB-TV
 gives the fullest version, describing AI-created fake accounts that made
 phony orders appear legitimate.
@@ -146,3 +148,10 @@ Chatham County State Court, with public access available through the
 judiciary's re:Search system. This record has not retrieved the docket.
 
 **No value.** No source states what the merchandise was worth.
+
+## Correction
+
+27 September 2026. An earlier version of this entry named the accused. No
+court document or agency release naming him has been located, and this entry
+disputes the AI characterisation attached to the case, so under this record's
+naming rule the name has been removed.
