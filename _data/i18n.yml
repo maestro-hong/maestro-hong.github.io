@@ -31,15 +31,15 @@ en:
   definitions_after: "."
   untranslated: Korean
   subscribe_label: Monthly email
-  subscribe_promise: "One email a month: new cases, and what happened next in the old ones."
+  subscribe_promise: "Subscribe for a monthly email for new cases and follow-ups on existing cases."
   subscribe_email: Email address
   subscribe_button: Subscribe
-  subscribe_note: Your address is used only to send this email. Every issue has an unsubscribe link.
+  subscribe_note: Address is only used to send this email. Unsubscription link is included.
   place: Vancouver, British Columbia.
   legal: >-
-    An independent research record. No funding, sponsorship or advertising is
+    An independent research services. No funding, sponsorship or advertising is
     accepted from vendors of detection, identity or security products.
-    Everything published here is drawn from open sources.
+    Everything published is drawn from open source materials.
 
 ko:
   entries: 사례
