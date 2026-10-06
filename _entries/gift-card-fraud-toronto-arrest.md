@@ -12,7 +12,7 @@ detection_path: business
 next_check: 2026-10-26
 safeguard: account-security
 safeguard_outcome: bypassed
-summary: "Toronto Police charged seven people in April 2026 over a retail scheme in which distraction techniques and recording devices were used to capture employee login credentials, which were then used to load funds onto gift cards at self-checkout terminals. Losses are estimated at $500,000 across 112 identified occurrences between September 2025 and February 2026. The police release described the equipment as AI-enabled tools. No source has since established what the AI did."
+summary: "Toronto Police charged seven people in April 2026 over a retail scheme in which distraction techniques and recording devices were used to capture employee login credentials, which were then used to load funds onto gift cards at self-checkout terminals. Losses are estimated at $500,000 across 112 identified occurrences between September 2025 to February 2026. The police release described the equipment as AI-enabled tools. No sources provided info on how AI was exactly utilized."
 note_label: "Claim check"
 note: "Every published account describes the same method: distract, record, reuse the credentials. That works with a camera and a lookout. The AI attribution rests on a marketing descriptor attached to consumer eyewear, and months of coverage have not tested it."
 query: 'Toronto police smart glasses AI-enabled tools retail fraud gift cards'
@@ -41,7 +41,7 @@ sources:
 
 ## What is actually alleged
 
-Between September 2025 and February 2026, a group operating across Greater
+Between September 2025 to February 2026, a group operating across Greater
 Toronto retail locations is alleged to have distracted store employees while
 recording them entering their login credentials. Those credentials were then
 used to reach store systems and load value onto gift cards through
@@ -50,23 +50,20 @@ self-checkout terminals.
 Toronto Police's major fraud section opened the investigation in January
 2026 after a complaint from an unnamed national retailer's corporate
 security division. Surveillance footage allowed investigators to identify
-and clear 112 occurrences. Seven people were charged on 17 April with fraud
+and clear 112 occurrences. Seven people were charged on April 17, 2026 with fraud
 over $5,000, possession of property obtained by crime over $5,000, and use
-of a computer system with intent to commit an offence. Five were arrested;
+of a computer system with intent to commit an offence. A total of five were arrested;
 two remain wanted on Canada-wide warrants. A detective in the financial
-crimes unit put total losses at roughly $500,000 in an interview.
+crimes unit put total losses at roughly $500,000.
 
 ## Where the AI came from
 
-One sentence in the police release carries the entire claim. It states that
-suspects used AI-enabled tools, including smart glasses and cellular
+The police release states that suspects used AI-enabled tools, including smart glasses and cellular
 devices, along with distraction techniques, to capture employee credentials.
 
-That is the whole of it. No published account describes a model, a system, a
-capability, or a task performed by one. The method as described — create a
-distraction, record someone typing, reuse what you recorded — is shoulder
-surfing, and it has never needed anything more sophisticated than a person
-who can see.
+No published account describes a model, a system, a
+capability, or a task performed by one. The methods include: creating a
+distraction, recording someone typing, re-using what is recorded.
 
 Smart glasses are marketed as AI devices because they ship with assistants
 and on-device processing. Whether any of that was used, or was even switched
@@ -75,13 +72,13 @@ describes the product category. It does not describe the conduct.
 
 ## How far it travelled
 
-The descriptor did not stay put. The police release said AI-enabled tools.
-Canadian Press wire copy became "used AI tools." Headlines became "used AI."
+The police release stating AI-enabled tools.
+Canadian Press wire copy states "used AI tools." Headlines became "used AI."
 
 Downstream of all of them, a Toronto law firm's commentary page asserts that
 the smart glasses were equipped with AI-enabled recording and recognition
 software allowing suspects to capture access codes in real time. Recognition
-software appears in no police source and in no news report. It was added.
+software appears in no police source and in no news report.
 
 This is the most instructive part of the case, because it is visible in
 full. A cautious institutional phrase became a firm factual claim across
@@ -128,8 +125,6 @@ error the entry is trying to identify.
 ## What would settle it
 
 **Open.** Two documents would resolve this and neither has been obtained.
-The Toronto Police news release of 17 April 2026, to see the original
-wording rather than each outlet's paraphrase. And the charge particulars for
-the count of using a computer system with intent to commit an offence, which
-must specify what system and what conduct. With five accused before the
+The Toronto Police news release of April 17 2026 to see the original
+wording rather than each outlet's paraphrase. With five accused before the
 Ontario Court of Justice, appearance dates are on the public docket.

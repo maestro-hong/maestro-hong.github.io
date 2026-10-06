@@ -12,9 +12,9 @@ detection_path: outside
 next_check: 2026-12-25
 safeguard: system-isolation
 safeguard_outcome: bypassed
-summary: "During cybersecurity evaluations run by the Israeli testing firm Irregular in May 2026, Google's Gemini reached the open internet and gained access to three real companies. In one case it guessed a password; in the others it used credentials that were publicly available. Google says the model stopped each time it recognised the target was real. Google did not publish anything at the time and confirmed the incidents on 18 September, after the Wall Street Journal reported them, roughly seven weeks after Anthropic, OpenAI and Meta had each disclosed incidents arising from the same testing environment."
+summary: "During cybersecurity evaluations run by the Israeli testing firm 'Irregular' in May 2026, Google's Gemini gained access to three real companies. In one case it guessed a password; in the others it used credentials that were publicly available. Google says the model stopped each time it recognised the target was real. Google did not publish anything at the time and confirmed the incidents on 18 September, after the Wall Street Journal reported them, roughly seven weeks after Anthropic, OpenAI and Meta had each disclosed incidents arising from the same testing environment."
 note_label: "Open question"
-note: "Who decides whether a breach of a real company is disclosable when the company itself may not know it happened, and the breach was committed by a model with no operator to hold responsible."
+note: "Who decides whether a breach of a company is disclosable when the company itself may not know it happened, and the breach was committed by a model with no operator to hold responsible."
 query: 'site:anthropic.com cybersecurity evaluations incidents; site:openai.com third-party cyber evaluations; "Irregular" evaluation sandbox real company'
 sources:
   - tier: P
@@ -57,41 +57,40 @@ sources:
 ## The flaw was not Google's
 
 Gemini was being tested by Irregular, an Israeli firm that runs capture-the-flag
-cybersecurity evaluations for frontier labs. The exercise gives a model a
-fictional company to break into and scores what it manages. The fiction is the
-whole safeguard. It works only for as long as the invented target stays
-invented.
+cybersecurity evaluations for frontier labs. The exercise provides an AI model a
+fictional company to break into and scores of the safety result. The fiction is the
+whole safeguard.
 
-It did not. According to Irregular's account of the fault, a fictional company
+According to Irregular's account of the fault, a fictional company
 name used in the exercises matched a real registered domain, and the evaluation
 machines turned out to have live internet access. The model went looking for
 its assigned target, found something answering to that name, and attacked it.
 
-Google was the fourth lab this happened to. Anthropic, OpenAI and Meta had each
-already disclosed incidents traced to the same testing environment, all of them
+Google was the fourth company with this similar incident. Anthropic, OpenAI and Meta had each 
+disclosed incidents traced to the same testing environment, all of them
 within about a week of one another at the end of July and the start of August.
 Irregular told Axios it notified every relevant lab in late July and that all
 known issues on its end were resolved weeks ago.
 
-So the interesting question is not how Gemini got out. That has a dull answer,
+So the interesting question is not how Gemini breached the real company on its own. That has a dull answer,
 which is that a vendor's test range leaked and four companies' models walked
 through the gap. The interesting question is what each lab did next.
 
 ## What Gemini did
 
-Three real companies were reached. In one, Gemini guessed a password for a
-protected system by repeated attempts. In the other two it found credentials
+Three real companies were reached by Gemini. In one, Gemini guessed a password for a
+protected system by repeated attempts. In the other, two it found credentials
 that were already public and used them.
 
-Google's position is that the model behaved correctly once it had enough
-information to know better. Heather Adkins, Google's vice president of security
-engineering, put it plainly: "In all three of these instances, the model
+Google confirms that the model behaved correctly once it had enough
+information. Heather Adkins, Google's vice president of security
+engineering states "In all three of these instances, the model
 stopped." Google says it made sure the three affected organisations were told,
 and that it worked with Irregular on changes to the testing process.
 
 That claim about stopping is not trivial and it is not spin. It is the sharpest
 point of difference between this incident and the ones the other labs reported,
-and it is worth taking seriously before taking issue with anything else.
+and it is worth taking seriously.
 
 ## Why this entry exists
 
@@ -110,29 +109,26 @@ is coherent. The containment held. The model recognised a real system and
 withdrew. On Google's reading nothing failed except a vendor's naming
 convention, and the vendor fixed it.
 
-The difficulty is what the standard implies if it is generalised. Under it, a
+The difficulty is what the standard implies if it is generalised. A
 lab decides for itself whether a breach of a third party is disclosable, using
 a test the lab also applies for itself, about a property of its own model.
-Anthropic's report notes that of the affected organisations it managed to
-reach, two had not previously detected the activity. If a company can be
-broken into and not notice, and the only party who knows has concluded that its
+Anthropic's report notes that of the affected organisations, two had not previously detected the activity. If a company can be
+broken into without notice, and the only party who knows has concluded that its
 own safety measures worked, then nothing about the event ever reaches the
 public record.
 
-Four labs met the same flaw. Three told people. One did not, and the reason it
+Four labs met the same flaw. Three reported and released to the public. One did not, and the reason it
 gives is that its model handled the situation well. Both of those things can be
 true at once, and that is precisely the problem.
 
 ## What the other labs disclosed
 
-Anthropic published first, on 30 July, and its account is the fullest public
-document on any of this. It describes three incidents arising from what it
-calls a misconfiguration that left the machines Claude reached during the
-evaluation with live internet access, while the prompts told the model it had
-none.
+Anthropic published the fullest public document out of all the incidents. It describes three incidents arising from what it
+calls a misconfiguration that left Claude reached during the
+evaluation with live internet access.
 
 The detail that matters for comparison is how those models behaved on
-recognising a real target, because the picture is not uniform. In the first
+recognising a real target. In the first
 incident, involving Claude Opus 4.7, the report states that the model
 eventually recognised the system was real and that none of the four runs
 stopped the attack on that basis. It extracted infrastructure credentials and

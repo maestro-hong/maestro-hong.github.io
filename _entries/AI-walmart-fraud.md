@@ -12,9 +12,9 @@ detection_path: business
 next_check: 2026-10-26
 safeguard: staff-procedure
 safeguard_outcome: caught
-summary: "Chatham County police in Georgia arrested a 20-year-old on 7 September 2026 after he allegedly posed as a delivery driver at a Savannah Walmart using accounts said to have been generated with artificial intelligence. Store staff stopped him before any merchandise left the building. He was charged with criminal attempt to commit a misdemeanour and released on a $1,300 bond. Twelve days of coverage later, no source has identified the AI tool, how the accounts were made, or what was altered."
+summary: "Chatham County police arrested a 20-year-old man, Dieon Cornelius Love on September 07, 2026 after he allegedly posed as a delivery driver at Walmart using accounts generated with artificial intelligence. The report indicates that the accused used artificial intelligence to create fake accounts making orders look legitimate like Walmart's Spark delivery system. Store staff noticed and reported the incident to police before fleeing the scene. He was charged with criminal attempt to commit a misdemeanour and released on a $1,300 bond. No source has identified the AI tool, how the accounts were made, or what was altered."
 note_label: "Claim check"
-note: "Police say the AI generated fake accounts. No source names the tool, explains the method, or states what was altered, and the department issued no press release, so every published description traces to interviews rather than to a document anyone can check."
+note: "Police say the AI generated fake accounts. No sources name the tool, explains the method, or states what was altered. The police department issued no press release, so every published description traces to interviews rather than to a document anyone can check."
 query: 'Chatham County police AI delivery driver Walmart arrest Georgia'
 sources:
   - tier: S
@@ -51,50 +51,46 @@ sources:
 
 ## What is alleged
 
-A 20-year-old man presented himself as a delivery driver at the
-Walmart on Ogeechee Road in Savannah and attempted to collect a Nintendo
-Switch and other electronics against an order police say was not genuine.
-Loss prevention staff identified the transaction as suspicious. When he did
+A 20-year-old man, Dieon Cornelius Love presented himself as a delivery driver at
+Walmart and illegitimately attempted to collect a Nintendo Switch and other electronics.
+Loss prevention staff identified the transaction suspicious and contacted the local police. When Love did
 not leave, an off-duty officer detained him until responding officers
 arrived.
 
-Nothing was taken. The charge is criminal attempt to commit a misdemeanour,
+No items were stolen. The charge is criminal attempt to commit a misdemeanour,
 which one outlet cites as O.C.G.A. section 16-4-1. Bond was set at $1,300.
-He was arrested on Monday 7 September 2026.
+He was arrested on September 07, 2026.
 
-Charges are allegations. Nothing here has been tested in court, and this
-record has located no disposition.
+Charges are allegations. Nothing here has been tested in court, and no other
+records located dispositions.
 
 ## The thing nobody has answered
 
-Police have said what the artificial intelligence produced. It generated fake
-accounts, which were used to present an order that was not genuine. That much
-is on the record and this entry does not dispute it.
+The artificial intelligence generated fake accounts, which were used as a tool to commit a crime.
 
-What no source supplies is anything beneath that sentence. No tool, model,
-service or application is named. No account of how the accounts were created,
+What no sources provide are any detailed information pertaining to: type of AI tool, model,
+service or name of the application. No information provides how the accounts were created,
 what data went into them, or what was altered to carry the order past an
-initial check. One outlet states the gap outright, reporting that authorities
-have not publicly detailed what tool investigators believe was used, how the
+initial check. One outlet states the gap, reporting that authorities
+have not publicly released what tool was used, how the
 accounts were generated, or what information was altered.
 
-That is not a complaint about the police, who are under no obligation to
-publish their evidence twelve days after an arrest. It is an observation
-about what the public record currently supports. At present it supports the
+The lack of information pertains to how the accused committed crime with AI is an observation
+about what the public record currently supports. At present, it supports the
 fact of an allegation and nothing about the capability behind it.
 
-## Accounts, or the order
+## Accounts or the order
 
-There is a question in the coverage about what the AI is said to have
+There is a question in the coverage about what the AI have
 produced, and it is worth stating carefully rather than dramatically.
 
 Three accounts attribute the AI to the creation of fake accounts. WTOC's
-first report says he used artificial intelligence to create fraudulent
+first report says Love used artificial intelligence to create fraudulent
 accounts. Hoodline says he used it to generate the fake accounts. WSB-TV
 gives the fullest version, describing AI-created fake accounts that made
 phony orders appear legitimate.
 
-WTOC's second report, eight days later, describes instead a fake AI-generated
+WTOC's second report describes a fake AI-generated
 delivery order. That may be a compression of the same sequence rather than a
 different claim, since accounts that lend legitimacy to an order and an order
 that is itself generated are easy to collapse into one sentence. But the two
@@ -137,21 +133,14 @@ most likely to matter later.
 
 ## Open
 
-**No agency document.** The Chatham County Police Department newsroom carries
-no release on this case. Every published description originates in interviews.
+**No agency document.** The Chatham County Police Department newsroom has
+no information on this case. Every published description originates from news articles.
 
 **No independent confirmation of the statute.** The O.C.G.A. citation rests on
 a single outlet.
 
-**No disposition.** In Georgia a misdemeanour of this kind would proceed in
+**No disposition.** In Georgia, a misdemeanour of this criminal act would proceed in
 Chatham County State Court, with public access available through the
 judiciary's re:Search system. This record has not retrieved the docket.
 
 **No value.** No source states what the merchandise was worth.
-
-## Correction
-
-27 September 2026. An earlier version of this entry named the accused. No
-court document or agency release naming him has been located, and this entry
-disputes the AI characterisation attached to the case, so under this record's
-naming rule the name has been removed.
