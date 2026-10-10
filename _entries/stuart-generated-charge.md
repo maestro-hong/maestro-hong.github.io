@@ -1,6 +1,6 @@
 ---
 published: true
-title: "Stuart man charged under Florida's generated-image law after a platform safety report"
+title: "Stuart man charged under Florida's AI-generated image law after a platform safety report"
 slug: stuart-generated-csam-charges
 incident_date: 2026-09-25
 updated: 2026-09-27
@@ -66,9 +66,9 @@ sources:
 
 ## What happened
 
-Stuart police announced in late September 2026 that they had arrested Daniel Perez, 28, of Stuart, Florida. The charges concern possessing and viewing child sexual abuse material described as produced with artificial intelligence, together with a count involving material of the conventional kind. He was released on bond within days. No trial date has been reported and he has not been convicted of anything. Everything below is an allegation.
+Stuart police announced in late September 2026 that they had arrested Daniel Perez, 28 from Stuart, Florida. The charges concern possessing and viewing child sexual abuse material described as produced with artificial intelligence with a count involving material of the conventional kind. He was released on bond within days. No trial date has been reported and he has not been convicted of anything. Everything below is an allegation.
 
-The department's statement is worth repeating because it is the whole legal point of the case. As technology changes, police said, so do the ways people can use it to exploit children, and the use of AI does not make this kind of conduct any less serious or any less criminal. That sounds like boilerplate. It is actually a description of a specific legislative choice Florida made two years ago, and the case only exists because of it.
+The department's statement is worth repeating because it is the whole legal point of the case. As technology changes, police said, so do the ways people can use it to exploit children, and the use of AI does not make this kind of conduct any less serious or criminal. It is a description of a specific legislative choice Florida made two years ago, and the case only exists because of it.
 
 ## Why Florida needed a second law
 
@@ -80,7 +80,7 @@ That works for edited photographs of real children. It does not work for an imag
 
 Section 827.072 contains a charging rule that produces figures readers tend to misread. Each image possessed, controlled or viewed is a separate offence. Counts therefore track how many files a prosecutor decides to charge, not how serious the conduct was or how much material was found.
 
-The comparison case makes this concrete. In February 2025 the Martin County Sheriff's Office arrested Leonel Alvarado-Lizano, 29, on 20 counts, in what was reported at the time as the first case in the county under the new statute. Reporting then described a quantity of files far larger than 20. The count total was a charging decision, not an inventory. So when a headline says four counts in one case and 20 in another, that gap says very little about the two cases relative to each other. Anyone tracking these prosecutions by count totals is measuring prosecutorial practice and file selection, which is worth measuring, but is not the same thing as measuring harm.
+The comparison case makes this concrete. In February 2025 the Martin County Sheriff's Office arrested Leonel Alvarado-Lizano, 29 on 20 counts from what was reported at the time as the first case in the county under the new statute. Reporting then described a quantity of files far larger than 20. The count total was a charging decision, not an inventory. So when a headline says four counts in one case and 20 in another, that gap states very little about the two cases relative to each other. Anyone tracking these prosecutions by count totals is measuring prosecutorial practice and file selection, which is worth measuring, but is not the same thing as measuring harm.
 
 ## How these cases start now
 
