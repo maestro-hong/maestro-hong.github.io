@@ -1,6 +1,6 @@
 ---
 published: true
-title: "Ohio man sentenced to 15 years in first conviction under the TAKE IT DOWN Act"
+title: "First Ohio man sentenced to 15 years in conviction under the TAKE IT DOWN Act"
 slug: strahler-first-take-it-down-conviction
 incident_date: 2026-04-07
 updated: 2026-09-15
@@ -12,9 +12,9 @@ detection_path: victim
 next_check:   # closed: sentenced 8 September 2026
 safeguard: unknown
 safeguard_outcome: unknown
-summary: "James Strahler II, 37, of Columbus, Ohio, pleaded guilty on 7 April 2026 to cyberstalking, producing obscene visual representations of child sexual abuse, and publication of digital forgeries, and was sentenced on 8 September 2026 to 180 months in federal prison. The forgery count is the first conviction in the United States under the TAKE IT DOWN Act, enacted in May 2025. Investigators found more than 24 AI platforms and over 100 web-based models installed on his phone."
+summary: "James Strahler II, 37 from Columbus, Ohio, pleaded guilty on April 07, 2026 to cyberstalking, producing obscene visual representations of child sexual abuse, and publication of digital forgeries. He was sentenced on September 08, 2026 to 180 months in federal prison. The forgery count is the first conviction in the United States under the TAKE IT DOWN Act, enacted in May 2025. Investigators found more than 24 AI platforms and over 100 web-based models installed on Strahler's phone."
 note_label: "Mechanism"
-note: "The new Act reaches digital forgeries of identifiable adults but expressly carves out material already covered by the child-obscenity and child-pornography statutes. That division is why the case carries separate counts rather than one, and it marks the boundary of what the Act actually added."
+note: "The new Act reaches digital forgeries of identifiable adults but expressly carves out material already covered by the child-obscenity and child-pornography statutes. That division is why the case carries separate counts rather than one and it marks the boundary of what the Act actually added."
 query: 'site:justice.gov "Take It Down Act" conviction digital forgeries'
 sources:
   - tier: P
@@ -42,7 +42,7 @@ sources:
 ## Scope of this entry
 
 This record covers category D at the level of statute, charge, and
-enforcement outcome only. The conduct is described in the Justice
+enforcement outcome. The conduct is described in the Justice
 Department releases linked below. It is not reproduced here, and nothing
 about the production of the material is set out.
 
@@ -62,7 +62,7 @@ That exclusion is visible in the charges here. The digital forgery count
 corresponds to the adult victims. The obscenity count corresponds to
 material involving minors and rests on law that predates the Act by two
 decades. The Act is therefore best read as closing a gap for adult victims,
-not as the instrument reaching the child-related conduct — a distinction the
+not as the instrument reaching the child-related conduct; a distinction the
 coverage of this case generally does not draw.
 
 ## Open question: which conduct the forgery count covers
@@ -73,14 +73,14 @@ conduct period predates the statute, which would leave only a narrow window
 in which the forgery count could operate without a retroactivity problem.
 
 The charging document would resolve this, and this record has not obtained
-it. Until then the entry does not assert how the count was framed. Anyone
+it. Until then, the entry does not assert how the count was framed. Anyone
 citing this case as a precedent on the Act's reach should read the
 information or indictment first.
 
 ## Enforcement sequence
 
 The case reached federal authorities only after the local response had
-already run and failed. Secondary reporting describes state misdemeanour
+already ran and failed. Secondary reporting describes state misdemeanour
 charges filed in January following the first complainant's reports, release,
 continued conduct, and further misdemeanour charges in April before federal
 arrest in June 2025.
