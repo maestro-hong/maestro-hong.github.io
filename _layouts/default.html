@@ -57,7 +57,7 @@
   <meta name="description" content="{% if lang == 'ko' %}{{ page.description | default: t.description }}{% else %}{{ page.description | default: site.description }}{% endif %}">
   <title>{% if page.title and page.title != 'Home' and u != '/ko/' %}{{ page.title }} — {% endif %}Unio Analytics</title>
   <link rel="alternate" type="application/atom+xml" title="Unio Analytics" href="{{ feed_url }}">
-  {%- if paired %}
+  {%- if paired and site.korean_live %}
   <link rel="alternate" hreflang="en" href="{{ site.url }}{{ en_url }}">
   <link rel="alternate" hreflang="ko" href="{{ site.url }}{{ ko_url }}">
   <link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ en_url }}">
@@ -86,7 +86,10 @@
           <span class="lang-switch__item is-on" aria-current="true">KR</span>
           {%- else %}
           <span class="lang-switch__item is-on" aria-current="true">EN</span>
+                    {%- if site.korean_live %}
           <a class="lang-switch__item" href="{{ switch_url }}" hreflang="ko" lang="ko" aria-label="한국어">KR</a>
+          {%- else %}
+          <span class="lang-switch__item is-off" aria-disabled="true" title="Korean edition coming soon">KR</span>
           {%- endif %}
         </nav>
         <button class="head__toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav" aria-label="{{ t.menu }}">&#9776;</button>

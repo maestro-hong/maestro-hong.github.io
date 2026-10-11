@@ -7,6 +7,7 @@ description: A sourced record of AI-enabled crime, and what happened next.
 url: "https://unio-analytics.com"
 baseurl: ""
 lang: en
+korean_live: false
 
 author:
   name: Jason Ahn

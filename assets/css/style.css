@@ -120,6 +120,7 @@ img { display: block; max-width: 100%; }
 a.lang-switch__item:hover,
 a.lang-switch__item:focus-visible { color: var(--ink); }
 a.lang-switch__item:focus-visible { outline: 1px solid var(--ink); outline-offset: 4px; }
+.lang-switch__item.is-off { opacity: 0.4; cursor: default; }
 
 .search-field { padding: 1.25rem 0 0; }
 .search-field input {
