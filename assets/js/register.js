@@ -23,6 +23,13 @@
       if (!open) { input.focus(); }
       else { input.value = ''; apply(); }
     });
+
+    // The front page's Search link lands here as /entries/#search: open the field.
+    if (window.location.hash === '#search') {
+      field.hidden = false;
+      searchToggle.setAttribute('aria-expanded', 'true');
+      input.focus();
+    }
   }
 
   var container = document.getElementById('rows');

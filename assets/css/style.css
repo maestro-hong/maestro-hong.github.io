@@ -466,3 +466,77 @@ html:lang(ko) :is(.nav__links a, .nav__search, .menu > summary, .menu__item,
 html:lang(ko) :is(.subscribe__label, .subscribe__form button) { letter-spacing: 0.02em; font-size: 0.75rem; }
 html:lang(ko) .subscribe__form input[type="email"] { letter-spacing: 0.02em; }
 html:lang(ko) .subscribe__promise { line-height: 1.7; }
+
+/* front page: centred heading, latest two entries, Show more */
+
+.lede--home {
+  max-width: calc(64rem + (var(--pad) * 2));
+  padding-top: 6rem;
+  text-align: center;
+}
+.lede--home .lede__main {
+  font-size: 3.5rem;
+  font-weight: 400;
+  line-height: 1.15;
+  max-width: 64rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-wrap: balance;
+}
+.lede--home .lede__sub {
+  font-size: 1.25rem;
+  margin-top: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-wrap: balance;
+}
+
+.rows--latest { padding-top: 7.5rem; padding-bottom: 0; }
+.rows.rows--latest .row:last-child { border-bottom: none; }
+
+.more {
+  position: relative;
+  margin-top: -6rem;
+  margin-bottom: -3.5rem;
+  height: 13rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2.5rem;
+  pointer-events: none;
+  background: radial-gradient(ellipse 55% 50% at 50% 55%,
+    rgba(222, 222, 219, 0.9) 0%,
+    rgba(228, 228, 225, 0.7) 30%,
+    rgba(240, 240, 238, 0.35) 60%,
+    rgba(251, 251, 250, 0) 100%);
+}
+.more__link {
+  pointer-events: auto;
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink);
+}
+.more__link:hover,
+.more__link:focus-visible { text-decoration: underline; text-underline-offset: 4px; }
+
+body.home .foot { position: relative; margin-top: 0; padding-top: 0; }
+body.home .subscribe { border-top: none; padding-top: 1.75rem; }
+
+@media (max-width: 40rem) {
+  .lede--home { padding-top: 3rem; }
+  .lede--home .lede__main { font-size: 2.375rem; line-height: 1.2; }
+  .lede--home .lede__sub { font-size: 1.0625rem; line-height: 1.6; margin-top: 1rem; }
+  .rows--latest { padding-top: 3.5rem; }
+  .more {
+    margin-top: -5rem;
+    margin-bottom: -3rem;
+    height: 11rem;
+    background: radial-gradient(ellipse 85% 50% at 50% 55%,
+      rgba(222, 222, 219, 0.9) 0%,
+      rgba(228, 228, 225, 0.7) 30%,
+      rgba(240, 240, 238, 0.35) 60%,
+      rgba(251, 251, 250, 0) 100%);
+  }
+}

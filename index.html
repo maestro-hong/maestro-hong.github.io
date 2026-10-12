@@ -4,19 +4,22 @@ title: Home
 description: A record of criminal cases in which artificial intelligence played a material role, and what happened to each one afterwards.
 ---
 
-<div class="wrap lede">
-  <p class="lede__main">Understanding AI Exploitation & Misuse</p>
+<div class="wrap lede lede--home">
+  <h1 class="lede__main">Understanding AI Exploitation &amp; Misuse</h1>
   <p class="lede__sub">Open Source analysis on the interrelationship of AI and crime</p>
 </div>
 
-{% include controls.html %}
-
 {% assign all = site.entries | sort: "incident_date" | reverse %}
-<section class="wrap rows" id="rows">
+<section class="wrap rows rows--latest">
   {% if all.size == 0 %}
     <p class="empty">No entries published yet.</p>
   {% else %}
-    {% for e in all %}{% include entry-row.html entry=e %}{% endfor %}
+    {% for e in all limit: 2 %}{% include entry-row.html entry=e %}{% endfor %}
   {% endif %}
 </section>
-<p class="wrap empty" id="no-match" hidden>Nothing matches.</p>
+
+{% if all.size > 2 %}
+<div class="more">
+  <a class="more__link" href="/entries/">Show more <span aria-hidden="true">&darr;</span></a>
+</div>
+{% endif %}

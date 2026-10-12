@@ -32,6 +32,7 @@
 
 {%- if lang == "ko" -%}
   {%- assign home_url = "/ko/" -%}
+  {%- assign entries_url = "/ko/" -%}
   {%- assign stats_url = "/ko/stats/" -%}
   {%- assign feed_url = "/ko/feed.xml" -%}
   {%- assign ko_meth = site.pages | where: "url", "/ko/methodology/" | first -%}
@@ -42,6 +43,7 @@
   {%- assign ko_url = u -%}
 {%- else -%}
   {%- assign home_url = "/" -%}
+  {%- assign entries_url = "/entries/" -%}
   {%- assign meth_url = "/methodology" -%}
   {%- assign stats_url = "/stats" -%}
   {%- assign about_url = "/about" -%}
@@ -70,10 +72,12 @@
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 </head>
-<body>
+{%- assign is_home = false -%}
+{%- if u == "/" -%}{%- assign is_home = true -%}{%- endif -%}
+<body{% if is_home %} class="home"{% endif %}>
 
 {% assign on_entries = false %}
-{% if u == home_url or u contains '/entry/' or u contains '/category/' %}{% assign on_entries = true %}{% endif %}
+{% if u == entries_url or u contains '/entry/' or u contains '/category/' %}{% assign on_entries = true %}{% endif %}
 
   <header class="head">
     <div class="wrap">
@@ -86,7 +90,7 @@
           <span class="lang-switch__item is-on" aria-current="true">KR</span>
           {%- else %}
           <span class="lang-switch__item is-on" aria-current="true">EN</span>
-                    {%- if site.korean_live %}
+          {%- if site.korean_live %}
           <a class="lang-switch__item" href="{{ switch_url }}" hreflang="ko" lang="ko" aria-label="한국어">KR</a>
           {%- else %}
           <span class="lang-switch__item is-off" aria-disabled="true" title="Korean edition coming soon">KR</span>
@@ -98,12 +102,16 @@
 
       <nav class="nav" id="nav">
         <ul class="nav__links">
-          <li><a href="{{ home_url }}"{% if on_entries %} class="is-on"{% endif %}>{{ t.entries }}</a></li>
+          <li><a href="{{ entries_url }}"{% if on_entries %} class="is-on"{% endif %}>{{ t.entries }}</a></li>
           <li><a href="{{ meth_url }}"{% if u contains '/methodology' %} class="is-on"{% endif %}>{{ t.methodology }}</a></li>
           <li><a href="{{ stats_url }}"{% if u contains '/stats' %} class="is-on"{% endif %}>{{ t.stats }}</a></li>
           <li><a href="{{ about_url }}"{% if u contains '/about' %} class="is-on"{% endif %}>{{ t.about }}</a></li>
         </ul>
+        {%- if is_home %}
+        <a class="nav__search" href="/entries/#search">{{ t.search }}</a>
+        {%- else %}
         <button class="nav__search" id="search-toggle" aria-expanded="false" aria-controls="search-field">{{ t.search }}</button>
+        {%- endif %}
       </nav>
 
       <div class="search-field" id="search-field" hidden>
@@ -121,7 +129,7 @@
     <div class="wrap">
       {% include subscribe.html %}
       <div class="foot__links">
-        <a href="{{ home_url }}">{{ t.entries }}</a>
+        <a href="{{ entries_url }}">{{ t.entries }}</a>
         <a href="{{ meth_url }}">{{ t.methodology }}</a>
         <a href="{{ stats_url }}">{{ t.stats }}</a>
         <a href="{{ about_url }}">{{ t.about }}</a>
