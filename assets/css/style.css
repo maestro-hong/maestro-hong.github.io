@@ -540,3 +540,28 @@ body.home .subscribe { border-top: none; padding-top: 1.75rem; }
       rgba(251, 251, 250, 0) 100%);
   }
 }
+
+/* front page: the entries, newsletter and footer sit at the bottom of the
+   screen on any device; the heading stays at the top and the space between
+   them grows on tall screens. On short screens the page scrolls as normal. */
+
+body.home {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+body.home main {
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+body.home main > * { width: 100%; }
+body.home .rows--latest {
+  margin-top: auto;
+  padding-top: 5rem;
+}
+
+@media (max-width: 40rem) {
+  body.home .rows--latest { padding-top: 3.5rem; }
+}
