@@ -12,9 +12,9 @@ detection_path: provider
 next_check: 2026-10-26
 safeguard: platform-detection
 safeguard_outcome: caught
-summary: "The local authorities of Boulder County charged a 72-year old male, Daniel Fairchild with 23 counts under Colorado child sexual exploitation statute. The charges include 11 counts of producing and 11 counts of possessing sexually exploitative material. Fairchild used photographs of real children and altered with PicsArt, a popular AI photo and video editing platform. AI. PicsArt detected suspicious activities and flagged Fairchild's account. The company reported the images to the National Center for Missing and Exploited Children (NCMEC). A search warrant was conducted on January 15, 2026 where he eventually turned himself in 15 days later. Boulder County claimed this case as the first investigations involving AI."
+summary: "The local authorities of Boulder County charged a 72-year old male, Daniel Fairchild with 23 counts under Colorado child sexual exploitation statute. The charges include 11 counts of producing and 11 counts of possessing sexually exploitative material. Fairchild used photographs of real children and altered with PicsArt, a popular AI photo and video editing platform. AI. PicsArt detected suspicious activities and flagged Fairchild's account, where the company reported the images to the National Center for Missing and Exploited Children (NCMEC). A law enforcement conducted search warrant on January 15, 2026 where he eventually turned himself in 15 days later. Boulder County claimed this incident as the first investigations involving AI."
 note_label: "Mechanism"
-note: "PicsArt flagged the account and reported it before the law enforcement were notified."
+note: "PicsArt flagged the account and reported to the law enforcement."
 query: 'Boulder County sheriff arrest Colorado man AI generated sexually exploitative images'
 sources:
   - tier: P
@@ -42,43 +42,36 @@ below.
 
 ## How the case surfaced
 
-PicsArt, an online photo-editing platform, flagged the account and images Fairchild created and
+PicsArt, an online photo-editing platform flagged the account and images Fairchild has created and
 reported to the National Center for Missing and Exploited Children
-(NCMEC). Then, NCMEC passed the information to the Colorado Internet Crimes Against
-Children Task Force and the Boulder County Digital Forensics Lab took over the
-investigation. A search warrant was served at Daniel Fairchild's home on
-January 15, 2026. He turned himself in on an arrest warrant on January 30, 2026 and was
+(NCMEC). The NCMEC shared the information to the Colorado Internet Crimes Against
+Children Task Force, which the Boulder County Digital Forensics Lab took over the
+investigation. A search warrant was served at Daniel Fairchild's property on
+January 15, 2026. He turned himself in on January 30, 2026 and was
 booked into the Boulder County Jail with bond set at $50,000.
 
-It is worth noting that local authorities detected or victim reported the incident prior to PicsArt alerted. PicsArt content moderation system made the
+It is worth noting that neither local authorities detected nor victim(s) reported the incident. PicsArt content moderation system made the
 first detection, while a nonprofit clearinghouse raised the case to the law enforcement. Boulder County described this case as one of its forensics lab's first full
 investigations involving AI.
 
 ## The statute
 
-Every criminal count is under Colorado state law. Eleven counts of sexual exploitation of a
+Each criminal count falls under Colorado state law: 11 counts of sexual exploitation of a
 child by producing sexually exploitative material under C.R.S. section
-18-6-403(3)(b), a class 3 felony. Eleven counts of possession under section
+18-6-403(3)(b), a class 3 felony. 11 counts of possession under section
 18-6-403(3)(b.5), a class 5 felony. One count under section 18-6-403(5.5)(a),
 the extraordinary risk enhancer for material involving a child under twelve.
 
 Federal charges were not applied in this case and none of the statutes was laid out for
-artificial intelligence. The provisions used in this case predate generative
-image tools by a wide margin.
+AI. The provisions used in this case predate generative image tools by a wide margin.
 
 ## Altered images
 
 The sheriff's office claims that pictures of real children were altered
 using AI. The distinction of whether images were created or altered carries legal weight 
-in the US. Wholly synthetic depictions occupy contested constitutional ground, which is why the federal
-provision is framed around obscenity rather than considering the
-images as contraband outright. Material derived from identifiable real
-children does not raise that problem at all.
-
-Whether prosecutors are more willing to charge altered-image cases than wholly
-synthetic ones is a question this record cannot answer alone. It is
-flagged because it is testable and the distinction is doing more work in these
-prosecutions than the coverage suggests.
+in the US. There are still uncertainties of how US courts views non-human made images as there is no settled law
+of non-human made images. Whether prosecutors are more willing to charge altered-images than wholly
+synthetic ones still needs to be debated.
 
 ## Open
 
