@@ -46,75 +46,60 @@ sources:
 
 ## Correction
 
-Nearly all coverage of this case describes Smith as having created hundreds
-of thousands of songs with artificial intelligence. However, the indictment states that it was purchased.
+Most of the reports describe Smith of creating hundreds of thousands of songs with AI. However, the indictment states that it was purchased.
 
-The misinformation does not originate from the press. The United
-States Attorney's statement announced the plea, which states that Smith
-generated the songs using artificial intelligence. The information contradicts the
-charging document filed by the same office 18 months earlier. Trade
-coverage then reproduced that framing while linking to the indictment in the
-same paragraph.
+The misinformation does not originate from the press. The United States Attorney announced the plea, stating that Smith
+generated the songs using AI. The information contradicts the charging document filed by the same office 18 months earlier. 
+News reports reproduced the most recent statement by linking the indictment in the same paragraph.
 
-The supplier was the chief executive of an AI music company, who was later charged in the indictment as a co-conspirator. A Master Services Agreement dated
-February 01, 2019 that company delivered between 1,000 and 10,000 songs a month with full intellectual property rights passing to Smith. Smith paid $2,000 a month or 15% of the streaming revenue. Both a music promoter and the supplier each took 10% of the proceeds.
+The music supplier was the chief executive of an AI music company, who was later charged in the indictment as a co-conspirator. A Master Services Agreement dated
+February 01, 2019 revealed that the CEO distributed between 1,000 to 10,000 songs a month along with intellectual property. Smith paid $2,000 a month or 15% of the streaming revenue.
 
-It was not just one person who conducted the act. The crime was committed as a procurement relationship between differing parties with a contracted monthly volume, a revenue share and a supplier; by August 2020 the supplier was reporting substantially better audio and newly added vocal generation.
+The crime was committed as a procurement business relationship between two parties making substantial amount of money with monthly volume of music, a revenue share and a supplier.
 
 ## The constraint removed by AI
 
-Smith had been running bot accounts since 2017. He also tried selling
-fraudulent streams to other musicians as a service. Platforms detect individual tracks with implausible play counts, so a billion streams concentrated on one song was conspicuous while the same billion spread across tens of thousands of songs was not. Catalogue size, not bot capacity was the limiting factor.
+Smith had been operating bot accounts since 2017. He also tried selling
+fraudulent streams to other musicians. Music platforms detect individual tracks with implausible play counts. For example, a billion streams on one song raises red flag while the same billion streams spread across tens of thousands songs was not. Therefore, catalogue size was the limiting factor and not bot capacity.
 
-The indictment quotes Smith's email correspondence to coconspirators across late 2018 and 2019 that: 1) he needed a large quantity of content carrying small numbers of streams 2) he needed songs quickly to work around the anti-fraud systems 3) that without enough catalogue he would overrun individual songs and lose them. In June 2019, Smith asked his supplier for a further 10,000 songs so the streams could be spread wider.
+The indictment quotes Smith's email correspondence to co-conspirators sent from late 2018 and 2019 that: 1) Smith needed a large quantity of content carrying small numbers of streams 2) Smith needed songs quickly to work around the anti-fraud systems 3) without enough catalogue Smith would overrun individual songs and lose them. In June 2019, Smith asked his supplier for an additional 10,000 songs so the streams could be spread wider.
 
 ## Operational detail
 
-Roughly 10,000 bot accounts at peak, registered through bulk-purchased
-email addresses in fabricated names, with over a thousand running
-simultaneously. Family plans were used because they were the cheapest way to
-hold multiple accounts. VPNs concealed that the accounts all operated from
+Roughly 10,000 bot accounts were operating during the peak, which were registered through bulk-purchased
+email addresses in fabricated names. Family plans were used to reduce operating costs of
+holding multiple accounts. VPNs concealed that the accounts all operated from
 one residence. Payment was routed through a debit-card service that Smith
 told he was issuing cards to company employees, funded with $1.3 million in
 fraud proceeds.
 
-The supplied audio files was initially delivered to Smith with randomized filenames. Smith generated plausible songs and artist names to attach to each other. The disguise was in the metadata rather than the audio.
+The supplied audio files was initially delivered to Smith with randomized filenames. Smith generated credible songs 
+and artist names to attach together. The disguise was in the metadata and not the audio.
 
-## Three figures, not one
+## Forefeiture
 
-In a February 2024 email, Smith claimed over four billion streams and twelve
-million dollars in royalties since 2019. The indictment alleges more than
-10 million. The plea carries a forfeiture of $8,091,843.64.
+In a February 2024 email, Smith claimed over four billion streams with 12
+million dollars in royalties since 2019. The plea carries a forfeiture of a total of $8,091,843.64.
 
-These are not revisions of a single estimate. The first is an offender's
-boast, the second is a prosecutor's allegation across three counts, the third a
-negotiated forfeiture attached to one count. Coverage that presents them
-interchangeably, or that pairs the largest figure with the guilty plea, is
-conflating three different quantities.
+## The lie
 
-## The provenance lie
-
-When the Mechanical Licensing Collective halted payments and challenged him
+When the Mechanical Licensing Collective paused payments and challenged Smith
 in 2023, Smith and his representatives denied stream manipulation and
 asserted that the works were human-authored rather than computer-generated.
-The false claim was about AI provenance specifically, which is worth noting
-as platforms and collecting societies move toward mandatory AI disclosure. The enforcement question is not whether disclosure is required, but
-whether a denial is independently actionable.
 
 ## Enforcement
 
-Smith was charged on September 04, 2024 on three counts a) wire fraud conspiracy b) wire fraud and 3) money laundering conspiracy. Each count carries a maximum of twenty
-years. On March 19 2026, Smith pleaded guilty to a single count of conspiracy to
-commit wire fraud, maximum five years and forfeiture agreed at $8,091,843.64.
-Sentencing was listed for July 29 2026 before Judge John G. Koeltl.
+Smith was charged on September 04, 2024 on three counts: a) wire fraud conspiracy b) wire fraud 3) money laundering conspiracy. Each count carries a maximum of 20
+years. On March 19, 2026, Smith pleaded guilty to one count of conspiracy to
+commit wire fraud with maximum five years. The forefeiture was set at $8,091,843.64.
+Sentencing was listed for July 29, 2026 before Judge John G. Koeltl.
 
-On September 22, the defence filed a sentencing memorandum asking for probation arguing that the losses were spread so thinly across millions of rights holders that no individual artist or songwriter suffered any real damage. The guidelines range is 46 to 57 months, but the Probation Office recommended 24. The government had not filed its submission when this was reported.
+On September 22, the defence filed a sentencing memorandum asking for probation; arguing that the losses were spread so thinly across millions of songs that no individual artist or songwriter suffered any damage. The sentence of Smith ranged from 46 to 57 months, but the Probation Office recommended 24.
 
-That argument is worth holding next to the mechanism described above.
 Spreading the revenue thinly enough per track to sit inside normal variation
-was how the scheme stayed under the platforms' detection thresholds. The same
-thinness is now being offered as the reason nobody was harmed.
+was how the scheme stayed under the platforms' detection thresholds. The defendant is making the claim that the
+'thinness' is the reason nobody was harmed.
 
-**Open.** No sentencing date and the indictment identifies the
-AI music company executive and the promoter as co-conspirators, and no public
-charging document against either has been located.
+**Open** No sentencing date and the indictment was found for the
+AI music company executive and the promoter. No public
+charging document for the two has been found.
