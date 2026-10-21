@@ -89,17 +89,14 @@ asserted that the works were human-authored rather than computer-generated.
 
 ## Enforcement
 
-Smith was charged on September 04, 2024 on three counts: a) wire fraud conspiracy b) wire fraud 3) money laundering conspiracy. Each count carries a maximum of 20
-years. On March 19, 2026, Smith pleaded guilty to one count of conspiracy to
-commit wire fraud with maximum five years. The forefeiture was set at $8,091,843.64.
-Sentencing was listed for July 29, 2026 before Judge John G. Koeltl.
+Smith was charged on September 04, 2024 on wire fraud conspiracy, wire fraud and money laundering conspiracy. Each count carries a maximum of 20
+years. On March 19, 2026 Smith pleaded guilty to one count of conspiracy of committing wire fraud. The forefeiture was set at $8,091,843.64.
 
-On September 22, the defence filed a sentencing memorandum asking for probation; arguing that the losses were spread so thinly across millions of songs that no individual artist or songwriter suffered any damage. The sentence of Smith ranged from 46 to 57 months, but the Probation Office recommended 24.
+On September 22 2026, the defence filed a sentencing memorandum asking for probation, arguing that the losses were very minor that no one suffered any real damage. The sentence ranged from 46 to 57 months, but the Probation Office recommended 24.
 
-Spreading the revenue thinly enough per track to sit inside normal variation
-was how the scheme stayed under the platforms' detection thresholds. The defendant is making the claim that the
+Spreading the revenue across millions of song track was how Smith covered the scheme from music platform. Smith is claiming that the
 'thinness' is the reason nobody was harmed.
 
 **Open** No sentencing date and the indictment was found for the
 AI music company executive and the promoter. No public
-charging document for the two has been found.
+charging document for the two individuals have been found.
