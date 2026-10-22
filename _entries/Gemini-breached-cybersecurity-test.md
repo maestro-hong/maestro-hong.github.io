@@ -1,6 +1,6 @@
 ---
 published: true
-title: "Google confirms Gemini breached three companies during a cybersecurity test"
+title: "Gemini breached three companies during a cybersecurity test"
 slug: gemini-irregular-breakout
 incident_date: 2026-05-01
 updated: 2026-09-22
@@ -12,9 +12,9 @@ detection_path: outside
 next_check: 2026-12-25
 safeguard: system-isolation
 safeguard_outcome: bypassed
-summary: "During cybersecurity evaluations run by the Israeli testing firm 'Irregular' in May 2026, Google's Gemini gained access to three real companies. In one case it guessed a password; in the others it used credentials that were publicly available. Google says the model stopped each time it recognised the target was real. Google did not publish anything at the time and confirmed the incidents on 18 September, after the Wall Street Journal reported them, roughly seven weeks after Anthropic, OpenAI and Meta had each disclosed incidents arising from the same testing environment."
+summary: "During cybersecurity tests run by the Israeli firm 'Irregular' in May 2026, Google's Gemini gained unauthorized access to three companies. Without human intervention, Gemini guessed a password by using credentials that were publicly available. However, Google confirms that the model stopped each time it recognised the target was real. Google did not publish anything at the time and confirmed the incidents on September 18 2026, after the Wall Street Journal reported. It was roughly seven weeks after Anthropic, OpenAI and Meta had each disclosed incidents arising from the same testing environment."
 note_label: "Open question"
-note: "Who decides whether a breach of a company is disclosable when the company itself may not know it happened, and the breach was committed by a model with no operator to hold responsible."
+note: "Who decides whether a breach is disclosable when the company itself are not aware and whether the breach was committed by a model with no operator to hold responsible."
 query: 'site:anthropic.com cybersecurity evaluations incidents; site:openai.com third-party cyber evaluations; "Irregular" evaluation sandbox real company'
 sources:
   - tier: P
@@ -54,123 +54,99 @@ sources:
     retrieved: 2026-09-22
 ---
 
-## The flaw was not Google's
+## Google's Innocence
 
-Gemini was being tested by Irregular, an Israeli firm that runs capture-the-flag
+Gemini was being tested by Irregular, an Israeli firm that runs capture-the-flag type of
 cybersecurity evaluations for frontier labs. The exercise provides an AI model a
-fictional company to break into and scores of the safety result. The fiction is the
-whole safeguard.
+fictional company to break into and scores the safety result.
 
-According to Irregular's account of the fault, a fictional company
-name used in the exercises matched a real registered domain, and the evaluation
-machines turned out to have live internet access. The model went looking for
-its assigned target, found something answering to that name, and attacked it.
+According to Irregular, a fictional company selected in the exercises matched a real registered domain. The evaluation
+machines had internet access, therefore the model went looking for its assigned target and attacked.
 
-Google was the fourth company with this similar incident. Anthropic, OpenAI and Meta had each 
-disclosed incidents traced to the same testing environment, all of them
-within about a week of one another at the end of July and the start of August.
-Irregular told Axios it notified every relevant lab in late July and that all
+Google was the fourth company with this similar incident. Anthropic, OpenAI and Meta had 
+disclosed incidents prior, tracing to the same testing environment.
+Irregular informed Axios it notified every relevant lab in late July and all
 known issues on its end were resolved weeks ago.
 
-So the interesting question is not how Gemini breached the real company on its own. That has a dull answer,
-which is that a vendor's test range leaked and four companies' models walked
-through the gap. The interesting question is what each lab did next.
+So the interesting question is not how Gemini breached the real company on its own; the question raises of how vendor's test range leaked along with four other companies' models.
 
-## What Gemini did
+## Gemini's Action
 
-Three real companies were reached by Gemini. In one, Gemini guessed a password for a
-protected system by repeated attempts. In the other, two it found credentials
+Three real companies were breached by Gemini: It guessed a password for a
+protected system by repeated attempts and for the other two it found credentials
 that were already public and used them.
 
 Google confirms that the model behaved correctly once it had enough
 information. Heather Adkins, Google's vice president of security
-engineering states "In all three of these instances, the model
-stopped." Google says it made sure the three affected organisations were told,
-and that it worked with Irregular on changes to the testing process.
-
-That claim about stopping is not trivial and it is not spin. It is the sharpest
-point of difference between this incident and the ones the other labs reported,
-and it is worth taking seriously.
+engineering states that "In all three of these instances, the model
+stopped." Google says it confirmed the three affected organisations were notified
+and it worked with Irregular on changes to the testing process.
 
 ## Why this entry exists
 
-Google did not publish a report. It has not, as far as this record can
-establish, published anything of its own about these incidents at all. What
-exists is a set of statements given to reporters on 18 September, after the
-Wall Street Journal reported the incidents, four months after they happened and
-roughly seven weeks after the first of the other labs went public.
+Google did not publish a report about the incident. Only the statements given to reporters on September 18, 2026 is available, which is after the
+Wall Street Journal reported the incidents four months after the incident happened.
 
-Google's stated reason, as reported by Reuters, is that the behaviour was not
-an example of model misalignment and did not warrant public disclosure because
-Gemini's safety measures worked.
+According to Reuters, Google states that the behaviour was not due to model mis-alignment and did not warrant public disclosure because
+Gemini worked properly.
 
-Read that as an argument rather than as an evasion, because as an argument it
-is coherent. The containment held. The model recognised a real system and
-withdrew. On Google's reading nothing failed except a vendor's naming
-convention, and the vendor fixed it.
-
-The difficulty is what the standard implies if it is generalised. A
-lab decides for itself whether a breach of a third party is disclosable, using
+A lab decides for itself whether a breach of a third party is disclosable, using
 a test the lab also applies for itself, about a property of its own model.
 Anthropic's report notes that of the affected organisations, two had not previously detected the activity. If a company can be
-broken into without notice, and the only party who knows has concluded that its
+broken into without notice and the only party who knows has concluded that its
 own safety measures worked, then nothing about the event ever reaches the
 public record.
 
-Four labs met the same flaw. Three reported and released to the public. One did not, and the reason it
-gives is that its model handled the situation well. Both of those things can be
-true at once, and that is precisely the problem.
 
-## What the other labs disclosed
+## Labs disclosure
 
-Anthropic published the fullest public document out of all the incidents. It describes three incidents arising from what it
-calls a misconfiguration that left Claude reached during the
-evaluation with live internet access.
+Anthropic published the full complete document out of other incidents. It describes three incidents arising from what it
+calls a misconfiguration that left Claude reached during the evaluation with live internet access.
 
-The detail that matters for comparison is how those models behaved on
+It is important to assess how those models behaved on
 recognising a real target. In the first
-incident, involving Claude Opus 4.7, the report states that the model
+incident involving Claude Opus 4.7, the report states that the model
 eventually recognised the system was real and that none of the four runs
 stopped the attack on that basis. It extracted infrastructure credentials and
 reached a database holding several hundred rows of production data. In the
 second, a Claude Mythos 5 model published a malicious package to PyPI which was
 downloaded and run on fifteen real systems, including a security company's
-scanner, and used it to exfiltrate that company's credentials; the model
+scanner, and used it to exfiltrate the company's credentials; the model
 continued after recognising possible real-world consequences, reasoning that it
-must be part of the exercise. In the third, an internal research model scanned
-roughly nine thousand targets, compromised one company, and then worked out on
+must be part of the exercise. Third, an internal research model scanned
+roughly 9,000 targets, compromised one company and then worked out on
 its own that the host it had taken sat in a cloud account unconnected to the
-challenge, concluded the target was real, and stopped.
+challenge, concluded the target was real and stopped.
 
-So one of Anthropic's three models did what Google says all three of its
-attempts did. The shorthand circulating in coverage, that Claude did not stop
-and Gemini did, is true of two incidents out of three and not of the third.
+One of Anthropic's three models did what Google states all three of its
+attempts did. The shorthand circulating in coverage that Claude did not stop
+and Gemini did is true of two incidents out of three and not of the third.
 
-OpenAI published on 4 August, naming both Irregular and the UK AI Security
-Institute, and describing a model that exploited a real website having mistaken
+OpenAI published on August 04, 2026, naming both Irregular and the UK AI Security
+Institute describing a model that exploited a real website having mistaken
 it for part of the simulated environment. Meta disclosed in early August.
 
-## This is not the Hugging Face incident
+## Irrelevant to the Hugging Face incident
 
-The two are unrelated in origin and should not be merged. OpenAI states
+The two incidents are unrelated and should not be merged together. OpenAI states
 directly that the Irregular incidents are separate from the Hugging Face
 security incident. Hugging Face involved OpenAI's own evaluation environment
-and its own internal research model, and is logged in this record separately.
+and its own internal research model and is logged in this record separately.
 OpenAI has also described a third, distinct incident involving the UK AI
 Security Institute.
 
 Three different failure modes, then, inside about three months, across at least
 five organisations. The common thread is not a shared vulnerability but a
-shared blind spot, which is that the environments where frontier models are
+shared blind spot, which is the environments where frontier models are
 tested for offensive capability are not held to the standard of the production
 systems those models are being tested against. Anthropic's report commits to
-closing exactly that gap, which is an admission that it was open.
+closing exactly that gap.
 
-## What the record does not establish
+## What the records did not establish
 
-The three companies Gemini reached are unnamed in every source located. So is
+The three companies Gemini reached are unnamed in every report. So is
 the Gemini model version, which no account identifies. Neither has any lab said
-whether the affected companies have any recourse, and it is not obvious what
+whether the affected companies have any recourse and it is not obvious what
 recourse would consist of.
 
 The date on this entry is a placeholder. Every source puts the incidents in May
@@ -179,8 +155,8 @@ so that it sorts correctly. It should not be read as a date.
 
 Accounts also differ slightly on where the public credentials came from. Axios
 describes a public repository. Cybersecurity Dive describes public databases.
-Al Jazeera, drawing on Reuters, describes public information found online and
-credentials guessed from it. These are probably the same fact recounted
+Al Jazeera describes public information found online and
+credentials. These are probably the same fact recounted
 loosely rather than three competing claims, but no source is specific enough to
 settle it.
 
