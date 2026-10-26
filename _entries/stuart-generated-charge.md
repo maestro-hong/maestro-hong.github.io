@@ -88,7 +88,7 @@ The older mental model of a child exploitation investigation involves undercover
 
 The volume behind that pipeline is difficult to convey. NCMEC received 21.3 million CyberTipline reports in 2025, containing more than 61.8 million suspect files. More than 1.5 million of those reports indicated some connection between AI and child sexual exploitation. NCMEC describes this as evidence of the rapidly evolving role of the technology in the type of offences. For a municipal police department, it means that information is now arriving faster than any local agency conduct the investigation.
 
-## The part that should worry people
+## Consideration
 
 If the reported dates are correct, the tip reached Stuart police in February 2026, a search warrant was executed in April and arrested Perez in September 2026. That is roughly seven months from referral to arrest, on a case that began with a AI company handing police a specific account and specific files.
 
