@@ -74,7 +74,7 @@ told he was issuing cards to company employees, funded with $1.3 million in
 fraud proceeds.
 
 The supplied audio files was initially delivered to Smith with randomized filenames. Smith generated credible songs 
-and artist names to attach together. The disguise was in the metadata and not the audio.
+and artist names to attach together. The fraud relied on invented titles and artist names attached to the files.
 
 ## Forefeiture
 

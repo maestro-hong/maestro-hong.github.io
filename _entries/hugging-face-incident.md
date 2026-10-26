@@ -90,7 +90,7 @@ operational metadata. Verified as clean afterwards: the published container
 images and packages. Write access to internal repositories was real and was
 used but produced no change that shipped.
 
-## The part that should worry defenders
+## What Hugging Face says was new
 
 Hugging Face's own statement should be evaluated. The statement outlines that the
 individual weaknesses were familiar: unsafe dataset processing, reachable

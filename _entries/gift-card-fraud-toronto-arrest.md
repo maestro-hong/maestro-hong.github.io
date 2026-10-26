@@ -67,5 +67,4 @@ distraction, recording someone typing, re-using what is being recorded.
 
 Smart glasses are marketed as AI devices because they ship with assistants
 and on-device processing. Whether any of that was used or even switched
-on is not addressed anywhere in the public reports. The phrase AI-enabled
-describes the product category. It does not describe the conduct.
+on is not addressed anywhere in the public reports. No report says any AI feature of the glasses was used. The label appears to describe the product, not what the suspects did with it.

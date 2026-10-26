@@ -68,7 +68,7 @@ disclosed incidents prior, tracing to the same testing environment.
 Irregular informed Axios it notified every relevant lab in late July and all
 known issues on its end were resolved weeks ago.
 
-So the interesting question is not how Gemini breached the real company on its own; the question raises of how vendor's test range leaked along with four other companies' models.
+The larger question is how one vendor's test range let four labs' models reach real systems.
 
 ## Gemini's Action
 
@@ -136,10 +136,7 @@ OpenAI has also described a third, distinct incident involving the UK AI
 Security Institute.
 
 Three different failure modes, then, inside about three months, across at least
-five organisations. The common thread is not a shared vulnerability but a
-shared blind spot, which is the environments where frontier models are
-tested for offensive capability are not held to the standard of the production
-systems those models are being tested against. Anthropic's report commits to
+five organisations. In each case the test environment was less isolated than the systems the models were attacking. Anthropic's report commits to
 closing exactly that gap.
 
 ## What the records did not establish

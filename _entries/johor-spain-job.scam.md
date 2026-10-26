@@ -14,7 +14,7 @@ safeguard: unknown
 safeguard_outcome: unknown
 summary: "Johor police raided a bungalow in Gelang Patah, Malaysia on May 14, 2026 and arrested 35 Chinese nationals running fake job offers. Police reported that the AI was used to translate language between Mandarin, English and Spanish in real-time to conduct the scam. A total of 31 individuals pleaded guilty on May 27, 2026 and each fined with RM3,500 each."
 note_label: "Mechanism"
-note: "The translation layer does not improve efficiency in this operation. Without the assistance of AI, a Mandarin-speaking group cannot conduct criminal operation towards a Spanish-language victim. The AI did not make this scam better. It only made the operation reachable."
+note: "The translation layer does not improve efficiency in this operation. Without the assistance of AI, a Mandarin-speaking group cannot conduct criminal operation towards a Spanish-language victim. Police credit AI with translation only. Nothing in the record suggests it changed the script or the volume."
 query: 'Police raided Gelang Patah bungalow and arrest Chinese nationals over Spain job scam AI translation'
 sources:
   - tier: S
@@ -67,12 +67,12 @@ described runs Mandarin into English and inbound Spanish into English, which
 makes English the bridge between the languages. Whether victims were native Spanish or English-speakers living
 in Spain is confirmed.
 
-The AI capability was not efficiency, it was market access.
+Police described translation, not automation: the tool let Mandarin speakers easily approach Spanish-speaking victims.
 A criminal who previously had been bounded by the languages can now work in any language market. Every
 assumption about where a given syndicate's victims will be found rests on a
 constraint that has quietly stopped applying.
 
-## The part nobody reported
+## Court outcome
 
 On May 27 2026, 31 of the accused pleaded guilty in the Johor Bahru
 Magistrates' Court and were fined RM3,500 each. All fines were paid in full. 
@@ -97,8 +97,7 @@ involved or that any Spanish victim was ever notified.
 
 The same translation capability that allows this syndicate reach victims on
 another continent also placed victims beyond the evidentiary reach of
-the prosecutors who would have needed them. The technology extended the
-offence across a border that the case against it could not cross.
+the prosecutors who would have needed them.
 
 ## A comparison
 

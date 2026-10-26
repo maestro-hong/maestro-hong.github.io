@@ -84,7 +84,7 @@ The comparison with a different case makes this concrete. In February 2025, Mart
 
 ## How the incident surfaced
 
-The older mental model of a child exploitation investigation involves undercover officers and tips from the public. That is not how this case appears to have begun and increasingly it is not how any of them begin. The reported sequence here is that a technology platform's own safety systems flagged an account, the platform passed the information it to the National Center for Missing and Exploited Children and NCMEC passed a cybertip to the local police department, which then sought a search warrant. Police were the last link in that chain rather than the first.
+The older mental model of a child exploitation investigation involves undercover officers and tips from the public. That is not how this case appears to have begun and increasingly it is not how any of them begin. The reported sequence here is that a technology platform's own safety systems flagged an account, the platform passed the information it to the National Center for Missing and Exploited Children and NCMEC passed a cybertip to the local police department, which then sought a search warrant. 
 
 The volume behind that pipeline is difficult to convey. NCMEC received 21.3 million CyberTipline reports in 2025, containing more than 61.8 million suspect files. More than 1.5 million of those reports indicated some connection between AI and child sexual exploitation. NCMEC describes this as evidence of the rapidly evolving role of the technology in the type of offences. For a municipal police department, it means that information is now arriving faster than any local agency conduct the investigation.
 
@@ -92,11 +92,11 @@ The volume behind that pipeline is difficult to convey. NCMEC received 21.3 mill
 
 If the reported dates are correct, the tip reached Stuart police in February 2026, a search warrant was executed in April and arrested Perez in September 2026. That is roughly seven months from referral to arrest, on a case that began with a AI company handing police a specific account and specific files.
 
-Digital forensics takes time, warrants take time and prosecutors have to make charging decisions on material that has to be reviewed by humans. But it is the number to watch as these referrals scale. A detection pipeline that generates 1.5 million reports a year feeding into local agencies that take months per case is a pipeline with a growing backlog. The backlog is where the risk sits. The technology industry has largely solved by automating the detection. The public institutions on the receiving end have not been resourced for the volume it produces.
+Digital forensics takes time, warrants take time and prosecutors have to make charging decisions on material that has to be reviewed by humans. But it is the number to watch as these referrals scale. A detection pipeline that generates 1.5 million reports a year feeding into local agencies that take months per case is a pipeline with a growing backlog. The technology industry has largely solved by automating the detection. The public institutions on the receiving end have not been resourced for the volume it produces.
 
 ## Note
 
-No report describes the material in any case, does not identify how such material is produced and does not name tools or techniques. Nothing here would help anyone do this. That is deliberate and it is a permanent rule for this category rather than a choice made for this entry.
+No report describes the material in any case, does not identify how such material is produced and does not name tools or techniques. Nothing here would help anyone do this.
 
 Mr. Perez and Mr. Alvarado-Lizano are named because law enforcement agencies named them in public announcements. Neither has been convicted. The details in this entry that go beyond what the two news organisations reported, including the platform said to have generated the tip, the count total and the bond amount, come from a single aggregator and have not been independently confirmed. They are flagged above rather than dropped because the referral chain is the most important thing about this case and readers should be able to see both the claim and its weak sourcing.
 
