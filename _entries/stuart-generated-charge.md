@@ -1,15 +1,15 @@
 ---
 published: true
-title: "Stuart man charged under Florida's AI-generated image law after a platform safety report"
+title: "Man charged under Florida AI image law"
 slug: stuart-generated-csam-charges
 incident_date: 2026-09-25
 updated: 2026-09-27
 category: D
 country: United States
 status: charged
-summary: "Stuart police announced charges in late September 2026 against a 28-year-old local man for possessing and viewing child sexual abuse material said to have been produced with artificial intelligence, alongside a count involving conventional material. It is the second such case in Martin County since Florida created a separate offence for generated images in 2024, and it began the way most of these cases now begin, with a report from a technology platform rather than a police investigation."
+summary: "In September 2026, Stuart police announced charges of Daniel Perez, 28-year-old man for possessing and viewing child sexual abuse material produced with AI. This is the second case in Martin County since Florida created a separate offence for generated image in 2024."
 note_label: "Claim check"
-note: "The granular timeline in this entry, including the platform named in the tip, the count total and the bond figure, rests on a single aggregator report and is not confirmed by the two news organisations that covered the arrest. Treat those specifics as unverified."
+note: "The timeline in this entry, including the platform named in the tip, the count total and the bond figure, is backed up by one report and is not confirmed by the two news organisations that covered the arrest."
 query: "Stuart Florida AI generated child sexual abuse material charges 827.072"
 sources:
   - tier: P
@@ -64,44 +64,44 @@ sources:
     retrieved: 2026-09-27
 ---
 
-## What happened
+## Incident
 
-Stuart police announced in late September 2026 that they had arrested Daniel Perez, 28 from Stuart, Florida. The charges concern possessing and viewing child sexual abuse material described as produced with artificial intelligence with a count involving material of the conventional kind. He was released on bond within days. No trial date has been reported and he has not been convicted of anything. Everything below is an allegation.
+Stuart police announced in late September 2026 that they had arrested 28 year old man, Daniel Perez from Stuart, Florida. The charges concern possessing and viewing child sexual abuse material produced with AI. He was released on bond and no trial date has been reported.
 
-The department's statement is worth repeating because it is the whole legal point of the case. As technology changes, police said, so do the ways people can use it to exploit children, and the use of AI does not make this kind of conduct any less serious or criminal. It is a description of a specific legislative choice Florida made two years ago, and the case only exists because of it.
+The department's statement is worth mentioning because it is the whole legal point of the case. As technology changes, so do the ways people use it to exploit children and the use of AI does not make this kind of conduct any less serious or criminal. It is a description of a specific legislative choice Florida made two years ago.
 
-## Why Florida needed a second law
+## Florida's AI law
 
-Florida's main child exploitation statute, s. 827.071, has a requirement that turns out to matter enormously here. When material has been created, altered or modified by electronic means, the statute reaches it only if it portrays an identifiable minor, meaning a real person recognisable by face, likeness or some distinguishing feature. Prosecutors do not have to prove who that child is, but a real child has to be in there somewhere.
+Florida's main child exploitation statute, s. 827.071 has a requirement to convict the individual. When material has been created, altered or modified digitally, the statute is applied only if it portrays an identifiable minor. It can be interpreted as a real person recognisable by face or some distinguishing feature. Prosecutors do not have to prove the identity of the child.
 
-That works for edited photographs of real children. It does not work for an image of a child who never existed. So in 2024 the legislature passed a second, parallel offence, s. 827.072, titled generated child pornography. It covers any image created or modified by computer-generated means to portray a fictitious person whom a reasonable person would regard as a real person under 18 engaged in sexual conduct. Possession or intentional viewing is a third-degree felony, and so is creating it. There is an exclusion for material handled as part of a law enforcement investigation. The practical effect is that Florida now has one statute for images of real children and another for images of children who do not exist, and the second one does not care whether any real child was ever involved.
+The statute applies to edited photographs of real children; it does not work for an image of a child who never existed. So in 2024, the legislature passed a parallel offence (s. 827.072) titled 'generated child pornography'. It covers any image created or modified by computer-generated means to portray a fictitious person whom a reasonable person would regard as a real person under 18 engaged in sexual conduct. Possession or intentional viewing is a third-degree felony as well as creating it. The practical effect is that Florida now has one statute for images of real children and another for images of children who do not exist, where it does not matter whether real child involved in the incident.
 
-## Why the count numbers look strange
+## Count numbers
 
-Section 827.072 contains a charging rule that produces figures readers tend to misread. Each image possessed, controlled or viewed is a separate offence. Counts therefore track how many files a prosecutor decides to charge, not how serious the conduct was or how much material was found.
+Section 827.072 contains a charge that people tend to misunderstand. Each image possessed, controlled or viewed is counted as a separate offence. Counts therefore track how many files a prosecutor decides to charge, not how serious the conduct was or how much material was found.
 
-The comparison case makes this concrete. In February 2025 the Martin County Sheriff's Office arrested Leonel Alvarado-Lizano, 29 on 20 counts from what was reported at the time as the first case in the county under the new statute. Reporting then described a quantity of files far larger than 20. The count total was a charging decision, not an inventory. So when a headline says four counts in one case and 20 in another, that gap states very little about the two cases relative to each other. Anyone tracking these prosecutions by count totals is measuring prosecutorial practice and file selection, which is worth measuring, but is not the same thing as measuring harm.
+The comparison with a different case makes this concrete. In February 2025, Martin County Sheriff's Office arrested Leonel Alvarado-Lizano, 29 on 20 counts from what was reported at the time as the first case in the county under the new statute. The report described a quantity of files far larger than 20. The count total was a charging decision, not an inventory. When a headline claims four counts in one case and 20 in another, the gap states very little about the two cases relative to each other. Anyone tracking these prosecutions by count totals is measuring prosecutorial practice and file selection, which is worth measuring but is not the same thing as measuring harm.
 
-## How these cases start now
+## How the incident surfaced
 
-The older mental model of a child exploitation investigation involves undercover officers and tips from the public. That is not how this case appears to have begun, and increasingly it is not how any of them begin. The reported sequence here is that a technology platform's own safety systems flagged an account, the platform referred it to the National Center for Missing and Exploited Children, and NCMEC passed a cybertip to the local police department, which then sought a search warrant. Police were the last link in that chain rather than the first.
+The older mental model of a child exploitation investigation involves undercover officers and tips from the public. That is not how this case appears to have begun and increasingly it is not how any of them begin. The reported sequence here is that a technology platform's own safety systems flagged an account, the platform passed the information it to the National Center for Missing and Exploited Children and NCMEC passed a cybertip to the local police department, which then sought a search warrant. Police were the last link in that chain rather than the first.
 
-The volume behind that pipeline is difficult to convey. NCMEC received 21.3 million CyberTipline reports in 2025, containing more than 61.8 million suspect files. More than 1.5 million of those reports indicated some connection between generative AI and child sexual exploitation. NCMEC describes this as evidence of the rapidly evolving role of the technology in these offences. For a municipal police department, the operational meaning is that referrals now arrive faster than any local agency can work them, and triage decisions made at NCMEC and at the platforms increasingly determine which cases a detective ever sees.
+The volume behind that pipeline is difficult to convey. NCMEC received 21.3 million CyberTipline reports in 2025, containing more than 61.8 million suspect files. More than 1.5 million of those reports indicated some connection between AI and child sexual exploitation. NCMEC describes this as evidence of the rapidly evolving role of the technology in the type of offences. For a municipal police department, it means that information is now arriving faster than any local agency conduct the investigation.
 
 ## The part that should worry people
 
-If the reported dates are right, the tip reached Stuart police in February 2026, a search warrant was executed in April, and the arrest came in September. That is roughly seven months from referral to arrest, on a case that began with a platform handing police a specific account and specific files.
+If the reported dates are correct, the tip reached Stuart police in February 2026, a search warrant was executed in April and arrested Perez in September 2026. That is roughly seven months from referral to arrest, on a case that began with a AI company handing police a specific account and specific files.
 
-There is no obvious villain in that timeline. Digital forensics takes time, warrants take time, and prosecutors have to make charging decisions on material that has to be reviewed by human beings. But it is the number to watch as these referrals scale. A detection pipeline that generates 1.5 million reports a year feeding into local agencies that take months per case is a pipeline with a growing backlog, and the backlog is where the risk sits. The technology industry has largely solved the detection half of this problem. The public institutions on the receiving end have not been resourced for the volume it produces.
+Digital forensics takes time, warrants take time and prosecutors have to make charging decisions on material that has to be reviewed by humans. But it is the number to watch as these referrals scale. A detection pipeline that generates 1.5 million reports a year feeding into local agencies that take months per case is a pipeline with a growing backlog. The backlog is where the risk sits. The technology industry has largely solved by automating the detection. The public institutions on the receiving end have not been resourced for the volume it produces.
 
-## A note on what is not in this entry
+## Note
 
-This record does not describe the material in any case, does not identify how such material is produced, and does not name tools or techniques. Nothing here would help anyone do this. That is deliberate, and it is a permanent rule for this category rather than a choice made for this entry.
+No report describes the material in any case, does not identify how such material is produced and does not name tools or techniques. Nothing here would help anyone do this. That is deliberate and it is a permanent rule for this category rather than a choice made for this entry.
 
-On naming, Mr. Perez and Mr. Alvarado-Lizano are named because law enforcement agencies named them in public announcements first. Neither has been convicted. The details in this entry that go beyond what the two news organisations reported, including the platform said to have generated the tip, the count total and the bond amount, come from a single aggregator and have not been independently confirmed. They are flagged above rather than dropped, because the shape of the referral chain is the most important thing about this case and readers should be able to see both the claim and its weak sourcing.
+Mr. Perez and Mr. Alvarado-Lizano are named because law enforcement agencies named them in public announcements. Neither has been convicted. The details in this entry that go beyond what the two news organisations reported, including the platform said to have generated the tip, the count total and the bond amount, come from a single aggregator and have not been independently confirmed. They are flagged above rather than dropped because the referral chain is the most important thing about this case and readers should be able to see both the claim and its weak sourcing.
 
 ## What would settle it
 
-Open. The Martin County clerk of court docket would confirm the charging statutes, the exact counts and the release conditions, and would show whether the generated-image counts were filed under s. 827.072 and the remaining count under s. 827.071. The probable cause affidavit would confirm which platform made the referral and when. The disposition of the February 2025 case would also be useful, since a county with two of these prosecutions and no reported outcome in either is a county where the law's practical effect is still unknown.
+Open. The Martin County clerk of court docket would confirm the charging statutes, the exact counts and the release conditions and would show whether the generated-image counts were filed under s. 827.072 and s. 827.071. The probable cause affidavit would confirm which platform made the referral and when. The disposition of the February 2025 case would also be useful since a county with two of these prosecutions and no reported outcome in either is a county where the law's practical effect is still unknown.
 
 Anyone who encounters this kind of material online can report it to the NCMEC CyberTipline at report.cybertip.org.

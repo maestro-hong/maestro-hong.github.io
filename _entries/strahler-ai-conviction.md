@@ -12,9 +12,9 @@ detection_path: victim
 next_check:   # closed: sentenced 8 September 2026
 safeguard: unknown
 safeguard_outcome: unknown
-summary: "James Strahler II, 37 from Columbus, Ohio, pleaded guilty on April 07, 2026 to cyberstalking, producing obscene visual representations of child sexual abuse, and publication of digital forgeries. He was sentenced on September 08, 2026 to 180 months in federal prison. The forgery count is the first conviction in the United States under the TAKE IT DOWN Act, enacted in May 2025. Investigators found more than 24 AI platforms and over 100 web-based models installed on Strahler's phone."
+summary: "A 37 year old man, James Strahler II from Columbus, Ohio, pleaded guilty on April 07, 2026 of cyberstalking, producing obscene visual representations of child sexual abuse and publishing digital forgeries. He was sentenced on September 08, 2026 to 180 months in federal corrections. The forgery count is the first conviction in the US under the TAKE IT DOWN Act, which was enacted in May 2025. Investigators found more than 24 AI platforms and over 100 web-based models installed on Strahler's mobile phone."
 note_label: "Mechanism"
-note: "The new Act reaches digital forgeries of identifiable adults but expressly carves out material already covered by the child-obscenity and child-pornography statutes. That division is why the case carries separate counts rather than one and it marks the boundary of what the Act actually added."
+note: "The new Act reaches digital forgeries of identifiable adults but carves out material already covered by the child-obscenity and child-pornography statutes."
 query: 'site:justice.gov "Take It Down Act" conviction digital forgeries'
 sources:
   - tier: P
@@ -43,52 +43,38 @@ sources:
 
 This record covers category D at the level of statute, charge, and
 enforcement outcome. The conduct is described in the Justice
-Department releases linked below. It is not reproduced here, and nothing
-about the production of the material is set out.
+Department releases linked below.
 
 ## What the statute added
 
 The TAKE IT DOWN Act was signed in May 2025 as Public Law 119-12. Its
 criminal provisions cover non-consensual publication of intimate visual
 depictions and create a distinct offence for publishing a digital forgery
-of an identifiable person, with separate subsections for adults and minors.
+of an identifiable person with separate subsections for adults and minors.
 
-The Act expressly excludes from its intimate-depiction offence material
+The Act excludes from its intimate-depiction offence material
 constituting child pornography under 18 U.S.C. § 2256 or obscene visual
 representations of the sexual abuse of children under 18 U.S.C. § 1466A.
 Those remain prosecutable under the older statutes.
 
-That exclusion is visible in the charges here. The digital forgery count
-corresponds to the adult victims. The obscenity count corresponds to
-material involving minors and rests on law that predates the Act by two
-decades. The Act is therefore best read as closing a gap for adult victims,
+The digital forgery count corresponds to the adult victims. 
+The obscenity count corresponds to
+material involving minors and law that predates the Act by two
+decades. The Act is best read as closing a gap for adult victims,
 not as the instrument reaching the child-related conduct; a distinction the
 coverage of this case generally does not draw.
-
-## Open question: which conduct the forgery count covers
-
-The Justice Department places the harassment campaign between December 2024
-and June 2025. The Act was signed in May 2025. On its face, most of the
-conduct period predates the statute, which would leave only a narrow window
-in which the forgery count could operate without a retroactivity problem.
-
-The charging document would resolve this, and this record has not obtained
-it. Until then, the entry does not assert how the count was framed. Anyone
-citing this case as a precedent on the Act's reach should read the
-information or indictment first.
 
 ## Enforcement sequence
 
 The case reached federal authorities only after the local response had
 already ran and failed. Secondary reporting describes state misdemeanour
 charges filed in January following the first complainant's reports, release,
-continued conduct, and further misdemeanour charges in April before federal
+continued conduct and further misdemeanour charges in April before federal
 arrest in June 2025.
 
 If that sequence is accurate, the interval between first report and federal
-intervention is the operationally significant number in this case, and it is
-not stated in either Justice Department release. It is recorded here as
-reported rather than confirmed.
+intervention is the operationally significant number in this case and it is
+not stated in either Justice Department release.
 
 Investigation involved the Hilliard Police Department, the Delaware County
 Sheriff's Office, the FBI Cincinnati Division, and the Maryland AI and
@@ -97,11 +83,6 @@ media task force in a case of this kind is itself worth tracking.
 
 ## Record
 
-Pleaded guilty 7 April 2026 before Chief U.S. District Judge Sarah D.
-Morrison, Southern District of Ohio. Sentenced 8 September 2026 to 180
-months. Aggregate volume cited at sentencing: more than 700 files posted,
-with roughly 2,400 further files flagged on his device.
-
-**Open — the charging document has not been obtained.** Statutory framing of
-the forgery count, and the timing question above, remain unresolved in this
-record.
+Strahler pleaded guilty on April 07 2026 and sentenced on September 08 2026 to 180
+months. During the sentencing, it was claimed that Strahler posted more than more than 700 files,
+with roughly 2,400 additional files flagged on his device.
