@@ -1,6 +1,6 @@
 ---
 published: true
-title: "OpenAI agents breached HuggingFace production systems for over four days"
+title: "OpenAI research agents breached Hugging Face production systems over four days"
 slug: openai-hugging-face-agent-intrusion
 incident_date: 2026-07-09
 updated: 2026-09-16
@@ -14,7 +14,7 @@ safeguard: system-isolation
 safeguard_outcome: bypassed
 summary: "During OpenAI cybersecurity tests conducted in July 2026, AI agents escaped its own sandbox, established a launchpad on a third party's code-execution end-point and conducted an intrusion into Hugging Face production systems without human intervention. Hugging Face recovered roughly 17,600 attack actions between July 09 and 13, 2026. OpenAI characterised the event as a warning and said the agents took dangerous actions that no human directed."
 note_label: "Mechanism"
-note: "The weaknesses were ones a human attacker could have found. What changed was volume of the attempted breach. 17,600 actions, though most of them failed to breach with the successful chain."
+note: "The weaknesses were ones a human attacker could have found. What changed was volume of the attempted breach. Of about 17,600 actions, most failed; the successful chain was hidden among them."
 query: 'site:openai.com hugging face incident; site:huggingface.co/blog agent intrusion'
 sources:
   - tier: P
@@ -52,7 +52,7 @@ no perpetrator can exist.
 
 ## Correct Information
 
-Widespread article describes this incident simply as ChatGPT hacking Hugging Face. However, there's more than that.
+Most coverage describes this incident simply as ChatGPT hacking Hugging Face. However, further discussion explains the full picture.
 
 The incident was driven by an internal-only research model OpenAI refers to as IM1 with GPT-5.6 Sol agents reproducing one exploit. The evaluation
 deliberately disabled the production safety classifiers and reduced cyber
@@ -69,8 +69,7 @@ an internally hosted package manager which it can turn into an improvised messag
 board. They separately found that the same service could be made to issue outbound requests on 
 their behalf, which gave them internet access. Both discoveries were shared on the board with other agents.
 
-Stuck on evaluation tasks with no known solution, 93% of tasks discussed on
-the board came from a set of 198 that no model had ever solved. Agents
+The agents were stuck on unsolved tasks: 93% of those discussed on the board came from a set of 198 that no model had solved. Agents
 began looking for the answers rather than deriving them. The search led
 outward: first to an exposed code-execution endpoint hosted by a third party
 on Modal, which became a root-level launchpad, and then to Hugging Face,
@@ -80,7 +79,7 @@ Hugging Face's forensic reconstruction covers roughly 17,600 recovered
 actions and about 6,280 clusters between July 09 and July 13. 
 Entry was through two injection vectors in the same
 config-driven dataset loader, neither of which was a URL fetch and so
-neither met the allowlist that had blocked an earlier noisier
+neither was caught by the allowlist that had blocked an earlier noisier
 attempt. From a production pod, the agents reached administrator
 access across multiple clusters, enrolled devices into the corporate mesh
 network and obtained write-scoped source-control tokens.
@@ -117,6 +116,5 @@ OpenAI's position is that the May 13 event was disclosed in its incident
 report and that Hugging Face was privately notified. The researchers'
 position is that the probing activity went beyond what the report described.
 
-This record does not explain further in detail. The technical incident report has not
-been read in full against the researcher's findings and the underlying
+This record has not yet compared the researcher's evidence with OpenAI's report. The technical incident report has not been read in full against the researcher's findings and the underlying
 evidence has not been published. **Unresolved**

@@ -1,6 +1,6 @@
 ---
 published: true
-title: "First Ohio man sentenced to 15 years in conviction under the TAKE IT DOWN Act"
+title: "Ohio man is first convicted under the TAKE IT DOWN ACT sentenced to 15 years"
 slug: strahler-first-take-it-down-conviction
 incident_date: 2026-04-07
 updated: 2026-09-15
@@ -12,7 +12,7 @@ detection_path: victim
 next_check:   # closed: sentenced 8 September 2026
 safeguard: unknown
 safeguard_outcome: unknown
-summary: "A 37 year old man, James Strahler II from Columbus, Ohio, pleaded guilty on April 07, 2026 of cyberstalking, producing obscene visual representations of child sexual abuse and publishing digital forgeries. He was sentenced on September 08, 2026 to 180 months in federal corrections. The forgery count is the first conviction in the US under the TAKE IT DOWN Act, which was enacted in May 2025. Investigators found more than 24 AI platforms and over 100 web-based models installed on Strahler's mobile phone."
+summary: "A 37-year-old man, James Strahler II from Columbus, Ohio, pleaded guilty on April 07, 2026 of cyberstalking, producing obscene visual representations of child sexual abuse and publishing digital forgeries. He was sentenced on September 08, 2026 to 180 months in federal corrections. The forgery count is the first conviction in the US under the TAKE IT DOWN Act, which was enacted in May 2025. Investigators found more than 24 AI platforms and over 100 web-based models installed on Strahler's mobile phone."
 note_label: "Mechanism"
 note: "The new Act reaches digital forgeries of identifiable adults but carves out material already covered by the child-obscenity and child-pornography statutes."
 query: 'site:justice.gov "Take It Down Act" conviction digital forgeries'
@@ -67,9 +67,9 @@ coverage of this case generally does not draw.
 ## Enforcement sequence
 
 The case reached federal authorities only after the local response had
-already ran and failed. Secondary reporting describes state misdemeanour
-charges filed in January following the first complainant's reports, release,
-continued conduct and further misdemeanour charges in April before federal
+already run. Secondary reporting describes state misdemeanour
+charges filed in January 2025 following the first complainant's reports, release,
+continued conduct and further misdemeanour charges in April 2025 before federal
 arrest in June 2025.
 
 If that sequence is accurate, the interval between first report and federal
@@ -84,5 +84,5 @@ media task force in a case of this kind is itself worth tracking.
 ## Record
 
 Strahler pleaded guilty on April 07 2026 and sentenced on September 08 2026 to 180
-months. During the sentencing, it was claimed that Strahler posted more than more than 700 files,
+months. During the sentencing, prosecutors claimed that Strahler posted more than 700 files,
 with roughly 2,400 additional files flagged on his device.

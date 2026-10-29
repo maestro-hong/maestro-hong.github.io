@@ -12,7 +12,7 @@ detection_path: referral
 next_check: 2026-11-10
 safeguard: provider-safeguards
 safeguard_outcome: unknown
-summary: "The Lake County Sheriff's Office arrested Mark E. Hansen, 42, on October 08, 2026 of unincorporated Antioch. Prosecutors approved 13 counts of obscene depiction of a purported child (each a Class 2 felony) and states more charges are expected. The investigation began with information from the National Center for Missing and Exploited Children (NCMEC) that a device in Lake County was being used to create AI-generated child sexual abuse material. The sheriff's office states that more than 50,000 images and videos were found in online accounts."
+summary: "The Lake County Sheriff's Office arrested Mark E. Hansen, 42, of unincorporated Antioch, on October 8, 2026. Prosecutors approved 13 counts of obscene depiction of a purported child (each a Class 2 felony) and states more charges are expected. The investigation began with information from the National Center for Missing and Exploited Children (NCMEC) that a device in Lake County was being used to create AI-generated child sexual abuse material. The sheriff's office states that more than 50,000 images and videos were found in online accounts."
 note_label: "Numbers check"
 note: "The 50,000 figure covers material found in online accounts. The 13 counts rest on eight videos and five images and detectives have not yet established whether real children were used."
 query: 'Lake County Sheriff ICAC Antioch AI-generated "purported child" Hansen'
@@ -56,7 +56,7 @@ information from NCMEC that a device in Lake County was being used to create
 AI-generated child sexual abuse material. Detectives traced the device to a
 home in Antioch. The Sheriff's Office, the Lake County State's
 Attorney's Office and the Illinois Attorney General's Office executed a search
-warrant on October 08, 2026 where numerous electronic devices were
+warrant on October 8, 2026 where numerous electronic devices were
 seized for forensic analysis.
 
 The release from the authorities does not state who reported the incident to NCMEC. The Lake and McHenry
@@ -78,8 +78,7 @@ No other record has found the outcome of the hearing.
 
 ## The Illinois statute
 
-Illinois built Section 11-20.4 of the Criminal Code to combat any forged material that does not depict a real child under the age 18. 
-The statute covers any computer-generated images and video of underaged kids. It took effect on January 01, 2025 under Public Act 103-825.
+Illinois built Section 11-20.4 of the Criminal Code to combat forged material that does not depict a real child under the age 18. The statute covers computer-generated images and video of underaged individuals. It took effect on January 01, 2025 under Public Act 103-825.
 
 In the Boulder County case, the
 [images were altered photographs of real children](/entry/72-year-old-man-charged-ai-child-image/),

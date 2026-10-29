@@ -1,6 +1,6 @@
 ---
 published: true
-title: "Montreal minor arrested after using AI to plan school attack"
+title: "Montreal minor arrested over alleged AI-assisted school attack plan"
 slug: montreal-minor-ai-school-attack
 incident_date: 2026-08-21
 updated: 2026-09-25
@@ -77,11 +77,6 @@ sources:
     title: "Down the rabbit hole: Experts warn of youth radicalization online"
     url: "https://www.canadianaffairs.news/2026/03/25/down-the-rabbit-hole-experts-warn-of-youth-radicalization-online/"
     retrieved: 2026-09-25
-  - tier: S
-    outlet: The Globe and Mail
-    title: "RCMP charge Montreal minor with terrorism offences involving Islamic State"
-    url: "https://www.theglobeandmail.com/canada/article-montreal-minor-terrorism-charges-islamic-state-rcmp/"
-    retrieved: 2026-09-25
 ---
 
 ## What is alleged
@@ -97,21 +92,20 @@ been planning an attack at a school in Montreal with assistance of AI
 and to have posted threatening messages on Telegram targeting various groups.
 
 An RCMP spokesperson told reporters the groups included Muslim, Haitian and 2SLGBTQ+ communities 
-and told Radio-Canada that the youth identified as neo-Nazi and accelerationistic view with
+and told Radio-Canada that the youth identified as neo-Nazi and accelerationist with
 nihilism. Accelerationism holds that society's collapse should be hastened by
 inflaming political, racial and social tensions. Investigators searched the
 residence for any electronic devices.
 
-He has not been charged and the RCMP claims charges may be laid in the future. Nothing
+He has not been charged and the RCMP states charges may be laid in the future. Nothing
 here has been tested in court.
 
 ## Peace bond
 
-The RCMP charged the youth with a terrorism recognizance under section
-810.011 of the Criminal Code. With the Attorney General's consent, a person
+The RCMP is seeking a terrorism recognizance (peace bond) under section 810.011 of the Criminal Code. With the Attorney General's consent, a person
 who fears on reasonable grounds that someone may commit a terrorism offence
 can bring the matter before a provincial court judge. If the judge accepts
-that the fear is reasonable, the person can be ordered to keep the peace for
+that the fear is reasonable, the defendant can be ordered to keep the peace for
 up to twelve months, under conditions that can include surrendering travel
 documents, staying within a set area and turning over weapons. 
 The RCMP release describes its purpose as monitoring and de-escalation.
@@ -140,7 +134,7 @@ cannot be tested from the outside, so it is recorded as an allegation.
 The RCMP provided one further detail in interviews: the operators of the online
 platforms the youth used cooperated with the law enforcement.
 
-Major AI providers are publishing a policy of referring
+At least one major AI provider are publishing a policy of referring
 conversations to law enforcement when human reviewers find an imminent threat
 of serious physical harm to others. No source connects any provider's
 referral to this case. In the
@@ -164,16 +158,13 @@ told The Globe and Mail in 2025 that the peak age for high exposure to violent
 radicalisation had dropped from 19 to 13 and that most of the cases
 referred to her group involve white supremacist or neo-Nazi ideology.
 
-The tip from outside of Canada is not new either. In March 2026, teenagers in Nova
-Scotia and Manitoba were arrested over plans to attack their high
-schools after Interpol and the FBI flagged their communications.
+The tip from outside of Canada is not new either. In March 2026, alleged plans to attack their high schools after Interpol and the FBI flagged their communications.
 
 
 ## Open
 
-**No charge** The youth remains uncharged although the RCMP claims charges may follow.
+**No charge** The youth remains uncharged although the RCMP states charges may follow.
 
 **The tool** AI tool used by the youth has not been named in any source.
 
-**The origin** Neither the source of the FBI's intelligence nor the AI company
-that cooperated with the authorities have been identified.
+**The origin** Neither the source of the FBI's intelligence nor the platforms that cooperated with the authorities have been identified.

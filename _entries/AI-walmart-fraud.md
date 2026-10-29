@@ -12,7 +12,7 @@ detection_path: business
 next_check: 2026-10-26
 safeguard: staff-procedure
 safeguard_outcome: caught
-summary: "Chatham County police arrested a 20-year-old man, Dieon Cornelius Love on September 07, 2026 after he posed as a delivery driver at Walmart using account generated with AI. The report indicates that the accused used AI to create a fake account making online orders appear legitimate. Store staff noticed and reported the incident to police before fleeing the scene. He was charged with criminal attempt to commit a misdemeanour and has been released on a $1,300 bond. It does not mention which AI tool was used, how the accounts were made or what was edited."
+summary: "Chatham County police arrested a 20-year-old man, Dieon Cornelius Love on September 07, 2026 after he posed as a delivery driver at Walmart using account generated with AI. The report indicates that the accused used AI to create a fake account making online orders appear legitimate. Store staff noticed and reported the incident to police. He was charged with criminal attempt to commit a misdemeanour and has been released on a $1,300 bond. It does not mention which AI tool was used, how the accounts were made or what was edited."
 note_label: "Claim check"
 note: "Police claim that Love used AI to generate fake accounts. Reports do not state the tool used, explain the method nor provide what was modified. The authorities also did not issue any press release, so all the information has been retrieved from interviews rather than an official report/document."
 query: 'Chatham County police AI delivery driver Walmart arrest Georgia'
@@ -59,20 +59,18 @@ an off-duty officer detained him until officers arrived.
 No items were stolen. Love was arrested on September 07, 2026 and charged with criminal attempt to commit a misdemeanour,
 which one report cites as O.C.G.A. section 16-4-1. Bond was set at $1,300.
 
-## Question
+## The AI claim
 What the reports/sources did not provide are any information pertaining to: type of AI tool, model,
 service or name of the application. No information provides how the accounts were created or what was modified to make the order look legitimate. 
 One of the reports state the missing information, reporting that authorities have not publicly released the tool was used, how the
 accounts were generated or what was altered.
 
-The lack of information only supports the fact of an allegation and nothing about the capability behind it.
+The record supports that an allegation was made, not what the AI did.
 
-**Unresolved**
 
 ## Chief statement
 
-Chief Jeff Hadley claimed that this was the first criminal investigation involving AI in the department. The Chief further outlined that the Georgia
-Department is meeting with national police think tanks to develop tactics for
+Chief Jeff Hadley claimed that this was the first criminal investigation involving AI in the department. The Chief further outlined that the Chatham County Police Department is meeting with national police think tanks to develop tactics for
 investigating AI-driven crime.
 
 ## Open

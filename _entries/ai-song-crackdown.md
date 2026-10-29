@@ -1,6 +1,6 @@
 ---
 published: true
-title: "Man pleads guilty of using AI-generated songs and bot accounts totalling $8 mil royalties"
+title: "Man pleads guilty to $8 million streaming fraud using AI-generated songs and bot accounts"
 slug: smith-streaming-royalty-fraud
 incident_date: 2024-09-04
 updated: 2026-09-26
@@ -12,7 +12,7 @@ detection_path: unknown
 next_check: 2026-10-26
 safeguard: platform-detection
 safeguard_outcome: bypassed
-summary: "A 54 year old man, Michael Smith, pleaded guilty of fradulently obtaining more than $8 million in streaming royalties with the use of AI. From 2017 to 2024, Smith operated roughly 10,000 bot accounts against music he owned on platforms, such as Spotify, Apple Music, Amazon Music and YouTube Music. Since 2018, he purchased hundreds of thousands of AI-generated tracks by an AI music company executive under a monthly supply contract. He pleaded guilty to conspiracy to commit wire fraud in March 2026."
+summary: "A 54 year old man, Michael Smith, pleaded guilty of fraudulently obtaining more than $8 million in streaming royalties with the use of AI. From 2017 to 2024, Smith operated roughly 10,000 bot accounts against music he owned on platforms, such as Spotify, Apple Music, Amazon Music and YouTube Music. Since 2018, he purchased hundreds of thousands of AI-generated tracks by an AI music company executive under a monthly supply contract. He pleaded guilty to conspiracy to commit wire fraud in March 2026."
 note_label: "Mechanism"
 note: "Music streaming platforms detected implausible play counts on Smith's individual tracks. Volume is the binding constraint on evading the unusual activity, but a large supply of AI songs removed the abnormality. The method of using bots to repeatedly play numerous tracks may not have immediately alerted the moderator since the activity may have appeared to sit inside normal variation."
 query: 'site:justice.gov "artificial intelligence" streaming fraud royalties'
@@ -73,8 +73,7 @@ one residence. Payment was routed through a debit-card service that Smith
 told he was issuing cards to company employees, funded with $1.3 million in
 fraud proceeds.
 
-The supplied audio files was initially delivered to Smith with randomized filenames. Smith generated credible songs 
-and artist names to attach together. The fraud relied on invented titles and artist names attached to the files.
+The supplied audio files was initially delivered to Smith with randomized filenames. Smith attached invented song titles and artist names to the files.
 
 ## Forefeiture
 
@@ -92,11 +91,9 @@ asserted that the works were human-authored rather than computer-generated.
 Smith was charged on September 04, 2024 on wire fraud conspiracy, wire fraud and money laundering conspiracy. Each count carries a maximum of 20
 years. On March 19, 2026 Smith pleaded guilty to one count of conspiracy of committing wire fraud. The forefeiture was set at $8,091,843.64.
 
-On September 22 2026, the defence filed a sentencing memorandum asking for probation, arguing that the losses were very minor that no one suffered any real damage. The sentence ranged from 46 to 57 months, but the Probation Office recommended 24.
+On September 22 2026, the defence filed a sentencing memorandum asking for probation, arguing that the losses were very minor that no one suffered any real damage. The Sentencing Guidelines range is 46 to 57 months, but the Probation Office recommended 24.
 
-Spreading the revenue across millions of song track was how Smith covered the scheme from music platform. Smith is claiming that the
+Spreading the revenue across hundreds of thousands song track was how Smith covered the scheme from music platform. Smith is claiming that the
 'thinness' is the reason nobody was harmed.
 
-**Open** No sentencing date and the indictment was found for the
-AI music company executive and the promoter. No public
-charging document for the two individuals have been found.
+**Open** No sentencing date has been set. No public charging document has been found for the AI music company executive or the promoter.

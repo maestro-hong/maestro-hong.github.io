@@ -1,6 +1,6 @@
 ---
 published: true
-title: "Man charged under Florida AI image law"
+title: "Staurt man charged under Florida's generated-image law"
 slug: stuart-generated-csam-charges
 incident_date: 2026-09-25
 updated: 2026-09-27
@@ -9,7 +9,7 @@ country: United States
 status: charged
 summary: "In September 2026, Stuart police announced charges of Daniel Perez, 28-year-old man for possessing and viewing child sexual abuse material produced with AI. This is the second case in Martin County since Florida created a separate offence for generated image in 2024."
 note_label: "Claim check"
-note: "The timeline in this entry, including the platform named in the tip, the count total and the bond figure, is backed up by one report and is not confirmed by the two news organisations that covered the arrest."
+note: "empty"
 query: "Stuart Florida AI generated child sexual abuse material charges 827.072"
 sources:
   - tier: P
@@ -66,15 +66,15 @@ sources:
 
 ## Incident
 
-Stuart police announced in late September 2026 that they had arrested 28 year old man, Daniel Perez from Stuart, Florida. The charges concern possessing and viewing child sexual abuse material produced with AI. He was released on bond and no trial date has been reported.
+Stuart police announced in late September 2026 that they had arrested 28-year-old man, Daniel Perez from Stuart, Florida. The charges concern possessing and viewing child sexual abuse material produced with AI. He was released on bond and no trial date has been reported.
 
-The department's statement is worth mentioning because it is the whole legal point of the case. As technology changes, so do the ways people use it to exploit children and the use of AI does not make this kind of conduct any less serious or criminal. It is a description of a specific legislative choice Florida made two years ago.
+The department's statement is worth mentioning because it is the whole legal point of the case: "As technology changes, so do the ways people use it to exploit children and the use of AI does not make this kind of conduct any less serious or criminal".
 
 ## Florida's AI law
 
-Florida's main child exploitation statute, s. 827.071 has a requirement to convict the individual. When material has been created, altered or modified digitally, the statute is applied only if it portrays an identifiable minor. It can be interpreted as a real person recognisable by face or some distinguishing feature. Prosecutors do not have to prove the identity of the child.
+To convict under s.827.071 for digitally altered material, the state must show it depicts an identifiable minor. When material has been created, altered or modified digitally, the statute is applied only if it portrays an identifiable minor. It can be interpreted as a real person recognisable by face or some distinguishing feature. Prosecutors do not have to prove the identity of the child.
 
-The statute applies to edited photographs of real children; it does not work for an image of a child who never existed. So in 2024, the legislature passed a parallel offence (s. 827.072) titled 'generated child pornography'. It covers any image created or modified by computer-generated means to portray a fictitious person whom a reasonable person would regard as a real person under 18 engaged in sexual conduct. Possession or intentional viewing is a third-degree felony as well as creating it. The practical effect is that Florida now has one statute for images of real children and another for images of children who do not exist, where it does not matter whether real child involved in the incident.
+The statute applies to edited photographs of real children; it does not work for an image of a child who never existed. So in 2024, the legislature passed a parallel offence (s. 827.072) titled 'generated child pornography'. It covers any image created or modified by computer-generated means to portray a fictitious person whom a reasonable person would regard as a real person under 18 engaged in sexual conduct. Possession or intentional viewing is a third-degree felony whereas creating it is under second-degree felony. The practical effect is that Florida now has one statute for images of real children and another for images of children who do not exist, where it does not matter whether real child involved in the incident.
 
 ## Count numbers
 
@@ -92,11 +92,11 @@ The volume behind that pipeline is difficult to convey. NCMEC received 21.3 mill
 
 If the reported dates are correct, the tip reached Stuart police in February 2026, a search warrant was executed in April and arrested Perez in September 2026. That is roughly seven months from referral to arrest, on a case that began with a AI company handing police a specific account and specific files.
 
-Digital forensics takes time, warrants take time and prosecutors have to make charging decisions on material that has to be reviewed by humans. But it is the number to watch as these referrals scale. A detection pipeline that generates 1.5 million reports a year feeding into local agencies that take months per case is a pipeline with a growing backlog. The technology industry has largely solved by automating the detection. The public institutions on the receiving end have not been resourced for the volume it produces.
+Digital forensics takes time, warrants take time and prosecutors have to make charging decisions on material that has to be reviewed by humans. But it is the number to watch as these referrals scale. A detection pipeline that generates 1.5 million reports a year feeding into local agencies that take months per case is a pipeline with a growing backlog. Platforms have automated much of the detection. The public institutions on the receiving end have not been resourced for the volume it produces.
 
 ## Note
 
-No report describes the material in any case, does not identify how such material is produced and does not name tools or techniques. Nothing here would help anyone do this.
+This entry does not describe the material, how it was produced or any tools, as a standing rule for this category. Nothing here would help anyone do this.
 
 Mr. Perez and Mr. Alvarado-Lizano are named because law enforcement agencies named them in public announcements. Neither has been convicted. The details in this entry that go beyond what the two news organisations reported, including the platform said to have generated the tip, the count total and the bond amount, come from a single aggregator and have not been independently confirmed. They are flagged above rather than dropped because the referral chain is the most important thing about this case and readers should be able to see both the claim and its weak sourcing.
 

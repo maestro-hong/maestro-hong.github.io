@@ -1,6 +1,6 @@
 ---
 published: true
-title: "31 arrested on Malaysian scam that used AI to target Spain nationals"
+title: "Thirty-one fined after raid on Malaysian scam centre that used AI translation to target victims in Spain"
 slug: johor-ai-translation-scam
 incident_date: 2026-05-14
 updated: 2026-09-17
@@ -14,7 +14,7 @@ safeguard: unknown
 safeguard_outcome: unknown
 summary: "Johor police raided a bungalow in Gelang Patah, Malaysia on May 14, 2026 and arrested 35 Chinese nationals running fake job offers. Police reported that the AI was used to translate language between Mandarin, English and Spanish in real-time to conduct the scam. A total of 31 individuals pleaded guilty on May 27, 2026 and each fined with RM3,500 each."
 note_label: "Mechanism"
-note: "The translation layer does not improve efficiency in this operation. Without the assistance of AI, a Mandarin-speaking group cannot conduct criminal operation towards a Spanish-language victim. Police credit AI with translation only. Nothing in the record suggests it changed the script or the volume."
+note: "The translation layer does not improve efficiency in this operation. Without the assistance of AI, a Mandarin-speaking group could not easily conduct criminal operation towards a Spanish-language victim. Police credit AI with translation only. Nothing in the record suggests it changed the script or the volume."
 query: 'Police raided Gelang Patah bungalow and arrest Chinese nationals over Spain job scam AI translation'
 sources:
   - tier: S
@@ -59,13 +59,11 @@ The police chief stated the syndicate used AI and prepared language
 templates to translate operator speech from Mandarin to English and
 inbound Spanish to English.
 
-The operators spoke Mandarin. The victims were located in Spain. The translation layer works as a bridge
-to make the scam operate.
+The operators spoke Mandarin. The victims were located in Spain. The translation layer works as a bridge to make the scam operate.
 
-It is worth noting what the police could not validate. The translation
+It is important to assess what the police could not validate. The translation
 described runs Mandarin into English and inbound Spanish into English, which
-makes English the bridge between the languages. Whether victims were native Spanish or English-speakers living
-in Spain is confirmed.
+makes English the bridge between the languages. Whether victims were native Spanish or English-speakers living in Spain is not confirmed.
 
 Police described translation, not automation: the tool let Mandarin speakers easily approach Spanish-speaking victims.
 A criminal who previously had been bounded by the languages can now work in any language market. Every
@@ -77,14 +75,12 @@ constraint that has quietly stopped applying.
 On May 27 2026, 31 of the accused pleaded guilty in the Johor Bahru
 Magistrates' Court and were fined RM3,500 each. All fines were paid in full. 
 Four others remained under investigation pending identity
-verification. The fine was smaller than one month's
-wages for average person.
+verification.
 
 ## Why the charge changed and what it suggests
 
 The 35 were initially remanded under Section 420 of the Penal Code, which
-covers that dishonesty induces the delivery of property and carries
-up to ten years. The prosecution that followed proceeded under Section 417 that covers
+covers cheating that dishonestly induces delivery of property. The prosecution that followed proceeded under Section 417 that covers
 simple cheating along with Section 120B for criminal conspiracy. It is a
 materially lesser offence which in practice draws a fine.
 
@@ -98,12 +94,6 @@ involved or that any Spanish victim was ever notified.
 The same translation capability that allows this syndicate reach victims on
 another continent also placed victims beyond the evidentiary reach of
 the prosecutors who would have needed them.
-
-## A comparison
-
-In July 2026, the same court sentenced two Chinese nationals over Forest City love
-scams charged under the identical sections of one month's imprisonment with
-a RM7,000 fine each.
 
 ## Open
 

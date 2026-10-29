@@ -14,7 +14,7 @@ safeguard: system-isolation
 safeguard_outcome: bypassed
 summary: "During cybersecurity tests run by the Israeli firm 'Irregular' in May 2026, Google's Gemini gained unauthorized access to three companies. Without human intervention, Gemini guessed a password by using credentials that were publicly available. However, Google confirms that the model stopped each time it recognised the target was real. Google did not publish anything at the time and confirmed the incidents on September 18 2026, after the Wall Street Journal reported. It was roughly seven weeks after Anthropic, OpenAI and Meta had each disclosed incidents arising from the same testing environment."
 note_label: "Open question"
-note: "Who decides whether a breach is disclosable when the company itself are not aware and whether the breach was committed by a model with no operator to hold responsible."
+note: "Who decides whether a breach is disclosable when is not aware and whether the breach was committed by a model with no operator to hold responsible."
 query: 'site:anthropic.com cybersecurity evaluations incidents; site:openai.com third-party cyber evaluations; "Irregular" evaluation sandbox real company'
 sources:
   - tier: P
@@ -54,7 +54,7 @@ sources:
     retrieved: 2026-09-22
 ---
 
-## Google's Innocence
+## The test setup
 
 Gemini was being tested by Irregular, an Israeli firm that runs capture-the-flag type of
 cybersecurity evaluations for frontier labs. The exercise provides an AI model a
@@ -100,8 +100,8 @@ public record.
 
 ## Labs disclosure
 
-Anthropic published the full complete document out of other incidents. It describes three incidents arising from what it
-calls a misconfiguration that left Claude reached during the evaluation with live internet access.
+Anthropic published the most detailed account of the three labs. It describes three incidents arising from what it
+calls a misconfiguration where Claude operated on its own with internet access.
 
 It is important to assess how those models behaved on
 recognising a real target. In the first
