@@ -12,9 +12,9 @@ detection_path: unknown
 next_check: 2026-12-25
 safeguard: unknown
 safeguard_outcome: unknown
-summary: "Johor police raided a bungalow in Gelang Patah, Malaysia on May 14, 2026 and arrested 35 Chinese nationals running fake job offers. Police reported that the AI was used to translate language between Mandarin, English and Spanish in real-time to conduct the scam. A total of 31 individuals pleaded guilty on May 27, 2026 and each fined with RM3,500 each."
+summary: "Johor police raided a bungalow in Gelang Patah, Malaysia on May 14, 2026 and arrested 35 Chinese nationals running a fake job-offer scam aimed at victims in Spain. Police said the group used AI and prepared language templates to translate between Mandarin, English and Spanish. On May 27, 2026, 31 of them pleaded guilty and were each fined RM3,500."
 note_label: "Mechanism"
-note: "The translation layer does not improve efficiency in this operation. Without the assistance of AI, a Mandarin-speaking group could not easily conduct criminal operation towards a Spanish-language victim. Police credit AI with translation only. Nothing in the record suggests it changed the script or the volume."
+note: "Police credit AI with translation only: it let Mandarin-speaking operators work victims in Spain. Nothing in the record suggests it changed the script or the volume."
 query: 'Police raided Gelang Patah bungalow and arrest Chinese nationals over Spain job scam AI translation'
 sources:
   - tier: S
@@ -42,9 +42,7 @@ sources:
 ## The operation
 
 A six-room bungalow in Gelang Patah, the Iskandar Puteri district near
-the Singapore border had been running scam operation since February 2026.
-33 occupants worked as agents, targeting victims on Telegram
-and offering jobs to victims that did not exist.
+the Singapore border had been used as a scam centre since February 2026. [Of the 35 people inside, 33 worked as agents: check The Star], targeting victims on Telegram with offers of jobs that did not exist.
 
 The scam methodology was nothing new. Victims were offered employment at several salary
 tiers with the higher salaries requiring the purchase of a more expensive
@@ -61,14 +59,7 @@ inbound Spanish to English.
 
 The operators spoke Mandarin. The victims were located in Spain. The translation layer works as a bridge to make the scam operate.
 
-It is important to assess what the police could not validate. The translation
-described runs Mandarin into English and inbound Spanish into English, which
-makes English the bridge between the languages. Whether victims were native Spanish or English-speakers living in Spain is not confirmed.
-
-Police described translation, not automation: the tool let Mandarin speakers easily approach Spanish-speaking victims.
-A criminal who previously had been bounded by the languages can now work in any language market. Every
-assumption about where a given syndicate's victims will be found rests on a
-constraint that has quietly stopped applying.
+What police did not establish: the translation they described runs Mandarin into English and inbound Spanish into English, so English sits between the two languages. Whether the victims were native Spanish speakers or English speakers living in Spain is not known.
 
 ## Court outcome
 
@@ -80,30 +71,17 @@ verification.
 ## Why the charge changed and what it suggests
 
 The 35 were initially remanded under Section 420 of the Penal Code, which
-covers cheating that dishonestly induces delivery of property. The prosecution that followed proceeded under Section 417 that covers
-simple cheating along with Section 120B for criminal conspiracy. It is a
-materially lesser offence which in practice draws a fine.
+covers cheating that dishonestly induces delivery of property. The prosecution proceeded instead under Section 417 (simple cheating) with Section 120B (criminal conspiracy). Section 417 is a materially lesser offence and in practice often draws a fine.
 
-No source explains the change. It is inference rather
-than fact that the more serious charge requires proving that identified
-victims actually parted with property and every victim in this case was in
-Spain. No Spanish complainant were referred anywhere in the public record. No loss
-figure was ever published. Nothing indicates that Spanish authorities were
-involved or that any Spanish victim was ever notified.
-
-The same translation capability that allows this syndicate reach victims on
-another continent also placed victims beyond the evidentiary reach of
-the prosecutors who would have needed them.
+No source explains the change. One possible reason, and it is this record's inference: Section 420 requires proof that identified victims actually parted with property, and every victim was in Spain. No Spanish complainant appears anywhere in the public record. No loss figure was ever published. Nothing indicates that Spanish authorities were involved or that any Spanish victim was ever notified.
 
 ## Open
 
 **Sources** Every article of the police raid traces to a single press conference on
-May 21, 2026. The court outcome has been written by one report that no other report has covered.
-No police release, charge sheet or court record has been obtained and there
-are no primary sources on this entry at all.
+May 21, 2026. No police release, charge sheet or court record has been obtained and there are no primary sources on this entry at all.
 
 **The organiser** A 25-year-old named by police as responsible for organising
 the syndicate locally was not among those arrested. No report indicates
 that he has been arrested.
 
-**The victims** Unknown how many victims exist in this scam, nor a total financial loss.
+**The victims** No source gives the number of victims or the total loss.

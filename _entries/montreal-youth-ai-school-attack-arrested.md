@@ -9,12 +9,12 @@ country: Canada
 status: investigating
 ai_claim_basis: statement
 detection_path: referral
-next_check: 2026-09-26
+next_check: 2026-11-23
 safeguard: provider-safeguards
 safeguard_outcome: unknown
-summary: "The Canadian national police (RCMP) arrested a Montreal minor at his home on August 21, 2026, a few weeks after the FBI shared intelligence that he was planning an attack on a school in the city. Police allege he used AI to plan the attack and posted threats on Telegram against several groups, which an RCMP spokesperson identified as Muslim, Haitian and 2SLGBTQ+ communities. He has not been charged. The RCMP is seeking a terrorism peace bond and a youth court judge released him on conditions the next day."
+summary: "The Canadian national police (RCMP) arrested a Montreal minor at his home on August 21, 2026, a few weeks after the FBI shared intelligence that he was planning an attack on a school in the city. Police allege he used AI while potentially planning the attack… This matches the RCMP release's wording. 'Used AI to plan' goes further than the release does."
 note_label: "Claim check"
-note: "AI is mentioned only in one sentence in the RCMP release. No report names the tool, states what prompt he generated, what the AI returned or whether it provided any information an ordinary search would not."
+note: "AI is mentioned in only one sentence of the RCMP release. No report names the tool, says what he asked it or what it returned, or whether it supplied anything an ordinary search would not."
 query: 'site:rcmp.ca "artificial intelligence" terrorism minor Montréal; GRC adolescent intelligence artificielle attentat école Telegram'
 sources:
   - tier: P
@@ -77,6 +77,11 @@ sources:
     title: "Down the rabbit hole: Experts warn of youth radicalization online"
     url: "https://www.canadianaffairs.news/2026/03/25/down-the-rabbit-hole-experts-warn-of-youth-radicalization-online/"
     retrieved: 2026-09-25
+  - tier: S
+    outlet: The Globe and Mail
+    title: "RCMP charge Montreal minor with terrorism offences involving Islamic State"
+    url: "https://www.theglobeandmail.com/canada/article-montreal-minor-terrorism-charges-islamic-state-rcmp/"
+    retrieved: 2026-10-30
 ---
 
 ## What is alleged
@@ -87,18 +92,10 @@ Integrated National Security Enforcement Team. The investigation had begun a
 few weeks earlier in response to intelligence shared by the FBI.
 
 According to the RCMP release, investigators had reasonable grounds to fear
-he might commit crimes related to violent extremism. He is alleged to have
-been planning an attack at a school in Montreal with assistance of AI 
-and to have posted threatening messages on Telegram targeting various groups.
+he might commit crimes related to violent extremism. He is alleged to have been planning an attack at a school in Montreal, to have used artificial intelligence while potentially planning it, and to have posted threatening messages on Telegram targeting various groups.
 
-An RCMP spokesperson told reporters the groups included Muslim, Haitian and 2SLGBTQ+ communities 
-and told Radio-Canada that the youth identified as neo-Nazi and accelerationist with
-nihilism. Accelerationism holds that society's collapse should be hastened by
-inflaming political, racial and social tensions. Investigators searched the
-residence for any electronic devices.
-
-He has not been charged and the RCMP states charges may be laid in the future. Nothing
-here has been tested in court.
+An RCMP spokesperson told reporters the groups included Muslim, Haitian and 2SLGBTQ+ communities and told Radio-Canada that the youth identified as neo-Nazi and accelerationist movements and with nihilism. Accelerationism holds that society's collapse should be hastened by inflaming political, racial and social tensions. Investigators searched the
+residence for any electronic devices. He has not been charged and the RCMP states charges may be laid in the future. Nothing here has been tested in court.
 
 ## Peace bond
 
@@ -110,37 +107,28 @@ up to twelve months, under conditions that can include surrendering travel
 documents, staying within a set area and turning over weapons. 
 The RCMP release describes its purpose as monitoring and de-escalation.
 
-The CBC reported that the youth appeared before a youth court judge on August 22, 2026 and was
+CBC News reported that the youth appeared before a youth court judge on August 22, 2026 and was
 released on conditions. He must stay in Quebec, hand over his
 travel documents to the authorities, stay off the internet unless with supervision 
 and not possess any weapons. His next appearance was set for September 03, 2026.
 
 ## The AI claim
 
-In every report, it does not state which AI tool, model or
-service was used by the youth. Nothing indicates what the youth asked, what came back, or
-whether any of it went beyond what a search engine or a forum would have
-supplied.
+No report names the AI tool, model or service. Nothing indicates what the youth asked, what came back, or whether any of it went beyond what a search engine or forum would have supplied.
 
-This incident places alongside the
-[Chatham County delivery case](/entry/AI-walmart-fraud/) and the
-[Toronto retail fraud](/entry/gift-card-fraud-toronto-arrest/), where an AI
-was only mentioned in a single police sentence. No method has been described and in a case involving a
-planned attack it would be wrong to expect police to publish an article. The claim
-cannot be tested from the outside, so it is recorded as an allegation.
+This case sits alongside the Chatham County delivery case and the Toronto retail fraud, where AI is mentioned in a single police sentence. Police are unlikely to describe the method while a terrorism case is open. The claim cannot be tested from outside, so it is recorded as an allegation.
 
-## Information
+## How the case surfaced
 
 The RCMP provided one further detail in interviews: the operators of the online
-platforms the youth used cooperated with the law enforcement.
+platforms the youth used cooperated with investigators.
 
-At least one major AI provider are publishing a policy of referring
+At least one major AI provider has published a policy of referring
 conversations to law enforcement when human reviewers find an imminent threat
 of serious physical harm to others. No source connects any provider's
 referral to this case. In the
 [Boulder County case](/entry/72-year-old-man-charged-ai-child-image/) the
 detection chain stems from the platform to the police.
-
 
 ## The wider caseload
 
@@ -153,12 +141,13 @@ report cites RCMP figures of six minors arrested on terrorism-related offences
 between April 2023 and March 2024. This record has not examined the
 underlying figures.
 
-In Quebec, Dr. Cécile Rousseau, whose team receives information pertaining to radicalisation
-told The Globe and Mail in 2025 that the peak age for high exposure to violent
-radicalisation had dropped from 19 to 13 and that most of the cases
-referred to her group involve white supremacist or neo-Nazi ideology.
+In Quebec, Dr. Cécile Rousseau, a McGill University child psychiatrist and Canada Research Chair in preventing violent radicalization, works with a clinical group that treats young extremists. In August 2025, speaking to The Globe and Mail about a separate case, she said the peak age at which young people in Quebec support violent radicalization had dropped from 19 to 13 or 14, and that most cases referred to her group involve white-supremacist and neo-Nazi ideologies.
 
-The tip from outside of Canada is not new either. In March 2026, alleged plans to attack their high schools after Interpol and the FBI flagged their communications.
+The tip from outside Canada is not new either. In March 2026, teenagers in Nova Scotia and Manitoba were arrested over alleged plans to attack their high schools after Interpol and the FBI flagged their communications.
+
+## A note on naming
+
+The Youth Criminal Justice Act prohibits publishing anything that would identify him. Some outlets reported details of where he lives. This record does not repeat them.
 
 
 ## Open
@@ -168,3 +157,5 @@ The tip from outside of Canada is not new either. In March 2026, alleged plans t
 **The tool** AI tool used by the youth has not been named in any source.
 
 **The origin** Neither the source of the FBI's intelligence nor the platforms that cooperated with the authorities have been identified.
+
+**The September 3 appearance** No public report of the outcome has been found.

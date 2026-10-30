@@ -12,9 +12,9 @@ detection_path: business
 next_check: 2026-10-26
 safeguard: staff-procedure
 safeguard_outcome: caught
-summary: "Chatham County police arrested a 20-year-old man, Dieon Cornelius Love on September 07, 2026 after he posed as a delivery driver at Walmart using account generated with AI. The report indicates that the accused used AI to create a fake account making online orders appear legitimate. Store staff noticed and reported the incident to police. He was charged with criminal attempt to commit a misdemeanour and has been released on a $1,300 bond. It does not mention which AI tool was used, how the accounts were made or what was edited."
+summary: "Chatham County police arrested Dieon Cornelius Love, 20, on September 7, 2026 after he allegedly posed as a delivery driver at a Walmart, using accounts police say he created with AI to make online orders look legitimate. Store loss-prevention staff flagged the pickup and called police. He was charged with criminal attempt to commit a misdemeanour and released on a $1,300 bond; no source says which AI tool was used or how."
 note_label: "Claim check"
-note: "Police claim that Love used AI to generate fake accounts. Reports do not state the tool used, explain the method nor provide what was modified. The authorities also did not issue any press release, so all the information has been retrieved from interviews rather than an official report/document."
+note: "Police said Love used AI to create fake accounts. No report names the tool, explains the method or says what was altered. Police issued no news release, so everything comes from interviews."
 query: 'Chatham County police AI delivery driver Walmart arrest Georgia'
 sources:
   - tier: S
@@ -51,8 +51,7 @@ sources:
 
 ## Allegations
 
-A 20-year-old man, Dieon Cornelius Love posed as a delivery driver at
-Walmart and attempted to steal Nintendo Switch and other electronics.
+Dieon Cornelius Love, 20, allegedly posed as a delivery driver at Walmart and tried to collect a Nintendo Switch and other electronics.
 Loss prevention staff identified the transaction as suspicious and contacted the local police. When Love refused to leave, 
 an off-duty officer detained him until officers arrived.
 
@@ -60,22 +59,18 @@ No items were stolen. Love was arrested on September 07, 2026 and charged with c
 which one report cites as O.C.G.A. section 16-4-1. Bond was set at $1,300.
 
 ## The AI claim
-What the reports/sources did not provide are any information pertaining to: type of AI tool, model,
-service or name of the application. No information provides how the accounts were created or what was modified to make the order look legitimate. 
-One of the reports state the missing information, reporting that authorities have not publicly released the tool was used, how the
-accounts were generated or what was altered.
+No report names the AI tool, model, service or app, or says how the accounts were created or what was altered to make the orders look legitimate. One report says authorities have not released those details.
 
 The record supports that an allegation was made, not what the AI did.
 
 
 ## Chief statement
 
-Chief Jeff Hadley claimed that this was the first criminal investigation involving AI in the department. The Chief further outlined that the Chatham County Police Department is meeting with national police think tanks to develop tactics for
+Chief Jeff Hadley said this was the first criminal investigation involving AI in the department. He added that the Chatham County Police Department is meeting with national police think tanks to develop tactics for
 investigating AI-driven crime.
 
 ## Open
 
-**No agency document** The Chatham County Police Department did not release any public statement
-about this case. All the information retrieved originates from news articles.
+**No agency document** The Chatham County Police Department has not issued a news release about this case.
 
 **No value** No source states the total amount of merchandise involved.
