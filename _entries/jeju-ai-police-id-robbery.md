@@ -75,7 +75,7 @@ Early on May 27, 2026, a man in his 30s rang the doorbell
 of a house in Jeju City, South Korea where a woman resided alone. He
 told her he was a police officer who had come to carry out a search and
 displayed a picture of a police officer's ID. According to the charges, 
-the suspect made her go into the bathroom while stealing cash and jewellery worth about 3 million won (about C3,000). Police told reporters he knew she lived alone and targeted her for that reason.
+the suspect made her go into the bathroom while stealing cash and jewellery worth about 3 million won (about C$3,000). Police told reporters he knew she lived alone and targeted her for that reason.
 
 She reported it about 17 hours later, and he was arrested the next morning. Police initially described the case as theft and said they would seek a detention warrant. By June 10, 2026, prosecutors had indicted him in custody on a robbery charge. He was also charged with stealing 1 million won (about C$1,000) in cash from another home.
 
