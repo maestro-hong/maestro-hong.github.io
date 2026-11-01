@@ -61,7 +61,7 @@ which one report cites as O.C.G.A. section 16-4-1. Bond was set at $1,300.
 ## The AI claim
 No report names the AI tool, model, service or app, or says how the accounts were created or what was altered to make the orders look legitimate. One report says authorities have not released those details.
 
-The record supports that an allegation was made, not what the AI did.
+The public record establishes the allegation but says nothing about what the AI did.
 
 
 ## What the police chief said

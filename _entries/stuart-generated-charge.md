@@ -73,7 +73,7 @@ sources:
 
 Stuart police announced in late September 2026 that they had arrested Daniel Perez, 28, of Stuart, Florida. The charges concern possessing and viewing child sexual abuse material produced with AI. He was released on bond and no trial date has been reported.
 
-In its statement, the department said that "as technology changes, so do the ways people use it to exploit children and the use of AI does not make this kind of conduct any less serious or criminal." That sentence states the legal point of the case.
+In its statement, the department said that "as technology changes, so do the ways people use it to exploit children and the use of AI does not make this kind of conduct any less serious or criminal."
 
 ## Florida's AI law
 
@@ -85,11 +85,11 @@ The statute applies to edited photographs of real children; it does not work for
 
 Section 827.072 counts offences in a way that is easy to misread. Each image possessed, controlled or viewed is counted as a separate offence. Counts therefore track how many files a prosecutor decides to charge, not how serious the conduct was or how much material was found.
 
-The comparison with a different case makes this concrete. In February 2025, Martin County Sheriff's Office arrested Leonel Alvarado-Lizano, 29, on 20 counts in what was reported at the time as the first case in the county under the new statute. NBC 6 South Florida reported about 1,000 images in that case, far more than the 20 counts charged. The count total was a charging decision, not an inventory. A difference in count totals between two cases says little about how the cases compare. Count totals measure charging practice, not harm.
+The comparison with a different case makes this concrete. In February 2025, Martin County Sheriff's Office arrested Leonel Alvarado-Lizano, 29, on 20 counts in what was reported at the time as the first case in the county under the new statute. NBC 6 South Florida reported about 1,000 images in that case, far more than the 20 counts charged. Prosecutors choose which files to charge, so count totals are not a reliable basis for comparing cases.
 
 ## How the incident surfaced
 
-Child exploitation investigations are often pictured as starting with undercover officers or tips from the public. This one appears to have started with a platform. The reported sequence here is that a technology platform's own safety systems flagged an account, the platform passed the information to the National Center for Missing and Exploited Children and NCMEC passed a cybertip to the local police department, which then sought a search warrant. 
+The reported sequence is that a technology platform's own safety systems flagged an account, the platform passed the information to the National Center for Missing and Exploited Children and NCMEC passed a cybertip to the local police department, which then sought a search warrant. 
 
 NCMEC received 21.3 million CyberTipline reports in 2025, containing more than 61.8 million suspect files. More than 1.5 million of those reports indicated some connection between AI and child sexual exploitation. NCMEC describes this as evidence of the rapidly evolving role of the technology in the type of offences. For a municipal police department, that means referrals can arrive faster than it can investigate them.
 

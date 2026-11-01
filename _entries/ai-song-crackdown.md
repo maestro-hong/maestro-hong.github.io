@@ -52,11 +52,9 @@ The error starts with the government, not the press. The US Attorney's announcem
 
 The supplier was the chief executive of an AI music company, later named in the indictment as a co-conspirator. Under a Master Services Agreement dated February 1, 2019, the CEO agreed to supply 1,000 to 10,000 songs a month. Smith paid $2,000 a month or 15% of the streaming revenue.
 
-The scheme ran on an ordinary supply contract: a vendor, a monthly volume and a revenue share.
-
 ## The constraint removed by AI
 
-Smith had been running bot accounts since 2017 and had tried selling fraudulent streams to other musicians. Platforms flag individual tracks with implausible play counts: a billion streams on one song raises a red flag, while the same billion spread across tens of thousands of songs does not. The limiting factor was catalogue size, not bot capacity.
+Smith had been running bot accounts since 2017 and had tried selling fraudulent streams to other musicians. Platforms flag individual tracks with implausible play counts: a billion streams on one song raises a red flag, while the same billion spread across tens of thousands of songs does not. The size of the catalogue therefore limited how many streams the scheme could hide.
 
 The indictment quotes emails Smith sent co-conspirators in late 2018 and 2019 saying he needed (1) a large quantity of songs, each carrying a small number of streams; (2) songs quickly, to work around anti-fraud systems; and (3) enough catalogue to avoid overrunning individual songs and losing them. In June 2019 he asked his supplier for another 10,000 songs so the streams could be spread wider.
 
@@ -86,6 +84,6 @@ years. On March 19, 2026 Smith pleaded guilty to one count of conspiracy to comm
 
 On September 22, 2026, the defence filed a sentencing memorandum asking for probation, arguing that the losses were so thinly spread that no artist suffered any perceptible harm. The Sentencing Guidelines range is 46 to 57 months, but the Probation Office recommended 24.
 
-Spreading streams thinly across hundreds of thousands of tracks is what kept the scheme hidden from the platforms. Smith now argues that the same thinness means nobody was harmed.
+The defence’s harm argument rests on the same low per-track counts that kept the scheme from being detected.
 
 **Open** No sentencing date has been set. No public charging document has been found for the AI music company executive.

@@ -89,7 +89,7 @@ with both victims and had no previous criminal record.
 
 ## The AI claim
 
-In several entries, including the Chatham County, Toronto and Montreal cases, the AI claim rests on a single official statement. This one stands on firmer ground. Jeju Sori, quoting the charged facts, and Aju Business Daily, citing the indictment, both report that the accused presented a police officer's ID made or forged with AI. Aju and Issue Valley describe it as a photo, and Issue Valley adds that he displayed it on his phone. As reported, the claim appears in a charging document.
+In several entries, including the Chatham County, Toronto and Montreal cases, the AI claim rests on a single official statement. Here the claim has a stronger basis. Jeju Sori, quoting the charged facts, and Aju Business Daily, citing the indictment, both report that the accused presented a police officer's ID made or forged with AI. Aju and Issue Valley describe it as a photo, and Issue Valley adds that he displayed it on his phone. As reported, the claim appears in a charging document.
 
 No report names the tool, says how the image was made or describes what the ID looked like. One headline calls the fake convincing. It only had to pass a quick look at a phone screen.
 

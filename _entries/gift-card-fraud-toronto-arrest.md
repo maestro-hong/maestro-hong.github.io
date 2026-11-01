@@ -14,7 +14,7 @@ safeguard: account-security
 safeguard_outcome: bypassed
 summary: "Toronto Police charged seven people in April 2026 over a retail scheme where distraction techniques and recording devices were used to steal employee login credentials, which were used to load funds onto gift cards. Losses are estimated at $500,000 across 112 identified occurrences from September 2025 to February 2026. Police described the equipment as AI-enabled tools but did not say what the AI did."
 note_label: "Claim check"
-note: "Every report describes the same method: distract, record, reuse the credentials. Nothing in it requires AI. The AI label appears to come from the product category of the glasses."
+note: "Every report describes the same method: distracting staff, recording them typing and reusing the credentials. None of these steps requires AI. The AI label appears to come from the product category of the glasses."
 query: 'Toronto police smart glasses AI-enabled tools retail fraud gift cards'
 sources:
   - tier: S

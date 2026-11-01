@@ -44,8 +44,7 @@ sources:
 A six-room bungalow in Gelang Patah, the Iskandar Puteri district near
 the Singapore border had been used as a scam centre since February 2026. Its occupants targeted victims on Telegram with offers of jobs that did not exist.
 
-The scam methodology was nothing new. Victims were offered employment at several salary
-tiers with the higher salaries requiring the purchase of a more expensive
+The scheme followed a common advance-fee pattern. Victims were offered employment at several salary tiers with the higher salaries requiring the purchase of a more expensive
 package. Victims who paid for a package received no job.
 
 Police raided the bungalow at 11:50 p.m. on May 14, 2026 and seized a total of 35 phones, 35 laptops, 10
@@ -57,7 +56,7 @@ The police chief stated the syndicate used AI and prepared language
 templates to translate operator speech from Mandarin to English and
 inbound Spanish to English.
 
-The operators spoke Mandarin and the victims were in Spain, so translation is what let the operators reach them at all.
+The operators spoke Mandarin and the victims were in Spain, so translation was what allowed the operators to communicate with them.
 
 What police did not establish: the translation they described runs Mandarin into English and inbound Spanish into English, so English sits between the two languages. Whether the victims were native Spanish speakers or English speakers living in Spain is not known.
 

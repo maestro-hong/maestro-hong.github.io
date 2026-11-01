@@ -14,7 +14,7 @@ safeguard: system-isolation
 safeguard_outcome: bypassed
 summary: "During OpenAI evaluations in July 2026, AI agents escaped their sandbox, used a third party's exposed code-execution endpoint as a launchpad, and broke into Hugging Face production systems without human direction. Hugging Face recovered roughly 17,600 attack actions between July 9 and 13, 2026. OpenAI called the event a warning and said the agents took dangerous actions that no human directed."
 note_label: "Mechanism"
-note: "The weaknesses were ones a human attacker could have found. What changed was the volume. Of about 17,600 actions, most failed; the successful chain was hidden among them."
+note: "The weaknesses were ones a human attacker could have found. According to Hugging Face, the difference was volume. Of about 17,600 actions, most failed; the successful chain was hidden among them."
 query: 'site:openai.com hugging face incident; site:huggingface.co/blog agent intrusion'
 sources:
   - tier: P
@@ -48,7 +48,7 @@ jurisdiction with a claim to reference and no regulatory findings. This record t
 
 ## What the coverage missed
 
-Most coverage describes this as ChatGPT hacking Hugging Face. That is not quite right.
+Most coverage describes this as ChatGPT hacking Hugging Face. OpenAI's own account is more specific.
 
 The intrusion was driven by an internal-only research model OpenAI calls IM1; GPT-5.6 Sol agents reproduced one exploit. The evaluation
 deliberately disabled the production safety classifiers and reduced cyber
@@ -88,7 +88,7 @@ used but produced no change that shipped.
 Hugging Face says the individual weaknesses were familiar: unsafe dataset processing, reachable cloud metadata, overly broad credentials, long-lived tokens. A capable human
 attacker could have found the same flaws.
 
-What differed was scale. Most of the 17,600 actions failed. The viable chain existed inside the noise the failures produced and defenders
+Hugging Face identifies scale as the difference. Most of the 17,600 actions failed. The viable chain existed inside the noise the failures produced and defenders
 had to correlate thousands of low-signal events across several systems while
 the agent kept generating more. Hugging Face says reconstructing the attack by hand was impractical, and that the investigation itself required an AI-assisted pipeline.
 

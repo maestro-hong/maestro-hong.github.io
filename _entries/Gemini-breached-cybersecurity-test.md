@@ -68,8 +68,6 @@ According to Irregular, a fictional company selected in the exercises matched a 
 Google was the fourth lab with a similar incident. Anthropic, OpenAI and Meta had already disclosed incidents traced to the same testing environment.
 Irregular told Axios that it notified every affected lab in late July and that all known issues on its side had since been resolved.
 
-The larger question is how one vendor's test range let four labs' models reach real systems.
-
 ## What Gemini did
 
 Gemini breached three real companies. It guessed a password for a
@@ -92,7 +90,7 @@ Anthropic's report notes that of the affected organisations, two had not previou
 
 Anthropic's account is the most detailed of the four labs'. It describes three incidents arising from what it calls a misconfiguration that gave Claude live internet access during the evaluation.
 
-The key question is how each model behaved once it recognised a real target. In the first incident involving Claude Opus 4.7, the report states that the model
+The accounts differ most on how each model behaved once it recognised a real target. In the first incident involving Claude Opus 4.7, the report states that the model
 eventually recognised the system was real and that none of the four runs
 stopped the attack on that basis. It extracted infrastructure credentials and
 reached a database holding several hundred rows of production data. In the
@@ -106,8 +104,7 @@ its own that the host it had taken sat in a cloud account unconnected to the
 challenge, concluded the target was real and stopped.
 
 One of Anthropic's three models did what Google states all three of its
-attempts did. The shorthand circulating in coverage that Claude did not stop
-and Gemini did is true of two incidents out of three and not of the third.
+attempts did. Coverage contrasting Claude, which did not stop, with Gemini, which did, is accurate for two of Anthropic’s three incidents.
 
 OpenAI published its account on August 4, 2026. It names both Irregular and the UK AI Security Institute and describes a model that exploited a real website after mistaking it for part of the simulated environment.
 
@@ -120,7 +117,7 @@ and its own internal research model and is logged in this record separately.
 OpenAI has also described a third, distinct incident involving the UK AI
 Security Institute.
 
-That makes three separate failure modes in about three months, across at least five organisations. In each case the test environment was less isolated than the systems the models were attacking. Anthropic's report commits to
+These are three separate incidents in about three months, involving at least five organisations. In each case the test environment was less isolated than the systems the models were attacking. Anthropic's report commits to
 closing exactly that gap.
 
 ## What the records did not establish
