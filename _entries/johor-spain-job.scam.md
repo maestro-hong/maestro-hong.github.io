@@ -3,7 +3,7 @@ published: true
 title: "Thirty-one fined after raid on Malaysian scam centre that used AI translation to target victims in Spain"
 slug: johor-ai-translation-scam
 incident_date: 2026-05-14
-updated: 2026-09-17
+updated: 2026-10-30
 category: C
 country: Malaysia
 status: convicted
@@ -14,7 +14,7 @@ safeguard: unknown
 safeguard_outcome: unknown
 summary: "Johor police raided a bungalow in Gelang Patah, Malaysia on May 14, 2026 and arrested 35 Chinese nationals running a fake job-offer scam aimed at victims in Spain. Police said the group used AI and prepared language templates to translate between Mandarin, English and Spanish. On May 27, 2026, 31 of them pleaded guilty and were each fined RM3,500."
 note_label: "Mechanism"
-note: "Police credit AI with translation only: it let Mandarin-speaking operators work victims in Spain. Nothing in the record suggests it changed the script or the volume."
+note: "Police credit AI with translation only: it let Mandarin-speaking operators target victims in Spain. Nothing in the record suggests it changed the script or the volume."
 query: 'Police raided Gelang Patah bungalow and arrest Chinese nationals over Spain job scam AI translation'
 sources:
   - tier: S
@@ -42,28 +42,28 @@ sources:
 ## The operation
 
 A six-room bungalow in Gelang Patah, the Iskandar Puteri district near
-the Singapore border had been used as a scam centre since February 2026. [Of the 35 people inside, 33 worked as agents: check The Star], targeting victims on Telegram with offers of jobs that did not exist.
+the Singapore border had been used as a scam centre since February 2026. Its occupants targeted victims on Telegram with offers of jobs that did not exist.
 
 The scam methodology was nothing new. Victims were offered employment at several salary
 tiers with the higher salaries requiring the purchase of a more expensive
-package. They bought packages. There was no job.
+package. Victims who paid for a package received no job.
 
-Police raided the bungalow at 11:50PM on May 14 2026 and seized a total of 35 phones, 35 laptops, 10
+Police raided the bungalow at 11:50 p.m. on May 14, 2026 and seized a total of 35 phones, 35 laptops, 10
 desktop computers and 12 modems, valued at about RM65,000. All 35 individuals tested negative for drugs. None had a prior record.
 
-## AI
+## The AI claim
 
 The police chief stated the syndicate used AI and prepared language
 templates to translate operator speech from Mandarin to English and
 inbound Spanish to English.
 
-The operators spoke Mandarin. The victims were located in Spain. The translation layer works as a bridge to make the scam operate.
+The operators spoke Mandarin and the victims were in Spain, so translation is what let the operators reach them at all.
 
 What police did not establish: the translation they described runs Mandarin into English and inbound Spanish into English, so English sits between the two languages. Whether the victims were native Spanish speakers or English speakers living in Spain is not known.
 
 ## Court outcome
 
-On May 27 2026, 31 of the accused pleaded guilty in the Johor Bahru
+On May 27, 2026, 31 of the accused pleaded guilty in the Johor Bahru
 Magistrates' Court and were fined RM3,500 each. All fines were paid in full. 
 Four others remained under investigation pending identity
 verification.
@@ -77,8 +77,7 @@ No source explains the change. One possible reason, and it is this record's infe
 
 ## Open
 
-**Sources** Every article of the police raid traces to a single press conference on
-May 21, 2026. No police release, charge sheet or court record has been obtained and there are no primary sources on this entry at all.
+**Sources** Every report of the raid traces to a single police press conference on May 21, 2026. No police release, charge sheet or court record has been obtained and there are no primary sources on this entry at all.
 
 **The organiser** A 25-year-old named by police as responsible for organising
 the syndicate locally was not among those arrested. No report indicates

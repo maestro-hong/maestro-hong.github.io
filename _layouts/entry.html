@@ -1,24 +1,47 @@
 ---
 layout: default
 ---
-{% include i18n.html %}
-{% assign cat = site.data.categories | where: "key", page.category | first %}
-{% assign st = site.data.statuses | where: "key", page.status | first %}
-{% assign meth_url = "/methodology" %}
-{% if lang == "ko" %}{% assign ko_meth = site.pages | where: "url", "/ko/methodology/" | first %}{% if ko_meth %}{% assign meth_url = "/ko/methodology/" %}{% endif %}{% endif %}
-<article class="wrap page">
 
-  <p class="page__label"><a href="{{ base }}/">{{ t.entries }}</a> &nbsp;/&nbsp; <a href="{{ base }}/category/{{ cat.slug }}/">{{ cat[nk] | default: cat.name }}</a></p>
+{% include i18n.html %} {% assign cat = site.data.categories | where: "key",
+page.category | first %} {% assign st = site.data.statuses | where: "key",
+page.status | first %} {% assign meth_url = "/methodology" %} {% if lang == "ko"
+%}{% assign ko_meth = site.pages | where: "url", "/ko/methodology/" | first %}{%
+if ko_meth %}{% assign meth_url = "/ko/methodology/" %}{% endif %}{% endif %}
+<article class="wrap page">
+  <p class="page__label">
+    <a href="{{ base }}/">{{ t.entries }}</a> &nbsp;/&nbsp;
+    <a href="{{ base }}/category/{{ cat.slug }}/"
+      >{{ cat[nk] | default: cat.name }}</a
+    >
+  </p>
 
   <h1 class="page__title">{{ page.title }}</h1>
 
-  <div class="entry__meta" style="margin-top:1.25rem">
-    <time datetime="{{ page.incident_date | date: '%Y-%m-%d' }}">{{ page.incident_date | date: "%Y.%m.%d" }}</time>
-    <a href="{{ base }}/category/{{ cat.slug }}/">{{ cat[nk] | default: cat.name }}</a>
+  <div class="entry__meta" style="margin-top: 1.25rem">
+    <time datetime="{{ page.incident_date | date: '%Y-%m-%d' }}"
+      >{{ page.incident_date | date: "%Y.%m.%d" }}</time
+    >
+    <a href="{{ base }}/category/{{ cat.slug }}/"
+      >{{ cat[nk] | default: cat.name }}</a
+    >
     <span>{{ page.country }}</span>
     <span>{{ st[nk] | default: st.name }}</span>
   </div>
 
+  {% assign cb = site.data.claim_bases | where: "key", page.ai_claim_basis |
+  first %} {% assign dp = site.data.detection_paths | where: "key",
+  page.detection_path | first %} {% assign sg = site.data.safeguards | where:
+  "key", page.safeguard | first %} {% assign so = site.data.safeguard_outcomes |
+  where: "key", page.safeguard_outcome | first %} {% if cb or dp or sg %}
+  <div class="entry__meta">
+    {% if cb %}<span>AI claim: {{ cb[nk] | default: cb.name }}</span>{% endif %}
+    {% if dp %}<span>Surfaced by: {{ dp[nk] | default: dp.name }}</span>{% endif
+    %} {% if sg %}<span
+      >Safeguard: {{ sg[nk] | default: sg.name }}{% if so and so.key !=
+      "unknown" %} ({{ so[nk] | default: so.name | downcase }}){% endif %}</span
+    >{% endif %}
+  </div>
+  {% endif %}
   <p class="entry__lede">{{ page.summary }}</p>
 
   {% if page.note %}
@@ -28,9 +51,7 @@ layout: default
   </div>
   {% endif %}
 
-  <div class="prose">
-    {{ content }}
-  </div>
+  <div class="prose">{{ content }}</div>
 
   <div class="prose">
     <h2>{{ t.sources }}</h2>
@@ -40,19 +61,26 @@ layout: default
     <li>
       <span class="src src--{{ s.tier | downcase }}">{{ s.tier }}</span>
       <span>
-        <a href="{{ s.url }}" rel="noopener nofollow" target="_blank">{{ s.outlet }}{% if s.title %} — {{ s.title }}{% endif %}</a>
-        {% if s.retrieved %}<br><span class="src-retrieved">{{ t.retrieved }} {{ s.retrieved | date: "%Y.%m.%d" }}</span>{% endif %}
+        <a href="{{ s.url }}" rel="noopener nofollow" target="_blank"
+          >{{ s.outlet }}{% if s.title %} — {{ s.title }}{% endif %}</a
+        >
+        {% if s.retrieved %}<br /><span class="src-retrieved"
+          >{{ t.retrieved }} {{ s.retrieved | date: "%Y.%m.%d" }}</span
+        >{% endif %}
       </span>
     </li>
     {% endfor %}
   </ol>
 
   <div class="prose">
-    {% if page.query %}<p class="mono">{{ t.search_used }} <code>{{ page.query }}</code></p>{% endif %}
-    <p class="mono" style="margin-top:1.5rem">
-      {{ t.updated }} {{ page.updated | default: page.incident_date | date: "%Y.%m.%d" }}.
-      {{ t.definitions_before }} <a href="{{ meth_url }}">{{ t.definitions_link }}</a>{{ t.definitions_after }}
+    {% if page.query %}
+    <p class="mono">{{ t.search_used }} <code>{{ page.query }}</code></p>
+    {% endif %}
+    <p class="mono" style="margin-top: 1.5rem">
+      {{ t.updated }} {{ page.updated | default: page.incident_date | date:
+      "%Y.%m.%d" }}. {{ t.definitions_before }}
+      <a href="{{ meth_url }}">{{ t.definitions_link }}</a>{{
+      t.definitions_after }}
     </p>
   </div>
-
 </article>

@@ -3,18 +3,18 @@ published: true
 title: "Man who used AI-made police ID in Jeju robbery gets suspended sentence"
 slug: jeju-ai-police-id-robbery
 incident_date: 2026-05-27
-updated: 2026-09-28
+updated: 2026-10-30
 category: A
 country: South Korea
 status: convicted
-ai_claim_basis: described. Your Open section says this record has read neither the indictment nor the judgment, so "Court record" overstates what you have seen. Switch back to court once you read either document.
+ai_claim_basis: described
 detection_path: victim
 next_check: 2026-10-28
 safeguard: identity-check
 safeguard_outcome: bypassed
-summary: "On May 27, 2026, a man in his 30s rang the doorbell of a woman living alone in Jeju City, South Korea, showed her a police ID he had made with AI, and said he had come to carry out a search. He took cash and jewellery worth about 3 million won (about C$3,000). On September 10, 2026, the Jeju District Court sentenced him to two years in prison, suspended for four years, for robbery and other charges."
+summary: "On May 27, 2026, a man in his 30s rang the doorbell of a woman living alone in Jeju City, South Korea, showed her a police ID he had made with AI, and said he had come to carry out a search. He took cash and jewellery worth about 3 million won (about C$3,000). On September 10 2026, the Jeju District Court sentenced him to two years in prison, suspended for four years, for robbery and other charges."
 note_label: "Claim check"
-note: "The incident focuses on a police ID. No source names the AI tool used and none of the reported charges weigh on how the picture was created."
+note: "The AI claim covers one image: a police ID shown on a phone. No source names the tool, and none of the reported charges depends on how the image was made."
 query: 'AI 위조 경찰 신분증 제주 압수수색 강도'
 sources:
   - tier: P
@@ -71,11 +71,11 @@ sources:
 
 ## Incident
 
-In the early morning on May 27, 2026, a man in his 30s rang the doorbell
+Early on May 27, 2026, a man in his 30s rang the doorbell
 of a house in Jeju City, South Korea where a woman resided alone. He
 told her he was a police officer who had come to carry out a search and
 displayed a picture of a police officer's ID. According to the charges, 
-the suspect made her go into the bathroom while stealing cash and jewellery worth about 3 million won (roughly CAD$3,000). Police told reporters he knew she lived alone and targeted her for that reason.
+the suspect made her go into the bathroom while stealing cash and jewellery worth about 3 million won (about CA3,000). Police told reporters he knew she lived alone and targeted her for that reason.
 
 She reported it about 17 hours later, and he was arrested the next morning. Police initially described the case as theft and said they would seek a detention warrant. By June 10, 2026, prosecutors had indicted him in custody on a robbery charge. He was also charged with stealing 1 million won (about C$1,000) in cash from another home.
 
@@ -116,7 +116,7 @@ would reach the conduct only through what the picture was used for. Impersonatin
 
 On the day of the arrest, police described the case as theft. 
 However, in June the charge was changed to robbery and it stayed 
-through the indictment and the sentence. Coverage of the trial includes the detail that fits the heavier charge.
+through the indictment and the sentence. Robbery under Korean law requires violence or threats that suppress the victim's resistance. Making her go into the bathroom while he took the valuables is the detail in trial coverage that fits that element.
 
 ## The sentence
 

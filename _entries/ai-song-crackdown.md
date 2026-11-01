@@ -12,7 +12,7 @@ detection_path: unknown
 next_check: 2026-10-26
 safeguard: platform-detection
 safeguard_outcome: bypassed
-summary: "Michael Smith, 54, pleaded guilty in March 2026 to conspiracy to commit wire fraud for obtaining more than $8 million in streaming royalties. From 2017 to 2024 he ran roughly 10,000 bot accounts that streamed music he controlled on Spotify, Apple Music, Amazon Music and YouTube Music. From [2018 or 2019: match the body] he bought hundreds of thousands of AI-generated tracks from the chief executive of an AI music company under a monthly supply contract."
+summary: "Michael Smith, 54, pleaded guilty in March 2026 to conspiracy to commit wire fraud for obtaining more than $8 million in streaming royalties. From 2017 to 2024 he ran roughly 10,000 bot accounts that streamed music he controlled on Spotify, Apple Music, Amazon Music and YouTube Music. Under a supply contract dated February 2019, he bought hundreds of thousands of AI-generated tracks from the chief executive of an AI music company."
 note_label: "Mechanism"
 note: "Platforms flag individual tracks with implausible play counts. Spreading streams across hundreds of thousands of AI-generated tracks kept each track's numbers low enough to pass that check."
 query: 'site:justice.gov "artificial intelligence" streaming fraud royalties'
@@ -50,7 +50,7 @@ Most reports say Smith created hundreds of thousands of songs with AI. The indic
 
 The error starts with the government, not the press. The US Attorney's announcement of the plea says Smith generated the songs using AI, which contradicts the indictment the same office filed 18 months earlier. News reports repeated the newer statement, often while linking to the indictment in the same paragraph.
 
-The supplier was the chief executive of an AI music company, later named in the indictment as a co-conspirator. Under a Master Services Agreement dated February 1, 2019, the CEO agreed to supply 1,000 to 10,000 songs a month [and the rights to them: check the indictment's wording]. Smith paid $2,000 a month or 15% of the streaming revenue.
+The supplier was the chief executive of an AI music company, later named in the indictment as a co-conspirator. Under a Master Services Agreement dated February 1, 2019, the CEO agreed to supply 1,000 to 10,000 songs a month. Smith paid $2,000 a month or 15% of the streaming revenue.
 
 The scheme ran on an ordinary supply contract: a vendor, a monthly volume and a revenue share.
 
@@ -71,8 +71,7 @@ The audio files arrived with randomized filenames. Smith attached invented song 
 
 ## Forfeiture
 
-In a February 2024 email, Smith claimed over four billion streams with 12
-million dollars in royalties since 2019. The plea carries a forfeiture of a total of $8,091,843.64.
+In a February 2024 email, Smith claimed more than four billion streams and $12 million in royalties since 2019. The plea agreement sets forfeiture at $8,091,843.64. Smith's own figure, the forfeiture and the $10 million in some coverage measure different things and should not be compared directly.
 
 ## The 2023 denial
 
@@ -83,10 +82,10 @@ asserted that the works were human-authored rather than computer-generated.
 ## Enforcement
 
 Smith was charged on September 4, 2024 with wire fraud conspiracy, wire fraud and money laundering conspiracy. Each count carries a maximum of 20
-years. On March 19, 2026 Smith pleaded guilty to one count of conspiracy to commit wire fraud. Forfeiture was set at $8,091,843.64.
+years. On March 19, 2026 Smith pleaded guilty to one count of conspiracy to commit wire fraud.
 
-On September 22 2026, the defence filed a sentencing memorandum asking for probation, arguing that the losses were so thinly spread that no artist suffered any perceptible harm. The Sentencing Guidelines range is 46 to 57 months, but the Probation Office recommended 24.
+On September 22, 2026, the defence filed a sentencing memorandum asking for probation, arguing that the losses were so thinly spread that no artist suffered any perceptible harm. The Sentencing Guidelines range is 46 to 57 months, but the Probation Office recommended 24.
 
 Spreading streams thinly across hundreds of thousands of tracks is what kept the scheme hidden from the platforms. Smith now argues that the same thinness means nobody was harmed.
 
-**Open** No sentencing date has been set. No public charging document has been found for the AI music company executive or the promoter.
+**Open** No sentencing date has been set. No public charging document has been found for the AI music company executive.

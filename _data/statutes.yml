@@ -94,3 +94,25 @@
     produced by altering photographs of real children with generative tools. No
     federal counts and no AI-specific statute. No disposition located.
   entry: /entry/72-year-old-man-charged-ai-child-image/
+
+- name: 720 ILCS 5/11-20.4 (Illinois)
+  jurisdiction: United States (Illinois)
+  enacted: 2024, in force January 2025
+  ai_specific: true
+  scope: Obscene depictions of a purported child, including computer-generated images and video.
+  convictions: "charged"
+  detail: >
+    Thirteen counts approved in October 2026 against an Antioch man, with more
+    charges expected. No disposition located.
+  entry: /entry/antioch-man-child-abuse-material-arrested/
+
+- name: Fla. Stat. § 827.072 (Florida)
+  jurisdiction: United States (Florida)
+  enacted: 2024
+  ai_specific: true
+  scope: Generated sexual images of a fictitious person who appears to be a minor.
+  convictions: "charged"
+  detail: >
+    Two Martin County cases located, from February 2025 and September 2026. No
+    disposition located in either.
+  entry: /entry/stuart-generated-charge/

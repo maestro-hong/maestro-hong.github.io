@@ -3,7 +3,7 @@ published: true
 title: "Stuart man charged under Florida's generated-image law"
 slug: stuart-generated-csam-charges
 incident_date: 2026-09-25
-updated: 2026-09-27
+updated: 2026-10-30
 category: D
 country: United States
 status: charged
@@ -71,7 +71,7 @@ sources:
 
 ## Incident
 
-Stuart police announced in late September 2026 that they had arrested 28-year-old man, Daniel Perez from Stuart, Florida. The charges concern possessing and viewing child sexual abuse material produced with AI. He was released on bond and no trial date has been reported.
+Stuart police announced in late September 2026 that they had arrested Daniel Perez, 28, of Stuart, Florida. The charges concern possessing and viewing child sexual abuse material produced with AI. He was released on bond and no trial date has been reported.
 
 In its statement, the department said that "as technology changes, so do the ways people use it to exploit children and the use of AI does not make this kind of conduct any less serious or criminal." That sentence states the legal point of the case.
 
@@ -85,28 +85,28 @@ The statute applies to edited photographs of real children; it does not work for
 
 Section 827.072 counts offences in a way that is easy to misread. Each image possessed, controlled or viewed is counted as a separate offence. Counts therefore track how many files a prosecutor decides to charge, not how serious the conduct was or how much material was found.
 
-The comparison with a different case makes this concrete. In February 2025, Martin County Sheriff's Office arrested Leonel Alvarado-Lizano, 29, on 20 counts in what was reported at the time as the first case in the county under the new statute. The report described a quantity of files far larger than 20. The count total was a charging decision, not an inventory. A difference in count totals between two cases says little about how the cases compare. Count totals measure charging practice, not harm.
+The comparison with a different case makes this concrete. In February 2025, Martin County Sheriff's Office arrested Leonel Alvarado-Lizano, 29, on 20 counts in what was reported at the time as the first case in the county under the new statute. NBC 6 South Florida reported about 1,000 images in that case, far more than the 20 counts charged. The count total was a charging decision, not an inventory. A difference in count totals between two cases says little about how the cases compare. Count totals measure charging practice, not harm.
 
 ## How the incident surfaced
 
 Child exploitation investigations are often pictured as starting with undercover officers or tips from the public. This one appears to have started with a platform. The reported sequence here is that a technology platform's own safety systems flagged an account, the platform passed the information to the National Center for Missing and Exploited Children and NCMEC passed a cybertip to the local police department, which then sought a search warrant. 
 
-The volume behind that pipeline is difficult to convey. NCMEC received 21.3 million CyberTipline reports in 2025, containing more than 61.8 million suspect files. More than 1.5 million of those reports indicated some connection between AI and child sexual exploitation. NCMEC describes this as evidence of the rapidly evolving role of the technology in the type of offences. For a municipal police department, that means referrals can arrive faster than it can investigate them.
+NCMEC received 21.3 million CyberTipline reports in 2025, containing more than 61.8 million suspect files. More than 1.5 million of those reports indicated some connection between AI and child sexual exploitation. NCMEC describes this as evidence of the rapidly evolving role of the technology in the type of offences. For a municipal police department, that means referrals can arrive faster than it can investigate them.
 
 ## From referral to arrest
 
 If the reported dates are correct, the tip reached Stuart police in February 2026, a search warrant was executed in April and Perez was arrested in September 2026: roughly seven months from referral to arrest, in a case that began with a platform identifying a specific account and specific files.
 
-Digital forensics takes time, warrants take time and prosecutors have to make charging decisions on material that has to be reviewed by humans. Still, the time from referral to arrest is worth tracking as AI-related referrals grow; NCMEC logged more than 1.5 million in 2025. Whether local agencies have the staff to act on that volume is not addressed by any source here.
+Digital forensics takes time, warrants take time and prosecutors have to make charging decisions on material that has to be reviewed by humans. Still, the time from referral to arrest is worth tracking as AI-related referrals grow. Whether local agencies have the staff to act on that volume is not addressed by any source here.
 
 ## Note
 
 As a standing rule for this category, this entry does not describe the material, how it was produced or the tools used.
 
-Mr. Perez and Mr. Alvarado-Lizano are named because law enforcement agencies named them publicly. Neither has been convicted. The referral chain and the February and April dates come from a single aggregator, [Hoodline or Politixia: name the one], and the TV stations that covered the arrest did not report them. They are kept, with that warning, because the referral chain is the most important thing about this case.
+Mr. Perez and Mr. Alvarado-Lizano are named because law enforcement agencies named them publicly. Neither has been convicted. The referral chain and the February and April dates come from a single aggregator and the TV stations that covered the arrest did not report them. They are kept, with that warning, because the referral chain is the most important thing about this case.
 
 ## Open
 
-The Martin County clerk of court docket would confirm the charging statutes, the exact counts and the release conditions and would show whether the generated-image counts were filed under s. 827.072 or s. 827.071. The probable cause affidavit would confirm which platform made the referral and when. The disposition of the February 2025 case would also be useful since a county with two of these prosecutions and no reported outcome in either is a county where the law's practical effect is still unknown.
+The Martin County clerk of court docket would confirm the charging statutes, the exact counts and the release conditions and would show whether the generated-image counts were filed under s. 827.072 or s. 827.071. The probable cause affidavit would confirm which platform made the referral and when. No outcome has been reported in either Martin County case, so the law's practical effect there is still unknown.
 
 Anyone who encounters this kind of material online can report it to the NCMEC CyberTipline at report.cybertip.org.

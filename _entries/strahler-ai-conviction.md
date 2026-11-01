@@ -12,7 +12,7 @@ detection_path: victim
 next_check:   # closed: sentenced 8 September 2026
 safeguard: unknown
 safeguard_outcome: unknown
-summary: "A 37-year-old man, James Strahler II from Columbus, Ohio, pleaded guilty on April 7, 2026 to cyberstalking, producing obscene visual representations of child sexual abuse and publishing digital forgeries. He was sentenced on September 08, 2026 to 180 months in federal prison. The forgery count is the first conviction in the US under the TAKE IT DOWN Act, which was enacted in May 2025. Investigators found more than 24 AI platforms and over 100 web-based models installed on Strahler's mobile phone."
+summary: "A 37-year-old man, James Strahler II from Columbus, Ohio, pleaded guilty on April 7, 2026 to cyberstalking, producing obscene visual representations of child sexual abuse and publishing digital forgeries. He was sentenced on September 8, 2026 to 180 months in federal prison. The forgery count is the first conviction in the US under the TAKE IT DOWN Act, which was enacted in May 2025. Investigators found more than 24 AI platforms and over 100 web-based models installed on Strahler's mobile phone."
 note_label: "Mechanism"
 note: "The new Act reaches digital forgeries of identifiable adults but carves out material already covered by the child-obscenity and child-pornography statutes."
 query: 'site:justice.gov "Take It Down Act" conviction digital forgeries'
@@ -57,14 +57,11 @@ constituting child pornography under 18 U.S.C. § 2256 or obscene visual
 representations of the sexual abuse of children under 18 U.S.C. § 1466A.
 Those remain prosecutable under the older statutes.
 
-The digital forgery count corresponds to the adult victims. 
-The obscenity count covers the material involving minors, under a law that predates the Act by two decades. The Act closed a gap for adult victims; it was not the instrument used for the child-related conduct. Most coverage of the case does not draw that distinction.
+The digital forgery count covers the adult victims. The obscenity count covers the material involving minors, under a law that predates the Act by two decades. The Act closed a gap for adult victims; it was not the instrument used for the child-related conduct. Most coverage of the case does not draw that distinction.
 
 ## Enforcement sequence
 
-The case reached federal authorities only after the local response had
-already run. Secondary reporting describes state misdemeanour
-charges filed in January 2025 following the first complainant's reports, release,
+Federal authorities became involved after two rounds of state charges. 404 Media describes state misdemeanour charges filed in January 2025 following the first complainant's reports, release,
 continued conduct and further misdemeanour charges in April 2025 before federal
 arrest in June 2025.
 
@@ -76,5 +73,4 @@ Synthetic Media Threats Task Force.
 
 ## Record
 
-Strahler pleaded guilty on April 7, 2026 and was sentenced on September 8, 2026 to 180 months. At sentencing, prosecutors said that Strahler posted more than 700 files,
-with roughly 2,400 additional files flagged on his device.
+Strahler was arrested on federal charge on June 2025 and was sentenced on September 8, 2026 to 180 months. At sentencing, prosecutors said that Strahler posted more than 700 files, with roughly 2,400 additional files flagged on his device.

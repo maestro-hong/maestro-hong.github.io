@@ -1,6 +1,6 @@
 ---
 published: true
-title: "YouTuber indicted for defaming actor Kim Soo-Hyun with altered messages and an allegedy AI-made recording"
+title: "YouTuber indicted for defaming actor Kim Soo-hyun with altered messages and an allegedly AI-made recording"
 slug: korea-youtuber-fabricated-recording
 incident_date: 2026-05-26
 updated: 2026-10-29
@@ -12,7 +12,7 @@ detection_path: victim
 next_check: 2026-11-28
 safeguard: unknown
 safeguard_outcome: unknown
-summary: "South Korea prosecutors indicted a YouTuber Kim Se-ui, who runs the Garosero Research Institute on June 23, 2026 for defaming actor Kim Soo-Hyun by falseling claiming, with altered KakaoTalk screenshots and a voice recording that he dated actress Kim Sae-ron when she was a minor. Police concluded that a voice recording of Kim Sae-ron aired by the channel was manipulated with AI; the National Forensic Service could not confirm this and the indictment does not mention AI. Kim Se-ui has been detained since May 26, 2026 and is awaiting trial. In October, police also referred Kim Sae-ron's mother and the family's lawyer to prosecutors, according to Kim Soo-hyun's agency."
+summary: "Seoul prosecutors indicted YouTuber Kim Se-ui, who runs the channel Garosero Research Institute, on June 23, 2026 for defaming actor Kim Soo-hyun by falsely claiming, with altered KakaoTalk screenshots and a voice recording, that he dated actress Kim Sae-ron when she was a minor. Police concluded that the recording was manipulated with AI; the National Forensic Service could not confirm this, and the indictment does not mention AI. Kim Se-ui has been detained since May 26, 2026 and is awaiting trial; in October, according to Kim Soo-hyun's agency, police also referred Kim Sae-ron's mother and the family's lawyer to prosecutors."
 note_label: "Claim check"
 note: "Police say the recording was manipulated with AI. The National Forensic Service could not determine this, prosecutors' analysts described the voice as played back and re-recorded, and the indictment calls it a manipulated voice file without mentioning AI."
 query: '김새론 녹취 AI 조작 공소장 가로세로연구소 김수현 명예훼손 구속기소'
@@ -67,6 +67,26 @@ sources:
     title: "YouTuber arrested over alleged AI defamation of actor"
     url: "https://www.mediaweek.com.au/youtuber-arrested-over-alleged-ai-defamation-of-actor/"
     retrieved: 2026-10-17
+  - tier: S
+    outlet: JoongAng Ilbo (via Daum)
+    title: "[단독] 경찰 “김새론 목소리 AI 조작…김수현 미성년 교제 허위”"
+    url: "https://v.daum.net/v/20260521112315469"
+    retrieved: 2026-10-29
+  - tier: S
+    outlet: Segye Ilbo (Yonhap)
+    title: "김수현 측 \"故김새론 모친 등 공소청 송치…명예훼손 등 혐의\""
+    url: "https://www.segye.com/newsView/20261026509751"
+    retrieved: 2026-10-29
+  - tier: S
+    outlet: Sports Kyunghyang
+    title: "'김수현 저격 기자회견 주도' 변호사, 허위사실 명예훼손 혐의로 공소청 송치"
+    url: "https://sports.khan.co.kr/article/202610271550003/"
+    retrieved: 2026-10-29
+  - tier: S
+    outlet: Star News
+    title: "\"검찰이 '증거 조작' 프레임 씌워\"..김세의 측, 검사에 언성 높이며 보석 신청"
+    url: "https://starnewskorea.com/star/2026/10/28/2026102812381193503"
+    retrieved: 2026-10-29
 ---
 
 ## The Allegations
@@ -112,7 +132,7 @@ At the third pretrial hearing on October 28, his lawyers renewed the bail reques
 Kim denies all the charges and seeks an acquittal. The Public reports that he faces eight other prosecutions.
 
 
-## Open Question
+## Open
 
 **The method** The National Forensic Service could not determine whether AI was used. Police have not published the basis for their conclusion, and the indictment does not mention AI.
 

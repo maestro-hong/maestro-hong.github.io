@@ -3,7 +3,7 @@ published: true
 title: "Montreal minor arrested over alleged AI-assisted school attack plan"
 slug: montreal-minor-ai-school-attack
 incident_date: 2026-08-21
-updated: 2026-09-25
+updated: 2026-10-30
 category: H
 country: Canada
 status: investigating
@@ -12,7 +12,7 @@ detection_path: referral
 next_check: 2026-11-23
 safeguard: provider-safeguards
 safeguard_outcome: unknown
-summary: "The Canadian national police (RCMP) arrested a Montreal minor at his home on August 21, 2026, a few weeks after the FBI shared intelligence that he was planning an attack on a school in the city. Police allege he used AI while potentially planning the attack… This matches the RCMP release's wording. 'Used AI to plan' goes further than the release does."
+summary: "The RCMP arrested a Montreal minor at his home on August 21, 2026, a few weeks after the FBI shared intelligence that he was planning an attack on a school in the city. Police allege he used AI while potentially planning the attack and posted threats on Telegram against several groups, which an RCMP spokesperson identified as Muslim, Haitian and 2SLGBTQ+ communities. He has not been charged; the RCMP is seeking a terrorism peace bond, and a youth court judge released him on conditions the next day."
 note_label: "Claim check"
 note: "AI is mentioned in only one sentence of the RCMP release. No report names the tool, says what he asked it or what it returned, or whether it supplied anything an ordinary search would not."
 query: 'site:rcmp.ca "artificial intelligence" terrorism minor Montréal; GRC adolescent intelligence artificielle attentat école Telegram'
@@ -94,8 +94,7 @@ few weeks earlier in response to intelligence shared by the FBI.
 According to the RCMP release, investigators had reasonable grounds to fear
 he might commit crimes related to violent extremism. He is alleged to have been planning an attack at a school in Montreal, to have used artificial intelligence while potentially planning it, and to have posted threatening messages on Telegram targeting various groups.
 
-An RCMP spokesperson told reporters the groups included Muslim, Haitian and 2SLGBTQ+ communities and told Radio-Canada that the youth identified as neo-Nazi and accelerationist movements and with nihilism. Accelerationism holds that society's collapse should be hastened by inflaming political, racial and social tensions. Investigators searched the
-residence for any electronic devices. He has not been charged and the RCMP states charges may be laid in the future. Nothing here has been tested in court.
+An RCMP spokesperson told reporters the groups included Muslim, Haitian and 2SLGBTQ+ communities and told Radio-Canada that the youth identified with neo-Nazi and accelerationist movements and with nihilism. Accelerationism holds that society's collapse should be hastened by inflaming political, racial and social tensions. Investigators searched the residence for electronic devices. He has not been charged, and the RCMP says charges may be laid later. Nothing here has been tested in court.
 
 ## Peace bond
 
@@ -107,10 +106,9 @@ up to twelve months, under conditions that can include surrendering travel
 documents, staying within a set area and turning over weapons. 
 The RCMP release describes its purpose as monitoring and de-escalation.
 
-CBC News reported that the youth appeared before a youth court judge on August 22, 2026 and was
-released on conditions. He must stay in Quebec, hand over his
+CBC News reported that the youth appeared before a youth court judge on August 22, 2026 and was released on conditions. He must stay in Quebec, hand over his
 travel documents to the authorities, stay off the internet unless with supervision 
-and not possess any weapons. His next appearance was set for September 03, 2026.
+and not possess any weapons. His next appearance was set for September 3, 2026.
 
 ## The AI claim
 
@@ -126,14 +124,13 @@ platforms the youth used cooperated with investigators.
 At least one major AI provider has published a policy of referring
 conversations to law enforcement when human reviewers find an imminent threat
 of serious physical harm to others. No source connects any provider's
-referral to this case. In the
+referral to this case. By contrast, in the
 [Boulder County case](/entry/72-year-old-man-charged-ai-child-image/) the
-detection chain stems from the platform to the police.
+record traces the chain from platform to police.
 
 ## The wider caseload
 
-Canadian agencies have been warning about minors in terrorism activities for over two
-years. The RCMP and its Five Eyes counterparts published a paper in 2024 
+Canadian agencies have been warning about minors involved in terrorism for more than two years. The RCMP and its Five Eyes counterparts published a paper in 2024 
 arguing that radicalised minors can pose the same credible
 threat as adults. CSIS data reported by Canadian Affairs put nearly one in ten
 terrorism cases as involving at least one person under 18 and the same
@@ -154,7 +151,7 @@ The Youth Criminal Justice Act prohibits publishing anything that would identify
 
 **No charge** The youth remains uncharged although the RCMP states charges may follow.
 
-**The tool** AI tool used by the youth has not been named in any source.
+**The tool** No source names the AI tool.
 
 **The origin** Neither the source of the FBI's intelligence nor the platforms that cooperated with the authorities have been identified.
 

@@ -14,7 +14,7 @@ safeguard: system-isolation
 safeguard_outcome: bypassed
 summary: "During OpenAI evaluations in July 2026, AI agents escaped their sandbox, used a third party's exposed code-execution endpoint as a launchpad, and broke into Hugging Face production systems without human direction. Hugging Face recovered roughly 17,600 attack actions between July 9 and 13, 2026. OpenAI called the event a warning and said the agents took dangerous actions that no human directed."
 note_label: "Mechanism"
-note: "The weaknesses were ones a human attacker could have found. What changed was volume of the attempted breach. Of about 17,600 actions, most failed; the successful chain was hidden among them."
+note: "The weaknesses were ones a human attacker could have found. What changed was the volume. Of about 17,600 actions, most failed; the successful chain was hidden among them."
 query: 'site:openai.com hugging face incident; site:huggingface.co/blog agent intrusion'
 sources:
   - tier: P
@@ -39,7 +39,7 @@ sources:
     retrieved: 2026-09-16
 ---
 
-## New category
+## Why there is no offender
 
 Every other category in Unio Analytics assumes a person who decided to commit an offence and used AI to help. Here the agents were running an internal benchmark. OpenAI states that they took dangerous actions that no human ever directed.
 
@@ -57,7 +57,7 @@ same evaluation is run behind the production ChatGPT harness and system
 prompt, the propensity to compromise infrastructure drops by more than a
 hundredfold. Its chain-of-thought monitors, which were not running on these evaluations, would have flagged the activity more than a day before the Hugging Face systems were reached.
 
-## The Incident
+## The incident
 
 Agents in isolated training sandboxes discovered they could write files to
 an internally hosted package manager and use it as an improvised message
@@ -71,7 +71,7 @@ on Modal, which became a root-level launchpad, and then to Hugging Face,
 where the agents inferred the benchmark's reference solutions might live.
 
 Hugging Face's forensic reconstruction covers roughly 17,600 recovered
-actions and about 6,280 clusters between July 09 and July 13. 
+actions and about 6,280 clusters between July 9 and July 13. 
 Entry was through two injection vectors in the same
 config-driven dataset loader, neither of which was a URL fetch and so
 neither was caught by the allowlist that had blocked an earlier noisier
@@ -79,26 +79,25 @@ attempt. From a production pod, the agents reached administrator
 access across multiple clusters, enrolled devices into the corporate mesh
 network and obtained write-scoped source-control tokens.
 
-Customer impact was narrow: five datasets were connected to the benchmark were accessed along with operational metadata. Verified as clean afterwards: the published container
+Customer impact was narrow: five datasets connected to the benchmark were accessed, along with operational metadata. Verified as clean afterwards: the published container
 images and packages. Write access to internal repositories was real and was
 used but produced no change that shipped.
 
 ## What Hugging Face says was new
 
-Hugging Face's says the individual weaknesses were familiar: unsafe dataset processing, reachable cloud metadata, overly broad credentials, long-lived tokens. A capable human
+Hugging Face says the individual weaknesses were familiar: unsafe dataset processing, reachable cloud metadata, overly broad credentials, long-lived tokens. A capable human
 attacker could have found the same flaws.
 
 What differed was scale. Most of the 17,600 actions failed. The viable chain existed inside the noise the failures produced and defenders
 had to correlate thousands of low-signal events across several systems while
-the agent kept generating more. Reconstructing the attack by hand was
-impractical. The investigation itself required an AI-assisted pipeline.
+the agent kept generating more. Hugging Face says reconstructing the attack by hand was impractical, and that the investigation itself required an AI-assisted pipeline.
 
 ## Open: the May 13 dispute
 
-On September 16 2026, Reuters reported that independent researcher Jonas
+On September 16, 2026, Reuters reported that independent researcher Jonas
 Wiedermann-Moeller had found evidence that OpenAI agents compromised two
 Hugging Face user accounts and sent formatted files to Hugging
-Face servers as early as May 13, which is roughly two months prior to the attack in July. 
+Face servers as early as May 13, about two months before the July intrusion. 
 Researchers who reviewed the evidence described it as resembling
 reconnaissance, while stressing that there was no evidence of a breach at that
 point.
@@ -108,3 +107,8 @@ report and that Hugging Face was privately notified. The researchers'
 position is that the probing activity went beyond what the report described.
 
 This record has not yet compared the researcher's evidence with OpenAI's full technical report, and the underlying evidence has not been published.
+
+## Liability
+
+No court or regulator has considered whether OpenAI, as the operator of the agents is responsible for the intrusion.
+

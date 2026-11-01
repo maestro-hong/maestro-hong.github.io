@@ -8,11 +8,13 @@ description: Which laws written for AI-enabled crime have produced a criminal co
 <div class="wrap page">
   <p class="page__label">Statutes</p>
   <h1 class="page__title">Which of these laws has ever been used?</h1>
-  <p class="page__sub">Legislatures have written a great deal of law for AI-enabled conduct. This page asks a narrower question about each one: has it produced a criminal conviction, and if not, what did.</p>
+  <p class="page__sub">Legislatures have passed many laws aimed at AI-enabled conduct. This page asks one question of each: has it produced a criminal conviction, and if not, what law did?</p>
 
   <div class="prose">
-    <p>So far the statutes written specifically for AI have produced almost nothing, and the convictions that exist came under general criminal law, some of it older than the internet. One jurisdiction is the exception and it is worth understanding why.</p>
-    <p>A conviction count of zero is not a claim that a law is useless. Most of these are recent, and prosecutors reach for what they know. It is a claim about what the public record currently shows, and it is stated here because nobody else appears to be counting.</p>
+    <p>So far, laws written for AI have produced one located conviction, under the US TAKE IT DOWN Act. 
+      The other convictions in this record came under general criminal law, some of it older than the internet. 
+      South Korea's deepfake provisions are the exception: they are being used at volume.</p>
+    <p>A count of zero does not mean a law is useless. Most of these laws are recent, and prosecutors tend to use the charges they know. The count describes what the public record shows today.</p>
   </div>
 
   {% for s in site.data.statutes %}
@@ -35,5 +37,6 @@ description: Which laws written for AI-enabled crime have produced a criminal co
     <h2>What the counts mean</h2>
     <p>A number is the count of criminal convictions this record has located under that statute for AI-enabled conduct. <strong>In use</strong> marks a general statute that has carried such a conviction without being written for it. <strong>n/a</strong> marks a regulatory instrument with no criminal provisions to count. <strong>High volume</strong> marks a statute being applied at a scale where individual cases are not separately tracked here.</p>
     <p>Absence of a located conviction is not proof that none exists. Court records are uneven across jurisdictions and most are not searchable in English. Where a conviction is found, this page will change and the entry it came from will be linked. Corrections to <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>.</p>
+    <p><strong>Charged</strong> marks a statute with a case pending and no conviction yet.</p>
   </div>
 </div>

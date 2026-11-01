@@ -3,7 +3,7 @@ published: true
 title: "Man charged after allegedly using AI to pose as a Walmart delivery driver"
 slug: chatham-ai-delivery-fraud
 incident_date: 2026-09-07
-updated: 2026-09-27
+updated: 2026-10-30
 category: A
 country: United States
 status: charged
@@ -12,9 +12,9 @@ detection_path: business
 next_check: 2026-10-26
 safeguard: staff-procedure
 safeguard_outcome: caught
-summary: "Chatham County police arrested Dieon Cornelius Love, 20, on September 7, 2026 after he allegedly posed as a delivery driver at a Walmart, using accounts police say he created with AI to make online orders look legitimate. Store loss-prevention staff flagged the pickup and called police. He was charged with criminal attempt to commit a misdemeanour and released on a $1,300 bond; no source says which AI tool was used or how."
+summary: "Chatham County police arrested a 20-year-old man on September 7, 2026 after he allegedly posed as a delivery driver at a Walmart, using accounts police say he created with AI to make online orders look legitimate. Store loss-prevention staff flagged the pickup and called police. He was charged with criminal attempt to commit a misdemeanour and released on a $1,300 bond; no source says which AI tool was used or how."
 note_label: "Claim check"
-note: "Police said Love used AI to create fake accounts. No report names the tool, explains the method or says what was altered. Police issued no news release, so everything comes from interviews."
+note: "Police said he used AI to create fake accounts. No report names the tool, explains the method or says what was altered. Police issued no news release, so everything comes from interviews."
 query: 'Chatham County police AI delivery driver Walmart arrest Georgia'
 sources:
   - tier: S
@@ -51,11 +51,11 @@ sources:
 
 ## Allegations
 
-Dieon Cornelius Love, 20, allegedly posed as a delivery driver at Walmart and tried to collect a Nintendo Switch and other electronics.
-Loss prevention staff identified the transaction as suspicious and contacted the local police. When Love refused to leave, 
+The 20-year-old man allegedly posed as a delivery driver at Walmart and tried to collect a Nintendo Switch and other electronics.
+Loss prevention staff identified the transaction as suspicious and contacted the local police. When he refused to leave, 
 an off-duty officer detained him until officers arrived.
 
-No items were stolen. Love was arrested on September 07, 2026 and charged with criminal attempt to commit a misdemeanour,
+No items were stolen. he was arrested on September 7, 2026 and charged with criminal attempt to commit a misdemeanour,
 which one report cites as O.C.G.A. section 16-4-1. Bond was set at $1,300.
 
 ## The AI claim
@@ -64,7 +64,7 @@ No report names the AI tool, model, service or app, or says how the accounts wer
 The record supports that an allegation was made, not what the AI did.
 
 
-## Chief statement
+## What the police chief said
 
 Chief Jeff Hadley said this was the first criminal investigation involving AI in the department. He added that the Chatham County Police Department is meeting with national police think tanks to develop tactics for
 investigating AI-driven crime.

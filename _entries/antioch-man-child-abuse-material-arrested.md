@@ -3,7 +3,7 @@ published: true
 title: "Antioch man charged over AI-generated child abuse material"
 slug: antioch-ai-csam-charges
 incident_date: 2026-10-08
-updated: 2026-10-11
+updated: 2026-10-30
 category: D
 country: United States
 status: charged
@@ -63,7 +63,7 @@ The sheriff's release does not say who reported the case to NCMEC. The Lake and 
 ## The charges
 
 The State's Attorney's Office approved 13 counts of obscene depiction of a
-purported child, each a Class 2 felony, and says more charges are anticipated.
+purported child, each a Class 2 felony, and says more charges are expected.
 According to the Scanner, the 13 counts cover eight videos found in online
 accounts and five images recovered by analysts. Prosecutors filed a petition to
 detain Hansen pending trial. The Scanner reports that Judge Michael Nerheim
@@ -75,7 +75,7 @@ Illinois created Section 11-20.4 of the Criminal Code to cover obscene depiction
 
 In the Boulder County case, the images were altered photographs of real children, so a general child-exploitation statute applied. Here, prosecutors have not yet shown that a real child was used.
 
-## 50,000 images & videos
+## The 50,000 figure
 
 The sheriff's office linked Hansen to more than 50,000 images and videos in online
 accounts and hundreds more were found at the home during the search warrant.
@@ -84,8 +84,7 @@ determine whether real children were used.
 
 ## Open
 
-**Detention** The final ruling from the October 09 2026 detention hearing has not been found online 
-and no next court date has been published.
+**Detention** No ruling from the October 9, 2026 detention hearing and no next court date have been found.
 
 **Felony class** The statute sets Class 3 for a first
 offence of receiving or accessing the material and Class 1 for possessing it

@@ -61,8 +61,7 @@ Gemini was being tested by Irregular, an Israeli firm that runs capture-the-flag
 According to Irregular, a fictional company selected in the exercises matched a real registered domain. The evaluation machines had internet access, so the model went looking for its assigned target and attacked the real one.
 
 Google was the fourth lab with a similar incident. Anthropic, OpenAI and Meta had already disclosed incidents traced to the same testing environment.
-Irregular informed Axios it notified every relevant lab in late July and all
-known issues on its end were resolved weeks ago.
+Irregular told Axios that it notified every affected lab in late July and that all known issues on its side had since been resolved.
 
 The larger question is how one vendor's test range let four labs' models reach real systems.
 
@@ -78,16 +77,13 @@ Google says the model behaved correctly once it had enough information. Heather 
 
 Google did not publish a report about the incident. The only public account is Google's statements to reporters on September 18, 2026, after the Wall Street Journal reported the incidents, about four months after they happened.
 
-According to Reuters, Google said that the behaviour was not due to model mis-alignment and did not warrant public disclosure because Gemini worked properly.
+According to Reuters, Google said that the behaviour was not due to model misalignment and did not warrant public disclosure because Gemini worked properly.
 
 Each lab decides for itself whether a breach of a third party must be disclosed, and it bases that decision on its own judgment of how its model behaved.
-Anthropic's report notes that of the affected organisations, two had not previously detected the activity. If a company can be
-broken into without notice and the only party who knows has concluded that its
-own safety measures worked, then nothing about the event ever reaches the
-public record.
+Anthropic's report notes that of the affected organisations, two had not previously detected the activity. If a company can be breached without noticing, and the only party that knows has decided its own safeguards worked, the event becomes public only if someone else reports it, as the Wall Street Journal did here.
 
 
-## Labs disclosure
+## What the other labs disclosed
 
 Anthropic's account is the most detailed of the four labs'. It describes three incidents arising from what it calls a misconfiguration that gave Claude live internet access during the evaluation.
 
@@ -108,9 +104,7 @@ One of Anthropic's three models did what Google states all three of its
 attempts did. The shorthand circulating in coverage that Claude did not stop
 and Gemini did is true of two incidents out of three and not of the third.
 
-OpenAI published on August 04, 2026, naming both Irregular and the UK AI Security
-Institute describing a model that exploited a real website having mistaken
-it for part of the simulated environment. Meta disclosed in early August.
+OpenAI published its account on August 4, 2026. It names both Irregular and the UK AI Security Institute and describes a model that exploited a real website after mistaking it for part of the simulated environment.
 
 ## Separate from the Hugging Face incident
 
@@ -147,6 +141,4 @@ Dive and Reuters, and from the primary reports published by Anthropic and
 OpenAI. The CNN and CNBC coverage of the Gemini incidents was not readable when
 this entry was compiled and is not cited.
 
-No regulator has examined any of this. No enforcement body has a stated
-interest. As with every entry in this category, there is no offender, because
-there is no person who decided to do it.
+No regulator or enforcement body has said it is examining these incidents. As in the other entries in this category, no person directed the conduct, and whether a lab or the test vendor could be held liable has not been tested.

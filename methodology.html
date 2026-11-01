@@ -11,57 +11,169 @@ description: How Unio Analytics builds entries — source tiering, enforcement s
   <p class="page__sub"></p>
 
   <div class="prose">
-
     <h2>What gets logged</h2>
-    <p>All sources are retrieved from open source data for the purpose of analyzing and researching how artificial intelligence plays a role in committing, attempting, or enabling a crime. 
-      Unio Analytic studies the correlation between similar incidents and monitor the trends in the criminal use of AI. The record is built from the sources, and the sources are tiered to show how close they are to the events it describes.
+    <p>
+      A case is logged when a public source alleges that artificial intelligence played a material role in committing, attempting or enabling a crime. 
+      The allegation does not have to be proven. How well it is supported is recorded separately (see How each case is coded), and some entries exist to test a claim that turns out to be thin. 
+      Entries are built only from public sources and each source is tiered by how close it is to the events.
     </p>
 
     <h2>Source tiers</h2>
-    <p>Every source in each entry carries a tier. Each tier describes where the information originated: </p>
+    <p>
+      Every source in each entry carries a tier. Each tier describes where the
+      information originated:
+    </p>
   </div>
 
   <table class="table">
-    <tr><td><span class="src src--p">P</span> &nbsp; <strong>Primary</strong><br>Court filings, indictments, judgments, agency releases, regulator notices, official statistics.</td><td></td></tr>
-    <tr><td><span class="src src--s">S</span> &nbsp; <strong>Secondary</strong><br>News organisations reporting on a primary record or their own reporting.</td><td></td></tr>
-    <tr><td><span class="src src--t">T</span> &nbsp; <strong>Tertiary</strong><br>Vendor blogs, trade press, aggregators. Often the only available source.</td><td></td></tr>
+    <tr>
+      <td>
+        <span class="src src--p">P</span> &nbsp; <strong>Primary</strong
+        ><br />Court filings, indictments, judgments, agency releases, regulator
+        notices, official statistics.
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>
+        <span class="src src--s">S</span> &nbsp; <strong>Secondary</strong
+        ><br />News organisations reporting on a primary record or their own
+        reporting.
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>
+        <span class="src src--t">T</span> &nbsp; <strong>Tertiary</strong
+        ><br />Vendor blogs, trade press, aggregators. Often the only available
+        source.
+      </td>
+      <td></td>
+    </tr>
   </table>
 
   <div class="prose">
     <h2>Enforcement status</h2>
-    <p>To assess and study the correlation between incidents, it is important to track the enforcement status of each case. Each status is defined by what enforcement action has been publicly recorded.
-      Status is updated when a case moves, and the entry shows when it was last revisited.</p>
+    <p>
+      Each status records the furthest enforcement step that is publicly recorded. 
+      Open cases are re-checked on a schedule, and each entry shows when it was last updated.
+    </p>
     <ul>
-      <li><strong>Reported only</strong> — no enforcement action publicly recorded.</li>
-      <li><strong>Investigation opened</strong> — an agency has confirmed it is investigating.</li>
+      <li>
+        <strong>Reported only</strong> — no enforcement action publicly
+        recorded.
+      </li>
+      <li>
+        <strong>Investigation opened</strong> — an agency has confirmed it is
+        investigating.
+      </li>
       <li><strong>Charges laid</strong> — charges or an indictment filed.</li>
-      <li><strong>Sanctions or seizure</strong> — designations, asset seizure, infrastructure takedown.</li>
-      <li><strong>Platform action</strong> — account, model or service-level enforcement by a provider.</li>
-      <li><strong>Civil litigation</strong> — private or state civil proceedings underway.</li>
-      <li><strong>Convicted</strong> — conviction entered, whether or not sentencing is complete.</li>
-      <li><strong>No human offender</strong> — no person directed the conduct, so no prosecution is possible.</li>
+      <li>
+        <strong>Sanctions or seizure</strong> — designations, asset seizure,
+        infrastructure takedown.
+      </li>
+      <li>
+        <strong>Platform action</strong> — account, model or service-level
+        enforcement by a provider.
+      </li>
+      <li>
+        <strong>Civil litigation</strong> — private or state civil proceedings
+        underway.
+      </li>
+      <li>
+        <strong>Convicted</strong> — conviction entered, whether or not
+        sentencing is complete.
+      </li>
+      <li>
+        <strong>No human offender</strong> — no person directed the conduct, so
+        no prosecution has been brought. Whether a developer or operator could be held liable has not been tested.
+      </li>
+    </ul>
+
+    <h2>How each case is coded</h2>
+    <p>
+      Besides category and status, each entry records three judgments, so cases
+      can be compared on the same terms. They are this record's assessment of
+      the public sources, and they change when the sources do.
+    </p>
+
+    <h3>What the AI claim rests on</h3>
+    <ul>
+      {% for c in site.data.claim_bases %}
+      <li><strong>{{ c.name }}</strong> — {{ c.blurb }}</li>
+      {% endfor %}
+    </ul>
+
+    <h3>How the case surfaced</h3>
+    <ul>
+      {% for c in site.data.detection_paths %}
+      <li><strong>{{ c.name }}</strong> — {{ c.blurb }}</li>
+      {% endfor %}
+    </ul>
+
+    <h3>The safeguard involved, and whether it held</h3>
+    <ul>
+      {% for c in site.data.safeguards %}
+      <li><strong>{{ c.name }}</strong> — {{ c.blurb }}</li>
+      {% endfor %}
+    </ul>
+    <ul>
+      {% for c in site.data.safeguard_outcomes %}
+      <li><strong>{{ c.name }}</strong> — {{ c.blurb }}</li>
+      {% endfor %}
     </ul>
 
     <h2>Notes on each entry</h2>
-    <p>Every entry contains a note field to provide further insight of the case. <strong>Mechanism</strong> explains what made the conduct possible. <strong>Claim check</strong> tests an assertion of the fact. <strong>Open question</strong> discusses unresolved issues.</p>
+    <p>
+      Every entry carries one short note.
+      <strong>Mechanism</strong> explains what made the conduct possible.
+      <strong>Claim check</strong> tests a specific claim against the sources.
+      <strong>Numbers check</strong> explains what a reported figure does and does not show.
+      <strong>Open question</strong> names the main unresolved issue.
+    </p>
 
     <h2>Naming</h2>
-    <p>No individual is named in the entries unless a court document, indictment or official agency releases it first. This record does not perform attribution and does not identify anyone not already publicly identified. Where an entry contests the characterisation attached to a case, names are withheld even when police have released them, because attaching a person to a claim this record is disputing would compound the error.</p>
+    <p>
+      An accused or suspected person is named only after a court document or an official agency release has named them. 
+      This record does not attribute crimes to anyone. Where an entry disputes how a case has been characterised, the accused is not named even if police have released the name. 
+      Officials, researchers and experts quoted in public sources are named as those sources name them.
+    </p>
 
     <h2>What is excluded</h2>
     <ul>
       <li>Information from non-public sources.</li>
-      <li>Operational detail, methods or instructions that would educate the public in committing an offence.</li>
-      <li>Incident-level narrative in the exploitation category which is covered only at the policy, enforcement and statistical level.</li>
+      <li>
+        Operational detail that could help someone commit an offence.
+      </li>
+      <li>
+        In sexual exploitation cases, any description of the material or how it was made. 
+        These entries cover detection, charges and outcomes only.
+      </li>
     </ul>
 
+    <h2>Dates</h2>
+    <p>
+      The date shown on each entry is the date the case first became public through an enforcement step or disclosure: an arrest, a charge or a company's announcement. 
+      Where sources give only a month, the first of the month is used and the entry says so.
+    </p>
+
+    <h2>Use of AI tools</h2>
+    <p>
+      Unio Analytics uses AI tools to help find and translate sources and to check drafts. 
+      Every fact is checked against the cited source, and every judgment is the author's.
+    </p>
+    
     <h2>Corrections</h2>
-    <p>To report an error, email <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>.</p>
+    <p>
+      To report an error, email
+      <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>.
+    </p>
   </div>
 
   <div class="note column">
     <span class="note__label">Independence</span>
-    Unio Analytics accepts no funding, sponsorship or advertising from vendors, identity or security products, and no payment from any party with an interest in how an incident is portrayed.
+    Unio Analytics accepts no funding, sponsorship or advertising from vendors of detection, 
+    identity or security products, and no payment from anyone with an interest in how an incident is portrayed. 
+    Paid advisory work is kept separate from the record and does not affect how cases are recorded.
   </div>
-
 </div>

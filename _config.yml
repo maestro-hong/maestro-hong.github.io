@@ -37,6 +37,7 @@ defaults:
       path: "ko"
     values:
       lang: ko
+    sitemap: false
   - scope:
       path: ""
       type: "entries"
@@ -48,6 +49,7 @@ defaults:
     values:
       layout: "entry"
       lang: ko
+      sitemap: false
 
 exclude:
   - README.md

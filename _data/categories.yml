@@ -26,10 +26,10 @@
   name: Exploitation
   slug: exploitation
   full: Sexual exploitation and image-based abuse
-  blurb: Covered at the policy, enforcement, and statistical level only.
+  blurb: Detection, charges and outcomes only. The material is never described.
   name_ko: 성착취
   full_ko: 성착취와 이미지 기반 성범죄
-  blurb_ko: 정책, 집행, 통계 차원에서만 다룹니다.
+  blurb_ko: 탐지, 기소, 처분 결과만 다룹니다. 자료 자체는 묘사하지 않습니다.
 - key: E
   name: Investment
   slug: investment
