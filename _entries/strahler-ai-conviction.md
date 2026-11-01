@@ -2,8 +2,8 @@
 published: true
 title: "Ohio man is first convicted under the TAKE IT DOWN Act, sentenced to 15 years"
 slug: strahler-first-take-it-down-conviction
-incident_date: 2025=06-01
-updated: 2026-09-15
+incident_date: 2025-06-01
+updated: 2026-11-01
 category: D
 country: United States
 status: convicted
