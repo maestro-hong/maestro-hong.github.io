@@ -55,7 +55,7 @@ The 20-year-old man allegedly posed as a delivery driver at Walmart and tried to
 Loss prevention staff identified the transaction as suspicious and contacted the local police. When he refused to leave, 
 an off-duty officer detained him until officers arrived.
 
-No items were stolen. he was arrested on September 7, 2026 and charged with criminal attempt to commit a misdemeanour,
+No items were stolen. He was arrested on September 7, 2026 and charged with criminal attempt to commit a misdemeanour,
 which one report cites as O.C.G.A. section 16-4-1. Bond was set at $1,300.
 
 ## The AI claim

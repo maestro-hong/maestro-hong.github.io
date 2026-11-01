@@ -2,7 +2,7 @@
 published: true
 title: "Ohio man is first convicted under the TAKE IT DOWN Act, sentenced to 15 years"
 slug: strahler-first-take-it-down-conviction
-incident_date: 2026-04-07
+incident_date: 2025=06-01
 updated: 2026-09-15
 category: D
 country: United States
@@ -73,4 +73,4 @@ Synthetic Media Threats Task Force.
 
 ## Record
 
-Strahler was arrested on federal charge on June 2025 and was sentenced on September 8, 2026 to 180 months. At sentencing, prosecutors said that Strahler posted more than 700 files, with roughly 2,400 additional files flagged on his device.
+Strahler was arrested on federal charges in June 2025, pleaded guilty on April 7, 2026, and was sentenced on September 8, 2026 to 180 months. At sentencing, prosecutors said that Strahler posted more than 700 files, with roughly 2,400 additional files flagged on his device.

@@ -37,7 +37,7 @@ defaults:
       path: "ko"
     values:
       lang: ko
-    sitemap: false
+      sitemap: false
   - scope:
       path: ""
       type: "entries"

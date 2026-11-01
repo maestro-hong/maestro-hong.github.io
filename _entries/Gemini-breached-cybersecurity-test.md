@@ -3,7 +3,7 @@ published: true
 title: "Gemini breached three companies during a cybersecurity test"
 slug: gemini-irregular-breakout
 incident_date: 2026-05-01
-updated: 2026-09-22
+updated: 2026-10-31
 category: J
 country: United States
 status: unattributed
@@ -52,6 +52,11 @@ sources:
     title: "An AI model from Meta also hacked another company during testing"
     url: "https://www.cnn.com/2026/08/05/tech/meta-ai-hacking"
     retrieved: 2026-09-22
+  - tier: S
+    outlet: 9to5Google (quoting The Wall Street Journal)
+    title: "Google confirms Gemini hacked into three companies during cybersecurity test months ago"
+    url: "https://9to5google.com/2026/09/19/google-confirms-gemini-hacked-into-three-companies-during-cybersecurity-test-months-ago/"
+    retrieved: 2026-11-01
 ---
 
 ## The test setup
@@ -71,13 +76,13 @@ Gemini breached three real companies. It guessed a password for a
 protected system by repeated attempts and for the other two it found credentials
 that were already public and used them.
 
-Google says the model behaved correctly once it had enough information. Heather Adkins, Google's vice president of security engineering, said: "In all three of these instances, the model stopped." Google says it confirmed the three affected organisations were notified and it worked with Irregular on changes to the testing process.
+Google says the model behaved correctly once it had enough information. Heather Adkins, Google's vice president of security engineering, said: "In all three of these instances, the model stopped." Google says the three affected organisations were notified and it worked with Irregular on changes to the testing process.
 
 ## Why this entry exists
 
 Google did not publish a report about the incident. The only public account is Google's statements to reporters on September 18, 2026, after the Wall Street Journal reported the incidents, about four months after they happened.
 
-According to Reuters, Google said that the behaviour was not due to model misalignment and did not warrant public disclosure because Gemini worked properly.
+According to the Wall Street Journal, as quoted by 9to5Google, Google did not consider the behaviour model misalignment because its safety measures stopped the model, and it did not disclose the incidents because no harm was caused.
 
 Each lab decides for itself whether a breach of a third party must be disclosed, and it bases that decision on its own judgment of how its model behaved.
 Anthropic's report notes that of the affected organisations, two had not previously detected the activity. If a company can be breached without noticing, and the only party that knows has decided its own safeguards worked, the event becomes public only if someone else reports it, as the Wall Street Journal did here.
@@ -136,9 +141,7 @@ loosely rather than three competing claims, but no source is specific enough to
 settle it.
 
 The originating report is the Wall Street Journal's and sits behind a paywall.
-This entry is built from Google's statements as carried by Axios, Cybersecurity
-Dive and Reuters, and from the primary reports published by Anthropic and
-OpenAI. The CNN and CNBC coverage of the Gemini incidents was not readable when
+This entry is built from Google’s statements as carried by Axios, Cybersecurity Dive and 9to5Google, which quotes the Wall Street Journal, and from the primary reports published by Anthropic and OpenAI. The CNBC coverage of the Gemini incidents was not readable when
 this entry was compiled and is not cited.
 
 No regulator or enforcement body has said it is examining these incidents. As in the other entries in this category, no person directed the conduct, and whether a lab or the test vendor could be held liable has not been tested.

@@ -12,7 +12,7 @@ detection_path: victim
 next_check: 2026-10-28
 safeguard: identity-check
 safeguard_outcome: bypassed
-summary: "On May 27, 2026, a man in his 30s rang the doorbell of a woman living alone in Jeju City, South Korea, showed her a police ID he had made with AI, and said he had come to carry out a search. He took cash and jewellery worth about 3 million won (about C$3,000). On September 10 2026, the Jeju District Court sentenced him to two years in prison, suspended for four years, for robbery and other charges."
+summary: "On May 27, 2026, a man in his 30s rang the doorbell of a woman living alone in Jeju City, South Korea, showed her a police ID he had made with AI, and said he had come to carry out a search. He took cash and jewellery worth about 3 million won (about C$3,000). On September 10, 2026, the Jeju District Court sentenced him to two years in prison, suspended for four years, for robbery and other charges."
 note_label: "Claim check"
 note: "The AI claim covers one image: a police ID shown on a phone. No source names the tool, and none of the reported charges depends on how the image was made."
 query: 'AI 위조 경찰 신분증 제주 압수수색 강도'
@@ -75,11 +75,11 @@ Early on May 27, 2026, a man in his 30s rang the doorbell
 of a house in Jeju City, South Korea where a woman resided alone. He
 told her he was a police officer who had come to carry out a search and
 displayed a picture of a police officer's ID. According to the charges, 
-the suspect made her go into the bathroom while stealing cash and jewellery worth about 3 million won (about CA3,000). Police told reporters he knew she lived alone and targeted her for that reason.
+the suspect made her go into the bathroom while stealing cash and jewellery worth about 3 million won (about C3,000). Police told reporters he knew she lived alone and targeted her for that reason.
 
 She reported it about 17 hours later, and he was arrested the next morning. Police initially described the case as theft and said they would seek a detention warrant. By June 10, 2026, prosecutors had indicted him in custody on a robbery charge. He was also charged with stealing 1 million won (about C$1,000) in cash from another home.
 
-On September 10 2026, the Jeju District Court
+On September 10, 2026, the Jeju District Court
 sentenced him to two years in prison, suspended for four years with 80
 hours of community service and ordered the stolen items returned to the victim. The court said that he had planned the crimes, aimed at his victims'
 vulnerabilities and damaged public trust in police officers. Given

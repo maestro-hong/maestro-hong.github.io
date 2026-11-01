@@ -3,7 +3,7 @@ published: true
 title: "Man pleads guilty to $8 million streaming fraud using AI-generated songs and bot accounts"
 slug: smith-streaming-royalty-fraud
 incident_date: 2024-09-04
-updated: 2026-09-26
+updated: 2026-10-31
 category: I
 country: United States
 status: convicted

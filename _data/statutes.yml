@@ -10,32 +10,6 @@
     child-related conduct in the same case was charged under a statute from 2003.
   entry: /entry/strahler-ai-conviction/
 
-- name: State AI election deepfake laws
-  jurisdiction: United States (44 states)
-  enacted: 2019–2026
-  ai_specific: true
-  scope: Synthetic media depicting candidates, typically within a window before an election.
-  convictions: "0"
-  detail: >
-    No criminal conviction located in any state. The most prominent prosecution,
-    over a 2024 robocall imitating President Biden, ended in acquittal; a separate
-    $6m FCC penalty was regulatory rather than criminal. Laws in California and
-    Hawaii have been struck down on First Amendment grounds and Montana's is under
-    challenge. Civil suits are pending in Michigan and Arizona.
-
-- name: Act on Special Cases Concerning the Punishment of Sexual Crimes
-  jurisdiction: South Korea
-  enacted: 1994, deepfake provisions amended 2020 and 2024
-  ai_specific: partial
-  scope: Production and distribution of sexually explicit synthetic media.
-  convictions: "high volume"
-  detail: >
-    The outlier. Recorded cases rose from 168 in 2023 to 550 in 2024 to roughly
-    1,300 in 2025. Between November 2024 and October 2025 deepfake offences were
-    the largest single category of cybersexual violence, with 1,438 arrests from
-    1,462 enforcement actions. No other jurisdiction in this list is prosecuting
-    at comparable volume.
-
 - name: AI Basic Act
   jurisdiction: South Korea
   enacted: 2026
@@ -47,6 +21,43 @@
     action located. Included because it is frequently cited as evidence that a
     jurisdiction is acting on AI crime, which it is not designed to do.
 
+- name: State AI election deepfake laws
+  jurisdiction: United States (multiple states)
+  enacted: 2019–2026
+  ai_specific: true
+  scope: Synthetic media depicting candidates, typically within a window before an election.
+  convictions: "0"
+  detail: >
+    No criminal conviction located in any state. The most prominent prosecution,
+    of the consultant behind a 2024 robocall imitating President Biden, ended in
+    acquittal in June 2025 (<a href="https://www.nhpr.org/nh-news/2025-06-13/political-operative-fake-biden-robocalls-nh-primary-found-not-guilty">NHPR</a>);
+    a separate $6 million FCC fine was regulatory, not criminal
+    (<a href="https://www.fcc.gov/document/fcc-issues-6m-fine-nh-robocalls">FCC</a>).
+    Federal courts struck down California's law in August 2025
+    (<a href="https://news.bloomberglaw.com/litigation/musk-challenged-california-anti-deepfake-law-struck-by-judge">Bloomberg Law</a>)
+    and Hawaii's in January 2026
+    (<a href="https://reason.com/volokh/2026/01/31/hawaii-deceptive-election-related-deepfake-disclaimer-requirement-struck-down">Reason</a>).
+    In September 2026 a federal judge found Montana's law likely unconstitutional
+    in a ruling limited to the plaintiffs; the law remains in force
+    (<a href="https://dailymontanan.com/2026/09/18/federal-judge-says-ai-deepfake-election-law-violates-first-amendment/">Daily Montanan</a>).
+
+- name: Act on Special Cases Concerning the Punishment of Sexual Crimes
+  jurisdiction: South Korea
+  enacted: 1994, deepfake provisions amended 2020 and 2024
+  ai_specific: partial
+  scope: Production and distribution of sexually explicit synthetic media.
+  convictions: "high volume (arrests)"
+  detail: >
+    The outlier. In a national crackdown from November 2024 to October 2025,
+    fabricated sexual imagery was the largest category of cybersexual crime:
+    1,553 of 4,413 recorded cases. Counting deepfake-made child sexual
+    exploitation material as well, police acted on 1,462 deepfake cases and
+    arrested 1,438 people, 62% of them teenagers. These are arrest figures;
+    conviction totals were not located. No other jurisdiction in this list is
+    enforcing at comparable volume
+    (<a href="https://www.newsis.com/view/NISX20251114_0003403877">Newsis</a>,
+    reporting Korean National Police Agency figures, November 16, 2025).
+    
 - name: EU AI Act
   jurisdiction: European Union
   enacted: 2024

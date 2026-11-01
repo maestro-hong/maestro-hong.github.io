@@ -89,7 +89,7 @@ sources:
     retrieved: 2026-10-29
 ---
 
-## The Allegations
+## The allegations
 
 From March to May 2025, the YouTube channel Garosero Research Institute (가로세로연구소, also known as Gaseyeon), run by Kim Se-ui, claimed that actor Kim Soo-hyun dated actress Kim Sae-ron for six years, starting when she was 15. It further claimed that pressure over a debt contributed to her death. On May 7, 2025, Gaseyeon and the actress's family held a press conference and played what they said was her voice recording.
 
@@ -111,7 +111,7 @@ Headlines say AI was used to fabricate the recording. The record is less certain
 
 Only police, directly or through the agency's account, have said AI was used. The AI claim covers the voice recording only. Police describe the KakaoTalk screenshots as edited, and no source says AI was used to alter them. Under the Network Act, defamation by false facts requires proof that the defendant knew the facts were false. How the file was made is not an element of the offence, so the court may never rule on whether AI was used.
 
-## Criminal Charges
+## Criminal charges
 
 Prosecutors in the Women and Children Crime Investigation Division 2 of the Seoul Central District Prosecutors' Office indicted Kim Se-ui on June 23, 2026. The reported charges are defamation under the Information and Communications Network Act, distributing illegally filmed material under the Act on Special Cases Concerning the Punishment of Sexual Crimes, and a violation of the Stalking Punishment Act. The Public also lists attempted coercion and intimidation.
 

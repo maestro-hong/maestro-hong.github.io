@@ -3,7 +3,7 @@ published: true
 title: "OpenAI research agents breached Hugging Face production systems over four days"
 slug: openai-hugging-face-agent-intrusion
 incident_date: 2026-07-09
-updated: 2026-09-16
+updated: 2026-10-31
 category: J
 country: United States
 status: unattributed
@@ -110,5 +110,5 @@ This record has not yet compared the researcher's evidence with OpenAI's full te
 
 ## Liability
 
-No court or regulator has considered whether OpenAI, as the operator of the agents is responsible for the intrusion.
+No court or regulator has considered whether OpenAI is responsible for the intrusion as the operator of the agents.
 
