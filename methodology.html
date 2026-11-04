@@ -2,7 +2,7 @@
 layout: default
 title: Methodology
 permalink: /methodology/
-description: How Unio Analytics builds entries — source tiering, enforcement status definitions, what is excluded, and how corrections are handled.
+description: How Unio Analytics builds entries: source tiers, enforcement statuses, what is excluded and how corrections are handled.
 ---
 
 <div class="wrap page">
@@ -60,32 +60,32 @@ description: How Unio Analytics builds entries — source tiering, enforcement s
     </p>
     <ul>
       <li>
-        <strong>Reported only</strong> — no enforcement action publicly
+        <strong>Reported only</strong>: no enforcement action publicly
         recorded.
       </li>
       <li>
-        <strong>Investigation opened</strong> — an agency has confirmed it is
+        <strong>Investigation opened</strong>: an agency has confirmed it is
         investigating.
       </li>
-      <li><strong>Charges laid</strong> — charges or an indictment filed.</li>
+      <li><strong>Charges laid</strong>: charges or an indictment filed.</li>
       <li>
-        <strong>Sanctions or seizure</strong> — designations, asset seizure,
+        <strong>Sanctions or seizure</strong>: designations, asset seizure,
         infrastructure takedown.
       </li>
       <li>
-        <strong>Platform action</strong> — account, model or service-level
+        <strong>Platform action</strong>: account, model or service-level
         enforcement by a provider.
       </li>
       <li>
-        <strong>Civil litigation</strong> — private or state civil proceedings
+        <strong>Civil litigation</strong>: private or state civil proceedings
         underway.
       </li>
       <li>
-        <strong>Convicted</strong> — conviction entered, whether or not
+        <strong>Convicted</strong>: conviction entered, whether or not
         sentencing is complete.
       </li>
       <li>
-        <strong>No human offender</strong> — no person directed the conduct, so
+        <strong>No human offender</strong>: no person directed the conduct, so
         no prosecution has been brought. Whether a developer or operator could be held liable has not been tested.
       </li>
     </ul>
@@ -100,26 +100,26 @@ description: How Unio Analytics builds entries — source tiering, enforcement s
     <h3>What the AI claim rests on</h3>
     <ul>
       {% for c in site.data.claim_bases %}
-      <li><strong>{{ c.name }}</strong> — {{ c.blurb }}</li>
+      <li><strong>{{ c.name }}</strong>: {{ c.blurb }}</li>
       {% endfor %}
     </ul>
 
     <h3>How the case surfaced</h3>
     <ul>
       {% for c in site.data.detection_paths %}
-      <li><strong>{{ c.name }}</strong> — {{ c.blurb }}</li>
+      <li><strong>{{ c.name }}</strong>: {{ c.blurb }}</li>
       {% endfor %}
     </ul>
 
     <h3>The safeguard involved, and whether it held</h3>
     <ul>
       {% for c in site.data.safeguards %}
-      <li><strong>{{ c.name }}</strong> — {{ c.blurb }}</li>
+      <li><strong>{{ c.name }}</strong>: {{ c.blurb }}</li>
       {% endfor %}
     </ul>
     <ul>
       {% for c in site.data.safeguard_outcomes %}
-      <li><strong>{{ c.name }}</strong> — {{ c.blurb }}</li>
+      <li><strong>{{ c.name }}</strong>: {{ c.blurb }}</li>
       {% endfor %}
     </ul>
 
@@ -162,7 +162,7 @@ description: How Unio Analytics builds entries — source tiering, enforcement s
       Unio Analytics uses AI tools to help find and translate sources and to check drafts. 
       Every fact is checked against the cited source, and every judgment is the author's.
     </p>
-    
+
     <h2>Corrections</h2>
     <p>
       To report an error, email

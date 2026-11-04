@@ -62,7 +62,7 @@ if ko_meth %}{% assign meth_url = "/ko/methodology/" %}{% endif %}{% endif %}
       <span class="src src--{{ s.tier | downcase }}">{{ s.tier }}</span>
       <span>
         <a href="{{ s.url }}" rel="noopener nofollow" target="_blank"
-          >{{ s.outlet }}{% if s.title %} — {{ s.title }}{% endif %}</a
+          >{{ s.outlet }}{% if s.title %}: {{ s.title }}{% endif %}</a
         >
         {% if s.retrieved %}<br /><span class="src-retrieved"
           >{{ t.retrieved }} {{ s.retrieved | date: "%Y.%m.%d" }}</span

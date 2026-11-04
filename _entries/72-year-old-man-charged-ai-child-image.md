@@ -54,13 +54,13 @@ below.
 
 PicsArt, an online photo-editing platform, flagged the account and the images Fairchild had created and reported them to the National Center for Missing and Exploited Children (NCMEC). NCMEC passed the information to the Colorado Internet Crimes Against Children Task Force, and the Boulder County Digital Forensics Lab took over the investigation. A search warrant was served at Fairchild's home on January 15, 2026. He turned himself in on January 30, 2026 and was booked into the Boulder County Jail with bond set at $50,000.
 
-Neither police nor a victim detected the conduct. PicsArt's content moderation made the first detection, and a nonprofit clearinghouse passed it to law enforcement. Boulder County described this as one of its forensics lab's first full investigations involving AI.
+The first detection came from PicsArt's content moderation rather than from police or a victim. Boulder County described this as one of its forensics lab's first full investigations involving AI.
 
 ## The statute
 
 All 23 counts are under Colorado law: 11 counts of sexual exploitation of a child by producing sexually exploitative material under C.R.S. § 18-6-403(3)(b), a class 3 felony; 11 counts of possession under § 18-6-403(3)(b.5), a class 5 felony; and one count under § 18-6-403(5.5)(a), the extraordinary-risk enhancer for material involving a child under 12.
 
-No federal charges have been reported, and none of the statutes was written with AI in mind. The provisions used in this case predate generative image tools by a wide margin.
+No federal charges have been reported. The offences charged predate AI, but in 2025 Colorado added computer-generated depictions of an identifiable child to the statute's definition of sexually exploitative material (SB25-288). The provisions used in this case predate generative image tools by a wide margin.
 
 ## Altered images
 

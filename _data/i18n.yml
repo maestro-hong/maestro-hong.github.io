@@ -31,10 +31,10 @@ en:
   definitions_after: "."
   untranslated: Korean
   subscribe_label: Monthly email
-  subscribe_promise: "Subscribe for a monthly email for new cases and follow-ups on existing cases."
+  subscribe_promise: "Subscribe for a bi-weekly email for new cases and updates on existing incidents."
   subscribe_email: Email address
   subscribe_button: Subscribe
-  subscribe_note: Address is only used to send this email. Unsubscription link is included.
+  subscribe_note: Email address is only used to send bi-weekly newsletter. Every email has an unsubscribe link.
   place: Vancouver, British Columbia.
   legal: >-
     An independent research company. It accepts no funding, sponsorship or advertising from vendors of detection, 

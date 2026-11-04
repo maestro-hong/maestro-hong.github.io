@@ -76,11 +76,11 @@ that were already public and used them.
 
 Google says the model behaved correctly once it had enough information. Heather Adkins, Google's vice president of security engineering, said: "In all three of these instances, the model stopped." Google says the three affected organisations were notified and it worked with Irregular on changes to the testing process.
 
-## Why this entry exists
+## How the incident became public
 
-Google did not publish a report about the incident. The only public account is Google's statements to reporters on September 18, 2026, after the Wall Street Journal reported the incidents, about four months after they happened.
+Google did not publish a report about the incidents. The only public information is from the Wall Street Journal, which is four months after the incidents occurred.
 
-According to the Wall Street Journal, as quoted by 9to5Google, Google did not consider the behaviour model misalignment because its safety measures stopped the model, and it did not disclose the incidents because no harm was caused.
+According to the Wall Street Journal, as quoted by 9to5Google, Google did not consider the behaviour to be model misalignment because its safety measures stopped the model and it did not disclose the incidents because no harm was caused.
 
 Each lab decides for itself whether a breach of a third party must be disclosed, and it bases that decision on its own judgment of how its model behaved.
 Anthropic's report notes that of the affected organisations, two had not previously detected the activity. If a company can be breached without noticing, and the only party that knows has decided its own safeguards worked, the event becomes public only if someone else reports it, as the Wall Street Journal did here.
@@ -103,8 +103,7 @@ roughly 9,000 targets, compromised one company and then worked out on
 its own that the host it had taken sat in a cloud account unconnected to the
 challenge, concluded the target was real and stopped.
 
-One of Anthropic's three models did what Google states all three of its
-attempts did. Coverage contrasting Claude, which did not stop, with Gemini, which did, is accurate for two of Anthropic’s three incidents.
+Only one of Anthropic's three models stopped once it recognized the target was real, which Google states Gemini did all three times. Coverage contrasting Claude with Gemini on this point is accurate for the other two incidents.
 
 OpenAI published its account on August 4, 2026. It names both Irregular and the UK AI Security Institute and describes a model that exploited a real website after mistaking it for part of the simulated environment.
 
@@ -132,10 +131,7 @@ so that it sorts correctly. It should not be read as a date.
 
 Accounts also differ slightly on where the public credentials came from. Axios
 describes a public repository. Cybersecurity Dive describes public databases.
-Al Jazeera describes public information found online and
-credentials. These are probably the same fact recounted
-loosely rather than three competing claims, but no source is specific enough to
-settle it.
+Al Jazeera describes credentials and public information found online. The three sources describe the same thing, but no source provide specific information.
 
 The originating report is the Wall Street Journal's and sits behind a paywall.
 This entry is built from Google’s statements as carried by Axios, Cybersecurity Dive and 9to5Google, which quotes the Wall Street Journal, and from the primary reports published by Anthropic and OpenAI. The CNBC coverage of the Gemini incidents was not readable when

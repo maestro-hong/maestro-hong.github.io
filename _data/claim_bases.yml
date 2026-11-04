@@ -18,8 +18,3 @@
   name_ko: 언론 보도만
   blurb: Only news reports claim AI was used.
   blurb_ko: 언론 보도만 AI 사용을 주장합니다.
-- key: none
-  name: Not claimed
-  name_ko: 주장 없음
-  blurb: No source claims AI was used to commit the offence.
-  blurb_ko: 범행에 AI를 썼다고 주장하는 출처가 없습니다.
