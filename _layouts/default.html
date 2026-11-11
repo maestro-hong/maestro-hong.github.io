@@ -1,0 +1,148 @@
+{%- include i18n.html -%}
+{%- assign u = page.url -%}
+
+{%- comment -%}
+  Language twin: the same page in the other language.
+  English /entry/x/ pairs with Korean /ko/entry/x/ (same file name), and
+  likewise for the front page, categories, stats, about and methodology.
+{%- endcomment -%}
+{%- if lang == "ko" -%}
+  {%- assign twin_url = u | remove_first: "/ko" -%}
+  {%- assign twin_pool = site.entries -%}
+{%- else -%}
+  {%- assign twin_url = u | prepend: "/ko" -%}
+  {%- assign twin_pool = site.entries_ko -%}
+{%- endif -%}
+{%- assign twin = site.pages | where: "url", twin_url | first -%}
+{%- unless twin -%}{%- assign twin = twin_pool | where: "url", twin_url | first -%}{%- endunless -%}
+
+{%- comment -%}
+  The switch shows on every page. It goes to the twin when there is one,
+  otherwise to the other language's front page.
+{%- endcomment -%}
+{%- assign paired = false -%}
+{%- if twin -%}
+  {%- assign paired = true -%}
+  {%- assign switch_url = twin_url -%}
+{%- elsif lang == "ko" -%}
+  {%- assign switch_url = "/" -%}
+{%- else -%}
+  {%- assign switch_url = "/ko/" -%}
+{%- endif -%}
+
+{%- if lang == "ko" -%}
+  {%- assign home_url = "/ko/" -%}
+  {%- assign entries_url = "/ko/" -%}
+  {%- assign stats_url = "/ko/stats/" -%}
+  {%- assign feed_url = "/ko/feed.xml" -%}
+  {%- assign ko_meth = site.pages | where: "url", "/ko/methodology/" | first -%}
+  {%- if ko_meth -%}{%- assign meth_url = "/ko/methodology/" -%}{%- else -%}{%- assign meth_url = "/methodology" -%}{%- endif -%}
+  {%- assign ko_about = site.pages | where: "url", "/ko/about/" | first -%}
+  {%- if ko_about -%}{%- assign about_url = "/ko/about/" -%}{%- else -%}{%- assign about_url = "/about" -%}{%- endif -%}
+  {%- assign en_url = twin_url -%}
+  {%- assign ko_url = u -%}
+{%- else -%}
+  {%- assign home_url = "/" -%}
+  {%- assign entries_url = "/entries/" -%}
+  {%- assign meth_url = "/methodology" -%}
+  {%- assign stats_url = "/stats" -%}
+  {%- assign about_url = "/about" -%}
+  {%- assign feed_url = "/feed.xml" -%}
+  {%- assign en_url = u -%}
+  {%- assign ko_url = twin_url -%}
+{%- endif -%}
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="{% if lang == 'ko' %}{{ page.description | default: t.description }}{% else %}{{ page.description | default: site.description }}{% endif %}">
+  <title>{% if page.title and page.title != 'Home' and u != '/ko/' %}{{ page.title }} — {% endif %}Unio Analytics</title>
+  <link rel="alternate" type="application/atom+xml" title="Unio Analytics" href="{{ feed_url }}">
+  {%- if paired and site.korean_live %}
+  <link rel="alternate" hreflang="en" href="{{ site.url }}{{ en_url }}">
+  <link rel="alternate" hreflang="ko" href="{{ site.url }}{{ ko_url }}">
+  <link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ en_url }}">
+  {%- endif %}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400{% if lang == 'ko' %}&family=IBM+Plex+Sans+KR:wght@400;500&family=Noto+Serif+KR:wght@400{% endif %}&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+</head>
+{%- assign is_home = false -%}
+{%- if u == "/" -%}{%- assign is_home = true -%}{%- endif -%}
+<body{% if is_home %} class="home"{% endif %}>
+
+{% assign on_entries = false %}
+{% if u == entries_url or u contains '/entry/' or u contains '/category/' %}{% assign on_entries = true %}{% endif %}
+
+  <header class="head">
+    <div class="wrap">
+
+      <div class="head__top">
+        <a href="{{ home_url }}" class="head__mark"><span>UNIO</span> <span>ANALYTICS</span></a>
+        <nav class="lang-switch" aria-label="{{ t.language }}">
+          {%- if lang == "ko" %}
+          <a class="lang-switch__item" href="{{ switch_url }}" hreflang="en" lang="en" aria-label="English">EN</a>
+          <span class="lang-switch__item is-on" aria-current="true">KR</span>
+          {%- else %}
+          <span class="lang-switch__item is-on" aria-current="true">EN</span>
+          {%- if site.korean_live %}
+          <a class="lang-switch__item" href="{{ switch_url }}" hreflang="ko" lang="ko" aria-label="한국어">KR</a>
+          {%- else %}
+          <span class="lang-switch__item is-off" aria-disabled="true" title="Korean edition coming soon">KR</span>
+          {%- endif %}
+          {%- endif %}
+        </nav>
+        <button class="head__toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav" aria-label="{{ t.menu }}">&#9776;</button>
+      </div>
+
+      <nav class="nav" id="nav">
+        <ul class="nav__links">
+          <li><a href="{{ entries_url }}"{% if on_entries %} class="is-on"{% endif %}>{{ t.entries }}</a></li>
+          <li><a href="{{ meth_url }}"{% if u contains '/methodology' %} class="is-on"{% endif %}>{{ t.methodology }}</a></li>
+          <li><a href="{{ stats_url }}"{% if u contains '/stats' %} class="is-on"{% endif %}>{{ t.stats }}</a></li>
+          <li><a href="{{ about_url }}"{% if u contains '/about' %} class="is-on"{% endif %}>{{ t.about }}</a></li>
+        </ul>
+        {%- if is_home %}
+        <a class="nav__search" href="/entries/#search">{{ t.search }}</a>
+        {%- else %}
+        <button class="nav__search" id="search-toggle" aria-expanded="false" aria-controls="search-field">{{ t.search }}</button>
+        {%- endif %}
+      </nav>
+
+      <div class="search-field" id="search-field" hidden>
+        <input type="search" id="search-input" placeholder="{{ t.search_placeholder }}" aria-label="{{ t.search_placeholder }}">
+      </div>
+
+    </div>
+  </header>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer class="foot">
+    <div class="wrap">
+      {% include subscribe.html %}
+      <div class="foot__links">
+        <a href="{{ entries_url }}">{{ t.entries }}</a>
+        <a href="{{ meth_url }}">{{ t.methodology }}</a>
+        <a href="{{ stats_url }}">{{ t.stats }}</a>
+        <a href="{{ about_url }}">{{ t.about }}</a>
+        <a href="{{ feed_url }}">RSS</a>
+      </div>
+      <p class="foot__legal">
+        &copy; {{ 'now' | date: "%Y" }} Unio Analytics. {{ t.place }}
+        {{ t.legal }}
+      </p>
+    </div>
+  </footer>
+
+  <script src="/assets/js/register.js"></script>
+
+</body>
+</html>

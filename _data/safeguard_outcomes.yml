@@ -1,0 +1,15 @@
+- key: bypassed
+  name: Bypassed
+  name_ko: 우회됨
+  blurb: The conduct got past the safeguard.
+  blurb_ko: 범행이 안전장치를 통과했습니다.
+- key: caught
+  name: Caught
+  name_ko: 적발됨
+  blurb: The safeguard stopped or exposed the conduct.
+  blurb_ko: 안전장치가 범행을 막거나 드러냈습니다.
+- key: unknown
+  name: Not stated
+  name_ko: 알 수 없음
+  blurb: No source says whether the safeguard held.
+  blurb_ko: 안전장치가 작동했는지 밝힌 출처가 없습니다.

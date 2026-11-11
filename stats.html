@@ -1,0 +1,47 @@
+---
+layout: default
+title: Stats
+permalink: /stats/
+description: "Coverage summary for the Unio Analytics record: entries by category, enforcement status and country."
+---
+
+{% assign all = site.entries %}
+<div class="wrap page">
+  <p class="page__label">Coverage</p>
+  <h1 class="page__title">What the record holds</h1>
+  <p class="page__sub">Counts of entries in this archive, not estimates of how often these crimes occur.</p>
+
+  <div class="prose">
+    <h2>By category</h2>
+  </div>
+  <table class="table">
+    {% for c in site.data.categories %}
+    {% assign n = all | where: "category", c.key %}
+    <tr><td><a href="/category/{{ c.slug }}/">{{ c.name }}</a></td><td>{{ n.size }}</td></tr>
+    {% endfor %}
+  </table>
+
+  <div class="prose">
+    <h2>By enforcement status</h2>
+  </div>
+  <table class="table">
+    {% for s in site.data.statuses %}
+    {% assign n = all | where: "status", s.key %}
+    <tr><td>{{ s.name }}</td><td>{{ n.size }}</td></tr>
+    {% endfor %}
+  </table>
+
+  <div class="prose">
+    <h2>By country</h2>
+  </div>
+  <table class="table">
+    {% assign by_country = all | group_by: "country" | sort: "name" %}
+    {% for g in by_country %}
+    <tr><td>{{ g.name }}</td><td>{{ g.items.size }}</td></tr>
+    {% endfor %}
+  </table>
+
+  <div class="prose">
+    <p>Status definitions are on the <a href="/methodology">methodology</a> page.</p>
+  </div>
+</div>

@@ -1,0 +1,25 @@
+---
+layout: default
+title: Home
+description: Research on AI crime. Real incidents verified against the sources and kept up to date.
+---
+
+<div class="wrap lede lede--home">
+  <h1 class="lede__main">Research on AI crime</h1>
+  <p class="lede__sub">Real cases checked against the sources and kept up to date</p>
+</div>
+
+{% assign all = site.entries | sort: "incident_date" | reverse %}
+<section class="wrap rows rows--latest">
+  {% if all.size == 0 %}
+    <p class="empty">No entries published yet.</p>
+  {% else %}
+    {% for e in all limit: 2 %}{% include entry-row.html entry=e %}{% endfor %}
+  {% endif %}
+</section>
+
+{% if all.size > 2 %}
+<div class="more">
+  <a class="more__link" href="/entries/">Show more <span aria-hidden="true">&darr;</span></a>
+</div>
+{% endif %}

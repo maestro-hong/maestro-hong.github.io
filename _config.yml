@@ -1,0 +1,58 @@
+# _config.yml — Unio Analytics
+
+theme: null
+
+title: Unio Analytics
+description: Research on AI crime. Incidents checked against the sources and kept up to date.
+url: "https://unio-analytics.com"
+baseurl: ""
+lang: en
+korean_live: false
+
+author:
+  name: Jason Ahn
+  email: jason@unio-analytics.com
+
+# Buttondown newsletter username, used by the signup form in _includes/subscribe.html
+buttondown: unio-analytics
+
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+
+collections:
+  entries:
+    output: true
+    permalink: /entry/:name/
+  entries_ko:
+    output: true
+    permalink: /ko/entry/:name/
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      lang: en
+  - scope:
+      path: "ko"
+    values:
+      lang: ko
+      sitemap: false
+  - scope:
+      path: ""
+      type: "entries"
+    values:
+      layout: "entry"
+  - scope:
+      path: ""
+      type: "entries_ko"
+    values:
+      layout: "entry"
+      lang: ko
+      sitemap: false
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules

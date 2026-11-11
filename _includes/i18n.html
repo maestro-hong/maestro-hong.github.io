@@ -1,0 +1,18 @@
+{%- comment -%}
+  Sets the page language and the matching interface text.
+  lang  "en" or "ko" (from front matter defaults in _config.yml)
+  t     interface strings from _data/i18n.yml
+  base  "" for English, "/ko" for Korean, prefixed to internal links
+  nk bk field names for localised category and status names and blurbs
+{%- endcomment -%}
+{%- assign lang = page.lang | default: site.lang | default: "en" -%}
+{%- assign t = site.data.i18n[lang] -%}
+{%- if lang == "ko" -%}
+  {%- assign base = "/ko" -%}
+  {%- assign nk = "name_ko" -%}
+  {%- assign bk = "blurb_ko" -%}
+{%- else -%}
+  {%- assign base = "" -%}
+  {%- assign nk = "name" -%}
+  {%- assign bk = "blurb" -%}
+{%- endif -%}
