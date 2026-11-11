@@ -12,14 +12,17 @@
 
 - name: AI Basic Act
   jurisdiction: South Korea
-  enacted: 2026
+  enacted: 2025, in force January 2026
   ai_specific: true
   scope: Governance, transparency and risk obligations on developers and deployers.
   convictions: "n/a"
   detail: >
-    Regulatory rather than criminal, in force since January 2026. No enforcement
-    action located. Included because it is frequently cited as evidence that a
-    jurisdiction is acting on AI crime, which it is not designed to do.
+    Regulatory rather than criminal. Promulgated in January 2025 and in force
+    since January 22, 2026. Its only criminal penalty covers leaks of
+    confidential information by committee members; other duties carry
+    administrative fines of up to 30 million won. No enforcement action located.
+    Listed because it is often mentioned in discussions of AI crime, although
+    it creates no offence for misusing AI.
 
 - name: State AI election deepfake laws
   jurisdiction: United States (multiple states)
@@ -43,7 +46,7 @@
 
 - name: Act on Special Cases Concerning the Punishment of Sexual Crimes
   jurisdiction: South Korea
-  enacted: 1994, deepfake provisions amended 2020 and 2024
+  enacted: 2010 (replacing a 1994 act); deepfake provision added 2020, widened 2024
   ai_specific: partial
   scope: Production and distribution of sexually explicit synthetic media.
   convictions: "high volume (arrests)"
@@ -69,17 +72,19 @@
     offenders. Criminal enforcement remains a member-state matter. No criminal
     prosecution located under national implementing provisions.
 
-- name: 18 U.S.C. § 1343 (wire fraud)
+- name: 18 U.S.C. §§ 371 and 1343 (conspiracy to commit wire fraud)
   jurisdiction: United States (federal)
   enacted: 1952
   ai_specific: false
   scope: Schemes to defraud using interstate wire communications.
   convictions: "in use"
   detail: >
-    Predates the internet. Carried the largest AI-enabled fraud conviction located
-    to date: a guilty plea in March 2026 over hundreds of thousands of AI-generated
-    songs streamed by bot accounts, with $8,091,843.64 forfeited. No AI-specific
-    statute was needed or used.
+    The wire fraud statute dates from 1952. It carried the largest AI-enabled
+    fraud conviction located to date: a guilty plea in March 2026 to conspiracy
+    to commit wire fraud (charged under § 371, maximum five years) over hundreds
+    of thousands of AI-generated songs streamed by bot accounts. The defendant
+    was sentenced in October 2026 to 18 months and forfeited $8,091,843.64.
+    Prosecutors used no AI-specific law.
   entry: /entry/ai-song-crackdown/
 
 - name: 18 U.S.C. § 1466A

@@ -24,7 +24,7 @@ sources:
     retrieved: 2026-09-14
   - tier: P
     outlet: U.S. Attorney's Office, SDNY
-    title: "North Carolina Man Pleads Guilty To Music Streaming Fraud Aided By Artificial Intelligence"
+    title: "North Carolina man sentenced to 18 months for $8 million streaming fraud using AI-generated songs and bot accounts"
     url: "https://www.justice.gov/usao-sdny/pr/north-carolina-man-pleads-guilty-music-streaming-fraud-aided-artificial-intelligence-0"
     retrieved: 2026-09-14
   - tier: S
@@ -42,6 +42,11 @@ sources:
     title: "Fake AI songs streamed billions of times, netting fraudster $10 million"
     url: "https://www.helpnetsecurity.com/2026/03/20/ai-music-streaming-fraud-guilty-plea/"
     retrieved: 2026-09-14
+  - tier: P
+    outlet: U.S. District Court, SDNY
+    title: "Superseding Information, United States v. Michael Smith, S1 24 Cr. 504 (JGK)"
+    url: "https://storage.courtlistener.com/recap/gov.uscourts.nysd.627522/gov.uscourts.nysd.627522.44.0.pdf"
+    retrieved: 2026-11-11
 ---
 
 ## Correction
@@ -80,7 +85,7 @@ asserted that the works were human-authored rather than computer-generated.
 ## Enforcement
 
 Smith was charged on September 4, 2024 with wire fraud conspiracy, wire fraud and money laundering conspiracy. Each count carries a maximum of 20
-years. On March 19, 2026 Smith pleaded guilty to one count of conspiracy to commit wire fraud.
+years. On March 19, 2026 Smith pleaded guilty to one count of conspiracy to commit wire fraud under a superseding information charging 18 U.S.C. § 371, which carries a maximum of five years.
 
 On September 22, 2026, the defence filed a sentencing memorandum asking for probation, arguing that the losses were so thinly spread that no artist suffered any perceptible harm. The Sentencing Guidelines range is 46 to 57 months, but the Probation Office recommended 24.
 
