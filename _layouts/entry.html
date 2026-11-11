@@ -9,7 +9,7 @@ page.status | first %} {% assign meth_url = "/methodology" %} {% if lang == "ko"
 if ko_meth %}{% assign meth_url = "/ko/methodology/" %}{% endif %}{% endif %}
 <article class="wrap page">
   <p class="page__label">
-    <a href="{{ base }}/">{{ t.entries }}</a> &nbsp;/&nbsp;
+    <a href="{% if lang == 'ko' %}/ko/{% else %}/entries/{% endif %}">{{ t.entries }}</a> &nbsp;/&nbsp;
     <a href="{{ base }}/category/{{ cat.slug }}/"
       >{{ cat[nk] | default: cat.name }}</a
     >
