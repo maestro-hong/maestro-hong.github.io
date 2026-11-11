@@ -105,19 +105,10 @@
           <li><a href="{{ entries_url }}"{% if on_entries %} class="is-on"{% endif %}>{{ t.entries }}</a></li>
           <li><a href="{{ meth_url }}"{% if u contains '/methodology' %} class="is-on"{% endif %}>{{ t.methodology }}</a></li>
           <li><a href="{{ stats_url }}"{% if u contains '/stats' %} class="is-on"{% endif %}>{{ t.stats }}</a></li>
+          <li><a href="/statutes/"{% if u contains '/statutes' %} class="is-on"{% endif %}>{{ t.statutes }}</a></li>
           <li><a href="{{ about_url }}"{% if u contains '/about' %} class="is-on"{% endif %}>{{ t.about }}</a></li>
         </ul>
-        {%- if is_home %}
-        <a class="nav__search" href="/entries/#search">{{ t.search }}</a>
-        {%- else %}
-        <button class="nav__search" id="search-toggle" aria-expanded="false" aria-controls="search-field">{{ t.search }}</button>
-        {%- endif %}
       </nav>
-
-      <div class="search-field" id="search-field" hidden>
-        <input type="search" id="search-input" placeholder="{{ t.search_placeholder }}" aria-label="{{ t.search_placeholder }}">
-      </div>
-
     </div>
   </header>
 
@@ -132,6 +123,7 @@
         <a href="{{ entries_url }}">{{ t.entries }}</a>
         <a href="{{ meth_url }}">{{ t.methodology }}</a>
         <a href="{{ stats_url }}">{{ t.stats }}</a>
+        <a href="/statutes/">{{ t.statutes }}</a>
         <a href="{{ about_url }}">{{ t.about }}</a>
         <a href="{{ feed_url }}">RSS</a>
       </div>

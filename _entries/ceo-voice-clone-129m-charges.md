@@ -48,13 +48,13 @@ Soall was arrested in Spain on June 17, 2026, Hazan in Spain on August 5, 2026 a
 
 The report only describes the method at a surface level, which claims the group used AI to mimic executives' voices and visual appearance and to impersonate real lawyers. That places the claim on a charging document rather than an official statement alone.
 
-The release calls the technology "super intelligence" throughout. The conduct the criminals used is described as voice and image impersonation and no source names the tools used or explains how the executives' voice samples were obtained.
+The release calls the technology "super intelligence" throughout. The group allegedly used is described as voice and image impersonation and no source names the tools used or explains how the executives' voice samples were obtained.
 
 ## The checks it got past
 
 Most payment approvals are based on two informal checks: the employee recognises the voice of the person requesting the fund and a second party confirms the deal is authentic. In this case, both were supplied by the same group so the corroboration came from inside the scheme.
 
-The confidentiality instructed by the criminal in the script targets a third check. Dual approval and peer review only work if a colleague hears about the payment.
+The confidentiality instructed by the criminal in the script prosecutors describe targets a third check. Dual approval and peer review only work if a colleague hears about the payment.
 
 ## The numbers
 

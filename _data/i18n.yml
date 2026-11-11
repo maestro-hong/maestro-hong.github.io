@@ -6,6 +6,7 @@ en:
   entries: Entries
   methodology: Methodology
   stats: Stats
+  statutes: Statutes
   about: About
   search: Search
   search_placeholder: Filter entries
@@ -31,10 +32,10 @@ en:
   definitions_after: "."
   untranslated: Korean
   subscribe_label: Monthly email
-  subscribe_promise: "Subscribe for a bi-weekly email for new cases and updates on existing incidents."
+  subscribe_promise: "Subscribe for a monthly email for new cases and updates on existing incidents."
   subscribe_email: Email address
   subscribe_button: Subscribe
-  subscribe_note: Email address is only used to send bi-weekly newsletter. Every email has an unsubscribe link.
+  subscribe_note: Email address is only used to send monthly newsletter. Every email has an unsubscribe link.
   place: Vancouver, British Columbia.
   legal: >-
     An independent research company. It accepts no funding, sponsorship or advertising from vendors of detection, 
@@ -43,6 +44,7 @@ ko:
   entries: 사례
   methodology: 방법론
   stats: 통계
+  statutes: 법률
   about: 소개
   search: 검색
   search_placeholder: 사례 검색

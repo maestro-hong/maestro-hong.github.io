@@ -12,7 +12,7 @@ detection_path: victim
 next_check: 2026-11-28
 safeguard: unknown
 safeguard_outcome: unknown
-summary: "Seoul prosecutors indicted YouTuber Kim Se-ui, who runs the channel Garosero Research Institute, on June 23, 2026 for defaming actor Kim Soo-hyun by falsely claiming, with altered KakaoTalk screenshots and a voice recording, that he dated actress Kim Sae-ron when she was a minor. Police concluded that the recording was manipulated with AI; the National Forensic Service could not confirm this, and the indictment does not mention AI. Kim Se-ui has been detained since May 26, 2026 and is awaiting trial; in October, according to Kim Soo-hyun's agency, police also referred Kim Sae-ron's mother and the family's lawyer to prosecutors."
+summary: "Seoul prosecutors indicted the YouTuber who runs the channel Garosero Research Institute on June 23, 2026 for defaming actor Kim Soo-hyun by falsely claiming with altered KakaoTalk screenshots and a voice recording of dating actress Kim Sae-ron when she was a minor. Police concluded that the recording was manipulated with AI; the National Forensic Service could not confirm this, and the indictment does not mention AI. Kim Se-ui has been detained since May 26, 2026 and is awaiting trial; in October, according to Kim Soo-hyun's agency, police also referred Kim Sae-ron's mother and the family's lawyer to prosecutors."
 note_label: "Claim check"
 note: "Police say the recording was manipulated with AI. The National Forensic Service could not determine this, prosecutors' analysts described the voice as played back and re-recorded, and the indictment calls it a manipulated voice file without mentioning AI."
 query: '김새론 녹취 AI 조작 공소장 가로세로연구소 김수현 명예훼손 구속기소'
