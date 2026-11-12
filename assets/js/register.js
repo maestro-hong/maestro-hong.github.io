@@ -53,24 +53,46 @@
 
   if (input) { input.addEventListener('input', apply); }
 
-  function sortBy(mode) {
-    var sorted = rows.slice();
-    if (mode === 'newest') { sorted.sort(function (a, b) { return b.dataset.date.localeCompare(a.dataset.date); }); }
-    if (mode === 'oldest') { sorted.sort(function (a, b) { return a.dataset.date.localeCompare(b.dataset.date); }); }
-    if (mode === 'country') { sorted.sort(function (a, b) { return a.dataset.country.localeCompare(b.dataset.country); }); }
-    if (mode === 'status') { sorted.sort(function (a, b) { return a.dataset.status.localeCompare(b.dataset.status); }); }
+  var sortButtons = Array.prototype.slice.call(document.querySelectorAll('[data-sort]'));
+  var STORE = 'unio-sort';
+  var current = { key: 'date', dir: 'desc' };
+
+  function sortBy(key, dir) {
+    var sign = dir === 'desc' ? -1 : 1;
+    var sorted = rows.slice().sort(function (a, b) {
+      var x = (a.dataset[key] || '').localeCompare(b.dataset[key] || '') * sign;
+      return x !== 0 ? x : b.dataset.date.localeCompare(a.dataset.date);
+    });
     sorted.forEach(function (r) { container.appendChild(r); });
   }
 
-  document.querySelectorAll('[data-sort]').forEach(function (btn) {
+  function setSort(key, dir) {
+    sortButtons.forEach(function (b) {
+      var on = b.dataset.sort === key;
+      var arrow = b.querySelector('.controls__arrow');
+      b.classList.toggle('is-on', on);
+      b.setAttribute('aria-pressed', String(on));
+      if (arrow) { arrow.textContent = on ? (dir === 'desc' ? ' \u2193' : ' \u2191') : ''; }
+    });
+    current = { key: key, dir: dir };
+    sortBy(key, dir);
+    try { sessionStorage.setItem(STORE, key + ':' + dir); } catch (e) {}
+  }
+
+  sortButtons.forEach(function (btn) {
     btn.addEventListener('click', function () {
-      document.querySelectorAll('[data-sort]').forEach(function (b) { b.classList.remove('is-on'); });
-      btn.classList.add('is-on');
-      sortBy(btn.dataset.sort);
-      var m = btn.closest('details');
-      if (m) { m.open = false; }
+      var dir = btn.dataset.dir || 'asc';
+      if (btn.dataset.sort === current.key) { dir = current.dir === 'desc' ? 'asc' : 'desc'; }
+      setSort(btn.dataset.sort, dir);
     });
   });
+
+  // Keep the chosen sort when moving between category pages in the same visit.
+  try {
+    var saved = (sessionStorage.getItem(STORE) || '').split(':');
+    var known = sortButtons.some(function (b) { return b.dataset.sort === saved[0]; });
+    if (known && (saved[1] === 'asc' || saved[1] === 'desc')) { setSort(saved[0], saved[1]); }
+  } catch (e) {}
 
   apply();
 })();

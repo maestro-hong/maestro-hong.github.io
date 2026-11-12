@@ -15,6 +15,7 @@ en:
   category: Category
   sort: Sort
   all: All
+  date: Date
   newest: Newest
   oldest: Oldest
   country: Country
@@ -53,6 +54,7 @@ ko:
   category: 분류
   sort: 정렬
   all: 전체
+  date: 날짜
   newest: 최신순
   oldest: 오래된순
   country: 국가

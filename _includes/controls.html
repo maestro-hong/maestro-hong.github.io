@@ -1,29 +1,21 @@
 {% include pool.html %}
 {% assign all = pool %}
 <div class="wrap controls">
-  <div class="controls__menus">
 
-    <details class="menu menu--cat">
-      <summary>{{ t.category }}</summary>
-      <div class="menu__list">
-        <a class="menu__item{% if include.active == nil %} is-on{% endif %}" href="{% if lang == "ko" %}/ko/{% else %}/entries/{% endif %}">{{ t.all }} <b>{{ all.size }}</b></a>
-        {% for c in site.data.categories %}
-        {% assign n = all | where: "category", c.key %}
-        <a class="menu__item{% if include.active == c.slug %} is-on{% endif %}{% if n.size == 0 %} is-empty{% endif %}" href="{{ base }}/category/{{ c.slug }}/">{{ c[nk] | default: c.name }} <b>{{ n.size }}</b></a>
-        {% endfor %}
-      </div>
-    </details>
+  <nav class="controls__group controls__group--cat" aria-label="{{ t.category }}">
+    <a class="controls__item{% if include.active == nil %} is-on{% endif %}"{% if include.active == nil %} aria-current="page"{% endif %} href="{% if lang == "ko" %}/ko/{% else %}/entries/{% endif %}"><span>{{ t.all }} {{ all.size }}</span></a>
+    {%- for c in site.data.categories -%}
+    {%- assign n = all | where: "category", c.key -%}
+    {%- if n.size > 0 or include.active == c.slug %}
+    <a class="controls__item{% if include.active == c.slug %} is-on{% endif %}"{% if include.active == c.slug %} aria-current="page"{% endif %} href="{{ base }}/category/{{ c.slug }}/"><span>{{ c[nk] | default: c.name }} {{ n.size }}</span></a>
+    {%- endif -%}
+    {%- endfor %}
+  </nav>
 
-    <details class="menu menu--sort">
-      <summary>{{ t.sort }}</summary>
-      <div class="menu__list">
-        <button class="menu__item is-on" data-sort="newest">{{ t.newest }}</button>
-        <button class="menu__item" data-sort="oldest">{{ t.oldest }}</button>
-        <button class="menu__item" data-sort="country">{{ t.country }}</button>
-        <button class="menu__item" data-sort="status">{{ t.status }}</button>
-      </div>
-    </details>
-
+  <div class="controls__group controls__group--sort" role="group" aria-label="{{ t.sort }}">
+    <button type="button" class="controls__item is-on" data-sort="date" data-dir="desc" aria-pressed="true"><span>{{ t.date | default: "Date" }}<i class="controls__arrow" aria-hidden="true"> &darr;</i></span></button>
+    <button type="button" class="controls__item" data-sort="country" data-dir="asc" aria-pressed="false"><span>{{ t.country }}<i class="controls__arrow" aria-hidden="true"></i></span></button>
+    <button type="button" class="controls__item" data-sort="status" data-dir="asc" aria-pressed="false"><span>{{ t.status }}<i class="controls__arrow" aria-hidden="true"></i></span></button>
   </div>
-  <span class="controls__count" id="count"></span>
+
 </div>
