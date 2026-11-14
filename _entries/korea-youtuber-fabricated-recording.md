@@ -12,7 +12,7 @@ detection_path: victim
 next_check: 2026-11-28
 safeguard: unknown
 safeguard_outcome: unknown
-summary: "Seoul prosecutors indicted the YouTuber who runs the channel Garosero Research Institute on June 23, 2026 for defaming actor Kim Soo-hyun by falsely claiming with altered KakaoTalk screenshots and a voice recording of dating actress Kim Sae-ron when she was a minor. Police concluded that the recording was manipulated with AI; the National Forensic Service could not confirm this, and the indictment does not mention AI. Kim Se-ui has been detained since May 26, 2026 and is awaiting trial; in October, according to Kim Soo-hyun's agency, police also referred Kim Sae-ron's mother and the family's lawyer to prosecutors."
+summary: "Seoul prosecutors indicted the YouTuber who runs the channel Garosero Research Institute on June 23, 2026 for defaming actor Kim Soo-hyun by falsely claiming with altered KakaoTalk screenshots and a voice recording of dating actress Kim Sae-ron when she was a minor. Police concluded that the recording was manipulated with AI; the National Forensic Service could not confirm this, and the indictment does not mention AI. The YouTuber has been detained since May 26, 2026 and is awaiting trial; in October, according to Kim Soo-hyun's agency, police also referred Kim Sae-ron's mother and the family's lawyer to prosecutors."
 note_label: "Claim check"
 note: "Police say the recording was manipulated with AI. The National Forensic Service could not determine this, prosecutors' analysts described the voice as played back and re-recorded, and the indictment calls it a manipulated voice file without mentioning AI."
 query: '김새론 녹취 AI 조작 공소장 가로세로연구소 김수현 명예훼손 구속기소'
@@ -91,9 +91,9 @@ sources:
 
 ## The allegations
 
-From March to May 2025, the YouTube channel Garosero Research Institute (가로세로연구소, also known as Gaseyeon), run by Kim Se-ui, claimed that actor Kim Soo-hyun dated actress Kim Sae-ron for six years, starting when she was 15. It further claimed that pressure over a debt contributed to her death. On May 7, 2025, Gaseyeon and the actress's family held a press conference and played what they said was her voice recording.
+From March to May 2025, the YouTube channel Garosero Research Institute (가로세로연구소, also known as Gaseyeon), run by the YouTuber, claimed that actor Kim Soo-hyun dated actress Kim Sae-ron for six years, starting when she was 15. It further claimed that pressure over a debt contributed to her death. On May 7, 2025, Gaseyeon and the actress's family held a press conference and played what they said was her voice recording.
 
-Kim Soo-hyun says the relationship began after Kim Sae-ron became an adult. He filed a criminal complaint and civil suits seeking 12 billion won in damages from Kim Se-ui and members of the actress's family.
+Kim Soo-hyun says the relationship began after Kim Sae-ron became an adult. He filed a criminal complaint and civil suits seeking 12 billion won in damages from YouTuber and members of the actress's family.
 
 Gangnam Police Station concluded that Kim Soo-hyun did not date Kim Sae-ron while she was a minor. Police found that 11 KakaoTalk screenshots dated 2016 had been edited to add Kim Soo-hyun's name. According to the arrest warrant application, the motive was YouTube revenue. None of this has been tested at trial.
 
@@ -113,7 +113,7 @@ Only police, directly or through the agency's account, have said AI was used. Th
 
 ## Criminal charges
 
-Prosecutors in the Women and Children Crime Investigation Division 2 of the Seoul Central District Prosecutors' Office indicted Kim Se-ui on June 23, 2026. The reported charges are defamation under the Information and Communications Network Act, distributing illegally filmed material under the Act on Special Cases Concerning the Punishment of Sexual Crimes, and a violation of the Stalking Punishment Act. The Public also lists attempted coercion and intimidation.
+Prosecutors in the Women and Children Crime Investigation Division 2 of the Seoul Central District Prosecutors' Office indicted the YouTuber on June 23, 2026. The reported charges are defamation under the Information and Communications Network Act, distributing illegally filmed material under the Act on Special Cases Concerning the Punishment of Sexual Crimes, and a violation of the Stalking Punishment Act. The Public also lists attempted coercion and intimidation.
 
 In September, the court approved a prosecution request to freeze about 169 million won in assets as proceeds of crime. Prosecutors put his earnings at about 169.4 million won, including at least 54.4 million won in donations and at least 115 million won in YouTube advertising revenue.
 
@@ -125,11 +125,11 @@ On October 26, 2026, Kim Soo-hyun's agency said Gangnam police had referred Kim 
 
 The Seoul Central District Court issued the arrest warrant for Kim Se-ui on May 26, 2026, citing a risk of flight and of destroying evidence. Police referred the case to prosecutors on June 4. A later request to review the legality of his detention was rejected.
 
-The case is before Criminal Panel 26 of the Seoul Central District Court. Kim asked for a jury trial; on October 15 the court confirmed the case will not be tried by jury. At the second pretrial hearing that day he asked for bail, citing his mental health. Prosecutors opposed bail, saying he would resume broadcasting and further harm the victims. Kim's lawyers have also objected to a forensic examination of his phone carried out without his participation.
+The case is before Criminal Panel 26 of the Seoul Central District Court. He asked for a jury trial; on October 15 the court confirmed the case will not be tried by jury. At the second pretrial hearing that day he asked for bail, citing his mental health. Prosecutors opposed bail, saying he would resume broadcasting and further harm the victims. His lawyers have also objected to a forensic examination of his phone carried out without his participation.
 
 At the third pretrial hearing on October 28, his lawyers renewed the bail request. They argued that he was detained partly on allegations of evidence manipulation that prosecutors did not carry into the indictment. Prosecutors replied that the warrant and the indictment are drafted separately. No ruling on bail has been reported.
 
-Kim denies all the charges and seeks an acquittal. The Public reports that he faces eight other prosecutions.
+He denies all the charges and seeks an acquittal. The Public reports that he faces eight other prosecutions.
 
 
 ## Open

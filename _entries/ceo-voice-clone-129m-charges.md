@@ -54,7 +54,7 @@ The release calls the technology "super intelligence" throughout. The group alle
 
 Most payment approvals are based on two informal checks: the employee recognises the voice of the person requesting the fund and a second party confirms the deal is authentic. In this case, both were supplied by the same group so the corroboration came from inside the scheme.
 
-The confidentiality instructed by the criminal in the script prosecutors describe targets a third check. Dual approval and peer review only work if a colleague hears about the payment.
+The script prosecutors describe also told employees to keep the calls confidential, which targets a third check. Dual approval and peer review only work if a colleague hears about the payment.
 
 ## The numbers
 
