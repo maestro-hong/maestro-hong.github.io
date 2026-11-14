@@ -56,8 +56,31 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="{% if lang == 'ko' %}{{ page.description | default: t.description }}{% else %}{{ page.description | default: site.description }}{% endif %}">
-  <title>{% if page.title and page.title != 'Home' and u != '/ko/' %}{{ page.title }} — {% endif %}Unio Analytics</title>
+  {%- comment -%} Description and link previews (search results, LinkedIn, email) {%- endcomment -%}
+  {%- capture meta_desc -%}
+    {%- if page.summary -%}{{ page.summary }}
+    {%- elsif page.category_key -%}{%- assign mc = site.data.categories | where: "key", page.category_key | first -%}{% if lang == 'ko' %}{{ mc.full_ko }}: {{ mc.blurb_ko }}{% else %}{{ mc.full }}: {{ mc.blurb }}{% endif %}
+    {%- elsif lang == 'ko' -%}{{ page.description | default: t.description }}
+    {%- else -%}{{ page.description | default: site.description }}
+    {%- endif -%}
+  {%- endcapture -%}
+  {%- assign meta_desc = meta_desc | strip_html | strip_newlines | strip | truncate: 300 -%}
+  {%- if page.collection == 'entries' or page.collection == 'entries_ko' -%}{%- assign share_title = page.title -%}
+  {%- elsif page.title and page.title != 'Home' and u != '/ko/' -%}{%- assign share_title = page.title | append: ' — Unio Analytics' -%}
+  {%- else -%}{%- assign share_title = site.title -%}{%- endif -%}
+  <meta name="description" content="{{ meta_desc | escape }}">
+  <link rel="canonical" href="{{ site.url }}{{ u }}">
+  <meta property="og:site_name" content="Unio Analytics">
+  <meta property="og:type" content="{% if page.collection == 'entries' or page.collection == 'entries_ko' %}article{% else %}website{% endif %}">
+  <meta property="og:title" content="{{ share_title | escape }}">
+  <meta property="og:description" content="{{ meta_desc | escape }}">
+  <meta property="og:url" content="{{ site.url }}{{ u }}">
+  <meta property="og:image" content="{{ site.url }}/assets/img/og-default.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Unio Analytics: research on AI crime">
+  <meta property="og:locale" content="{% if lang == 'ko' %}ko_KR{% else %}en_CA{% endif %}">
+  <meta name="twitter:card" content="summary_large_image">  <title>{% if page.title and page.title != 'Home' and u != '/ko/' %}{{ page.title }} — {% endif %}Unio Analytics</title>
   <link rel="alternate" type="application/atom+xml" title="Unio Analytics" href="{{ feed_url }}">
   {%- if paired and site.korean_live %}
   <link rel="alternate" hreflang="en" href="{{ site.url }}{{ en_url }}">
