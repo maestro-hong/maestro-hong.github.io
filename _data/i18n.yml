@@ -40,7 +40,8 @@ en:
   place: Vancouver, British Columbia.
   legal: >-
     An independent research company. It accepts no funding, sponsorship or advertising from vendors of detection, 
-    identity or security products. Everything published here comes from public sources.
+    identity or security products, and no payment from anyone with an interest in how an incident is portrayed. 
+    Everything published here comes from public sources.
 ko:
   entries: 사례
   methodology: 방법론
@@ -80,4 +81,5 @@ ko:
   place: 캐나다 브리티시컬럼비아주 밴쿠버.
   legal: >-
     독립 연구 기록입니다. 탐지·신원 확인·보안 제품 업체로부터 자금, 후원, 광고를
+    받지 않으며, 사건이 어떻게 묘사되는지에 이해관계가 있는 누구로부터도 대가를
     받지 않습니다. 이곳에 게재되는 모든 내용은 공개 자료에 근거합니다.
