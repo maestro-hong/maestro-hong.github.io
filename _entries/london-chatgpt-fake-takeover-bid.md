@@ -78,9 +78,9 @@ None of the reports says who first told the FCA about the approach. The FCA says
 
 The FCA's sentencing release says Woolcott forged the takeover documents "using Chat GPT". It gives no further detail.
 
-The Independent and Tech Times fill in more. Both report that the prosecutor, Denis Barry, told the court what Woolcott said in his FCA interview. He used ChatGPT for document templates and guidance. He took logos from Google and signed the papers with improvised signatures. On that account the chatbot helped with the layout and wording, and the rest was done by hand.
+The Independent and Tech Times fill in more. Both report that the prosecutor, Denis Barry, told the court what Woolcott said in his FCA interview. He used ChatGPT for document templates and guidance. He took logos from Google and signed the papers with improvised signatures. On that account the chatbot supplied templates and advice, and the rest was done by hand.
 
-The claim therefore rests on the defendant's own statement, relayed by the prosecution and repeated by the regulator. The FCA's release on the guilty plea in September said nothing about AI. The ChatGPT detail first appeared at sentencing.
+So the claim rests on the defendant's own statement, relayed by the prosecution and repeated by the regulator. The FCA's release on the guilty plea in September said nothing about AI. The ChatGPT detail first appeared at sentencing.
 
 ## Charges and sentence
 
