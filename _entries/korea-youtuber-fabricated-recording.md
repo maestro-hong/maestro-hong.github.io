@@ -12,7 +12,7 @@ detection_path: victim
 next_check: 2026-11-28
 safeguard: unknown
 safeguard_outcome: unknown
-summary: "Seoul prosecutors indicted the YouTuber who runs the channel Garosero Research Institute on June 23, 2026 for defaming actor Kim Soo-hyun by falsely claiming with altered KakaoTalk screenshots and a voice recording of dating actress Kim Sae-ron when she was a minor. Police concluded that the recording was manipulated with AI; the National Forensic Service could not confirm this, and the indictment does not mention AI. The YouTuber has been detained since May 26, 2026 and is awaiting trial; in October, according to Kim Soo-hyun's agency, police also referred Kim Sae-ron's mother and the family's lawyer to prosecutors."
+summary: "On June 23, 2026, Seoul prosecutors indicted the YouTuber who runs the channel Garosero Research Institute for defaming actor Kim Soo-hyun. Using altered KakaoTalk screenshots and a voice recording, he had falsely claimed that the actor dated actress Kim Sae-ron when she was a minor. Police concluded that the recording was manipulated with AI; the National Forensic Service could not confirm this, and the indictment does not mention AI. The YouTuber has been detained since May 26, 2026 and is awaiting trial. In October, according to Kim Soo-hyun's agency, police also referred Kim Sae-ron's mother and the family's lawyer to prosecutors."
 note_label: "Claim check"
 note: "Police say the recording was manipulated with AI. The National Forensic Service could not determine this, prosecutors' analysts described the voice as played back and re-recorded, and the indictment calls it a manipulated voice file without mentioning AI."
 query: '김새론 녹취 AI 조작 공소장 가로세로연구소 김수현 명예훼손 구속기소'
@@ -91,25 +91,24 @@ sources:
 
 ## The allegations
 
-From March to May 2025, the YouTube channel Garosero Research Institute (가로세로연구소, also known as Gaseyeon), run by the YouTuber, claimed that actor Kim Soo-hyun dated actress Kim Sae-ron for six years, starting when she was 15. It further claimed that pressure over a debt contributed to her death. On May 7, 2025, Gaseyeon and the actress's family held a press conference and played what they said was her voice recording.
+From March to May 2025, the YouTube channel Garosero Research Institute (가로세로연구소, also known as Gaseyeon), run by the YouTuber, claimed that actor Kim Soo-hyun dated actress Kim Sae-ron for six years, starting when she was 15. It also claimed that pressure over a debt contributed to her death. On May 7, 2025, Gaseyeon and the actress's family held a press conference and played what they said was her voice recording.
 
-Kim Soo-hyun says the relationship began after Kim Sae-ron became an adult. He filed a criminal complaint and civil suits seeking 12 billion won in damages from YouTuber and members of the actress's family.
+Kim Soo-hyun says the relationship began after Kim Sae-ron became an adult. He filed a criminal complaint and civil suits seeking 12 billion won in damages from the YouTuber and members of the actress's family.
 
 Gangnam Police Station concluded that Kim Soo-hyun did not date Kim Sae-ron while she was a minor. Police found that 11 KakaoTalk screenshots dated 2016 had been edited to add Kim Soo-hyun's name. According to the arrest warrant application, the motive was YouTube revenue. None of this has been tested at trial.
 
-
 ## The AI claim
 
-Headlines say AI was used to fabricate the recording. The record is less certain:
+Headlines say AI was used to fabricate the recording. The official findings do not all say that:
 
-- **August 2025** Police requested the National Forensic Service to examine the recording.
+- **August 2025** Police asked the National Forensic Service to examine the recording.
 - **November 2025** The Service could not determine whether the recording was generated or altered with AI, because it had only a copy of the file and the background noise was heavy.
 - **May 2026** Police concluded that the recording was manipulated with AI, as JoongAng Ilbo first reported on May 21. They did not publish how they reached that conclusion or cite forensic support. The Public reports that police relied on the file's distribution route, the existence of several versions, and witness statements.
 - **June 2026** JTBC reported that analysts at the Supreme Prosecutors' Office found inconsistencies in the audio, including different frequency bands for the male and female voices, and concluded that a woman's voice may have been played back and re-recorded. The findings do not mention AI.
 - **July 2026** The Public reviewed the indictment, which describes the audio as a "manipulated voice file" and does not use the word "AI". Prosecutors cite traces of abnormal editing, statements the deceased could not have made, and an anonymous sender who refused in-person verification and demanded money.
 - **October 2026** Kim Soo-hyun's agency, Gold Medalist, said a police notice found that material used at the family's press conferences included forged KakaoTalk messages and a voice manipulated with generative AI. The agency's account is the only public version of that notice.
 
-Only police, directly or through the agency's account, have said AI was used. The AI claim covers the voice recording only. Police describe the KakaoTalk screenshots as edited, and no source says AI was used to alter them. Under the Network Act, defamation by false facts requires proof that the defendant knew the facts were false. How the file was made is not an element of the offence, so the court may never rule on whether AI was used.
+Only police, directly or through the agency's account, have said AI was used, and only about the voice recording. Police describe the KakaoTalk screenshots as edited, and no source says AI was used to alter them. Under the Network Act, defamation by false facts requires proof that the defendant knew the facts were false. How the file was made is not an element of the offence, so the court may never rule on whether AI was used.
 
 ## Criminal charges
 
@@ -119,26 +118,25 @@ In September, the court approved a prosecution request to freeze about 169 milli
 
 ## Others referred to prosecutors
 
-On October 26, 2026, Kim Soo-hyun's agency said Gangnam police had referred Kim Sae-ron's mother, a person who posed as her aunt, and the lawyer who led the family's two press conferences to prosecutors without detention. According to the agency, the mother and the second person face the same Network Act defamation and filmed-material charges as Kim Se-ui, plus attempted coercion, and the lawyer faces defamation charges under the Criminal Act and the Network Act. The agency said police did not refer Kim Sae-ron's father. Police have not commented publicly, and no one in this group has been charged.
+On October 26, 2026, Kim Soo-hyun's agency said Gangnam police had referred Kim Sae-ron's mother, a person who posed as her aunt, and the lawyer who led the family's two press conferences to prosecutors without detaining them. According to the agency, the mother and the person who posed as the aunt face the same Network Act defamation and filmed-material charges as the YouTuber, plus attempted coercion, and the lawyer faces defamation charges under the Criminal Act and the Network Act. The agency said police did not refer Kim Sae-ron's father. Police have not commented publicly, and no one in this group has been charged.
 
 ## Detention and trial
 
-The Seoul Central District Court issued the arrest warrant for Kim Se-ui on May 26, 2026, citing a risk of flight and of destroying evidence. Police referred the case to prosecutors on June 4. A later request to review the legality of his detention was rejected.
+The Seoul Central District Court issued the arrest warrant for the YouTuber on May 26, 2026, citing a risk of flight and of destroying evidence. Police referred the case to prosecutors on June 4. A later request to review the legality of his detention was rejected.
 
-The case is before Criminal Panel 26 of the Seoul Central District Court. He asked for a jury trial; on October 15 the court confirmed the case will not be tried by jury. At the second pretrial hearing that day he asked for bail, citing his mental health. Prosecutors opposed bail, saying he would resume broadcasting and further harm the victims. His lawyers have also objected to a forensic examination of his phone carried out without his participation.
+The case is before Criminal Panel 26 of the Seoul Central District Court. He asked for a jury trial. On October 15 the court confirmed the case would not be tried by jury. At the second pretrial hearing that day he asked for bail, citing his mental health. Prosecutors opposed bail, saying he would resume broadcasting and further harm the victims. His lawyers have also objected to a forensic examination of his phone carried out without his participation.
 
 At the third pretrial hearing on October 28, his lawyers renewed the bail request. They argued that he was detained partly on allegations of evidence manipulation that prosecutors did not carry into the indictment. Prosecutors replied that the warrant and the indictment are drafted separately. No ruling on bail has been reported.
 
 He denies all the charges and seeks an acquittal. The Public reports that he faces eight other prosecutions.
 
-
 ## Open
 
-**The method** The National Forensic Service could not determine whether AI was used. Police have not published the basis for their conclusion, and the indictment does not mention AI.
+**The method** Whether AI was used remains unconfirmed by any forensic finding or court filing.
 
 **Bail and trial date** No ruling on bail and no trial date have been reported.
 
-**The other referrals** Everything about the October referrals comes from Kim Soo-hyun's agency. Prosecutors have not said whether they will charge anyone in that group.
+**The other referrals** Prosecutors have not said whether they will charge anyone in that group.
 
 **Anonymous sender** The person who emailed the recording, calling himself "Kalibak", has not been identified in any report.
 

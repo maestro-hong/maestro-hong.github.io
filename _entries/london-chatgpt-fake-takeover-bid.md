@@ -14,7 +14,7 @@ safeguard: due-diligence
 safeguard_outcome: caught
 summary: "A man in south-east London invented a takeover bid for an oil and gas company in which he held shares. He used four false identities and forged letters from a bank and a law firm. The Financial Conduct Authority says he made the documents with ChatGPT, and prosecutors told the court he used it for templates and guidance. The company's executives did not believe the offer. On November 10, 2026 a judge gave him two years in prison, suspended for two years."
 note_label: "Mechanism"
-note: "The bid failed on ordinary scrutiny, not because anyone detected AI. The ChatGPT detail comes from the defendant's own interview with the FCA."
+note: "Touchstone's executives doubted the offer on its face, and nothing suggests anyone detected AI. The ChatGPT detail comes from the defendant's own interview with the FCA."
 query: 'FCA Woolcott Touchstone Exploration fake takeover ChatGPT Southwark Crown Court suspended sentence'
 sources:
   - tier: P
@@ -58,13 +58,13 @@ sources:
 
 Christopher Woolcott, 44, of south-east London, owned shares in Touchstone Exploration, an oil and gas company listed on AIM and the Toronto Stock Exchange. He invented a takeover bid for it. The idea was that a public offer would push the share price up.
 
-The Independent reported that he bought the shares between May and November 2024. The reports do not say exactly when the approach to the company was made.
+The Independent reported that he bought the shares between May and November 2024.
 
-The approach came from people who did not exist. The FCA says Woolcott used four false identities, among them a private equity partner, a colleague and a solicitor. The letters that went with the bid claimed to come from a bank and a law firm. One said £217 million was held on account, with a £100 million credit facility behind it. The offer itself was £154 million in cash, which the prosecutor said was almost double the going share price.
+The FCA says the approach came from four false identities Woolcott had invented, among them a private equity partner, a colleague and a solicitor. The letters that went with the bid claimed to come from a bank and a law firm. One said £217 million was held on account, with a £100 million credit facility behind it. The offer itself was £154 million in cash, which the prosecutor said was almost double the going share price.
 
 He posted the documents from a Ryman branch. He also met Touchstone's chief executive at a central London hotel under a false name. According to the Independent, he pressed for the bid to be announced publicly.
 
-Touchstone's executives did not go along with it. The prosecutor told the court the chief executive thought the offer was "too good to be true". Woolcott's own barrister called the documents "surprisingly amateurish". The shares he held were worth just under £70,000, and the court heard they would probably have doubled in value had the bid gone public. The reports do not say whether Touchstone's share price moved.
+Touchstone's executives were not taken in. The prosecutor told the court the chief executive thought the offer was "too good to be true". Woolcott's own barrister called the documents "surprisingly amateurish". The shares he held were worth just under £70,000, and the court heard they would probably have doubled in value had the bid gone public. No report says whether Touchstone's share price moved.
 
 ## How he was caught
 
@@ -72,15 +72,15 @@ The FCA opened a criminal investigation in March 2025. It worked from trading da
 
 The Independent reported that he first refused to hand over the security codes for phones seized from his home. In an interview with the FCA he later admitted he was behind the bid.
 
-None of the reports says who first told the FCA about the approach. The FCA says Touchstone is not under investigation.
+No report says who first alerted the FCA. The FCA says Touchstone is not under investigation.
 
 ## The AI claim
 
 The FCA's sentencing release says Woolcott forged the takeover documents "using Chat GPT". It gives no further detail.
 
-The Independent and Tech Times fill in more. Both report that the prosecutor, Denis Barry, told the court what Woolcott said in his FCA interview. He used ChatGPT for document templates and guidance. He took logos from Google and signed the papers with improvised signatures. On that account the chatbot supplied templates and advice, and the rest was done by hand.
+The Independent and Tech Times both report that the prosecutor, Denis Barry, told the court what Woolcott said in his FCA interview. He used ChatGPT for document templates and guidance. He took logos from Google and signed the papers with improvised signatures.
 
-So the claim rests on the defendant's own statement, relayed by the prosecution and repeated by the regulator. The FCA's release on the guilty plea in September said nothing about AI. The ChatGPT detail first appeared at sentencing.
+So the ChatGPT detail rests on Woolcott's own account, relayed to the court by the prosecutor. The FCA's release on his guilty plea in September did not mention AI; the detail first came out at sentencing.
 
 ## Charges and sentence
 
@@ -96,12 +96,12 @@ Therese Chambers, the FCA's executive director of enforcement and market oversig
 
 **The judgment** We have not read the sentencing remarks. What the court was told about ChatGPT comes from press reports of the hearing and from the FCA release.
 
-**What ChatGPT did** Reports say templates and guidance. They do not say which documents it helped draft or whether the finished letters were largely its wording.
+**What ChatGPT did** Templates and guidance, according to the reports, with nothing on which documents it helped with or how much of the final wording was its.
 
-**The dates** The bid is undated in the reports. The FCA gives March 2025 for the start of its investigation and September 10 and November 10, 2026 for the plea and sentence.
+**The dates** No report dates the bid. The FCA gives March 2025 for the start of its investigation and September 10 and November 10, 2026 for the plea and sentence.
 
 **The sentence in detail** The FCA release lists the sentence for each count. We have not checked that breakdown against the court record.
 
-**Where he lives** The FCA gives Greenwich and the Independent gives Blackheath. We say south-east London.
+**Where he lives** The FCA gives Greenwich and the Independent gives Blackheath. We have used south-east London to cover both.
 
 **Proceeds** No report mentions a confiscation order.

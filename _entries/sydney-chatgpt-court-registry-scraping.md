@@ -14,7 +14,7 @@ safeguard: account-security
 safeguard_outcome: bypassed
 summary: "New South Wales police say about 9,000 restricted files were downloaded from the state's online court registry in early 2025. In September 2026 a police prosecutor told a Sydney court that the accused used ChatGPT to write scripts that downloaded them in bulk, and later asked it for legal advice. He has pleaded not guilty to four counts of accessing restricted data."
 note_label: "Mechanism"
-note: "The charges are about the access, not the AI. The prosecution wants the ChatGPT conversations as evidence of how it was done and of what he knew."
+note: "He is charged over the access itself. The prosecution wants to use the ChatGPT conversations to show how it was done and what he knew."
 query: 'Online Registry NSW data breach ChatGPT scraper Maldigri Downing Centre Local Court restricted data not guilty'
 sources:
   - tier: S
@@ -53,7 +53,7 @@ sources:
 
 On March 25, 2025, New South Wales police learned that a large number of files had been taken from the state's Online Registry. The registry is the website the Department of Communities and Justice runs for filings in the Supreme, District and Local Courts. The site went offline.
 
-Police said about 9,000 sensitive court files had been downloaded, including apprehended violence orders and affidavits. The department said at the time that no data had been made public. Reports do not say how the breach was first noticed or who noticed it.
+Police said about 9,000 sensitive court files had been downloaded, including apprehended violence orders and affidavits. The department said at the time that no data had been made public.
 
 On April 23, 2025, detectives searched a home in Sydney's east, seized two laptops and arrested a man. He was granted bail at his first court appearance. The conditions included handing in his passport and carrying only a basic phone that could make calls and send texts.
 
@@ -61,21 +61,21 @@ By then police had said the files were accessed between late January and late Ma
 
 ## The hearing
 
-In September 2026 the case came before the Downing Centre Local Court in Sydney. He pleaded not guilty to four counts of accessing restricted data.
+In September 2026 the accused pleaded not guilty to four counts of accessing restricted data in the Downing Centre Local Court in Sydney.
 
-A hearing booked for three days stalled when the court was told how much material there was. The defence estimated 10,000 or more pages of proposed exhibits. The case was adjourned for two weeks, and reports at the time said a longer hearing might be set. No later date has been reported.
+A hearing booked for three days stalled when the court was told how much material there was. The defence estimated 10,000 or more pages of proposed exhibits. The case was adjourned for two weeks, and reports at the time said a longer hearing might be set.
 
 ## The AI claim
 
-The claim comes from the police prosecutor, Sergeant Andrew Maldigri, speaking in court. ABC News and Information Age both reported it.
+ABC News and Information Age both reported the claim, which came from the police prosecutor, Sergeant Andrew Maldigri, speaking in court.
 
-Maldigri said the man used ChatGPT to write scripts in Python that downloaded documents in bulk. He described a scraper as code that lets a user get around the normal way of moving through a website. That, the prosecution says, is how the files came out of the registry.
+Maldigri said the man used ChatGPT to write scripts in Python that downloaded documents in bulk. He described a scraper as code that lets a user get around the normal way of moving through a website.
 
 Maldigri said the man's login to the registry was later shut down. After that, the prosecution alleges, he asked ChatGPT what police would be doing and what to say if they approached him. He later declined to answer questions in a police interview.
 
-The prosecution intends to rely on the ChatGPT conversations, together with expert evidence on the forensics. Maldigri said this could be the first use of generative AI evidence of this kind in an Australian court. ABC described the case as believed to be one of the first of its kind in Australia.
+The prosecution intends to rely on the ChatGPT conversations, together with expert evidence on the forensics. Maldigri said this could be the first use of generative AI evidence of this kind in an Australian court. ABC also described it as believed to be one of the first such cases in Australia.
 
-None of the reports says how police obtained the conversations. They do not say which version of ChatGPT was used, or whether the scripts have been shown in court.
+No report says how police obtained the conversations or which version of ChatGPT was used. Nor is it clear whether the scripts have been shown in court.
 
 ## What the defence says
 
@@ -87,22 +87,20 @@ McMahon told the court the offence requires proof that the accused actually knew
 
 The reports disagree on how many documents were taken. Police first said about 9,000. iTnews quoted police at the April 2025 charge as saying 8,769 restricted documents. ABC's 2025 report gave 8,789 and its 2026 report gave 8,769.
 
-Reports of the original charge also mention a separate count of using a carriage service to menace, harass or offend, as quoted by iTnews. The 2026 reports describe only four counts of accessing restricted data. We do not know whether the earlier count was withdrawn or never carried over.
+When he was first charged, iTnews reported a separate count of using a carriage service to menace, harass or offend. The 2026 reports describe only four counts of accessing restricted data. We do not know whether the earlier count was withdrawn or never carried over.
 
 ## A note on naming
 
-News outlets have named the accused. Unio Analytics has not found a NSW Police release or a court document that names him, so it does not.
+News outlets have named the accused. We have not found a NSW Police release or court document that names him, so we have not.
 
 ## Open
 
 **The hearing** No outcome or later date has been reported since the September adjournment.
 
-**The charge** The reports describe the offence as accessing restricted data held in a computer. They do not name the statute or section, and we have not confirmed it ourselves. We have left out a penalty for that reason.
+**The charge** The reports describe the offence as accessing restricted data held in a computer. They do not name the statute or section, and we have not confirmed it, so we give no penalty.
 
 **The documents** Accounts differ on what was in them. Police and early reports mention apprehended violence orders and affidavits. Information Age also mentions details of minors, attributing that to officials.
 
-**The scripts** Whether the prosecution has put the code itself in evidence is not reported.
-
 **Detection** No report says who found the breach or how.
 
-**Sources** Everything here comes from news reports of the hearing. We have not seen a NSW Police release, a charge document or a transcript.
+**Sources** Everything about the hearing comes from news reports. We have not seen a NSW Police release, a charge document or a transcript.

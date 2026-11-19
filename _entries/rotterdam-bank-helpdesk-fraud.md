@@ -12,9 +12,9 @@ detection_path: provider
 next_check: 2027-01-19
 safeguard: account-security
 safeguard_outcome: bypassed
-summary: "Rotterdam police arrested two men, aged 23 and 25, on October 6, 2026 over a bank helpdesk fraud. It took about €380,000 from roughly 170 people in three weeks. Police say the callers played recordings made with AI, in dozens of voices. Victims were then told to hold their bank card against their phone. An app passed the card's chip data to an accomplice at a cash machine. On October 20 a Rotterdam court kept both men in custody for at least 90 more days."
+summary: "Rotterdam police arrested two men, aged 23 and 25, on October 6, 2026 over a bank helpdesk fraud. The scam took about €380,000 from about 170 people in three weeks. Police say the callers played recordings made with AI, in dozens of voices, then told victims to hold their bank card against their phone so that an app could pass the card's chip data to an accomplice at a cash machine. On October 20 a Rotterdam court kept both men in custody for at least 90 more days."
 note_label: "Claim check"
-note: "Police say AI made the recorded voices. What police call new is the app that relayed bank card data to a second phone. The release does not say that part involved AI."
+note: "Police say AI made the recorded voices. Police say the app that relayed card data to a second phone is new, but the release does not link it to AI."
 query: 'politie Rotterdam bankhelpdeskfraude Artificial Intelligence geluidsfragmenten NFC bankpas Vaassen Ede'
 sources:
   - tier: P
@@ -46,42 +46,40 @@ sources:
 
 ## What happened
 
-In mid-September 2026, Dutch banks reported a helpdesk scam they had not seen before. They raised it at the Electronic Crimes Task Force, a standing group of banks, police and prosecutors. Rotterdam's cybercrime team took the case and, according to the police release, had found the group's servers within days.
+In mid-September 2026, Dutch banks reported a helpdesk scam they had not seen before. They raised it at the Electronic Crimes Task Force, a standing group of banks, police and prosecutors. Rotterdam's cybercrime team took the case and found the group's servers within days, the police release says.
 
 The calls opened with a recorded voice. It said there had been suspicious activity on the account. Anyone who did not recognise the activity was asked to press 1. Victims were then talked into installing an app and holding their bank card against their phone.
 
-Police counted about 170 victims and about €380,000 in losses over the three weeks they were watching. The victims lived all over the Netherlands and were not mostly elderly. Dozens were in their twenties and thirties.
+Police counted about 170 victims and about €380,000 in losses over the three weeks they were watching. The victims lived all over the Netherlands, and most were not elderly. Dozens were in their twenties and thirties.
 
 ## The AI claim
 
-The claim comes from the police. Their release says the fraudsters used artificial intelligence to make dozens of sound clips. The clips had different voices and covered different banks, companies and scenarios. Dutch outlets repeated that wording. One local report, in EdeStad, covers the arrests and does not mention AI.
+A police release says the fraudsters used artificial intelligence to make dozens of sound clips, with different voices for different banks, companies and scenarios. Dutch outlets used the same words. One local report, in EdeStad, covers the arrests without mentioning AI.
 
-The release gives no tool and does not say whether the voices copied real bank staff or were generic synthetic ones. It also does not say the app was built with AI.
+The release names no software and does not say whether the voices copied real bank staff or were generic synthetic ones.
 
 ## How the money was taken
 
-The app is the part police describe as new. It read the chip in the victim's bank card through the phone. For a short time, it passed that data to the same app on another phone. The person holding that second phone stood at a cash machine or a payment terminal and used the card data there. Police said they had not come across this method before.
-
-This entry leaves out anything beyond what the police published.
+Police say they had not come across the method before. It read the chip in the victim's bank card through the phone and, for a short time, passed that data to the same app on another phone. The person holding that second phone stood at a cash machine or a payment terminal and used the card data there.
 
 ## Arrests and detention
 
 Both men were arrested on October 6, 2026. Police describe the 23-year-old, from Vaassen, as the suspected technical lead who also directed the others. The 25-year-old, from Ede, is suspected of a coordinating role. Police took the servers offline and seized phones and laptops.
 
-On October 20, the pre-trial chamber of the Rotterdam District Court ordered both men held for at least 90 more days. Police announced the arrests the next day, which is the date on this entry. Neither man has been named, and the release does not list the offences they are suspected of. Nothing has been tested in court.
+On October 20, the pre-trial chamber of the Rotterdam District Court ordered both men held for at least 90 more days. Police announced the arrests on October 21. Neither man has been named, and the release does not list the offences they are suspected of. The allegations have not been tested in court.
 
 ## What police told the public
 
-A bank will not ask a customer to install an app or hold a card against a phone. It will not ask for a PIN. Police advise hanging up and calling the bank on its official number. Anyone who has already followed the callers' instructions should contact the bank at once and have the card blocked. Police also ask victims to keep the messages and file a report.
+Police say a bank will not ask a customer to install an app, hold a card against a phone or give a PIN. They advise hanging up and calling the bank on its official number. Anyone who has already followed the callers' instructions should contact the bank at once and have the card blocked. Victims should keep the messages and file a report.
 
 ## Open
 
 **Charges** No offence or statute has been published. The 90-day order runs to about January 18, 2027, and a first hearing should follow.
 
-**Roles** EdeStad describes the two men's roles the other way round from the police release. This entry follows the police.
+**Roles** EdeStad describes the two men's roles the other way round from the police release. We have used the police version.
 
-**The voices** Which tool made the recordings, and whether real people's voices were copied, has not been made public.
+**The voices** Police have not said what software made the recordings or whether any were copied from real people.
 
-**Other suspects** The people who collected the cash at machines have not been reported arrested.
+**Other suspects** No arrests have been reported among the people who collected cash at machines.
 
 **The data** Police are still going through the seized servers, so the victim count may rise.

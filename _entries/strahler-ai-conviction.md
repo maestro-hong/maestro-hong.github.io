@@ -12,7 +12,7 @@ detection_path: victim
 next_check:   # closed: sentenced 8 September 2026
 safeguard: unknown
 safeguard_outcome: unknown
-summary: "A 37-year-old man, James Strahler II from Columbus, Ohio, pleaded guilty on April 7, 2026 to cyberstalking, producing obscene visual representations of child sexual abuse and publishing digital forgeries. He was sentenced on September 8, 2026 to 180 months in federal prison. The forgery count is the first conviction in the US under the TAKE IT DOWN Act, which was enacted in May 2025. Investigators found more than 24 AI platforms and over 100 web-based models installed on Strahler's mobile phone."
+summary: "James Strahler II, 37, of Columbus, Ohio, pleaded guilty on April 7, 2026 to cyberstalking, producing obscene visual representations of child sexual abuse and publishing digital forgeries. He was sentenced on September 8, 2026 to 180 months in federal prison. The forgery count is the first US conviction under the TAKE IT DOWN Act, enacted in May 2025. Investigators found more than 24 AI platforms and more than 100 web-based models installed on Strahler's mobile phone."
 note_label: "Mechanism"
 note: "The new Act reaches digital forgeries of identifiable adults but carves out material already covered by the child-obscenity and child-pornography statutes."
 query: 'site:justice.gov "Take It Down Act" conviction digital forgeries'
@@ -39,38 +39,22 @@ sources:
     retrieved: 2026-09-14
 ---
 
-## Scope of this entry
-
-This record covers category D at the level of statute, charge, and
-enforcement outcome. The conduct is described in the Justice
-Department releases linked below.
-
 ## What the statute added
 
-The TAKE IT DOWN Act was signed in May 2025 as Public Law 119-12. Its
-criminal provisions cover non-consensual publication of intimate visual
-depictions and create a distinct offence for publishing a digital forgery
-of an identifiable person with separate subsections for adults and minors.
+The TAKE IT DOWN Act was signed in May 2025 as Public Law 119-12. Its criminal provisions cover non-consensual publication of intimate visual depictions and create a distinct offence for publishing a digital forgery of an identifiable person, with separate subsections for adults and minors.
 
-The Act excludes from its intimate-depiction offence material
-constituting child pornography under 18 U.S.C. § 2256 or obscene visual
-representations of the sexual abuse of children under 18 U.S.C. § 1466A.
-Those remain prosecutable under the older statutes.
+The Act does not cover material that already counts as child pornography under 18 U.S.C. § 2256 or as obscene visual representations of the sexual abuse of children under 18 U.S.C. § 1466A. Those remain prosecutable under the older statutes.
 
-The digital forgery count covers the adult victims. The obscenity count covers the material involving minors, under a law that predates the Act by two decades. The Act closed a gap for adult victims; it was not the instrument used for the child-related conduct. Most coverage of the case does not draw that distinction.
+The digital forgery count relates to the adult victims. The material involving minors was charged under the obscenity statute, which is two decades older than the Act.
 
 ## Enforcement sequence
 
-Federal authorities became involved after two rounds of state charges. 404 Media describes state misdemeanour charges filed in January 2025 following the first complainant's reports, release,
-continued conduct and further misdemeanour charges in April 2025 before federal
-arrest in June 2025.
+The federal case followed two rounds of state charges. According to 404 Media, state misdemeanour charges were filed in January 2025 after the first complainant's reports. Strahler was released. The conduct continued, and he faced further misdemeanour charges in April 2025. He was arrested on federal charges in June 2025.
 
 If that sequence is accurate, about five months passed between the first state charges and the federal arrest. Neither Justice Department release mentions the state charges.
 
-Investigation involved the Hilliard Police Department, the Delaware County
-Sheriff's Office, the FBI Cincinnati Division, and the Maryland AI and
-Synthetic Media Threats Task Force.
+The Hilliard Police Department, the Delaware County Sheriff's Office, the FBI's Cincinnati Division and the Maryland AI and Synthetic Media Threats Task Force investigated.
 
 ## Record
 
-Strahler was arrested on federal charges in June 2025, pleaded guilty on April 7, 2026, and was sentenced on September 8, 2026 to 180 months. At sentencing, prosecutors said that Strahler posted more than 700 files, with roughly 2,400 additional files flagged on his device.
+Strahler pleaded guilty on April 7, 2026, and was sentenced on September 8, 2026 to 180 months. At sentencing, prosecutors said that Strahler posted more than 700 files, with roughly 2,400 additional files flagged on his device.

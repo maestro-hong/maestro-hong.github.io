@@ -79,34 +79,32 @@ In its statement, the department said that "as technology changes, so do the way
 
 To convict under s. 827.071 for material that was created, altered or modified digitally, the state must show it depicts an identifiable minor: a real child recognisable by face or another distinguishing feature. Prosecutors do not have to prove who the child is.
 
-The statute applies to edited photographs of real children; it does not work for an image of a child who never existed. So in 2024, the legislature passed a parallel offence (s. 827.072) titled 'generated child pornography'. It covers any image created or modified by computer-generated means to portray a fictitious person whom a reasonable person would regard as a real person under 18 engaged in sexual conduct. Possession or intentional viewing is a third-degree felony; intentional creation is a second-degree felony. Florida now has one statute for images of real children and another for images of children who do not exist, so prosecutors need not show that a real child was involved.
+The statute applies to edited photographs of real children but does not work for an image of a child who never existed. In 2024 the legislature therefore passed a parallel offence (s. 827.072) titled 'generated child pornography'. It covers any image created or modified by computer-generated means to portray a fictitious person whom a reasonable person would regard as a real person under 18 engaged in sexual conduct, and prosecutors need not show that a real child was involved. Possession or intentional viewing is a third-degree felony; intentional creation is a second-degree felony.
 
-## Count numbers
+## How counts work
 
-Section 827.072 counts offences in a way that is easy to misread. Each image possessed, controlled or viewed is counted as a separate offence. Counts therefore track how many files a prosecutor decides to charge, not how serious the conduct was or how much material was found.
+Each image possessed, controlled or viewed is counted as a separate offence under s. 827.072, so the number of counts reflects how many files a prosecutor chooses to charge.
 
-The comparison with a different case makes this concrete. In February 2025, Martin County Sheriff's Office arrested Leonel Alvarado-Lizano, 29, on 20 counts in what was reported at the time as the first case in the county under the new statute. NBC 6 South Florida reported about 1,000 images in that case, far more than the 20 counts charged. Prosecutors choose which files to charge, so count totals are not a reliable basis for comparing cases.
+In February 2025, Martin County Sheriff's Office arrested Leonel Alvarado-Lizano, 29, on 20 counts in what was reported at the time as the first case in the county under the new statute. NBC 6 South Florida reported about 1,000 images in that case, far more than the 20 counts charged.
 
 ## How the incident surfaced
 
-The reported sequence is that a technology platform's own safety systems flagged an account, the platform passed the information to the National Center for Missing and Exploited Children and NCMEC passed a cybertip to the local police department, which then sought a search warrant. 
+According to the report, a technology platform's own safety systems flagged an account and the platform alerted the National Center for Missing and Exploited Children. NCMEC sent a cybertip to the local police department, which then sought a search warrant.
 
-NCMEC received 21.3 million CyberTipline reports in 2025, containing more than 61.8 million suspect files. More than 1.5 million of those reports indicated some connection between AI and child sexual exploitation. NCMEC describes this as evidence of the rapidly evolving role of the technology in the type of offences. For a municipal police department, that means referrals can arrive faster than it can investigate them.
+NCMEC received 21.3 million CyberTipline reports in 2025, containing more than 61.8 million suspect files. More than 1.5 million of those reports indicated some connection between AI and child sexual exploitation.
 
 ## From referral to arrest
 
-If the reported dates are correct, the tip reached Stuart police in February 2026, a search warrant was executed in April and Perez was arrested in September 2026: roughly seven months from referral to arrest, in a case that began with a platform identifying a specific account and specific files.
-
-Digital forensics takes time, warrants take time and prosecutors have to make charging decisions on material that has to be reviewed by humans. Still, the time from referral to arrest is worth tracking as AI-related referrals grow. Whether local agencies have the staff to act on that volume is not addressed by any source here.
+If the reported dates are correct, the tip reached Stuart police in February 2026, a search warrant was executed in April and Perez was arrested in September 2026, roughly seven months from referral to arrest. Forensic review, warrants and charging decisions take time.
 
 ## Note
 
-As a standing rule for this category, this entry does not describe the material, how it was produced or the tools used.
+As a standing rule for this category, we do not describe the material, how it was produced or the tools used.
 
-Mr. Perez and Mr. Alvarado-Lizano are named because law enforcement agencies named them publicly. Neither has been convicted. The referral chain and the February and April dates come from a single aggregator and the TV stations that covered the arrest did not report them. They are kept, with that warning, because the referral chain is the most important thing about this case.
+Mr. Perez and Mr. Alvarado-Lizano are named because law enforcement agencies named them publicly. Neither has been convicted. The referral chain and the February and April dates come from a single aggregator; the TV stations that covered the arrest did not report them. We have kept them, with that caveat, because the referral chain is central to this case.
 
 ## Open
 
-The Martin County clerk of court docket would confirm the charging statutes, the exact counts and the release conditions and would show whether the generated-image counts were filed under s. 827.072 or s. 827.071. The probable cause affidavit would confirm which platform made the referral and when. No outcome has been reported in either Martin County case, so the law's practical effect there is still unknown.
+The Martin County clerk of court docket would confirm the charging statutes, the exact counts and the release conditions, and would show whether the generated-image counts were filed under s. 827.072 or s. 827.071. The probable cause affidavit would confirm which platform made the referral and when. No outcome has been reported in either Martin County case.
 
 Anyone who encounters this kind of material online can report it to the NCMEC CyberTipline at report.cybertip.org.

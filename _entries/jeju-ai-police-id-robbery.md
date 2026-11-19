@@ -71,81 +71,48 @@ sources:
 
 ## Incident
 
-Early on May 27, 2026, a man in his 30s rang the doorbell
-of a house in Jeju City, South Korea where a woman resided alone. He
-told her he was a police officer who had come to carry out a search and
-displayed a picture of a police officer's ID. According to the charges, 
-the suspect made her go into the bathroom while stealing cash and jewellery worth about 3 million won (about C$3,000). Police told reporters he knew she lived alone and targeted her for that reason.
+Early on May 27, 2026, a man in his 30s rang the doorbell of a house in Jeju City, South Korea, where a woman lived alone. He showed her a picture of a police ID and told her he was an officer who had come to carry out a search. According to the charges, he made her go into the bathroom while he took cash and jewellery worth about 3 million won (about C$3,000). Police told reporters he knew she lived alone and targeted her for that reason.
 
-She reported it about 17 hours later, and he was arrested the next morning. Police initially described the case as theft and said they would seek a detention warrant. By June 10, 2026, prosecutors had indicted him in custody on a robbery charge. He was also charged with stealing 1 million won (about C$1,000) in cash from another home.
+She reported it about 17 hours later, and he was arrested the next morning. Police first described the case as theft and said they would seek a detention warrant. By June 10, 2026, prosecutors had indicted him in custody on a robbery charge. He was also charged with stealing 1 million won (about C$1,000) in cash from another home.
 
-On September 10, 2026, the Jeju District Court
-sentenced him to two years in prison, suspended for four years with 80
-hours of community service and ordered the stolen items returned to the victim. The court said that he had planned the crimes, aimed at his victims'
-vulnerabilities and damaged public trust in police officers. Given
-his method and its social impact, the offence could not be taken lightly. The court suspended the sentence because he admitted the charges and showed remorse, had settled
-with both victims and had no previous criminal record.
-
+On September 10, 2026, the Jeju District Court sentenced him to two years in prison, suspended for four years, and 80 hours of community service. It also ordered the stolen items returned to the victim. The court said he had planned the crimes, aimed at his victims' vulnerabilities and damaged public trust in police officers, and that given his method and its social impact the offence could not be taken lightly. It suspended the sentence because he admitted the charges and showed remorse, had settled with both victims and had no previous criminal record.
 
 ## The AI claim
 
-In several entries, including the Chatham County, Toronto and Montreal cases, the AI claim rests on a single official statement. Here the claim has a stronger basis. Jeju Sori, quoting the charged facts, and Aju Business Daily, citing the indictment, both report that the accused presented a police officer's ID made or forged with AI. Aju and Issue Valley describe it as a photo, and Issue Valley adds that he displayed it on his phone. As reported, the claim appears in a charging document.
+The AI claim comes from several reports, not one official statement. Jeju Sori, quoting the charged facts, and Aju Business Daily, citing the indictment, both report that the accused presented a police officer's ID made or forged with AI. Aju and Issue Valley describe it as a photo, and Issue Valley adds that he showed it on his phone.
 
-No report names the tool, says how the image was made or describes what the ID looked like. One headline calls the fake convincing. It only had to pass a quick look at a phone screen.
+No report names the tool, says how the image was made or describes what the ID looked like. One headline calls the fake convincing, though it was shown only on a phone screen.
 
-Issue Valley lists the charges as robbery, theft and impersonating a public
-official; other outlets say robbery and other charges. None of those depends
-on how the picture was made. The court's reported reasons refer to his
-method, but no report quotes the court on the AI element itself.
+Issue Valley lists the charges as robbery, theft and impersonating a public official; other outlets say robbery and other charges. None of those depends on how the picture was made. The court's reported reasons refer to his method, but no report quotes the court on the AI element itself.
 
 ## The charge that is missing
 
-From the first report, the police described the ID as forged with
-AI. No report of the charges lists forgery.
+Police described the ID as forged with AI from the first report, but no report of the charges lists forgery.
 
-Korea's Supreme Court has held that a computer image file made by scanning a
-forged identity card is not itself a "document" under the offence of forging
-an official document (2007Do7480). If the ID existed only as an image, as
-the report of a photo on a phone suggests, that ruling may be why no forgery
-count appears.
+Korea's Supreme Court has held that a computer image file made by scanning a forged identity card is not itself a "document" under the offence of forging an official document (2007Do7480). If the ID existed only as an image, as the report of a photo on a phone suggests, that ruling may be why no forgery count appears.
 
-A generated ID that is never printed would fall outside the forgery offence and the law 
-would reach the conduct only through what the picture was used for. Impersonating a public official is an offence when the impersonator exercises official authority (Criminal Act, Article 118).
+If a generated ID is never printed, the forgery offence would not apply, and the law would reach the conduct only through what the picture was used for. Impersonating a public official is an offence when the impersonator exercises official authority (Criminal Act, Article 118).
 
 ## From theft to robbery
 
-On the day of the arrest, police described the case as theft. 
-However, in June the charge was changed to robbery and it stayed 
-through the indictment and the sentence. Robbery under Korean law requires violence or threats that suppress the victim's resistance. Making her go into the bathroom while he took the valuables is the detail in trial coverage that fits that element.
+On the day of the arrest, police described the case as theft. In June the charge was changed to robbery, and it remained robbery through the indictment and the sentence. Robbery under Korean law requires violence or threats that suppress the victim's resistance. In the trial coverage, the detail that fits is that he made her go into the bathroom while he took the valuables.
 
 ## The sentence
 
-The Sentencing Commission's current guideline for ordinary robbery runs from
-18 months to three years in its mitigated range and from two to four years
-in its basic range. Two years falls inside both. A prison sentence of three years or less can be suspended for one to five years (Criminal Act, Article 62).
+The Sentencing Commission's current guideline for ordinary robbery runs from 18 months to three years in its mitigated range and from two to four years in its basic range. Two years falls inside both. A prison sentence of three years or less can be suspended for one to five years (Criminal Act, Article 62).
 
-Korean law treats robbery committed by entering a home at night as special robbery, a separate and heavier type with ranges starting at 30 months. The
-reports name the charge here as robbery, not special robbery,
-although the offence happened inside a home at about 1:50 AM.
-
+Korean law treats robbery committed by entering a home at night as special robbery, a separate and heavier type with ranges starting at 30 months. The reports give the charge here as robbery, not special robbery, even though the offence happened inside a home at about 1:50 AM.
 
 ## A note on naming
 
-Korean reports identify him only as a man in his 30s, and Unio Analytics found no court document or agency release that names him.
+Korean reports identify him only as a man in his 30s, and we found no court document or agency release that names him.
 
 ## Open
 
-**The indictment and the judgment** This record has read neither.
-Everything about the court stage comes from reports of the sentencing and
-the indictment's wording comes from news accounts of it.
+**The indictment and the judgment** We have read neither. What we know of the court hearing comes from reports of the sentencing, and the indictment's wording comes from news accounts of it.
 
-**Appeal** No report states whether either side appealed or what prosecutors
-asked for.
+**Appeal** No report says whether either side appealed or what prosecutors asked for.
 
-**The tool** No source names the AI tool/software or states how the image was generated.
+**The previous theft** No source says whether he also used the fake ID in the 1 million won theft. Issue Valley's opening line says he deceived victims, but the report ties the ID only to the Jeju robbery.
 
-**The previous theft** No source indicates whether the accused used the fake ID for a
-theft of 1 million won. Issue Valley's opening line says he deceived
-victims but the report ties the ID only to the Jeju robbery.
-
-**No police release** Jeju police issued no news release. All detail comes from news reports.
+**No police release** Jeju police issued no news release, so all detail comes from news reports.

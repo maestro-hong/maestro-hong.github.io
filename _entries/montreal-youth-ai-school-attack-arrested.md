@@ -94,7 +94,7 @@ few weeks earlier in response to intelligence shared by the FBI.
 According to the RCMP release, investigators had reasonable grounds to fear
 he might commit crimes related to violent extremism. He is alleged to have been planning an attack at a school in Montreal, to have used artificial intelligence while potentially planning it, and to have posted threatening messages on Telegram targeting various groups.
 
-An RCMP spokesperson told reporters the groups included Muslim, Haitian and 2SLGBTQ+ communities and told Radio-Canada that the youth identified with neo-Nazi and accelerationist movements and with nihilism. Accelerationism holds that society's collapse should be hastened by inflaming political, racial and social tensions. Investigators searched the residence for electronic devices. He has not been charged, and the RCMP says charges may be laid later. Nothing here has been tested in court.
+An RCMP spokesperson told reporters the groups included Muslim, Haitian and 2SLGBTQ+ communities and told Radio-Canada that the youth identified with neo-Nazi and accelerationist movements and with nihilism. Accelerationism holds that society's collapse should be hastened by inflaming political, racial and social tensions. Investigators searched the residence for electronic devices. He has not been charged, and the RCMP says charges may be laid later. None of the allegations has been tested in court.
 
 ## Peace bond
 
@@ -112,21 +112,16 @@ and not possess any weapons. His next appearance was set for September 3, 2026.
 
 ## The AI claim
 
-No report names the AI tool, model or service. Nothing indicates what the youth asked, what came back, or whether any of it went beyond what a search engine or forum would have supplied.
+No report names the AI tool, model or service.
 
-This case sits alongside the Chatham County delivery case and the Toronto retail fraud, where AI is mentioned in a single police sentence. Police are unlikely to describe the method while a terrorism case is open. The claim cannot be tested from outside, so it is recorded as an allegation.
+As in the Chatham County delivery case and the Toronto retail fraud, AI comes up in a single sentence from police. We would not expect police to describe the method while a terrorism case is open. There is no way to check the claim independently, so it stands as an allegation.
 
 ## How the case surfaced
 
-The RCMP provided one further detail in interviews: the operators of the online
-platforms the youth used cooperated with investigators.
+In interviews, the RCMP added that the operators of the online platforms the youth used cooperated with investigators.
 
-At least one major AI provider has published a policy of referring
-conversations to law enforcement when human reviewers find an imminent threat
-of serious physical harm to others. No source connects any provider's
-referral to this case. By contrast, in the
-[Boulder County case](/entry/72-year-old-man-charged-ai-child-image/) the
-record traces the chain from platform to police.
+OpenAI has published a policy of referring conversations to law enforcement when human reviewers find an imminent threat of serious physical harm to others. No source connects any provider's
+referral to this case. In the [Boulder County case](/entry/72-year-old-man-charged-ai-child-image/), the record shows how the platform's report reached police.
 
 ## The wider caseload
 
@@ -135,23 +130,20 @@ arguing that radicalised minors can pose the same credible
 threat as adults. CSIS data reported by Canadian Affairs put nearly one in ten
 terrorism cases as involving at least one person under 18 and the same
 report cites RCMP figures of six minors arrested on terrorism-related offences
-between April 2023 and March 2024. This record has not examined the
-underlying figures.
+between April 2023 and March 2024. We have not checked the underlying figures.
 
 In Quebec, Dr. Cécile Rousseau, a McGill University child psychiatrist and Canada Research Chair in preventing violent radicalization, works with a clinical group that treats young extremists. In August 2025, speaking to The Globe and Mail about a separate case, she said the peak age at which young people in Quebec support violent radicalization had dropped from 19 to 13 or 14, and that most cases referred to her group involve white-supremacist and neo-Nazi ideologies.
 
-The tip from outside Canada is not new either. In March 2026, teenagers in Nova Scotia and Manitoba were arrested over alleged plans to attack their high schools after Interpol and the FBI flagged their communications.
+Foreign tips have led to arrests here before. In March 2026, teenagers in Nova Scotia and Manitoba were arrested over alleged plans to attack their high schools after Interpol and the FBI flagged their communications.
 
 ## A note on naming
 
-The Youth Criminal Justice Act prohibits publishing anything that would identify him. Some outlets reported details of where he lives. This record does not repeat them.
+The Youth Criminal Justice Act prohibits publishing anything that would identify him. Some outlets reported details of where he lives. We have left them out.
 
 
 ## Open
 
 **No charge** The youth remains uncharged although the RCMP states charges may follow.
-
-**The tool** No source names the AI tool.
 
 **The origin** Neither the source of the FBI's intelligence nor the platforms that cooperated with the authorities have been identified.
 

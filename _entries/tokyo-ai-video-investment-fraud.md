@@ -75,7 +75,7 @@ In 2025, a woman in her 80s living in Tokyo's Chiyoda Ward came across a YouTube
 
 "Using our AI system, we guarantee to exceed last year's revenue," one message in the chat said. Another promised a 600% profit. She was later put in touch with a person claiming to work for a real American investment firm, who told her how to pay.
 
-She paid in cash, in person. According to Fuji News Network, she handed money to collectors on seven occasions. The collectors came to her apartment building. Reports citing the Nikkei say they showed fake identification and communicated with her through a translation app on a smartphone. Those reports put her total loss at about ¥95 million; other outlets say nearly ¥100 million.
+She paid in cash. According to Fuji News Network, she handed money to collectors on seven occasions. The collectors came to her apartment building. Reports citing the Nikkei say they showed fake identification and communicated with her through a translation app on a smartphone. Those reports put her total loss at about ¥95 million; other outlets say nearly ¥100 million.
 
 When the people she had been dealing with stopped responding, the matter was reported to Kanda Police Station. One report says the woman went to the police herself, while another says her family noticed first.
 
@@ -95,29 +95,29 @@ All three were arrested on suspicion of fraud, which carries a prison sentence o
 
 ## The AI claim
 
-The claim that AI was used comes from the police. ANN and Fuji News Network both attribute it to the Metropolitan Police Department, which said the victim was drawn in by a fake video created with generative AI. Reports based on the Nikkei are more cautious and say investigators believe the video was a deepfake.
+ANN and Fuji News Network both attribute the AI claim to the Metropolitan Police Department, which said the victim was drawn in by a fake video created with generative AI. Reports based on the Nikkei are more cautious and say investigators believe the video was a deepfake.
 
-Police have not said how they reached that conclusion. None of the reports says whether investigators have a copy of the video, whether it was forensically examined or what tool was used to make it.
+Police have not said how they reached that conclusion. No report says whether investigators have the video or have examined it, or what tool made it.
 
-It is also unclear who appeared in the video. Tokyo Reporter, citing Fuji News Network, identifies him as the entrepreneur Takafumi Horie. ANN refers only to a celebrity, the Nikkei-based reports refer to company executives, and one Taiwanese outlet describes an economic commentator. Horie's image has been misused in fake investment ads in Japan before, but only one outlet names him in this case.
+Reports differ on who appeared in the video. Tokyo Reporter, citing Fuji News Network, identifies him as the entrepreneur Takafumi Horie. ANN refers only to a celebrity, the Nikkei-based reports refer to company executives, and one Taiwanese outlet describes an economic commentator. Fake investment ads in Japan have used Horie's image before. In this case only Tokyo Reporter names him.
 
-The "AI system" mentioned in the chat is a different matter. It was part of the sales pitch, and there is no indication that any such system existed. Some headlines treat the two as the same thing. As far as the reporting shows, AI was used to make the video, and the rest of the fraud was carried out by people.
+The "AI system" in the chat messages was part of the sales pitch, and nothing in the reporting suggests it existed. Some headlines have confused it with the AI-made video.
 
-## How much of the loss is covered
+## How much of the money is accounted for
 
-The allegations made public so far account for only a small share of the money. The first woman is suspected of collecting ¥5 million and the other two ¥17 million. It is not clear whether those amounts overlap, so the total is between ¥17 million and ¥22 million. That leaves at least ¥73 million of the ¥95 million unaccounted for.
+The first woman is suspected of collecting ¥5 million and the other two ¥17 million. It is not clear whether those amounts overlap, so the total is between ¥17 million and ¥22 million. That leaves at least ¥73 million of the ¥95 million unaccounted for.
 
-The use of cash also makes the money harder to follow, since there are no bank transfers to trace. The people who made the video, ran the chat group and directed the collectors have not been publicly identified.
+Because the victim paid in cash, there are no bank transfers to trace. The people who made the video, ran the chat group and directed the collectors have not been publicly identified.
 
 ## The national picture
 
 Japan's National Police Agency counts cases like this as "SNS-type investment fraud". Its final figures for 2025 show 9,523 reported cases and ¥128.8 billion in losses, both up by almost 50% from the previous year.
 
-According to the agency, about 80% of cases began with an online ad or a direct message, and YouTube was among the platforms where the ads appeared. The agency also noted ads that used images and videos of celebrities without their permission. It did not say how many of them were made with AI.
+According to the agency, about 80% of cases began with an online ad or a direct message, and YouTube was among the platforms where the ads appeared. The agency noted ads that used images and videos of celebrities without their permission. It did not say how many of them were made with AI.
 
 ## A note on naming
 
-News outlets in Japan, Taiwan and South Korea have published the names of two of the women. Unio Analytics does not name them because it has not found a police release or court document that does. The third woman, who was 19 at the time, is not named in any report we have seen.
+News outlets in Japan, Taiwan and South Korea have published the names of two of the women. We have not named them, because we found no police release or court document that does. The third woman, who was 19 at the time, is not named in any report we have seen.
 
 ## Open
 
@@ -125,10 +125,10 @@ News outlets in Japan, Taiwan and South Korea have published the names of two of
 
 **July arrests** It is not known whether the two women arrested in July have been indicted.
 
-**The video** Police have not said whether they have a copy of the video, how they determined it was made with AI or who appeared in it.
+**The video** Police have not released the video or said how they decided it was made with AI. Only one outlet names the man shown in it.
 
 **Organisers** The group is reported to be based in Taiwan. No arrests of anyone above the collectors have been reported in either Japan or Taiwan.
 
-**Date** This entry is dated June 23, 2026, when the first arrest was reported. The reports do not say on which day the arrest was made.
+**Date** We have dated this entry June 23, 2026, when the first arrest was reported; the day of the arrest itself is not given.
 
 **No police release** All information comes from news reports based on police briefings.

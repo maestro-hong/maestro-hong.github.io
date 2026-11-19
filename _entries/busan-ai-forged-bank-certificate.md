@@ -1,6 +1,6 @@
 ---
 published: true
-title: "Man fooled a judge with an AI-forged bank certificate gets seven years in South Korea"
+title: "Man who fooled a judge with an AI-forged bank certificate gets seven years in South Korea"
 slug: busan-ai-forged-bank-certificate
 incident_date: 2026-02-11
 updated: 2026-11-14
@@ -12,9 +12,9 @@ detection_path: police
 next_check: 2026-11-20
 safeguard: due-diligence
 safeguard_outcome: bypassed
-summary: "A man in his 20s in Busan, South Korea avoided detention in December 2025 by giving a court a forged bank certificate. It showed about 904 million won in an account that held 23 won. Prosecutors say he created it, along with a fake medical exam certificate and fake cryptocurrency records, with the AI image-generator feature. He was detained a month later after prosecutors verified the certificate with the bank. On November 12, 2026, a Busan court sentenced him to seven years in prison for fraud and forgery, which is an additional one more year than prosecutors had requested."
+summary: "A man in his 20s in Busan avoided detention in December 2025 by giving a court a forged bank certificate. It showed about 904 million won in an account that held 23 won. Prosecutors say he made it, along with a fake medical exam certificate and fake cryptocurrency records, with the image-generation function of an AI platform. He was detained a month later after prosecutors checked the certificate with the bank. On November 12, 2026, a Busan court sentenced him to seven years in prison for fraud and forgery, one year more than prosecutors had requested."
 note_label: "Mechanism"
-note: "Neither the police nor the court confirmed the certificate with the bank before the detention ruling. Prosecutors did so after the case reached them, which is almost a month later."
+note: "Neither the police nor the court checked the certificate with the bank before the detention ruling. Prosecutors did so after the case reached them, almost a month later."
 query: 'AI 위조 잔고증명서 판사 23원 9억 부산지검 동부지청 보완수사 구속기소 징역 7년'
 sources:
   - tier: P
@@ -81,55 +81,53 @@ sources:
 
 ## What happened
 
-Between July 2025 and January 2026, a man in his 20s in Busan took 377 million won (about C$380,000) from two individuals. They believed they were investing with a wealthy doctor and businessman, and he told them he had assets worth tens of billions of won. According to Chosun Biz, he asked for money for cryptocurrency trading, a cruise ship business and a new medical centre.
+Between July 2025 and January 2026, a man in his 20s in Busan took 377 million won (about C$380,000) from two people. They believed they were investing with a wealthy doctor and businessman, and he told them he had assets worth tens of billions of won. According to Chosun Biz, he asked for money for cryptocurrency trading, a cruise ship business and a new medical centre.
 
-To back up his story, he showed them a certificate claiming he had passed the national medical licensing exam, along with records of cryptocurrency trades. Prosecutors say both were made with AI.
+To back up his story, he showed them a certificate saying he had passed the national medical licensing exam, along with records of cryptocurrency trades. Prosecutors say both were made with AI.
 
-Busan Suyeong Police Station applied for a warrant to detain him on fraud charges on December 18, 2025. At the detention hearing, he submitted a bank balance certificate showing 904,330,158 won in his account and promised to repay the victims by December 30. Reports of the trial say the certificate reached the court through his lawyer. The judge rejected the warrant on December 24.
-
-In reality, the account only had a balance of 23 won.
+Busan Suyeong Police Station applied for a warrant to detain him on fraud charges on December 18, 2025. At the detention hearing, he submitted a bank balance certificate showing 904,330,158 won in his account and promised to repay the victims by December 30. According to trial coverage, the certificate reached the court through his lawyer. The judge rejected the warrant on December 24. The account held 23 won.
 
 ## How the forgery was found
 
-The repayment never came. Police sent the case to prosecutors on January 19, 2026 without detaining him. According to prosecutors, the police had not checked whether the certificate was genuine.
+He did not repay the victims. Police sent the case to prosecutors on January 19, 2026, without detaining him. According to prosecutors, the police had not checked whether the certificate was genuine.
 
 At the Busan Eastern District Prosecutors' Office, the file went to a first-year prosecutor, Chosun Biz reported. The prosecutor looked up the certificate on the bank's online verification service and then obtained a warrant for the man's account records. A court issued a detention warrant on January 29, and he was indicted in custody on February 6. The office announced the case on February 11.
 
-Reports differ on what the bank's website displayed. Chosun Biz says the check revealed that the balance on the certificate did not match the account. Law Times says the service only confirms whether a certificate's serial number is genuine and cannot show a balance. On that account, the real figure came from the account records.
+Reports differ on what the bank's website showed. Chosun Biz says the check revealed that the balance on the certificate did not match the account. Law Times says the service only confirms whether a certificate's serial number is genuine and cannot show a balance. By that version, the real figure came from the account records.
 
-Prosecutors said they found four more forgeries during their investigation. Reports of the trial mention a forged financial transaction confirmation and a forged notice of non-prosecution, which is an official document issued by prosecutors.
+Prosecutors said they found four more forgeries during their investigation. Trial coverage mentions a forged financial transaction confirmation and a forged notice of non-prosecution, an official document issued by prosecutors.
 
 ## The AI claim
 
-The claim comes from prosecutors. They said he used "the image-generation function of AI" to forge material that was hard to tell from the real thing with the naked eye.
+Prosecutors said he used "the image-generation function of AI" to forge material that was hard to tell from the real thing with the naked eye.
 
-Chosun Biz gives the most detail. It reports that he uploaded a genuine balance certificate to an AI platform and asked it to change the balance. If that account is right, the document the judge saw was a real certificate with one number altered.
+Chosun Biz reports that he uploaded a genuine balance certificate to an AI platform and asked it to change the balance. If that is right, the document the judge saw was a real certificate with one number altered.
 
-Reports of the sentencing attribute three documents to AI: the exam certificate, the cryptocurrency and deposit records, and the balance certificate. They do not say how the transaction confirmation or the non-prosecution notice was made.
+Sentencing coverage attributes three documents to AI: the exam certificate, the cryptocurrency and deposit records, and the balance certificate. How the transaction confirmation and the non-prosecution notice were made is not reported.
 
-None of the Korean reports names the platform. DL News says he "reportedly used ChatGPT", citing Yonhap, but not confirm that detail in the Korean coverage.
+None of the Korean reports we read names the platform. DL News says he "reportedly used ChatGPT", citing Yonhap, but we could not find that detail in the Korean coverage.
 
 ## Charges and sentence
 
 He was indicted for fraud, forging private documents and using forged documents. Chosun Biz and Law Times reported that prosecutors also charged him with obstructing official duties by deception, for misleading the court.
 
-On November 12, 2026, Judge Noh Haeng-nam of the Busan District Court's Eastern Branch sentenced him to seven years in prison. Prosecutors had asked for six. The judge said the man had forged official and private documents alike to protect himself, and called the crimes "extremely dangerous". The judge said the method was dangerous enough to justify a sentence above the prosecution's request. The judge also noted that the victims had not been repaid and had not forgiven the defendant.
+On November 12, 2026, Judge Noh Haeng-nam of the Busan District Court's Eastern Branch sentenced him to seven years in prison. Prosecutors had asked for six. The judge said the man had forged official and private documents alike to protect himself, and called the crimes "extremely dangerous". The method was dangerous enough to justify a sentence above the prosecution's request, the judge said, adding that the victims had not been repaid and had not forgiven him.
 
 Under the Criminal Act, fraud carries up to 10 years in prison and forging a private document up to five. Forging an official document carries up to 10 years, with no option of a fine.
 
 ## The obstruction charge
 
-Reports of the sentencing describe the charges as "fraud, forgery of private documents and others". They do not say whether he was convicted of obstruction.
+Coverage of the sentencing lists the charges as "fraud, forgery of private documents and others" and does not say whether he was convicted of obstruction.
 
-That charge is harder to prove than it looks. In a 2003 ruling, the Supreme Court held that a suspect does not commit obstruction simply by lying or handing over false evidence. Investigators are expected to test what they are given. The offence is made out only when the evidence was fabricated so thoroughly that a careful investigation would still have reached the wrong conclusion.
+A 2003 Supreme Court ruling makes the charge hard to prove. It held that a suspect does not commit obstruction simply by lying or handing over false evidence. Investigators are expected to test what they are given. The offence is made out only when the evidence was fabricated so thoroughly that a careful investigation would still have reached the wrong conclusion.
 
-In this case, the certificate could be disproved by asking the bank, and prosecutors did so. How the court dealt with that point will not be clear until the judgment is published.
+Here the certificate could be disproved by asking the bank, and prosecutors did so. The court's reasoning on that point will be known only when the judgment is published.
 
 ## After the warrant was refused
 
-Reports of the judgment say the fraud continued until January 2026. If that is correct, part of it took place after the court declined to detain him on December 24.
+According to coverage of the judgment, the fraud continued until January 2026. If so, part of it took place after the court declined to detain him on December 24.
 
-The figures also changed between the indictment and the verdict. In February, prosecutors described a fraud of about 320 million won between August and October 2025. By November, the court was dealing with 377 million won, two victims and a period running from July to January. No report explains the difference.
+The figures also changed between the indictment and the verdict. In February, prosecutors described a fraud of about 320 million won between August and October 2025. By November, the court was dealing with 377 million won, two victims and a period running from July to January. None of the coverage explains why.
 
 ## What prosecutors said
 
@@ -139,16 +137,12 @@ The office also said the case showed why prosecutors need the power to carry out
 
 ## A note on naming
 
-No report names the defendant, and Unio Analytics has not seen the indictment or the judgment.
+No report names the defendant. We have not seen the indictment or the judgment.
 
 ## Open
 
-**Appeal** The deadline to appeal is seven days after sentencing, which falls on about November 19, 2026. No appeal has been reported.
+**Appeal** He has seven days from sentencing to appeal, until about November 19, 2026. No appeal has been reported.
 
-**The judgment** We have not read it. The exact counts of conviction are unknown, including whether they cover obstruction and the forgery of an official document.
-
-**The platform** Neither prosecutors nor the court has been reported as naming the AI platform.
-
-**The amounts** The gap between the February and November figures is unexplained.
+**The judgment** The exact counts of conviction are unknown, including whether they cover obstruction and the forgery of an official document.
 
 **Court procedure** No report says whether the court has changed how it checks documents submitted at detention hearings.
