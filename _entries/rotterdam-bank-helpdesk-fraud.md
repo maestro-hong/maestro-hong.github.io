@@ -3,12 +3,12 @@ published: true
 title: "Two arrested in Dutch bank helpdesk fraud that used AI-made voice recordings and a card-relay app"
 slug: rotterdam-bank-helpdesk-fraud
 incident_date: 2026-10-21
-updated: 2026-11-11
+updated: 2026-11-19
 category: A
 country: Netherlands
 status: investigating
 ai_claim_basis: described
-detection_path: provider
+detection_path: business
 next_check: 2027-01-19
 safeguard: account-security
 safeguard_outcome: bypassed
@@ -55,8 +55,6 @@ Police counted about 170 victims and about €380,000 in losses over the three w
 ## The AI claim
 
 A police release says the fraudsters used artificial intelligence to make dozens of sound clips, with different voices for different banks, companies and scenarios. Dutch outlets used the same words. One local report, in EdeStad, covers the arrests without mentioning AI.
-
-The release names no software and does not say whether the voices copied real bank staff or were generic synthetic ones.
 
 ## How the money was taken
 

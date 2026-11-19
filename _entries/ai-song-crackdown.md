@@ -1,18 +1,18 @@
 ---
 published: true
-title: "Man pleads guilty to $8 million streaming fraud using AI-generated songs and bot accounts"
+title: "Man gets 18 months in prison for $8 million streaming fraud using AI-generated songs and bot accounts"
 slug: smith-streaming-royalty-fraud
 incident_date: 2024-09-04
-updated: 2026-10-31
+updated: 2026-11-19
 category: I
 country: United States
 status: convicted
 ai_claim_basis: court
 detection_path: unknown
-next_check: 2026-10-26
+next_check: 2026-12-21
 safeguard: platform-detection
 safeguard_outcome: bypassed
-summary: "Michael Smith, 54, pleaded guilty in March 2026 to conspiracy to commit wire fraud for obtaining more than $8 million in streaming royalties. From 2017 to 2024 he ran roughly 10,000 bot accounts that streamed music he controlled on Spotify, Apple Music, Amazon Music and YouTube Music. Under a supply contract dated February 2019, he bought hundreds of thousands of AI-generated tracks from the chief executive of an AI music company."
+summary: "Michael Smith, 54, pleaded guilty in March 2026 to conspiracy to commit wire fraud for obtaining more than $8 million in streaming royalties. On October 6, 2026 a federal judge sentenced him to 18 months in prison. From 2017 to 2024 he ran roughly 10,000 bot accounts that streamed music he controlled on Spotify, Apple Music, Amazon Music and YouTube Music. Under a supply contract dated February 2019, he bought hundreds of thousands of AI-generated tracks from the chief executive of an AI music company."
 note_label: "Mechanism"
 note: "Platforms flag individual tracks with implausible play counts. Spreading streams across hundreds of thousands of AI-generated tracks kept each track's numbers low enough to pass that check."
 query: 'site:justice.gov "artificial intelligence" streaming fraud royalties'
@@ -27,6 +27,16 @@ sources:
     title: "North Carolina Man Pleads Guilty To Music Streaming Fraud Aided By Artificial Intelligence"
     url: "https://www.justice.gov/usao-sdny/pr/north-carolina-man-pleads-guilty-music-streaming-fraud-aided-artificial-intelligence-0"
     retrieved: 2026-09-14
+  - tier: P
+    outlet: U.S. Attorney's Office, SDNY
+    title: "North Carolina Man Sentenced To 18 Months In Prison For Super Intelligence-Assisted Music Streaming Fraud"
+    url: "https://www.justice.gov/usao-sdny/pr/north-carolina-man-sentenced-18-months-prison-super-intelligence-assisted-music"
+    retrieved: 2026-11-19
+  - tier: S
+    outlet: WFAE
+    title: "NC man receives 18-month sentence in first-ever music stream fraud case"
+    url: "https://www.wfae.org/2026-10-07/nc-man-receives-18-month-sentence-in-first-ever-music-stream-fraud-case"
+    retrieved: 2026-11-19
   - tier: S
     outlet: Bloomberg Law
     title: "AI Music Maker Who Faked Streams Pleads Guilty on Fraud Count"
@@ -83,4 +93,6 @@ Smith was charged on September 4, 2024 with wire fraud conspiracy, wire fraud an
 
 On September 22, 2026, the defence filed a sentencing memorandum asking for probation, arguing that the losses were so thinly spread that no artist suffered any perceptible harm. The Sentencing Guidelines range is 46 to 57 months, but the Probation Office recommended 24 months.
 
-**Open** No sentencing date has been set. No public charging document has been found for the AI music company executive.
+On October 6, 2026, Judge John G. Koeltl sentenced Smith to 18 months in prison and two years of supervised release, and ordered him to forfeit $8,091,843.64. The Justice Department release on the sentence says he obtained more than $8 million in royalties and describes the technology involved as "super intelligence".
+
+**Open** No appeal has been reported. No public charging document has been found for the AI music company executive.

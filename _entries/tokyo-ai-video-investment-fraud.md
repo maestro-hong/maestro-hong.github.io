@@ -3,7 +3,7 @@ published: true
 title: "Three Taiwanese women arrested in Tokyo over investment fraud that used an AI-made celebrity video"
 slug: tokyo-ai-video-investment-fraud
 incident_date: 2026-06-23
-updated: 2026-11-13
+updated: 2026-11-19
 category: E
 country: Japan
 status: charged
@@ -12,7 +12,7 @@ detection_path: victim
 next_check: 2026-12-12
 safeguard: platform-detection
 safeguard_outcome: bypassed
-summary: "Tokyo police have arrested three Taiwanese women accused of collecting cash from a woman in her 80s who lost about ¥95 million in an investment scam in 2025. Police say the scam began with a YouTube video, made with generative AI, that showed a well-known businessman promoting the investment. One of the women has been indicted. No one suspected of running the scheme has been arrested."
+summary: "Tokyo police have arrested three Taiwanese women accused of collecting cash from a woman in her 80s who lost about ¥95 million in an investment scam in 2025. Police say the scam began with a YouTube video, made with generative AI, that showed a well-known businessman promoting the investment. One of the women has reportedly been indicted. No one suspected of running the scheme has been arrested."
 note_label: "Claim check"
 note: "Police say the video that drew the victim in was made with AI. The 'AI system' that was supposed to deliver a 600% profit was only a sales pitch."
 query: '生成AI 偽動画 投資詐欺 受け子 台湾 逮捕 警視庁 600％ 千代田区'
@@ -97,9 +97,9 @@ All three were arrested on suspicion of fraud, which carries a prison sentence o
 
 ANN and Fuji News Network both attribute the AI claim to the Metropolitan Police Department, which said the victim was drawn in by a fake video created with generative AI. Reports based on the Nikkei are more cautious and say investigators believe the video was a deepfake.
 
-Police have not said how they reached that conclusion. No report says whether investigators have the video or have examined it, or what tool made it.
+Police have not said how they reached that conclusion, whether they have examined the video, or what tool made it.
 
-Reports differ on who appeared in the video. Tokyo Reporter, citing Fuji News Network, identifies him as the entrepreneur Takafumi Horie. ANN refers only to a celebrity, the Nikkei-based reports refer to company executives, and one Taiwanese outlet describes an economic commentator. Fake investment ads in Japan have used Horie's image before. In this case only Tokyo Reporter names him.
+Reports differ on who appeared in the video. One English-language outlet, citing Fuji News Network, names a well-known entrepreneur. ANN refers only to a celebrity, the Nikkei-based reports refer to company executives, and one Taiwanese outlet describes an economic commentator. We have not named him, because no police release or court document does.
 
 The "AI system" in the chat messages was part of the sales pitch, and nothing in the reporting suggests it existed. Some headlines have confused it with the AI-made video.
 
@@ -125,10 +125,10 @@ News outlets in Japan, Taiwan and South Korea have published the names of two of
 
 **July arrests** It is not known whether the two women arrested in July have been indicted.
 
-**The video** Police have not released the video or said how they decided it was made with AI. Only one outlet names the man shown in it.
+**The video** Police have not released the video or said how they decided it was made with AI. Only one outlet we found names the man shown in it.
 
 **Organisers** The group is reported to be based in Taiwan. No arrests of anyone above the collectors have been reported in either Japan or Taiwan.
 
-**Date** We have dated this entry June 23, 2026, when the first arrest was reported; the day of the arrest itself is not given.
+**Date** June 23, 2026 is when the first arrest was reported. The arrest date itself is not given.
 
 **No police release** All information comes from news reports based on police briefings.

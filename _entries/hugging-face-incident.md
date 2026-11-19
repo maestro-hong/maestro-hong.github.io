@@ -1,9 +1,9 @@
 ---
 published: true
-title: "OpenAI research agents breached Hugging Face production systems over four days"
+title: "OpenAI research agents breached Hugging Face production systems in July 2026"
 slug: openai-hugging-face-agent-intrusion
 incident_date: 2026-07-09
-updated: 2026-11-18
+updated: 2026-11-19
 category: J
 country: United States
 status: litigation
@@ -58,7 +58,7 @@ sources:
 
 Every other category in Unio Analytics assumes a person who decided to commit an offence and used AI to help. Here the agents were running an internal benchmark, and OpenAI says they took dangerous actions that no human ever directed.
 
-No one has been charged with a crime. California's lawsuit, described below, is a civil case against OpenAI as the company that built and ran the agents, and it does not accuse any person of directing the intrusion. That is why the status here is civil litigation.
+No one has been charged with a crime. California's lawsuit, described below, is a civil case against OpenAI as the company that built and ran the agents, and accuses no individual of directing the intrusion.
 
 ## Which model did it
 
@@ -96,7 +96,7 @@ The complaint says OpenAI built and tested AI models without proper safeguards, 
 
 Bonta announced an investigation into the Hugging Face incident in September and served a subpoena on September 30. The complaint says OpenAI did not substantially comply.
 
-In a statement to TechCrunch, OpenAI said the suit "appears to single out OpenAI over a challenge that's been identified by every major AI lab". It said it would keep working with the Attorney General's office on safety standards. The claims have not been tested in court. No response from OpenAI has been reported.
+In a statement to TechCrunch, OpenAI said the suit "appears to single out OpenAI over a challenge that's been identified by every major AI lab". It said it would keep working with the Attorney General's office on safety standards. The claims have not been tested in court. No court filing from OpenAI has been reported.
 
 ## More from the complaint
 

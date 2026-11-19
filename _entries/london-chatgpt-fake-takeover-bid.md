@@ -3,12 +3,12 @@ published: true
 title: "London man who faked a £154 million takeover bid with help from ChatGPT gets a suspended sentence"
 slug: london-chatgpt-fake-takeover-bid
 incident_date: 2026-11-10
-updated: 2026-11-14
+updated: 2026-11-19
 category: B
 country: United Kingdom
 status: convicted
 ai_claim_basis: described
-detection_path: business
+detection_path: unknown
 next_check: 2027-02-08
 safeguard: due-diligence
 safeguard_outcome: caught
@@ -64,7 +64,7 @@ The FCA says the approach came from four false identities Woolcott had invented,
 
 He posted the documents from a Ryman branch. He also met Touchstone's chief executive at a central London hotel under a false name. According to the Independent, he pressed for the bid to be announced publicly.
 
-Touchstone's executives were not taken in. The prosecutor told the court the chief executive thought the offer was "too good to be true". Woolcott's own barrister called the documents "surprisingly amateurish". The shares he held were worth just under £70,000, and the court heard they would probably have doubled in value had the bid gone public. No report says whether Touchstone's share price moved.
+Touchstone's executives were not taken in. The prosecutor told the court the chief executive thought the offer was "too good to be true". Woolcott's own barrister called the documents "surprisingly amateurish". The shares he held were worth just under £70,000, and the court heard they would probably have doubled in value had the bid gone public. Any effect on Touchstone's share price is unreported.
 
 ## How he was caught
 
@@ -72,7 +72,7 @@ The FCA opened a criminal investigation in March 2025. It worked from trading da
 
 The Independent reported that he first refused to hand over the security codes for phones seized from his home. In an interview with the FCA he later admitted he was behind the bid.
 
-No report says who first alerted the FCA. The FCA says Touchstone is not under investigation.
+It is not known who first alerted the FCA. The FCA says Touchstone is not under investigation.
 
 ## The AI claim
 
@@ -80,7 +80,7 @@ The FCA's sentencing release says Woolcott forged the takeover documents "using 
 
 The Independent and Tech Times both report that the prosecutor, Denis Barry, told the court what Woolcott said in his FCA interview. He used ChatGPT for document templates and guidance. He took logos from Google and signed the papers with improvised signatures.
 
-So the ChatGPT detail rests on Woolcott's own account, relayed to the court by the prosecutor. The FCA's release on his guilty plea in September did not mention AI; the detail first came out at sentencing.
+That account came from Woolcott himself, relayed by the prosecutor. The FCA's release on his guilty plea in September did not mention AI; the detail first came out at sentencing.
 
 ## Charges and sentence
 
@@ -98,10 +98,10 @@ Therese Chambers, the FCA's executive director of enforcement and market oversig
 
 **What ChatGPT did** Templates and guidance, according to the reports, with nothing on which documents it helped with or how much of the final wording was its.
 
-**The dates** No report dates the bid. The FCA gives March 2025 for the start of its investigation and September 10 and November 10, 2026 for the plea and sentence.
+**The dates** The bid itself is undated in the coverage. The FCA gives March 2025 for the start of its investigation and September 10 and November 10, 2026 for the plea and sentence.
 
 **The sentence in detail** The FCA release lists the sentence for each count. We have not checked that breakdown against the court record.
 
 **Where he lives** The FCA gives Greenwich and the Independent gives Blackheath. We have used south-east London to cover both.
 
-**Proceeds** No report mentions a confiscation order.
+**Proceeds** A confiscation order has not been reported.
