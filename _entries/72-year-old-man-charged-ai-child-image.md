@@ -3,13 +3,13 @@ published: true
 title: "Boulder man, 72, charged over AI-altered images of children after PicsArt report to NCMEC"
 slug: boulder-ai-csam-charges
 incident_date: 2026-01-30
-updated: 2026-10-30
+updated: 2026-11-21
 category: D
 country: United States
 status: charged
 ai_claim_basis: described
 detection_path: provider
-next_check: 2026-10-26
+next_check: 2026-12-21
 safeguard: platform-detection
 safeguard_outcome: caught
 summary: "Boulder County authorities charged Daniel Fairchild, 72, with 23 counts under Colorado's child sexual exploitation statute: 11 of producing and 11 of possessing sexually exploitative material, plus one extraordinary-risk count. The sheriff's office says he altered photographs of real children using PicsArt, an AI photo and video editing app. PicsArt flagged his account and reported the images to NCMEC; investigators served a search warrant on January 15, 2026, and he turned himself in on January 30."

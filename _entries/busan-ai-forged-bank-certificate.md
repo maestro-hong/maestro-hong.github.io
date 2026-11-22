@@ -3,13 +3,13 @@ published: true
 title: "Man who fooled a judge with an AI-forged bank certificate gets seven years in South Korea"
 slug: busan-ai-forged-bank-certificate
 incident_date: 2026-02-11
-updated: 2026-11-14
+updated: 2026-11-21
 category: B
 country: South Korea
 status: convicted
 ai_claim_basis: described
 detection_path: police
-next_check: 2026-11-20
+next_check: 2026-12-21
 safeguard: due-diligence
 safeguard_outcome: bypassed
 summary: "A man in his 20s in Busan avoided detention in December 2025 by giving a court a forged bank certificate. It showed about 904 million won in an account that held 23 won. Prosecutors say he made it, along with a fake medical exam certificate and fake cryptocurrency records, with the image-generation function of an AI platform. He was detained a month later after prosecutors checked the certificate with the bank. On November 12, 2026, a Busan court sentenced him to seven years in prison for fraud and forgery, one year more than prosecutors had requested."
@@ -77,6 +77,11 @@ sources:
     title: "Bogus crypto hotshot duped court with AI-generated transaction records"
     url: "https://www.dlnews.com/articles/people-culture/bogus-crypto-hotshot-dupes-court-with-ai-transaction-records/"
     retrieved: 2026-11-14
+  - tier: S
+    outlet: JoongAng Korea Daily (미주중앙일보)
+    title: "Verdict report, Busan District Court Eastern Branch, 12 November 2026"
+    url: "https://www.koreadaily.com/article/20261112024643841"
+    retrieved: 2026-11-21
 ---
 
 ## What happened
@@ -115,9 +120,11 @@ On November 12, 2026, Judge Noh Haeng-nam of the Busan District Court's Eastern 
 
 Under the Criminal Act, fraud carries up to 10 years in prison and forging a private document up to five. Forging an official document carries up to 10 years, with no option of a fine.
 
+JoongAng Korea Daily's report of the verdict lists the counts as fraud and forgery of private documents "and others". It names the balance certificate and a financial transaction confirmation as the private documents. It also says he forged and used a notice of non-prosecution, which is a public document. It does not name obstruction.
+
 ## The obstruction charge
 
-Coverage of the sentencing lists the charges as "fraud, forgery of private documents and others" and does not say whether he was convicted of obstruction.
+Coverage of the sentencing, including JoongAng Korea Daily's report of 12 November, lists the charges as "fraud, forgery of private documents and others". None of it names obstruction, so whether he was convicted of it is still unknown.
 
 A 2003 Supreme Court ruling makes the charge hard to prove. It held that a suspect does not commit obstruction simply by lying or handing over false evidence. Investigators are expected to test what they are given. The offence is made out only when the evidence was fabricated so thoroughly that a careful investigation would still have reached the wrong conclusion.
 
@@ -141,8 +148,8 @@ No report names the defendant. We have not seen the indictment or the judgment.
 
 ## Open
 
-**Appeal** He has seven days from sentencing to appeal, until about November 19, 2026. No appeal has been reported.
+**Appeal** The seven-day window ran until about November 19, 2026. No appeal appeared in the reports we found as of November 21, 2026. We have not checked court records.
 
-**The judgment** The exact counts of conviction are unknown, including whether they cover obstruction and the forgery of an official document.
+**The judgment** JoongAng Korea Daily lists forgery of a public document (the non-prosecution notice) among the counts. Whether the conviction covers obstruction is still unknown. We have not seen the judgment.
 
 **Court procedure** No report says whether the court has changed how it checks documents submitted at detention hearings.

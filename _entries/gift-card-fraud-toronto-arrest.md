@@ -9,7 +9,7 @@ country: Canada
 status: charged
 ai_claim_basis: statement
 detection_path: business
-next_check: 2026-10-26
+next_check: 2026-12-21
 safeguard: account-security
 safeguard_outcome: bypassed
 summary: "Toronto Police charged seven people in April 2026 over a scheme in which store employees were distracted and recorded entering their logins, and the credentials were then used to load funds onto gift cards. Losses are estimated at $500,000 across 112 identified occurrences from September 2025 to February 2026. Police described the equipment as AI-enabled tools but did not say what the AI did."

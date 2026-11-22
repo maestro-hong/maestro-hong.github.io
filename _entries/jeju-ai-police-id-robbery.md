@@ -12,7 +12,7 @@ detection_path: victim
 next_check: 2026-10-28
 safeguard: identity-check
 safeguard_outcome: bypassed
-summary: "On May 27, 2026, a man in his 30s rang the doorbell of a woman living alone in Jeju City, South Korea, showed her a police ID he had made with AI, and said he had come to carry out a search. He took cash and jewellery worth about 3 million won (about C$3,000). On September 10, 2026, the Jeju District Court sentenced him to two years in prison, suspended for four years, for robbery and other charges."
+summary: "On May 27, 2026, a man in his 30s rang the doorbell of a woman living alone in Jeju City, South Korea, showed her a police ID he had made with AI, and said he had come to carry out a search. He took cash and jewellery worth about 3 million won (about C$3,000). At the sentencing hearing on July 23, 2026, he admitted all the charges and prosecutors asked for four years in prison (Segye Ilbo, citing Yonhap). On September 10, 2026, the Jeju District Court sentenced him to two years in prison, suspended for four years, for robbery and other charges."
 note_label: "Claim check"
 note: "The AI claim covers one image: a police ID shown on a phone. No source names the tool, and none of the reported charges depends on how the image was made."
 query: 'AI 위조 경찰 신분증 제주 압수수색 강도'
@@ -67,6 +67,11 @@ sources:
     title: "'AI 위조' 경찰 신분증 보여주며 강도짓 한 30대…징역형 집행유예 선고"
     url: "https://www.issuevalley.com/news/articleView.html?idxno=56217"
     retrieved: 2026-09-28
+  - tier: S
+    outlet: Segye Ilbo (Yonhap)
+    title: "Sentencing hearing report, Jeju District Court, 23 July 2026"
+    url: "https://www.segye.com/newsView/20260723514764"
+    retrieved: 2026-11-21
 ---
 
 ## Incident
@@ -75,7 +80,7 @@ Early on May 27, 2026, a man in his 30s rang the doorbell of a house in Jeju Cit
 
 She reported it about 17 hours later, and he was arrested the next morning. Police first described the case as theft and said they would seek a detention warrant. By June 10, 2026, prosecutors had indicted him in custody on a robbery charge. He was also charged with stealing 1 million won (about C$1,000) in cash from another home.
 
-On September 10, 2026, the Jeju District Court sentenced him to two years in prison, suspended for four years, and 80 hours of community service. It also ordered the stolen items returned to the victim. The court said he had planned the crimes, aimed at his victims' vulnerabilities and damaged public trust in police officers, and that given his method and its social impact the offence could not be taken lightly. It suspended the sentence because he admitted the charges and showed remorse, had settled with both victims and had no previous criminal record.
+On September 10, 2026, the Jeju District Court sentenced him to two years in prison, suspended for four years, and 80 hours of community service. It also ordered the stolen items returned to the victim. The sentence was half what prosecutors had asked for. The court said he had planned the crimes, aimed at his victims' vulnerabilities and damaged public trust in police officers, and that given his method and its social impact the offence could not be taken lightly. It suspended the sentence because he admitted the charges and showed remorse, had settled with both victims and had no previous criminal record.
 
 ## The AI claim
 
@@ -111,7 +116,7 @@ Korean reports identify him only as a man in his 30s, and we found no court docu
 
 **The indictment and the judgment** We have read neither. What we know of the court hearing comes from reports of the sentencing, and the indictment's wording comes from news accounts of it.
 
-**Appeal** No report says whether either side appealed or what prosecutors asked for.
+**Appeal** Prosecutors asked for four years on July 23, 2026. No report says whether either side appealed.
 
 **The previous theft** No source says whether he also used the fake ID in the 1 million won theft. Issue Valley's opening line says he deceived victims, but the report ties the ID only to the Jeju robbery.
 

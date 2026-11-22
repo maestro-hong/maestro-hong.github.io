@@ -9,7 +9,7 @@ country: United States
 status: charged
 ai_claim_basis: statement
 detection_path: business
-next_check: 2026-10-26
+next_check: 2026-12-21
 safeguard: staff-procedure
 safeguard_outcome: caught
 summary: "Chatham County police arrested a 20-year-old man on September 7, 2026 after he allegedly posed as a delivery driver at a Walmart, using accounts police say he created with AI to make online orders look legitimate. Store loss-prevention staff flagged the pickup and called police. He was charged with criminal attempt to commit a misdemeanour, and bond was set at $1,300. No source says which AI tool was used or how."

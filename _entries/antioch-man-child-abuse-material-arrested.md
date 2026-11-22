@@ -9,7 +9,7 @@ country: United States
 status: charged
 ai_claim_basis: described
 detection_path: referral
-next_check: 2026-11-10
+next_check: 2026-12-21
 safeguard: provider-safeguards
 safeguard_outcome: unknown
 summary: "The Lake County Sheriff's Office arrested Mark E. Hansen, 42, of unincorporated Antioch, on October 8, 2026. Prosecutors approved 13 counts of obscene depiction of a purported child (each a Class 2 felony) and said more charges are expected. The investigation began with information from the National Center for Missing and Exploited Children (NCMEC) that a device in Lake County was being used to create AI-generated child sexual abuse material. The sheriff's office says more than 50,000 images and videos were found in online accounts."
