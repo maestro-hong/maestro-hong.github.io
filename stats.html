@@ -2,46 +2,68 @@
 layout: default
 title: Stats
 permalink: /stats/
-description: "Coverage summary for the Unio Analytics record: entries by category, enforcement status and country."
+description: "Coverage summary for the Unio Analytics record: entries by category, enforcement status, detection route, safeguard outcome and country."
 ---
 
-{% assign all = site.entries %}
-<div class="wrap page">
+{%- comment -%}
+  Everything on this page is built from the entries in _entries/ each time the
+  site builds, so a new or corrected entry changes the charts with no edit here.
+  Drafts (published: false) are left out by Jekyll itself.
+  Labels come from _data/*.yml. A new allowed value there gets its own bar.
+{%- endcomment -%}
+{%- assign all = site.entries | sort: "incident_date" | reverse -%}
+<link rel="stylesheet" href="/assets/css/stats.css">
+
+<div class="wrap page stats">
   <p class="page__label">Coverage</p>
   <h1 class="page__title">What the record holds</h1>
-  <p class="page__sub">Counts of entries in this archive, not estimates of how often these crimes occur.</p>
+  <p class="page__sub">Counts of entries in this archive, not estimates of how often these crimes occur. Select a bar, a category or a dot to filter; every chart and the list below update together.</p>
 
-  <div class="prose">
-    <h2>By category</h2>
+  <div class="stats__bar">
+    <input class="stats__search" id="stats-q" type="search" placeholder="Search entries" aria-label="Search entries">
+    <span class="stats__count" id="stats-count" aria-live="polite">{{ all.size }} of {{ all.size }} entries</span>
+    <button class="stats__reset" id="stats-reset" type="button" hidden>Clear filters</button>
   </div>
-  <table class="table">
-    {% for c in site.data.categories %}
-    {% assign n = all | where: "category", c.key %}
-    <tr><td><a href="/category/{{ c.slug }}/">{{ c.name }}</a></td><td>{{ n.size }}</td></tr>
-    {% endfor %}
-  </table>
+
+  <div class="stats__grid" id="stats-charts"></div>
+  <noscript><p class="stats__note">The charts need JavaScript. The full list of entries is below.</p></noscript>
+
+  <section class="stats__tl">
+    <h2 class="stats__h">Entries over time, by category</h2>
+    <div class="stats__tlwrap" id="stats-tlwrap">
+      <svg id="stats-tl" role="img" aria-label="Entries plotted by incident date and category"></svg>
+      <div class="stats__tip" id="stats-tip" role="status"></div>
+    </div>
+    <p class="stats__note">One dot per entry, placed by incident date. Dots outside the current filter are greyed.</p>
+  </section>
+
+  <section class="stats__list">
+    <h2 class="stats__h">Entries</h2>
+    <div id="stats-items">
+      {%- for e in all -%}
+      <div class="stats__item" data-s="{{ e.status }}" data-dp="{{ e.detection_path }}" data-so="{{ e.safeguard_outcome }}" data-b="{{ e.ai_claim_basis }}" data-c="{{ e.category }}" data-d="{{ e.incident_date | date: '%Y-%m-%d' }}" data-country="{{ e.country | escape }}" data-text="{{ e.title | downcase | escape }} {{ e.country | downcase | escape }}">
+        <time class="stats__meta" datetime="{{ e.incident_date | date: '%Y-%m-%d' }}">{{ e.incident_date | date: "%Y.%m.%d" }}</time>
+        <a href="{{ e.url }}">{{ e.title }}</a>
+        {%- assign st = site.data.statuses | where: "key", e.status | first %}
+        <span class="stats__meta stats__meta--r">{{ e.country }} · {{ st.name }}</span>
+      </div>
+      {%- endfor -%}
+    </div>
+    <p class="stats__empty" id="stats-none" hidden>Nothing matches.</p>
+  </section>
 
   <div class="prose">
-    <h2>By enforcement status</h2>
-  </div>
-  <table class="table">
-    {% for s in site.data.statuses %}
-    {% assign n = all | where: "status", s.key %}
-    <tr><td>{{ s.name }}</td><td>{{ n.size }}</td></tr>
-    {% endfor %}
-  </table>
-
-  <div class="prose">
-    <h2>By country</h2>
-  </div>
-  <table class="table">
-    {% assign by_country = all | group_by: "country" | sort: "name" %}
-    {% for g in by_country %}
-    <tr><td>{{ g.name }}</td><td>{{ g.items.size }}</td></tr>
-    {% endfor %}
-  </table>
-
-  <div class="prose">
-        <p>Status definitions are on the <a href="/methodology/">methodology</a> page. Which laws have been used against AI-enabled crime is on the <a href="/statutes/">statutes</a> page.</p>
+    <p>Status definitions are on the <a href="/methodology/">methodology</a> page. Which laws have been used against AI-enabled crime is on the <a href="/statutes/">statutes</a> page.</p>
   </div>
 </div>
+
+<script id="stats-labels" type="application/json">
+{
+  "s": {{ site.data.statuses | jsonify }},
+  "dp": {{ site.data.detection_paths | jsonify }},
+  "so": {{ site.data.safeguard_outcomes | jsonify }},
+  "b": {{ site.data.claim_bases | jsonify }},
+  "c": {{ site.data.categories | jsonify }}
+}
+</script>
+<script src="/assets/js/stats.js"></script>
